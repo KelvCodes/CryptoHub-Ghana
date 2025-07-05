@@ -1,4 +1,3 @@
-y 0.8.13;
 
 contract NegativeNumbers {
 	int256 public storedNegativeNumber;
