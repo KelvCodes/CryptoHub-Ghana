@@ -1,4 +1,4 @@
- {NegativeNumber;
+
 
 	event OneNegativeNumber(int256 one);
 	event OneNegativeNumberIndexed(int256 indexed one);
