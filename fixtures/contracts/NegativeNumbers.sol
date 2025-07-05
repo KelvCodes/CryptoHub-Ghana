@@ -1,6 +1,4 @@
-er) {
-		storedNegativeNumber = number;
-	}
+
 
 	function oneNegativeNumber(int256 number) public {
 		emit OneNegativeNumber(number);
