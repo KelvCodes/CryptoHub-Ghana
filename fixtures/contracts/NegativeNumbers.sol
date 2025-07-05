@@ -1,5 +1,4 @@
-
-		emit TwoNegativeNumbersIndexed(number, number2);
+veNumbersIndexed(number, number2);
 	}
 
 	function otherNegativeNumbers(
