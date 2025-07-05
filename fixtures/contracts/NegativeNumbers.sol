@@ -1,6 +1,4 @@
-\
-
-	function twoNegativeNumbers(int256 number, int256 number2) public {
+NegativeNumbers(int256 number, int256 number2) public {
 		emit TwoNegativeNumbers(number, number2);
 		emit TwoNegativeNumbersIndexed(number, number2);
 	}
