@@ -1,4 +1,4 @@
-veNumbersIndexed(number, number2);
+ed(number, number2);
 	}
 
 	function otherNegativeNumbers(
