@@ -1,5 +1,4 @@
-tiveNumber(number);
-		emit OneNegativeNumberIndexed(number);
+egativeNumberIndexed(number);
 	}
 
 	function twoNegativeNumbers(int256 number, int256 number2) public {
