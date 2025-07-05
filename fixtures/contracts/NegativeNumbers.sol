@@ -1,5 +1,4 @@
-xed(
-		uint256 indexed positive,
+\indexed positive,
 		int256 indexed negative,
 		string str
 	);
