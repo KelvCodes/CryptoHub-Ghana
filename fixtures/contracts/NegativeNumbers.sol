@@ -1,5 +1,4 @@
-6 number) public {
-		emit OneNegativeNumber(number);
+tiveNumber(number);
 		emit OneNegativeNumberIndexed(number);
 	}
 
