@@ -1,6 +1,3 @@
-gative,
-		string str
-	);
 
 	constructor(int256 number) {
 		storedNegativeNumber = number;
