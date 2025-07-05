@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+// : MIT
 pragma solidity 0.8.13;
 
 contract NegativeNumbers {
