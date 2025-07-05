@@ -1,4 +1,4 @@
-ed(number, number2);
+mber2);
 	}
 
 	function otherNegativeNumbers(
