@@ -1,5 +1,5 @@
 
-contract NegativeNumbers {
+NegativeNumbers {
 	int256 public storedNegativeNumber;
 
 	event OneNegativeNumber(int256 one);
