@@ -1,4 +1,4 @@
-\indexed positive,
+
 		int256 indexed negative,
 		string str
 	);
