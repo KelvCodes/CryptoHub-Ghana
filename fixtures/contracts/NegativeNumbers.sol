@@ -1,4 +1,4 @@
-(int256 indexed one, int256 indexed two);
+two);
 	event OtherNegativeNumbers(uint256 positive, int256 negative, string str);
 	event OtherNegativeNumbersIndexed(
 		uint256 indexed positive,
