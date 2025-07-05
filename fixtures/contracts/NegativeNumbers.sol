@@ -1,5 +1,4 @@
-
-		int256 indexed negative,
+gative,
 		string str
 	);
 
