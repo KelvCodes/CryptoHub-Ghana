@@ -1,5 +1,4 @@
-ber, int256 number2) public {
-		emit TwoNegativeNumbers(number, number2);
+t TwoNegativeNumbers(number, number2);
 		emit TwoNegativeNumbersIndexed(number, number2);
 	}
 
