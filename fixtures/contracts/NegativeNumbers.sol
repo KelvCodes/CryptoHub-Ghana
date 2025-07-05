@@ -1,5 +1,4 @@
-
-	constructor(int256 number) {
+er) {
 		storedNegativeNumber = number;
 	}
 
