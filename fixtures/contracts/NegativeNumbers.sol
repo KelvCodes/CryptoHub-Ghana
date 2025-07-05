@@ -1,4 +1,4 @@
-t TwoNegativeNumbers(number, number2);
+ number2);
 		emit TwoNegativeNumbersIndexed(number, number2);
 	}
 
