@@ -1,5 +1,4 @@
-
-pragma solidity 0.8.13;
+a solidity 0.8.13;
 
 contract NegativeNumbers {
 	int256 public storedNegativeNumber;
