@@ -1,4 +1,4 @@
- number2);
+
 		emit TwoNegativeNumbersIndexed(number, number2);
 	}
 
