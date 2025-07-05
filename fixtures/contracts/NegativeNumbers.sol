@@ -1,6 +1,4 @@
-
-
-	function oneNegativeNumber(int256 number) public {
+6 number) public {
 		emit OneNegativeNumber(number);
 		emit OneNegativeNumberIndexed(number);
 	}
