@@ -1,5 +1,4 @@
-
-	function getIntValue() public view returns (uint256) {
+iew returns (uint256) {
 		return intValue;
 	}
 
