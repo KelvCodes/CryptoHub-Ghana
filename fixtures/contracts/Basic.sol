@@ -1,6 +1,4 @@
-on requireWithoutReason() public pure {
-		require(false);
-	}
+
 
 	function requireWithReason() public pure {
 		require(false, 'REVERTED WITH REQUIRE');
