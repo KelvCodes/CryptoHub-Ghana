@@ -1,7 +1,5 @@
 on firesMultiValueIndexedEvent(
 	
-		emit MultiValueIndexedEvent(str, val, flag);
-	}
 
 	function firesStringEvent(string memory _str) public {
 		emit StringEvent(_str);
