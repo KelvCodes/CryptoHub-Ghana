@@ -1,6 +1,5 @@
 
-		stringValue = _stringValue;
-	}
+	
 
 	function getStringValue() public view returns (string memory) {
 		return stringValue;
