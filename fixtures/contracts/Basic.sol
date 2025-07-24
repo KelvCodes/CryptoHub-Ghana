@@ -1,4 +1,4 @@
-Even
+
 	) public {
 		emit MultiValueIndexedEventWithStringIndexed(str, val, flag);
 	}
