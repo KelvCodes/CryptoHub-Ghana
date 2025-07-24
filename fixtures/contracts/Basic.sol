@@ -1,11 +1,4 @@
-on firesMultiValueIndexedEvent(
-	
-
-	function firesStringEvent(string memory _str) public {
-		emit StringEvent(_str);
-	}
-
-	function firesMultiValueIndexedEventWithStringIndexed(
+IndexedEventWithStringIndexed(
 		string calldata str,
 		uint256 val,
 		bool flag
