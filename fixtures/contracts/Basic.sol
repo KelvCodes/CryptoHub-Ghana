@@ -1,4 +1,4 @@
-iew returns (uint256) {
+
 		return intValue;
 	}
 
