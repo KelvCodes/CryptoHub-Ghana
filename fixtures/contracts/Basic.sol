@@ -1,8 +1,4 @@
- str,
-		ultiValueEvent(str, val, flag);
-	}
-
-	function firesMultiValueIndexedEvent(
+on firesMultiValueIndexedEvent(
 		string memory str,
 		uint256 val,
 		bool flag
