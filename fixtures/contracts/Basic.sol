@@ -2,7 +2,6 @@
 
 
 c
-	string stringValue;
 	bool boolValue;
 
 	event StringEvent(string str);
