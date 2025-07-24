@@ -1,6 +1,4 @@
 
-		uint256 _value,
-		string memory _stringValue,
 		bool _boolValue
 	) public {
 		intValue = _value;
