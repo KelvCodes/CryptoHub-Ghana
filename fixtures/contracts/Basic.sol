@@ -1,8 +1,5 @@
  str,
-		uint256 val,
-		bool flag
-	) public {
-		emit MultiValueEvent(str, val, flag);
+		ultiValueEvent(str, val, flag);
 	}
 
 	function firesMultiValueIndexedEvent(
