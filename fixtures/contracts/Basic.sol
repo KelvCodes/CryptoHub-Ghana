@@ -1,7 +1,7 @@
 
 
 ;
-int256 val, bool flag);
+int2
 	event MultiValueIndexedEvent(string str, uint256 indexed val, bool indexed flag);
 	event MultiValueIndexedEventWithStringIndexed(
 		string indexed str,
