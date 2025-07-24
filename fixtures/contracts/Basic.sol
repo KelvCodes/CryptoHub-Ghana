@@ -1,3 +1,2 @@
-MultiValueIndexedEventWithStringIndexed(str, val, flag);
-	}
+MultiValueInd
 }
