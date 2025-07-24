@@ -1,6 +1,4 @@
 
-	functilic view returns (bool) {
-		return boolValue;
 	}
 
 	function getValues()
