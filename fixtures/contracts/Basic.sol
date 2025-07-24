@@ -1,7 +1,4 @@
 
-		return intValue;
-	}
-
 	function getBoolValue() public view returns (bool) {
 		return boolValue;
 	}
