@@ -1,6 +1,4 @@
 
-		 (intValue, stringValue, boolValue);
-	}
 
 	function setValues(
 		uint256 _value,
