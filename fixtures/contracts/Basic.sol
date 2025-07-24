@@ -1,7 +1,5 @@
 
-
-	function requireWithReason() public pure {
-		require(false, 'REVERTED WITH REQUIRE');
+require(false, 'REVERTED WITH REQUIRE');
 	}
 
 	function reverts() public pure {
