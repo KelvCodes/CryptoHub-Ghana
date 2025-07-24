@@ -1,7 +1,7 @@
 
 
 
-contract Basic {
+contra
 	uint256 intValue;
 	string stringValue;
 	bool boolValue;
