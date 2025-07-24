@@ -1,7 +1,6 @@
 
 
-
-	event StringEvent(string str);
+;
 	event MultiValueEvent(string str, uint256 val, bool flag);
 	event MultiValueIndexedEvent(string str, uint256 indexed val, bool indexed flag);
 	event MultiValueIndexedEventWithStringIndexed(
