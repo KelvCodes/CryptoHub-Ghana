@@ -1,6 +1,5 @@
 
-		public
-		view
+		
 		returns (
 			uint256,
 			string memory,
