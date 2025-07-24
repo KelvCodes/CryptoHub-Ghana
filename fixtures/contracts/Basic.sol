@@ -1,6 +1,5 @@
 
-
-	constructor(uint256 _val, string memory _stringValue) {
+ _stringValue) {
 		intValue = _val;
 		stringValue = _stringValue;
 	}
