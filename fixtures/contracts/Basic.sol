@@ -1,5 +1,5 @@
 
-	function getBoolValue() public view returns (bool) {
+	functilic view returns (bool) {
 		return boolValue;
 	}
 
