@@ -1,7 +1,5 @@
 
 		
-		returns (
-			uint256,
 			string memory,
 			bool
 		)
