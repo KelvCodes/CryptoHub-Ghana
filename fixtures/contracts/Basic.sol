@@ -1,9 +1,6 @@
 
 require(false, 'REVERTED WITH REQUIRE');
-	}
-
-	function reverts() public pure {
-		revert('REVERTED WITH REVERT');
+	}ert('REVERTED WITH REVERT');
 	}
 
 	function firesMultiValueEvent(
