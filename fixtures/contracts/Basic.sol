@@ -1,7 +1,4 @@
-
-
-	function firesMultiValueEvent(
-		string memory str,
+ str,
 		uint256 val,
 		bool flag
 	) public {
