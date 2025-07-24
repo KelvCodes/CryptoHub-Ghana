@@ -1,6 +1,4 @@
-
- _stringValue) {
-		intValue = _val;
+val;
 		stringValue = _stringValue;
 	}
 
