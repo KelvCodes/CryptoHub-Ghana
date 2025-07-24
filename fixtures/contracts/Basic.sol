@@ -1,7 +1,5 @@
 
-		ory,
-
-		return (intValue, stringValue, boolValue);
+		 (intValue, stringValue, boolValue);
 	}
 
 	function setValues(
