@@ -1,6 +1,4 @@
-QUIRE');
-	}ert('REVERTED WITH REVERT');
-	}
+
 
 	function firesMultiValueEvent(
 		string memory str,
