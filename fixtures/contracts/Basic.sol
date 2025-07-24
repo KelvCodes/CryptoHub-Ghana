@@ -1,5 +1,3 @@
-
-	) 
-		emit MultiValueIndexedEventWithStringIndexed(str, val, flag);
+MultiValueIndexedEventWithStringIndexed(str, val, flag);
 	}
 }
