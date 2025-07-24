@@ -1,6 +1,4 @@
 
-
-	function setValues(
 		uint256 _value,
 		string memory _stringValue,
 		bool _boolValue
