@@ -1,9 +1,4 @@
-
-		be;
-		boolValue = _boolValue;
-	}
-
-	function requireWithoutReason() public pure {
+on requireWithoutReason() public pure {
 		require(false);
 	}
 
