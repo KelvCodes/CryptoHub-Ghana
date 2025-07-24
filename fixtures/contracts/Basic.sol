@@ -1,7 +1,4 @@
 
-	}
-
-	function getValues()
 		public
 		view
 		returns (
