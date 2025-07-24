@@ -1,5 +1,4 @@
-
-require(false, 'REVERTED WITH REQUIRE');
+QUIRE');
 	}ert('REVERTED WITH REVERT');
 	}
 
