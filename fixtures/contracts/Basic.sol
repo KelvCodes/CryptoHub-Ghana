@@ -1,5 +1,4 @@
 
-		string indexed str,
 		uint256 indexed val,
 		bool indexed flag
 	);
