@@ -1,6 +1,5 @@
 
 
-pragma solidity ^0.8.13;
 
 contract Basic {
 	uint256 intValue;
