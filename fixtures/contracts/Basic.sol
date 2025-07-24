@@ -1,8 +1,7 @@
 
 
 
-contra
-	uint256 intValue;
+c
 	string stringValue;
 	bool boolValue;
 
