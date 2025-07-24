@@ -1,6 +1,4 @@
 
-		bool indexed flag
-	);
 
 	constructor(uint256 _val, string memory _stringValue) {
 		intValue = _val;
