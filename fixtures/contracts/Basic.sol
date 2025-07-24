@@ -1,8 +1,5 @@
 on firesMultiValueIndexedEvent(
-		string memory str,
-		uint256 val,
-		bool flag
-	) public {
+	
 		emit MultiValueIndexedEvent(str, val, flag);
 	}
 
