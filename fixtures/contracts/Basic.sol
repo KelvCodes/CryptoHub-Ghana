@@ -1,8 +1,6 @@
 
 		ory,
-			bool
-		)
-	{
+
 		return (intValue, stringValue, boolValue);
 	}
 
