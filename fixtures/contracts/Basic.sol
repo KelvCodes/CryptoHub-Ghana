@@ -1,6 +1,4 @@
 
-	
-view returns (string memory) {
 		return stringValue;
 	}
 
