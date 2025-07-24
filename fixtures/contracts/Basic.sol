@@ -1,8 +1,5 @@
 
-		bool _boolValue
-	) public {
-		intValue = _value;
-		stringValue = _stringValue;
+		be;
 		boolValue = _boolValue;
 	}
 
