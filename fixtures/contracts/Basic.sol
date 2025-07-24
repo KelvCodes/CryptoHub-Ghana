@@ -1,4 +1,4 @@
-val;
+
 		stringValue = _stringValue;
 	}
 
