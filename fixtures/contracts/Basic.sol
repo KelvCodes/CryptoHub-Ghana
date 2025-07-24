@@ -1,7 +1,4 @@
 
-		return stringValue;
-	}
-
 	function getIntValue() public view returns (uint256) {
 		return intValue;
 	}
