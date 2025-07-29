@@ -1,6 +1,5 @@
 
 
-	c memory _greeting) {
 		greeting = _greeting;
 		counter = 0;
 	}
