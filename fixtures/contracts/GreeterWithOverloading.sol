@@ -1,4 +1,4 @@
-_CHANGING(greeting, _greeting);
+, _greeting);
 		greeting = _greeting;
 		emit GREETING_CHANGED(greeting);
 		return (true, greeting);
