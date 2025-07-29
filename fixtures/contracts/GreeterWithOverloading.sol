@@ -1,6 +1,4 @@
 
-		counter = 0;
-	}
 
 	function greet() public view returns (string memory) {
 		return greeting;
