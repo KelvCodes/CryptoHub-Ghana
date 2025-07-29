@@ -1,5 +1,5 @@
 
-act GreeterWithOverloading {
+eeterWithOverloading {
 	uint256 counter;
 	string private greeting;
 
