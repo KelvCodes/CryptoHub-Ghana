@@ -1,5 +1,4 @@
-
-WithOverloading {
+loading {
 	uint256 counter;
 	string private greeting;
 
