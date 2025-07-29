@@ -1,5 +1,4 @@
 
-= _greeting;
 		counter = 0;
 	}
 
