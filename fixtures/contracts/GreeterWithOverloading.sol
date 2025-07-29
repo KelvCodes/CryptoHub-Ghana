@@ -1,5 +1,4 @@
 
-		if (_raiseEvents) {
 			emit GREETING_CHANGING(greeting, _greeting);
 		}
 		greeting = _greeting;
