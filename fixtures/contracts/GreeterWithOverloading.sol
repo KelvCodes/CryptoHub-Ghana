@@ -1,6 +1,6 @@
 
 
-	constructor(string memory _greeting) {
+	c memory _greeting) {
 		greeting = _greeting;
 		counter = 0;
 	}
