@@ -1,5 +1,4 @@
-	string memory)
-	{
+
 		if (_raiseEvents) {
 			emit GREETING_CHANGING(greeting, _greeting);
 		}
