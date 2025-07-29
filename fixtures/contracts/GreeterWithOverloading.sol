@@ -1,5 +1,4 @@
-
-et view returns (string memory) {
+urns (string memory) {
 		return greeting;
 	}
 
