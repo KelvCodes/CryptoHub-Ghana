@@ -1,6 +1,5 @@
 
-
-pragma solidity ^0.8.13;
+ solidity ^0.8.13;
 
 contract GreeterWithOverloading {
 	uint256 counter;
