@@ -1,4 +1,4 @@
-lic returns (bool, string memory) {
+string memory) {
 		emit GREETING_CHANGING(greeting, _greeting);
 		greeting = _greeting;
 		emit GREETING_CHANGED(greeting);
