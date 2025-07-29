@@ -1,4 +1,4 @@
-ing memory) {
+
 		return greeting;
 	}
 
