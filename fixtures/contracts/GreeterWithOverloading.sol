@@ -1,6 +1,5 @@
 
-		
-		greeting = _greeting;
+		_greeting;
 		if (_raiseEvents) {
 			emit GREETING_CHANGED(greeting);
 		}
