@@ -1,4 +1,4 @@
-g memory _greeting) public returns (bool, string memory) {
+lic returns (bool, string memory) {
 		emit GREETING_CHANGING(greeting, _greeting);
 		greeting = _greeting;
 		emit GREETING_CHANGED(greeting);
