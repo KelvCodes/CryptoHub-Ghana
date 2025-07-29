@@ -1,5 +1,4 @@
-greeting);
-		return (true, greeting);
+eturn (true, greeting);
 	}
 
 	// function overlading with additional parameter
