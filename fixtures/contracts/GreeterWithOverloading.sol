@@ -1,5 +1,3 @@
-eturn (true, greeting);
-	}
 
 	// function overlading with additional parameter
 	function setGreeting(string memory _greeting, bool _raiseEvents)
