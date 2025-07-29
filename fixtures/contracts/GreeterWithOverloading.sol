@@ -1,6 +1,5 @@
 
-
-		greeting = _greeting;
+= _greeting;
 		counter = 0;
 	}
 
