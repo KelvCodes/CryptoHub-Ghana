@@ -1,6 +1,5 @@
 
-
-contract GreeterWithOverloading {
+act GreeterWithOverloading {
 	uint256 counter;
 	string private greeting;
 
