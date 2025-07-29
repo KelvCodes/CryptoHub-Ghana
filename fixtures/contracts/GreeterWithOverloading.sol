@@ -1,6 +1,4 @@
-
-
-NG_CHANGED(string greeting);
+tring greeting);
 
 	constructor(string memory _greeting) {
 		greeting = _greeting;
