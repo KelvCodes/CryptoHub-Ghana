@@ -1,5 +1,5 @@
 
-et() public view returns (string memory) {
+et view returns (string memory) {
 		return greeting;
 	}
 
