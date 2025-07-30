@@ -1,4 +1,4 @@
-ed();
+
 error CustomError(string);
 
 contract ErrorsContract {
