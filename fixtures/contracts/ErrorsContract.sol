@@ -1,4 +1,4 @@
-rized();
+
 
 		owner.transfer(address(this).balance);
 	}
