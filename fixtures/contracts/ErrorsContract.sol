@@ -1,5 +1,4 @@
-
-ert Unauthorized();
+rized();
 
 		owner.transfer(address(this).balance);
 	}
