@@ -1,6 +1,4 @@
-
-e() public {
-		if (1 < 2) revert CustomError('reverted using custom Error');
+if (1 < 2) revert CustomError('reverted using custom Error');
 
 		owner.transfer(address(this).balance);
 	}
