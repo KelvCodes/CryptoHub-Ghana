@@ -1,5 +1,4 @@
-
-error CustomError(string);
+or(string);
 
 contract ErrorsContract {
 	address payable owner = payable(0x0);
