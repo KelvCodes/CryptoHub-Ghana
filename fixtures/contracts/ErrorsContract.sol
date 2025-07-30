@@ -1,4 +1,3 @@
-
-	ransfer(address(this).balance);
+ress(this).balance);
 	}
 }
