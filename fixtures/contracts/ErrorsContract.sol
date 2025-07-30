@@ -1,6 +1,4 @@
 
-ance);
-	}
 
 	function badRequire() public {
 		if (1 < 2) revert CustomError('reverted using custom Error');
