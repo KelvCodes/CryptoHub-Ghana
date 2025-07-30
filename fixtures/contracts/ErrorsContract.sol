@@ -1,6 +1,5 @@
 
-
-pragma solidity ^0.8.13;
+solidity ^0.8.13;
 
 error Unauthorized();
 error CustomError(string);
