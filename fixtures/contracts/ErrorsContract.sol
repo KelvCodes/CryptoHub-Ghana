@@ -1,6 +1,5 @@
 
-
-		owner.transfer(address(this).balance);
+ss(this).balance);
 	}
 
 	function badRequire() public {
