@@ -1,6 +1,4 @@
-
-
-error Unauthorized();
+Unauthorized();
 error CustomError(string);
 
 contract ErrorsContract {
