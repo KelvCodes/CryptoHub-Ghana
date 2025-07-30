@@ -1,8 +1,6 @@
 
 
-
-{
-		if (msg.sender != owner) revert Unauthorized();
+er != owner) revert Unauthorized();
 
 		owner.transfer(address(this).balance);
 	}
