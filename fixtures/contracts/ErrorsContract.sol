@@ -1,8 +1,7 @@
 
 
 
-
-orize() public {
+{
 		if (msg.sender != owner) revert Unauthorized();
 
 		owner.transfer(address(this).balance);
