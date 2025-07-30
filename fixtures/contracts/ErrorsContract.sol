@@ -1,4 +1,4 @@
-sable owner = payable(0x0);
+payable(0x0);
 
 
 	constructor() {}
