@@ -1,5 +1,5 @@
 
-ss(this).balance);
+ss(thbalance);
 	}
 
 	function badRequire() public {
