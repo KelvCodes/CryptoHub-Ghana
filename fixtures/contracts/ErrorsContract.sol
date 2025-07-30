@@ -1,7 +1,6 @@
 
 
 
-	constructor() {}
 
 	function unauthorize() public {
 		if (msg.sender != owner) revert Unauthorized();
