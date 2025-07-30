@@ -1,6 +1,6 @@
 
 
-er != owner) revert Unauthorized();
+r) revert Unauthorized();
 
 		owner.transfer(address(this).balance);
 	}
