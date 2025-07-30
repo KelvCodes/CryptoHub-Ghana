@@ -1,5 +1,5 @@
+sable owner = payable(0x0);
 
-	address payable owner = payable(0x0);
 
 	constructor() {}
 
