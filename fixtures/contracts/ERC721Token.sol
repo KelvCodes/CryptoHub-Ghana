@@ -1,5 +1,4 @@
-{
-		uint256 newItemId = _tokenIds.current();
+emId = _tokenIds.current();
 		_mint(player, newItemId);
 		_setTokenURI(newItemId, tokenURI);
 
