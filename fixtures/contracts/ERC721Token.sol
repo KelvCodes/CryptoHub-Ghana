@@ -1,4 +1,5 @@
-contracts/token/ERC721/extensions/ERC721URIStorage.sol';
+ken/ERC721/extensions/ERC721URIStorage.sol';
+
 import '@openzeppelin/contracts/utils/Counters.sol';
 
 contract ERC721Token is ERC721URIStorage {
