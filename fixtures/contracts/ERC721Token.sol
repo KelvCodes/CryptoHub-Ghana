@@ -1,4 +1,4 @@
-pelin/contracts/utils/Counters.sol';
+contracts/utils/Counters.sol';
 
 contract ERC721Token is ERC721URIStorage {
 	using Counters for Counters.Counter;
