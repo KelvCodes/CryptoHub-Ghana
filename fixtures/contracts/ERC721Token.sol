@@ -1,5 +1,5 @@
 
-		_setToknewItemId, tokenURI);
+		_sewItemId, tokenURI);
 
 		_tokenIds.increment();
 		return newItemId;
