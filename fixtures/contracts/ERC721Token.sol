@@ -1,5 +1,4 @@
-rrent();
-		_mint(player, newItemId);
+, newItemId);
 		_setTokenURI(newItemId, tokenURI);
 
 		_tokenIds.increment();
