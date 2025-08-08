@@ -1,6 +1,5 @@
 
-
-	constructor() ERC721('GameItem', 'ITM') {}
+1('GameItem', 'ITM') {}
 
 	function awardItem(address player, string memory tokenURI) public returns (uint256) {
 		uint256 newItemId = _tokenIds.current();
