@@ -1,5 +1,4 @@
-
-import '@openzeppelin/contracts/utils/Counters.sol';
+'@openzeppelin/contracts/utils/Counters.sol';
 
 contract ERC721Token is ERC721URIStorage {
 	using Counters for Counters.Counter;
