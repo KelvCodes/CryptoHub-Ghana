@@ -1,4 +1,4 @@
-rs.Counter;
+
 	Counters.Counter private _tokenIds;
 
 	constructor() ERC721('GameItem', 'ITM') {}
