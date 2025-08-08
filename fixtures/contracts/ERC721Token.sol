@@ -1,4 +1,4 @@
-is ERC721URIStorage {
+orage {
 	using Counters for Counters.Counter;
 	Counters.Counter private _tokenIds;
 
