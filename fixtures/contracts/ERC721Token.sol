@@ -1,4 +1,4 @@
-icense-Identifier: GNU
+nse-Identifier: GNU
 
 pragma solidity ^0.8.13;
 
