@@ -1,4 +1,4 @@
-, string memory tokenURI) public returns (uint256) {
+ory tokenURI) public returns (uint256) {
 		uint256 newItemId = _tokenIds.current();
 		_mint(player, newItemId);
 		_setTokenURI(newItemId, tokenURI);
