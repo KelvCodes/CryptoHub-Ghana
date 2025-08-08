@@ -1,5 +1,5 @@
 
-		_setTokenURI(newItemId, tokenURI);
+		_setToknewItemId, tokenURI);
 
 		_tokenIds.increment();
 		return newItemId;
