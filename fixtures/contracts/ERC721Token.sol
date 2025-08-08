@@ -1,4 +1,4 @@
-, newItemId);
+d);
 		_setTokenURI(newItemId, tokenURI);
 
 		_tokenIds.increment();
