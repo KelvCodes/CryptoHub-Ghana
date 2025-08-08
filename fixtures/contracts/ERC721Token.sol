@@ -1,4 +1,4 @@
-ate _tokenIds;
+
 
 	constructor() ERC721('GameItem', 'ITM') {}
 
