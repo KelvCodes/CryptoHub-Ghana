@@ -1,4 +1,4 @@
-emId = _tokenIds.current();
+rrent();
 		_mint(player, newItemId);
 		_setTokenURI(newItemId, tokenURI);
 
