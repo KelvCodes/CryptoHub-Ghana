@@ -1,5 +1,4 @@
-
-1('GameItem', 'ITM') {}
+, 'ITM') {}
 
 	function awardItem(address player, string memory tokenURI) public returns (uint256) {
 		uint256 newItemId = _tokenIds.current();
