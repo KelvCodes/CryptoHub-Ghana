@@ -1,5 +1,5 @@
 
-		_tokenIds.increment();
+		_trement();
 		return newItemId;
 	}
 }
