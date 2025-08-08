@@ -1,5 +1,4 @@
-
-RC721Token is ERC721URIStorage {
+is ERC721URIStorage {
 	using Counters for Counters.Counter;
 	Counters.Counter private _tokenIds;
 
