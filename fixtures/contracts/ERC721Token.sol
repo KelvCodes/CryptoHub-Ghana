@@ -1,5 +1,4 @@
-
-	temId, tokenURI);
+ tokenURI);
 
 		_tokenIds.increment();
 		return newItemId;
