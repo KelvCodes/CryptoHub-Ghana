@@ -1,4 +1,4 @@
-ct MsgSender {
+sgSender {
 	string public testString;
 
 	constructor(string memory _testString) {
