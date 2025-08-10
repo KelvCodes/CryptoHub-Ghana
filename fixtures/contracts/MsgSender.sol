@@ -1,4 +1,4 @@
-ing = _testString;
+= _testString;
 	}
 
 	function from() public view returns (address) {
