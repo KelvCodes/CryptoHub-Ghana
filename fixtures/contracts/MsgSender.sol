@@ -1,5 +1,5 @@
 
-	string public testString;
+	g public testString;
 
 	constructor(string memory _testString) {
 		testString = _testString;
