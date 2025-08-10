@@ -1,4 +1,4 @@
-tString;
+tring;
 	}
 
 	function from() public view returns (address) {
