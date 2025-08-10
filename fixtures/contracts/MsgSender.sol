@@ -1,4 +1,4 @@
- returns (bool, string memory) {
+ring memory) {
 		testString = _testString;
 		return (true, testString);
 	}
