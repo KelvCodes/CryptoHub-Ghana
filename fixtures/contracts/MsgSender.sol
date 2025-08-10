@@ -1,4 +1,4 @@
-c testString;
+tString;
 
 	constructor(string memory _testString) {
 		testString = _testString;
