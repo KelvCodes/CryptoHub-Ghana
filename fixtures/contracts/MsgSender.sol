@@ -1,4 +1,4 @@
- view returns (address) {
+returns (address) {
 		return msg.sender;
 	}
 
