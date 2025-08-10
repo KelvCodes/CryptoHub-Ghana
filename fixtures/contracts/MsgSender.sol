@@ -1,6 +1,6 @@
 
 
-	constructor(string memory _testString) {
+uctor(string memory _testString) {
 		testString = _testString;
 	}
 
