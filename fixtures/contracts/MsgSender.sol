@@ -1,6 +1,5 @@
 
-
- ^0.8.13;
+3;
 
 contract MsgSender {
 	string public testString;
