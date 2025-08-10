@@ -1,6 +1,5 @@
 
-
-r(string memory _testString) {
+tring memory _testString) {
 		testString = _testString;
 	}
 
