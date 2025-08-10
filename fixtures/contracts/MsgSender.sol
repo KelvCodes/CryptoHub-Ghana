@@ -1,6 +1,6 @@
 
 
-uctor(string memory _testString) {
+r(string memory _testString) {
 		testString = _testString;
 	}
 
