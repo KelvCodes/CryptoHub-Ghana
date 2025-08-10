@@ -1,6 +1,6 @@
 
 
-contract MsgSender {
+tract MsgSender {
 	string public testString;
 
 	constructor(string memory _testString) {
