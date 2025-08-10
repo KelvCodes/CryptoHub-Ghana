@@ -1,5 +1,4 @@
-
-		testString = _testString;
+tString;
 		return (true, testString);
 	}
 }
