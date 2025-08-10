@@ -1,6 +1,4 @@
-
-
-tract MsgSender {
+ct MsgSender {
 	string public testString;
 
 	constructor(string memory _testString) {
