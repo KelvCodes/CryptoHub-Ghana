@@ -1,6 +1,6 @@
 
 
-pragma solidity ^0.8.13;
+ma solidity ^0.8.13;
 
 contract MsgSender {
 	string public testString;
