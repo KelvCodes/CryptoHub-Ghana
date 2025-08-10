@@ -1,4 +1,4 @@
-emory _testString) {
+estString) {
 		testString = _testString;
 	}
 
