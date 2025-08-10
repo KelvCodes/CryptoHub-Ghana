@@ -1,4 +1,4 @@
-ng memory _testString) {
+emory _testString) {
 		testString = _testString;
 	}
 
