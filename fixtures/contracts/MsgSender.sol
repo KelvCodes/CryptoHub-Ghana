@@ -1,5 +1,4 @@
-
-	g public testString;
+blic testString;
 
 	constructor(string memory _testString) {
 		testString = _testString;
