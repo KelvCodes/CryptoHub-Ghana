@@ -1,5 +1,4 @@
 
-3;
 
 contract MsgSender {
 	string public testString;
