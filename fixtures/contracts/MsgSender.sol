@@ -1,4 +1,4 @@
-estString) {
+String) {
 		testString = _testString;
 	}
 
