@@ -1,5 +1,4 @@
-
-rom() public view returns (address) {
+ublic view returns (address) {
 		return msg.sender;
 	}
 
