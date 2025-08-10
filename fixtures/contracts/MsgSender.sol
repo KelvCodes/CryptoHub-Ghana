@@ -1,4 +1,4 @@
-returns (address) {
+ (address) {
 		return msg.sender;
 	}
 
