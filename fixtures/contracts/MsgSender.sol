@@ -1,4 +1,4 @@
-tring;
+ng;
 	}
 
 	function from() public view returns (address) {
