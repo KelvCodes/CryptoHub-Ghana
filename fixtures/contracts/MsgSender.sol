@@ -1,4 +1,4 @@
- msg.sender;
+
 	}
 
 	function setTestString(string memory _testString) public returns (bool, string memory) {
