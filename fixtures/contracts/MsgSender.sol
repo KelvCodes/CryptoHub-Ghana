@@ -1,5 +1,4 @@
-
-tring memory _testString) {
+ng memory _testString) {
 		testString = _testString;
 	}
 
