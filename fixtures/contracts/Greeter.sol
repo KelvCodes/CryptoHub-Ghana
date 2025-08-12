@@ -1,4 +1,4 @@
- string to);
+ng to);
 	event GREETING_CHANGED(string greeting);
 
 	constructor(string memory _greeting) {
