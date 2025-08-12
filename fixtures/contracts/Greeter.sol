@@ -1,4 +1,4 @@
-G(string from, string to);
+ from, string to);
 	event GREETING_CHANGED(string greeting);
 
 	constructor(string memory _greeting) {
