@@ -1,4 +1,4 @@
-c view returns (string memory) {
+]rns (string memory) {
 		return greeting;
 	}
 
