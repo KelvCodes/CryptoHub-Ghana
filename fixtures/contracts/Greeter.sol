@@ -1,5 +1,4 @@
-
-	function greet() public view returns (string memory) {
+() public view returns (string memory) {
 		return greeting;
 	}
 
