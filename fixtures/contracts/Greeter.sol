@@ -1,4 +1,4 @@
- greeting;
+ting;
 
 	event GREETING_CHANGING(string from, string to);
 	event GREETING_CHANGED(string greeting);
