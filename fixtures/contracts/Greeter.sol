@@ -1,4 +1,4 @@
-ct Greeter {
+
 	uint256 counter;
 	string private greeting;
 
