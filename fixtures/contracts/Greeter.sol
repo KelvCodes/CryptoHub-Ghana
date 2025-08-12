@@ -1,4 +1,4 @@
-t256 counter;
+ counter;
 	string private greeting;
 
 	event GREETING_CHANGING(string from, string to);
