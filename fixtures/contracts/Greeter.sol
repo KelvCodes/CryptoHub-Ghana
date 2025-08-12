@@ -1,5 +1,4 @@
-
-	event GREETING_CHANGED(string greeting);
+ GREETING_CHANGED(string greeting);
 
 	constructor(string memory _greeting) {
 		greeting = _greeting;
