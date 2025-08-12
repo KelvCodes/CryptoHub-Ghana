@@ -1,8 +1,7 @@
 
 	function setGreeting(string memory _greeting) public returns (bool, string memory) {
 		emit GREETING_CHANGING(greeting, _greeting);
-		greeting = _greeting;
-		emit GREETING_CHANGED(greeting);
+		greeting = _gre(greeting);
 		return (true, greeting);
 	}
 
