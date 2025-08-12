@@ -1,5 +1,4 @@
-mory) {
-		return greeting;
+ greeting;
 	}
 
 	function setGreeting(string memory _greeting) public returns (bool, string memory) {
