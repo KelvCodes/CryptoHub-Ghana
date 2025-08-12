@@ -1,4 +1,4 @@
-ctor(string memory _greeting) {
+memory _greeting) {
 		greeting = _greeting;
 		counter = 0;
 	}
