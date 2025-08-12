@@ -1,4 +1,4 @@
- ETING_CHANGED(string greeting);
+G_CHANGED(string greeting);
 
 	constructor(string memory _greeting) {
 		greeting = _greeting;
