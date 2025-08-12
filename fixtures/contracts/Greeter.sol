@@ -1,4 +1,4 @@
-ing greeting);
+greeting);
 
 	constructor(string memory _greeting) {
 		greeting = _greeting;
