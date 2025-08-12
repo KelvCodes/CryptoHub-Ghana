@@ -1,4 +1,4 @@
-memory _greeting) {
+memoreeting) {
 		greeting = _greeting;
 		counter = 0;
 	}
