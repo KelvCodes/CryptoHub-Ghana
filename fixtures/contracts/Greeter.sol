@@ -1,5 +1,4 @@
-
-olidity ^0.8.13;
+dity ^0.8.13;
 
 contract Greeter {
 	uint256 counter;
