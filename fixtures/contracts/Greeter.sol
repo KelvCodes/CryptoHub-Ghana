@@ -1,4 +1,4 @@
-ting) {
+
 		greeting = _greeting;
 		counter = 0;
 	}
