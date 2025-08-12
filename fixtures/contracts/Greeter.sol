@@ -1,6 +1,4 @@
-
-
-	constructor(string memory _greeting) {
+ctor(string memory _greeting) {
 		greeting = _greeting;
 		counter = 0;
 	}
