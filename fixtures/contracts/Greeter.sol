@@ -3,8 +3,3 @@ ting) public returns (bool, string memory) {
 		greeting = _gre(greeting);
 		return (true, greeting);
 	}
-
-	function increment() public {
-		counter = counter + 1;
-	}
-}
