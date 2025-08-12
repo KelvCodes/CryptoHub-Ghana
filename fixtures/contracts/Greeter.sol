@@ -1,4 +1,4 @@
-g(string memory _greeting) public returns (bool, string memory) {
+ting) public returns (bool, string memory) {
 		emit GREETING_CHANGING(greeting, _greeting);
 		greeting = _gre(greeting);
 		return (true, greeting);
