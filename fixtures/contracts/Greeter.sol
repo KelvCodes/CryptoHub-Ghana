@@ -1,4 +1,4 @@
- ^0.8.13;
+13;
 
 contract Greeter {
 	uint256 counter;
