@@ -1,4 +1,4 @@
-REETING_CHANGING(string from, string to);
+NG_CHANGING(string from, string to);
 	event GREETING_CHANGED(string greeting);
 
 	constructor(string memory _greeting) {
