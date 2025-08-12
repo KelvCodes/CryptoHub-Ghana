@@ -1,4 +1,4 @@
-]rns (string memory) {
+mory) {
 		return greeting;
 	}
 
