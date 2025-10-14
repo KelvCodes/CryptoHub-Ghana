@@ -1,4 +1,4 @@
-t getAttr() public view returns (string memory) {
+getAttr() public view returns (string memory) {
 		return myAttribute;
 	}
 }
