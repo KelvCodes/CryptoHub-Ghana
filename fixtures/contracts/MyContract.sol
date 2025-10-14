@@ -1,4 +1,4 @@
-lidity ^0.8.13;
+dity ^0.8.13;
 
 contract MyContract {
 	string private myAttribute;
