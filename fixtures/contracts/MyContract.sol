@@ -1,5 +1,5 @@
 
-a solidity ^0.8.13;
+solidity ^0.8.13;
 
 contract MyContract {
 	string private myAttribute;
