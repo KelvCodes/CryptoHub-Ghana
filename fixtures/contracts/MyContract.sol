@@ -1,4 +1,4 @@
-8.13;
+3;
 
 contract MyContract {
 	string private myAttribute;
