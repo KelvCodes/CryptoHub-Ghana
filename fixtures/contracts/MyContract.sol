@@ -1,4 +1,4 @@
- public view returns (string memory) {
+blic view returns (string memory) {
 		return myAttribute;
 	}
 }
