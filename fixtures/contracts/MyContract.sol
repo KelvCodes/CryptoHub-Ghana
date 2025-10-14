@@ -1,5 +1,5 @@
 
-	function getAttr() public view returns (string memory) {
+	fnction getAttr() public view returns (string memory) {
 		return myAttribute;
 	}
 }
