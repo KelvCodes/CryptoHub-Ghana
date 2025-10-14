@@ -1,5 +1,4 @@
-
-	ing private myAttribute;
+g private myAttribute;
 
 	function getAttr() public view returns (string memory) {
 		return myAttribute;
