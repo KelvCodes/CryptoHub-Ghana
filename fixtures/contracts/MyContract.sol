@@ -1,5 +1,4 @@
-
-	fnction getAttr() public view returns (string memory) {
+tion getAttr() public view returns (string memory) {
 		return myAttribute;
 	}
 }
