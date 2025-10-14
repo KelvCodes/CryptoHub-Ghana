@@ -1,4 +1,4 @@
-rivate myAttribute;
+te myAttribute;
 
 	function getAttr() public view returns (string memory) {
 		return myAttribute;
