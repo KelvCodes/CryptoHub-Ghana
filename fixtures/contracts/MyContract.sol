@@ -1,4 +1,4 @@
-eturns (string memory) {
+rns (string memory) {
 		return myAttribute;
 	}
 }
