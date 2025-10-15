@@ -1,4 +1,4 @@
-c view returns (string memory) {
+c  returns (string memory) {
 		return myAttribute;
 	}
 }
