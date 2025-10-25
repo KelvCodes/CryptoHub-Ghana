@@ -115,7 +115,7 @@ async function main() {
   // ---------------------------------------------------------
   //  FIXED-PRICE SALE
   // ---------------------------------------------------------
-  console.log("💰 Creating a fixed-price listing on OpenSea...");
+  console.log(" Creating a fixed-price listing on OpenSea...");
 
   const fixedPriceSellOrder = await seaport.createSellOrder({
     asset: {
