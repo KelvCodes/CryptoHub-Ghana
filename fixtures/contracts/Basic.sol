@@ -1,6 +1,4 @@
-
-const NETWORK = process.env.NETWORK;
-const API_KEY = process.env.API_KEY || ""; // Optional but recommended for high-volume usage
+; // Optional but recommended for high-volume usage
 
 // Validate essential environment variables
 if (!MNEMONIC || !NODE_API_KEY || !NETWORK || !OWNER_ADDRESS) {
