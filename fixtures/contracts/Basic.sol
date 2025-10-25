@@ -108,7 +108,7 @@ const seaport = new OpenSeaPort(
 );
 
 // -------------------------------------------------------------
-//  6️⃣ Define Main Function
+//  6️ Define Main Function
 // -------------------------------------------------------------
 
 async function main() {
