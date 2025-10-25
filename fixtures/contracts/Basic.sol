@@ -1,6 +1,4 @@
-
-// Determine the network (mainnet or rinkeby)
-const network = NETWORK === "mainnet" || NETWORK === "live" ? "mainnet" : "rinkeby";
+ETWORK === "mainnet" || NETWORK === "live" ? "mainnet" : "rinkeby";
 
 // Configure RPC subprovider for Alchemy or Infura
 const infuraRpcSubprovider = new RPCSubprovider({
