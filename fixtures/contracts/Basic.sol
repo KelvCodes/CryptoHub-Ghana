@@ -113,7 +113,7 @@ const seaport = new OpenSeaPort(
 
 async function main() {
   // ---------------------------------------------------------
-  // 🟢 FIXED-PRICE SALE
+  //  FIXED-PRICE SALE
   // ---------------------------------------------------------
   console.log("💰 Creating a fixed-price listing on OpenSea...");
 
