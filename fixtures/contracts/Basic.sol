@@ -1,5 +1,4 @@
-
-const opensea = require("opensea-js");
+ require("opensea-js");
 const { WyvernSchemaName } = require('opensea-js/lib/types');
 const OpenSeaPort = opensea.OpenSeaPort;
 const Network = opensea.Network;
