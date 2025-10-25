@@ -104,7 +104,7 @@ const seaport = new OpenSeaPort(
         : Network.Rinkeby,
     apiKey: API_KEY,
   },
-  (event) => console.log("🔍 SDK Event:", event)
+  (event) => console.log("SDK Event:", event)
 );
 
 // -------------------------------------------------------------
