@@ -1,21 +1,7 @@
 ETWORK === "mainnet" || NETWORK === "live" ? "mainnet" : "rinkeby";
 
 /onst providerEngine = new Web3ProviderEngine();
-prngine.addProvider(mnemonicWalletSubprovider);
-providerEngine.addProvider(infuraRpcSubprovider);
-providerEngine.start();
- === "live" ? Network.Main : Network.Rinkeby,
-    apiKey: API_KEY,
-  },
-  (arg) => console.log(arg) // Log SDK events (optional)
-);
-
-// Main execution function
-async function main() {
-  // ✅ FIXED-PRICE SALE
-  console.log("Auctioning an item for a fixed price...");
-
-  const fixedPriceSellOrder = await seaport.createSellOrder({
+= await seaport.createSellOrder({
     asset: {
       tokenId: "1", // Unique ID of the NFT
       tokenAddress: NFT_CONTRACT_ADDRESS, // Address of the NFT contract
