@@ -1,5 +1,4 @@
-
-  console.error("Please either set a factory or NFT contract address.");
+("Please either set a factory or NFT contract address.");
   return;
 }
 
