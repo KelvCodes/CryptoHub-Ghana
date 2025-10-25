@@ -1,5 +1,4 @@
-
-    "Please set a mnemonic, Alchemy/Infura key, owner, network, API key, nft contract, and factory contract address."
+, Alchemy/Infura key, owner, network, API key, nft contract, and factory contract address."
   );
   return;
 }
