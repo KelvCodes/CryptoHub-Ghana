@@ -197,7 +197,7 @@ main()
     console.log("🚀 Script execution finished successfully!");
   })
   .catch((error) => {
-    console.error("❌ An error occurred while running the script:");
+    console.error(" An error occurred while running the script:");
     console.error(error);
   });
 
