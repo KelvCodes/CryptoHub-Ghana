@@ -1,4 +1,4 @@
-t contract, and factory contract address."
+ontract address."
   );
   return;
 }
