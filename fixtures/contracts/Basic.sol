@@ -129,7 +129,7 @@ async function main() {
   });
 
   console.log(" Fixed-price sale created successfully!");
-  console.log(`🔗 View on OpenSea: ${fixedPriceSellOrder.asset.openseaLink}\n`);
+  console.log(` View on OpenSea: ${fixedPriceSellOrder.asset.openseaLink}\n`);
 
   // ---------------------------------------------------------
   //  DUTCH AUCTION SALE
