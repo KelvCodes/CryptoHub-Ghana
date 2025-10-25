@@ -179,7 +179,7 @@ async function main() {
   });
 
   console.log("English auction created successfully!");
-  console.log(`🔗 View on OpenSea: ${englishAuctionSellOrder.asset.openseaLink}\n`);
+  console.log(` View on OpenSea: ${englishAuctionSellOrder.asset.openseaLink}\n`);
 
   // ---------------------------------------------------------
   //  Summary
