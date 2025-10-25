@@ -1,4 +1,4 @@
-Sea JS SDK and relevant types
+
 const opensea = require("opensea-js");
 const { WyvernSchemaName } = require('opensea-js/lib/types');
 const OpenSeaPort = opensea.OpenSeaPort;
