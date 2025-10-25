@@ -1,7 +1,3 @@
- lletSubprovider = new MnemonicWalletSubprovider({
-  mnemonic: MNEMONIC,
-  baseDerivationPath: BASE_DERIVATION_PATH,
-});
 
 // Determine the network (mainnet or rinkeby)
 const network = NETWORK === "mainnet" || NETWORK === "live" ? "mainnet" : "rinkeby";
