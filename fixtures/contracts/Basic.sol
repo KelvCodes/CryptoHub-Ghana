@@ -151,7 +151,7 @@ async function main() {
     accountAddress: OWNER_ADDRESS,
   });
 
-  console.log("✅ Dutch auction created successfully!");
+  console.log(" Dutch auction created successfully!");
   console.log(`🔗 View on OpenSea: ${dutchAuctionSellOrder.asset.openseaLink}\n`);
 
   // ---------------------------------------------------------
