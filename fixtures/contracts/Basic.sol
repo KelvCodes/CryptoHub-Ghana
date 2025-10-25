@@ -1,5 +1,4 @@
-or derivinunts
-const lletSubprovider = new MnemonicWalletSubprovider({
+ lletSubprovider = new MnemonicWalletSubprovider({
   mnemonic: MNEMONIC,
   baseDerivationPath: BASE_DERIVATION_PATH,
 });
