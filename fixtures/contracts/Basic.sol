@@ -38,7 +38,7 @@ const NETWORK = process.env.NETWORK;
 const API_KEY = process.env.API_KEY || ""; // Optional but recommended
 
 // -------------------------------------------------------------
-//  3️ Validate Environment Variables
+//   Validate Environment Variables
 // -------------------------------------------------------------
 
 if (!MNEMONIC || !NODE_API_KEY || !NETWORK || !OWNER_ADDRESS) {
