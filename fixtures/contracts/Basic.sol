@@ -182,7 +182,7 @@ async function main() {
   console.log(`🔗 View on OpenSea: ${englishAuctionSellOrder.asset.openseaLink}\n`);
 
   // ---------------------------------------------------------
-  // 🧩 Summary
+  //  Summary
   // ---------------------------------------------------------
   console.log(" All NFT listings completed successfully!");
   console.log(" Check your OpenSea profile to confirm your listings.");
