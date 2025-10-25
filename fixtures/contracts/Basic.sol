@@ -134,7 +134,7 @@ async function main() {
   // ---------------------------------------------------------
   //  DUTCH AUCTION SALE
   // ---------------------------------------------------------
-  console.log("📉 Creating a Dutch auction listing...");
+  console.log(" Creating a Dutch auction listing...");
 
   // Expiration time (24 hours from now)
   const expirationTime = Math.round(Date.now() / 1000 + 60 * 60 * 24);
