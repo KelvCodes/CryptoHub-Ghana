@@ -178,7 +178,7 @@ async function main() {
     accountAddress: OWNER_ADDRESS,
   });
 
-  console.log("✅ English auction created successfully!");
+  console.log("English auction created successfully!");
   console.log(`🔗 View on OpenSea: ${englishAuctionSellOrder.asset.openseaLink}\n`);
 
   // ---------------------------------------------------------
