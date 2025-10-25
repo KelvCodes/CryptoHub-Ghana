@@ -23,4 +23,4 @@ A decentralized cryptocurrency tracking dApp built to keep you updated on crypto
 Tracks crypto prices and logs interactions transparently—perfect for enthusiasts and auditors alike!
 
 ## Contributions 
-Just fork the repo, make your cont welcome! 🙌
+Just fork the repo, make your contri welcome! 🙌
