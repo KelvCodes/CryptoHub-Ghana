@@ -1,5 +1,4 @@
-; // Optional but recommended for high-volume usage
-
+; // Op
 // Validate essential environment variables
 if (!MNEMONIC || !NODE_API_KEY || !NETWORK || !OWNER_ADDRESS) {
   console.error(
