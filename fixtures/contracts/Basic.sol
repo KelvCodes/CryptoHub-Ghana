@@ -1,5 +1,3 @@
-("Pl
-}
 
 // Define HD wallet path for deriving Ethereum accounts
 const BASE_DERIVATION_PATH = `44'/60'/0'/0`;
