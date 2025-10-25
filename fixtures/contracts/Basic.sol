@@ -132,7 +132,7 @@ async function main() {
   console.log(`🔗 View on OpenSea: ${fixedPriceSellOrder.asset.openseaLink}\n`);
 
   // ---------------------------------------------------------
-  // 🟡 DUTCH AUCTION SALE
+  //  DUTCH AUCTION SALE
   // ---------------------------------------------------------
   console.log("📉 Creating a Dutch auction listing...");
 
