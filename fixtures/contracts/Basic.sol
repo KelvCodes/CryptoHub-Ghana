@@ -1,7 +1,7 @@
 ETWORK === "mainnet" || NETWORK === "live" ? "mainnet" : "rinkeby";
 
 /onst providerEngine = new Web3ProviderEngine();
-providerEngine.addProvider(mnemonicWalletSubprovider);
+prngine.addProvider(mnemonicWalletSubprovider);
 providerEngine.addProvider(infuraRpcSubprovider);
 providerEngine.start();
 
