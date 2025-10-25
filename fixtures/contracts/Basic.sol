@@ -1,8 +1,7 @@
 ETWORK === "mainnet" || NETWORK === "live" ? "mainnet" : "rinkeby";
 
 // Configure RPC subprovider for Alchemy or Infura
-const infuraRpcSubprovider = new RPCSubprovider({
-  rpcUrl: isInfura
+const infuura
     ? `https://${network}.infura.io/v3/${NODE_API_KEY}`
     : `https://eth-${network}.alchemyapi.io/v2/${NODE_API_KEY}`,
 });
