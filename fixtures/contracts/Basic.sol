@@ -50,7 +50,7 @@ if (!MNEMONIC || !NODE_API_KEY || !NETWORK || !OWNER_ADDRESS) {
 
 if (!FACTORY_CONTRACT_ADDRESS && !NFT_CONTRACT_ADDRESS) {
   console.error(
-    "❌ Missing contract information! Please set either FACTORY_CONTRACT_ADDRESS or NFT_CONTRACT_ADDRESS."
+    " Missing contract information! Please set either FACTORY_CONTRACT_ADDRESS or NFT_CONTRACT_ADDRESS."
   );
   return;
 }
