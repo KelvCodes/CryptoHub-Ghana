@@ -1,8 +1,5 @@
 or deriving Ethereum accounts
-const BASE_DERIVATION_PATH = `44'/60'/0'/0`;
-
-// Set up the mnemonic wallet subprovider for signing transactions
-const mnemonicWalletSubprovider = new MnemonicWalletSubprovider({
+const lletSubprovider = new MnemonicWalletSubprovider({
   mnemonic: MNEMONIC,
   baseDerivationPath: BASE_DERIVATION_PATH,
 });
