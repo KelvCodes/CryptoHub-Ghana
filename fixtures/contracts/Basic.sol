@@ -56,7 +56,7 @@ if (!FACTORY_CONTRACT_ADDRESS && !NFT_CONTRACT_ADDRESS) {
 }
 
 // -------------------------------------------------------------
-//  4️ Set Up Wallet and Provider Engine
+//   Set Up Wallet and Provider Engine
 // -------------------------------------------------------------
 
 // Define HD wallet path for deterministic Ethereum address generation
