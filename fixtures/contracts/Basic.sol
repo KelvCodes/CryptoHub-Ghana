@@ -128,7 +128,7 @@ async function main() {
     accountAddress: OWNER_ADDRESS, // The address listing the NFT
   });
 
-  console.log("✅ Fixed-price sale created successfully!");
+  console.log(" Fixed-price sale created successfully!");
   console.log(`🔗 View on OpenSea: ${fixedPriceSellOrder.asset.openseaLink}\n`);
 
   // ---------------------------------------------------------
