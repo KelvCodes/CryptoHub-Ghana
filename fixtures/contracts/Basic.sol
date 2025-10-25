@@ -1,5 +1,5 @@
 
-const OpenSeaPort = opensea.OpenSeaPort;
+eaPort = opensea.OpenSeaPort;
 const Network = opensea.Network;
 
 // Import subproviders to handle wallet and RPC communication
