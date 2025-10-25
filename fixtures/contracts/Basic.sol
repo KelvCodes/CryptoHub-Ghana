@@ -1,4 +1,4 @@
-y, owner, network, API key, nft contract, and factory contract address."
+t contract, and factory contract address."
   );
   return;
 }
