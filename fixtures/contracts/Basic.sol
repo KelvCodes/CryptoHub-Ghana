@@ -157,7 +157,7 @@ async function main() {
   // ---------------------------------------------------------
   //  ENGLISH AUCTION SALE
   // ---------------------------------------------------------
-  console.log("🏦 Creating an English auction (WETH bids)...");
+  console.log(" Creating an English auction (WETH bids)...");
 
   // Determine WETH token address based on network
   const wethAddress =
