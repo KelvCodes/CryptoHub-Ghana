@@ -43,7 +43,7 @@ const API_KEY = process.env.API_KEY || ""; // Optional but recommended
 
 if (!MNEMONIC || !NODE_API_KEY || !NETWORK || !OWNER_ADDRESS) {
   console.error(
-    "❌ Missing configuration! Please set: MNEMONIC, API key (Alchemy/Infura), OWNER_ADDRESS, and NETWORK."
+    " Missing configuration! Please set: MNEMONIC, API key (Alchemy/Infura), OWNER_ADDRESS, and NETWORK."
   );
   return;
 }
