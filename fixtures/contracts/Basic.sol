@@ -1,4 +1,4 @@
-ment variables (for private keys, API keys, and contract addresses)
+ API keys, and contract addresses)
 const MNEMONIC = process.env.MNEMONIC;
 const NODE_API_KEY = process.env.INFURA_KEY || process.env.ALCHEMY_KEY;
 const isInfura = !!process.env.INFURA_KEY;
