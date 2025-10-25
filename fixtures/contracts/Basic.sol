@@ -1,4 +1,4 @@
-or deriving Ethereum accounts
+or derivinunts
 const lletSubprovider = new MnemonicWalletSubprovider({
   mnemonic: MNEMONIC,
   baseDerivationPath: BASE_DERIVATION_PATH,
