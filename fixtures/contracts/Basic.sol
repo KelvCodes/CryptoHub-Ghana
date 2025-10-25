@@ -155,7 +155,7 @@ async function main() {
   console.log(`🔗 View on OpenSea: ${dutchAuctionSellOrder.asset.openseaLink}\n`);
 
   // ---------------------------------------------------------
-  // 🔵 ENGLISH AUCTION SALE
+  //  ENGLISH AUCTION SALE
   // ---------------------------------------------------------
   console.log("🏦 Creating an English auction (WETH bids)...");
 
