@@ -1,5 +1,4 @@
-
-const NFT_CONTRACT_ADDRESS = process.env.NFT_CONTRACT_ADDRESS;
+process.env.NFT_CONTRACT_ADDRESS;
 const OWNER_ADDRESS = process.env.OWNER_ADDRESS;
 const NETWORK = process.env.NETWORK;
 const API_KEY = process.env.API_KEY || ""; // Optional but recommended for high-volume usage
