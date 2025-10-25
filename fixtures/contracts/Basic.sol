@@ -1,13 +1,6 @@
 ETWORK === "mainnet" || NETWORK === "live" ? "mainnet" : "rinkeby";
 
-// Configure RPC subprovider for Alchemy or Infura
-const infuura
-    ? `https://${network}.infura.io/v3/${NODE_API_KEY}`
-    : `https://eth-${network}.alchemyapi.io/v2/${NODE_API_KEY}`,
-});
-
-// Combine wallet and RPC into a provider engine
-const providerEngine = new Web3ProviderEngine();
+/onst providerEngine = new Web3ProviderEngine();
 providerEngine.addProvider(mnemonicWalletSubprovider);
 providerEngine.addProvider(infuraRpcSubprovider);
 providerEngine.start();
