@@ -194,7 +194,7 @@ async function main() {
 
 main()
   .then(() => {
-    console.log("🚀 Script execution finished successfully!");
+    console.log(" Script execution finished successfully!");
   })
   .catch((error) => {
     console.error(" An error occurred while running the script:");
