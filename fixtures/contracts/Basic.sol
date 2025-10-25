@@ -91,7 +91,7 @@ providerEngine.addProvider(infuraRpcSubprovider);
 providerEngine.start();
 
 // -------------------------------------------------------------
-//  5️ Initialize OpenSea SDK
+//   Initialize OpenSea SDK
 // -------------------------------------------------------------
 
 // Instantiate the OpenSeaPort object with necessary configs
