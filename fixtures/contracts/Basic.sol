@@ -152,7 +152,7 @@ async function main() {
   });
 
   console.log(" Dutch auction created successfully!");
-  console.log(`🔗 View on OpenSea: ${dutchAuctionSellOrder.asset.openseaLink}\n`);
+  console.log(` View on OpenSea: ${dutchAuctionSellOrder.asset.openseaLink}\n`);
 
   // ---------------------------------------------------------
   //  ENGLISH AUCTION SALE
