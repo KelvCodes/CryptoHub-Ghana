@@ -1,5 +1,4 @@
- = require("web3-provider-engine/subproviders/rpc");
-const Web3ProviderEngine = require("web3-provider-engine");
+ine");
 
 // Load environment variables (for private keys, API keys, and contract addresses)
 const MNEMONIC = process.env.MNEMONIC;
