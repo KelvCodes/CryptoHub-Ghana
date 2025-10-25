@@ -1,5 +1,4 @@
 
-const Network = opensea.Network;
 
 // Import subproviders to handle wallet and RPC communication
 const MnemonicWalletSubprovider = require("@0x/subproviders").MnemonicWalletSubprovider;
