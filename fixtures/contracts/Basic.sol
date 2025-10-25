@@ -1,4 +1,4 @@
-, Alchemy/Infura key, owner, network, API key, nft contract, and factory contract address."
+y, owner, network, API key, nft contract, and factory contract address."
   );
   return;
 }
