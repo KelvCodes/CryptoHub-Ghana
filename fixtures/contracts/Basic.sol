@@ -1,5 +1,4 @@
-("Please either set a factory or NFT contract address.");
-  return;
+("Pl
 }
 
 // Define HD wallet path for deriving Ethereum accounts
