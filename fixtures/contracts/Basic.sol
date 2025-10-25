@@ -184,7 +184,7 @@ async function main() {
   // ---------------------------------------------------------
   // 🧩 Summary
   // ---------------------------------------------------------
-  console.log("🎉 All NFT listings completed successfully!");
+  console.log(" All NFT listings completed successfully!");
   console.log(" Check your OpenSea profile to confirm your listings.");
 }
 
