@@ -4,9 +4,7 @@ ETWORK === "mainnet" || NETWORK === "live" ? "mainnet" : "rinkeby";
 prngine.addProvider(mnemonicWalletSubprovider);
 providerEngine.addProvider(infuraRpcSubprovider);
 providerEngine.start();
-
-  {
-    networkName: NETWORK === "mainnet" || NETWORK === "live" ? Network.Main : Network.Rinkeby,
+ === "live" ? Network.Main : Network.Rinkeby,
     apiKey: API_KEY,
   },
   (arg) => console.log(arg) // Log SDK events (optional)
