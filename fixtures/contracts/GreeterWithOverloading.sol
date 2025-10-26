@@ -1,6 +1,3 @@
-nt before change
-      (true, greeting);
-    }
 
     /// @notice Overloaded version of setGreeting with event control.
     /// @param _greeting The new greeting to be set.
