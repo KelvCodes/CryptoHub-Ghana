@@ -1,5 +1,4 @@
-ading {
-    // State variable to track the number of times `increment` is called.
+e variable to track the number of times `increment` is called.
     uint256 counter;
 
     // Private variable to hold the current greeting message.
