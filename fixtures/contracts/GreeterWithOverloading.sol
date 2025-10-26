@@ -1,5 +1,4 @@
 
-    /// @param _greeting The new greeting to be set.
     /// @param _raiseEvents If true, emits change events; otherwise, skips them.
     /// @return success A boolean indicating success.
     /// @return newGreeting The updated greeting string.
