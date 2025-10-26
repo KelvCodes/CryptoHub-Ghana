@@ -1,5 +1,4 @@
-
-    string private greeting;
+g;
 
     // Event emitted before the greeting is updated.
     event GREETING_CHANGING(string from, string to);
