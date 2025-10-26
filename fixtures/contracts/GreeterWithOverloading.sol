@@ -1,5 +1,4 @@
 
-    uint256 counter;
 
     // Private variable to hold the current greeting message.
     string private greeting;
