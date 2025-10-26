@@ -1,6 +1,4 @@
-
-
-    /// @notice Constructor sets the initial greeting message.
+tor sets the initial greeting message.
     /// @param _greeting The initial greeting string.
     constructor(string memory _greeting) {
         greeting = _greeting;
