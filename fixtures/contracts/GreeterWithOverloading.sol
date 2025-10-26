@@ -1,5 +1,4 @@
-, _greeting); // Emit before change
-        }
+, _greeting); //       }
         greeting = _greeting;
         if (_raiseEvents) {
             emit GREETING_CHANGED(greeting); // Emit after change
