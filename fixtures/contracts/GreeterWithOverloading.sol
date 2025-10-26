@@ -1,5 +1,4 @@
-
-    /// @return success A boolean indicating success.
+ess A boolean indicating success.
     /// @return newGreeting The updated greeting string.
     function setGreeting(string memory _greeting, bool _raiseEvents)
         public
