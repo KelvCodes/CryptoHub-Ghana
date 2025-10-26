@@ -1,6 +1,4 @@
 
-    /// @param _greeting The initial greeting string.
-    constructor(string memory _greeting) {
         greeting = _greeting;
         counter = 0;
     }
