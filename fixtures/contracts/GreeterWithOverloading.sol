@@ -1,5 +1,4 @@
 
-        public
         returns (bool, string memory)
     {
         if (_raiseEvents) {
