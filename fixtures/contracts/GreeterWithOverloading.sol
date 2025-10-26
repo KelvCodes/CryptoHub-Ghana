@@ -1,5 +1,4 @@
-
-    /// @param _greeting The new greeting to be set.
+The new greeting to be set.
     /// @return success A boolean indicating success.
     /// @return newGreeting The updated greeting string.
     function setGreeting(string memory _greeting) public returns (bool, string memory) {
