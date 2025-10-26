@@ -1,7 +1,5 @@
 nt before change
-        greeting = _greeting;
-        emit GREETING_CHANGED(greeting); // Emit event after change
-        return (true, greeting);
+      (true, greeting);
     }
 
     /// @notice Overloaded version of setGreeting with event control.
