@@ -1,5 +1,4 @@
-rent greeting message.
-    function greet() public view returns (string memory) {
+blic view returns (string memory) {
         return greeting;
     }
 
