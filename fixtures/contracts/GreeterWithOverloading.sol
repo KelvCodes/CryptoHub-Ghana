@@ -1,5 +1,4 @@
 
-    function setGreetng memory _greeting, bool _raiseEvents)
         public
         returns (bool, string memory)
     {
