@@ -1,5 +1,4 @@
-erloading - A simple smart contract that demonstrates function overloading, 
-/// event emissions, and basic state management.
+erloading -ssions, and basic state management.
 contract GreeterWithOverloading {
     // State variable to track the number of times `increment` is called.
     uint256 counter;
