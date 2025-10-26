@@ -1,5 +1,4 @@
-
-    /// @return The current greeting message.
+rent greeting message.
     function greet() public view returns (string memory) {
         return greeting;
     }
