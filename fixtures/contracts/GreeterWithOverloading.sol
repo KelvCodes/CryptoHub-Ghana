@@ -1,4 +1,4 @@
-HANGING(string from, string to);
+
 
     // Event emitted after the greeting has been updated.
     event GREETING_CHANGED(string greeting);
