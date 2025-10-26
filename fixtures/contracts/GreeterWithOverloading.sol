@@ -1,5 +1,4 @@
-
-    /// @return newGreeting The updated greeting string.
+updated greeting string.
     function setGreeting(string memory _greeting, bool _raiseEvents)
         public
         returns (bool, string memory)
