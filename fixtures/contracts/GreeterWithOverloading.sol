@@ -1,4 +1,4 @@
-erloading -ssions, and basic state management.
+ssions, and basic state management.
 contract GreeterWithOverloading {
     // State variable to track the number of times `increment` is called.
     uint256 counter;
