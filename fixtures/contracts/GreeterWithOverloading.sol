@@ -1,5 +1,4 @@
-nd basic state management.
-contract GreeterWithOverloading {
+terWithOverloading {
     // State variable to track the number of times `increment` is called.
     uint256 counter;
 
