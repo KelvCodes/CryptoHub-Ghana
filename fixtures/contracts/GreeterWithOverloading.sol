@@ -1,4 +1,4 @@
-he greeting has begreeting);
+
 
     /// @notice Constructor sets the initial greeting message.
     /// @param _greeting The initial greeting string.
