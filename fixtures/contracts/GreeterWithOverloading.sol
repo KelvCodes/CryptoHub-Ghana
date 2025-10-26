@@ -1,4 +1,4 @@
-message and emits change events.
+
     /// @param _greeting The new greeting to be set.
     /// @return success A boolean indicating success.
     /// @return newGreeting The updated greeting string.
