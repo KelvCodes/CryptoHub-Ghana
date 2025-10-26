@@ -1,6 +1,4 @@
 
-
-    // Private variable to hold the current greeting message.
     string private greeting;
 
     // Event emitted before the greeting is updated.
