@@ -1,5 +1,4 @@
-
-    /// @return success A boolean indicating success.
+ng success.
     /// @return newGreeting The updated greeting string.
     function setGreeting(string memory _greeting) public returns (bool, string memory) {
         emit GREETING_CHANGING(greeting, _greeting); // Emit event before change
