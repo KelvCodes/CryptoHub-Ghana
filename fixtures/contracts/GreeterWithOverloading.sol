@@ -1,4 +1,4 @@
-ting, _greeting); // Emit event before change
+nt before change
         greeting = _greeting;
         emit GREETING_CHANGED(greeting); // Emit event after change
         return (true, greeting);
