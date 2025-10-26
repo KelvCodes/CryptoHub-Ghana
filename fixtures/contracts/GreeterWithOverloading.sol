@@ -1,6 +1,4 @@
 
-        return greeting;
-    }
 
     /// @notice Updates the greeting message and emits change events.
     /// @param _greeting The new greeting to be set.
