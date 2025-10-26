@@ -1,7 +1,4 @@
-
-    }
-
-    /// @notice Returns the current greeting.
+ns the current greeting.
     /// @return The current greeting message.
     function greet() public view returns (string memory) {
         return greeting;
