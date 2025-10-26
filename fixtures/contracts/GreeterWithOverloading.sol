@@ -1,6 +1,5 @@
 g;
-
-    // Event emitted before the greeting is updated.
+ore the greeting is updated.
     event GREETING_CHANGING(string from, string to);
 
     // Event emitted after the greeting has been updated.
