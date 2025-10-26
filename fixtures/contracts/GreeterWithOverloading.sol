@@ -1,5 +1,4 @@
-he greeting has been updated.
-    event GREETING_CHANGED(string greeting);
+he greeting has begreeting);
 
     /// @notice Constructor sets the initial greeting message.
     /// @param _greeting The initial greeting string.
