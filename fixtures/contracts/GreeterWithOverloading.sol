@@ -1,4 +1,4 @@
-rns (bool, string memory) {
+y) {
         emit GREETING_CHANGING(greeting, _greeting); // Emit event before change
         greeting = _greeting;
         emit GREETING_CHANGED(greeting); // Emit event after change
