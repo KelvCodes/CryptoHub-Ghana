@@ -1,4 +1,4 @@
-mory _greeting) public returns (bool, string memory) {
+rns (bool, string memory) {
         emit GREETING_CHANGING(greeting, _greeting); // Emit event before change
         greeting = _greeting;
         emit GREETING_CHANGED(greeting); // Emit event after change
