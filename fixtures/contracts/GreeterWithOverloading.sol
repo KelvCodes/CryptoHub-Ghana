@@ -1,6 +1,4 @@
 
-        greeting = _greeting;
-        counter = 0;
     }
 
     /// @notice Returns the current greeting.
