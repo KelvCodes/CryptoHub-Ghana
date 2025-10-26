@@ -1,4 +1,4 @@
-ment` is called.
+
     uint256 counter;
 
     // Private variable to hold the current greeting message.
