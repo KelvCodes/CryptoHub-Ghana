@@ -1,4 +1,4 @@
-track the number of times `increment` is called.
+er of times `increment` is called.
     uint256 counter;
 
     // Private variable to hold the current greeting message.
