@@ -1,7 +1,6 @@
 
 ken and assigns it to the specified player address
-     * @dev Increments the token ID counter, mints the token, and sets its metadata URI
-     * @param player The address of the player who will own the new token
+     * @dev Increments the token ID counter, mints tn the new token
      * @param tokenURI The metadata URI associated with the token (e.g., JSON metadata link)
      * @return The ID of the newly minted token
      */
