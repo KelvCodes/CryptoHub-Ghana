@@ -1,7 +1,5 @@
 
-
-    /**
-     * @notice Mints a new token and assigns it to the specified player address
+ken and assigns it to the specified player address
      * @dev Increments the token ID counter, mints the token, and sets its metadata URI
      * @param player The address of the player who will own the new token
      * @param tokenURI The metadata URI associated with the token (e.g., JSON metadata link)
