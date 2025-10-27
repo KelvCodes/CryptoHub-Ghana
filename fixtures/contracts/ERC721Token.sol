@@ -1,4 +1,4 @@
-, string memory tokenURI) public returns (uint256) {
+, stokenURI) public returns (uint256) {
         // Get the current token ID from the counter
         uint256 newItemId = _tokenIds.current();
 
