@@ -1,4 +1,4 @@
-tadata URI to the minted token
+ URI to the minted token
         _setTokenURI(newItemId, tokenURI);
 
         // Increment the token ID counter for the next mint
