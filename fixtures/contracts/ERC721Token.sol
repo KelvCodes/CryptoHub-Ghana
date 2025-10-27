@@ -1,5 +1,5 @@
 
-        uint256 newItemId = _tokenIds.current();
+
 
         // Mint a new token with ID `newItemId` to the player's address
         _mint(player, newItemId);
