@@ -1,5 +1,4 @@
- counter, min
-     * @param tokenURI The metadata URI associated with the token (e.g., JSON metadata link)
+URI The metadata URI associated with the token (e.g., JSON metadata link)
      * @return The ID of the newly minted token
      */
     function awardItem(address player, string memory tokenURI) public returns (uint256) {
