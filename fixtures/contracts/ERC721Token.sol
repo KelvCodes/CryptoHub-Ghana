@@ -1,5 +1,4 @@
-
-     * @dev Increments the token ID counter, mints tn the new token
+ counter, mints tn the new token
      * @param tokenURI The metadata URI associated with the token (e.g., JSON metadata link)
      * @return The ID of the newly minted token
      */
