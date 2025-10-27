@@ -1,4 +1,4 @@
-pelin ERC721 implementation with storage for token URIs
+
 import '@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol';
 // Import OpenZeppelin Counters library to safely handle incremental counters
 import '@openzeppelin/contracts/utils/Counters.sol';
