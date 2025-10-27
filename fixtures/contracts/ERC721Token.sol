@@ -1,5 +1,4 @@
-
-// Import OpenZeppelin Counters library to safely handle incremental counters
+ers library to safely handle incremental counters
 import '@openzeppelin/contracts/utils/Counters.sol';
 
 // Define the ERC721Token contract inheriting from ERC721URIStorage
