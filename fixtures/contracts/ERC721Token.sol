@@ -1,5 +1,4 @@
-
-    // Use the Counters library for managing token IDs safely
+safely
     using Counters for Counters.Counter;
     // Private counter to keep track of token IDs minted so far
     Counters.Counter private _tokenIds;
