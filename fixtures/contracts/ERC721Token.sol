@@ -1,5 +1,4 @@
-
-        _sI(newItemId, tokenURI);
+ItemId, tokenURI);
 
         // Increment the token ID counter for the next mint
         _tokenIds.increment();
