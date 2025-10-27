@@ -1,4 +1,4 @@
-current token ID from the counter
+ token ID from the counter
         uint256 newItemId = _tokenIds.current();
 
         // Mint a new token with ID `newItemId` to the player's address
