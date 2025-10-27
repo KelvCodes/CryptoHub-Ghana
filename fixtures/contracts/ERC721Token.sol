@@ -2,8 +2,6 @@
 
 
 
-        _mi(player, newItemId);
-
         // Assign the provided metadata URI to the minted token
         _setTokenURI(newItemId, tokenURI);
 
