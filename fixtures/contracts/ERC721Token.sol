@@ -1,6 +1,5 @@
 safely
-    using Counters for Counters.Counter;
-    // Private counter to keep track of token IDs minted so far
+    usinge counter to keep track of token IDs minted so far
     Counters.Counter private _tokenIds;
 
     // Contract constructor sets the token name and symbol
