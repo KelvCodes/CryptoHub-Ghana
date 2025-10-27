@@ -1,7 +1,6 @@
 
 
-
- tovided metadata URI to the minted token
+d metadata URI to the minted token
         _setTokenURI(newItemId, tokenURI);
 
         // Increment the token ID counter for the next mint
