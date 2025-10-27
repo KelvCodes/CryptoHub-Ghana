@@ -1,6 +1,5 @@
 
 
-// Define the ERC721Token contract inheriting from ERC721URIStorage
 contract ERC721Token is ERC721URIStorage {
     // Use the Counters library for managing token IDs safely
     using Counters for Counters.Counter;
