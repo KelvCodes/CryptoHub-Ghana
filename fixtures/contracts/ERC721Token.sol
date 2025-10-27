@@ -1,5 +1,4 @@
 
-    constructor() ERC721('GameItem', 'ITM') {}
 
     /**
      * @notice Mints a new token and assigns it to the specified player address
