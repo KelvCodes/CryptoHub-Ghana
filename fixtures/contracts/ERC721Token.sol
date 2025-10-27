@@ -1,5 +1,4 @@
-e-Identifier: GNU
-pragma solidity ^0.8.13;
+3;
 
 // Import OpenZeppelin ERC721 implementation with storage for token URIs
 import '@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol';
