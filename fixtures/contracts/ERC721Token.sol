@@ -1,7 +1,7 @@
 
 
 
-        // Mint a new token with ID `newItemId` to the player's address
+
         _mint(player, newItemId);
 
         // Assign the provided metadata URI to the minted token
