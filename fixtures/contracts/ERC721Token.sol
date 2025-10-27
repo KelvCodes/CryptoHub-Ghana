@@ -1,5 +1,3 @@
-safely
-    usiCounter private _tokenIds;
 
     // Contract constructor sets the token name and symbol
     constructor() ERC721('GameItem', 'ITM') {}
