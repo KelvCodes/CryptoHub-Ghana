@@ -1,5 +1,4 @@
-
-// and includes a basic counter that can be incremented.
+ounter that can be incremented.
 contract Greeter {
     // State variable to store a numerical counter
     uint256 counter;
