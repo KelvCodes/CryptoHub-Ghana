@@ -1,6 +1,5 @@
 eeting (`to`)
-    event GREETING_CHANGING(string from, string to);
-
+    eve
     // Event emitted *after* the greeting has been changed
     // Parameter: the new greeting
     event GREETING_CHANGED(string greeting);
