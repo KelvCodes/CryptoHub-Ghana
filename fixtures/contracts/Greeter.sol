@@ -1,4 +1,4 @@
-from`) and the new greeting (`to`)
+eeting (`to`)
     event GREETING_CHANGING(string from, string to);
 
     // Event emitted *after* the greeting has been changed
