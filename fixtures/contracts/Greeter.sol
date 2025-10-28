@@ -1,5 +1,4 @@
-
-    // Parameters: the old greeting (`from`) and the new greeting (`to`)
+the old greeting (`from`) and the new greeting (`to`)
     event GREETING_CHANGING(string from, string to);
 
     // Event emitted *after* the greeting has been changed
