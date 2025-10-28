@@ -1,5 +1,4 @@
-
-    // State variable to store a numerical counter
+ a numerical counter
     uint256 counter;
 
     // Private state variable to store the greeting message
