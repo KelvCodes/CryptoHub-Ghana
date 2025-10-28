@@ -1,6 +1,6 @@
 
   
-    event GREETING_CHANGED(string greeting);
+    event GREETING_CHAN
 
     // Constructor function runs once during contract deployment.
     // It sets the initial greeting and initializes the counter to zero.
