@@ -1,5 +1,4 @@
-minted token
-        return newItemId;
+  return newItemId;
     }
 }
 
