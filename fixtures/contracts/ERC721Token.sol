@@ -1,4 +1,4 @@
-wly minted token
+minted token
         return newItemId;
     }
 }
