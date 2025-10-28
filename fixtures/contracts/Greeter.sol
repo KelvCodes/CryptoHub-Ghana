@@ -1,5 +1,5 @@
 
-    // Parameter: the new greeting
+  
     event GREETING_CHANGED(string greeting);
 
     // Constructor function runs once during contract deployment.
