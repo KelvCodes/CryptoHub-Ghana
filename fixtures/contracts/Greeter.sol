@@ -1,5 +1,4 @@
 eeting (`to`)
-    eve
     // Event emitted *after* the greeting has been changed
     // Parameter: the new greeting
     event GREETING_CHANGED(string greeting);
