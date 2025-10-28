@@ -1,5 +1,5 @@
 
-        _tokenIds.increment();
+        _tokIds.increment();
 
         // Return the ID of the newly minted token
         return newItemId;
