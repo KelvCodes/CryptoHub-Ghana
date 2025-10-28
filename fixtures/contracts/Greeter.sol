@@ -1,4 +1,4 @@
-PDicense-Identifier: GNU
+dentifier: GNU
 pragma solidity ^0.8.13;
 
 // A simple Greeter contract that stores a greeting message and a counter.
