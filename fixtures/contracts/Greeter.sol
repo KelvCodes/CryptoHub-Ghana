@@ -1,5 +1,4 @@
 
-fore* the greeting changes
     // Parameters: the old greeting (`from`) and the new greeting (`to`)
     event GREETING_CHANGING(string from, string to);
 
