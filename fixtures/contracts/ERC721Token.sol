@@ -1,4 +1,4 @@
-  return newItemId;
+newItemId;
     }
 }
 
