@@ -1,4 +1,4 @@
- for the next mint
+the next mint
         _tokenIds.increment();
 
         // Return the ID of the newly minted token
