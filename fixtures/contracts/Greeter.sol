@@ -1,6 +1,4 @@
 
-
-    // Private state variable to store the greeting message
     string private greeting;
 
     // Event emitted *before* the greeting changes
