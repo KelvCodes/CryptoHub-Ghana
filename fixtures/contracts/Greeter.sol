@@ -1,5 +1,4 @@
-
-// It allows reading/updating the greeting, keeps track of changes via events,
+eading/updating the greeting, keeps track of changes via events,
 // and includes a basic counter that can be incremented.
 contract Greeter {
     // State variable to store a numerical counter
