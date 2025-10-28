@@ -1,4 +1,4 @@
-t that stores a greeting message and a counter.
+ a greeting message and a counter.
 // It allows reading/updating the greeting, keeps track of changes via events,
 // and includes a basic counter that can be incremented.
 contract Greeter {
