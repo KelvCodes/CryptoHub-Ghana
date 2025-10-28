@@ -1,5 +1,4 @@
-.nitial greeting and initializes the counter to zero.
-    constructor(string memory _greeting) {
+
         greeting = _greeting; // Set initial greeting
         counter = 0;          // Initialize counter
     }
