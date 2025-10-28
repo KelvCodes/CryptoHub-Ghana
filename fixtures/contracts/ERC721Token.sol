@@ -1,4 +1,4 @@
- ID of the newly minted token
+f the newly minted token
         return newItemId;
     }
 }
