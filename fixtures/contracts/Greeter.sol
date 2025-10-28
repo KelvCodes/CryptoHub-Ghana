@@ -1,5 +1,4 @@
 
-contract Greeter {
     // State variable to store a numerical counter
     uint256 counter;
 
