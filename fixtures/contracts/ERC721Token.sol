@@ -1,5 +1,4 @@
-
- the ID of the newly minted token
+ ID of the newly minted token
         return newItemId;
     }
 }
