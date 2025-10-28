@@ -1,4 +1,4 @@
-greeting;
+
 
     // Event emitted *before* the greeting changes
     // Parameters: the old greeting (`from`) and the new greeting (`to`)
