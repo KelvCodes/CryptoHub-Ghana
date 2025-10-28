@@ -1,4 +1,4 @@
-Ids.increment();
+increment();
 
         // Return the ID of the newly minted token
         return newItemId;
