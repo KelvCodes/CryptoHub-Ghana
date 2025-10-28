@@ -1,8 +1,4 @@
-
-  
-    event GREETING_CHAN
-
-    // Constructor function runs once during contract deployment.
+function runs once during contract deployment.
     // It sets the initial greeting and initializes the counter to zero.
     constructor(string memory _greeting) {
         greeting = _greeting; // Set initial greeting
