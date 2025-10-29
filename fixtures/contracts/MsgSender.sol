@@ -1,4 +1,4 @@
- from() public view returns (address) {
+ public view returns (address) {
         return msg.sender;
     }
 
