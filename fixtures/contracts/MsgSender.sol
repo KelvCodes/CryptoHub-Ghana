@@ -1,4 +1,2 @@
-
-    function setTe
-        testString = _testString;
+g;
 
