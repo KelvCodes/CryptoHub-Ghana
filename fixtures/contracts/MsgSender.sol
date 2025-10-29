@@ -1,6 +1,5 @@
 
-
-    // Public view function that returns the address of the message sender.
+c view function that returns the address of the message sender.
     // This is the address that called the current function.
     function from() public view returns (address) {
         return msg.sender;
