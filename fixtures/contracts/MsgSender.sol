@@ -1,5 +1,4 @@
-
-    // It initializes the testString with the value passed as an argument.
+s the testString with the value passed as an argument.
     constructor(string memory _testString) {
         testString = _testString;
     }
