@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GNU
+// Snse-Identifier: GNU
 pragma solidity ^0.8.13;
 
 // A simple contract that stores a string and allows reading and updating it,
