@@ -1,4 +1,4 @@
-ng with the value passed as an argument.
+the value passed as an argument.
     constructor(string memory _testString) {
         testString = _testString;
     }
