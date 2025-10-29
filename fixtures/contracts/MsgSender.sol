@@ -1,4 +1,4 @@
-allows reading and updating it,
+ws reading and updating it,
 // also returns the address of the message sender.
 contract MsgSender {
     // Public state variable to store a test string.
