@@ -1,5 +1,4 @@
-
-    function from() public view returns (address) {
+ from() public view returns (address) {
         return msg.sender;
     }
 
