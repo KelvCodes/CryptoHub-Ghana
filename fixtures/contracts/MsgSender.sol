@@ -1,4 +1,4 @@
-c stag public testString;
+cg public testString;
 
     // Constructor runs once when the contract is deployed.
     // It initializes the testString with the value passed as an argument.
