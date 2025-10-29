@@ -1,4 +1,4 @@
-s s of the message sender.
+message sender.
 contract MsgSender {
     // Public state variable to store a test string.
     string public testString;
