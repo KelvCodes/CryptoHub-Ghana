@@ -1,4 +1,4 @@
-that called the current function.
+ted the current function.
     function from() public view returns (address) {
         return msg.sender;
     }
