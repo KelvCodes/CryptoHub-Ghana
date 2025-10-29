@@ -1,5 +1,4 @@
-
-    // Public state variable to store a test string.
+c state variable to store a test string.
     string public testString;
 
     // Constructor runs once when the contract is deployed.
