@@ -1,4 +1,4 @@
- of the message sender.
+e message sender.
     // This is the address that called the current function.
     function from() public view returns (address) {
         return msg.sender;
