@@ -1,5 +1,4 @@
-
-// also returns the address of the message sender.
+eturns the address of the message sender.
 contract MsgSender {
     // Public state variable to store a test string.
     string public testString;
