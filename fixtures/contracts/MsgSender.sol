@@ -1,6 +1,4 @@
 
-        testString = _testString;
-    }
 
     // Public view function that returns the address of the message sender.
     // This is the address that called the current function.
