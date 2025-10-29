@@ -1,4 +1,4 @@
-ing memory 
+
         testString = _testString;
     }
 
