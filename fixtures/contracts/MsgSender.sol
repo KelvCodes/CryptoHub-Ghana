@@ -1,4 +1,4 @@
-the current function.
+urrent function.
     function from() public view returns (address) {
         return msg.sender;
     }
