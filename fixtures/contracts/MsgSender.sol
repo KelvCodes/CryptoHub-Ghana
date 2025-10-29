@@ -1,5 +1,4 @@
-msg.sender;
-    }
+
 
     // Public function to update the testString value.
     // Takes a string input _testString, updates the stored testString,
