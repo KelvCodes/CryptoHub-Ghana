@@ -1,5 +1,4 @@
-
-        return msg.sender;
+msg.sender;
     }
 
     // Public function to update the testString value.
