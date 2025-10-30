@@ -1,8 +1,5 @@
 
    ;
-    }
-
-    /**
      * @dev Allows a token owner to burn their NFT
      * @param tokenId ID of the token to burn
      */
