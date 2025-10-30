@@ -1,4 +1,4 @@
-indexed tokeg tokenURI);
+
 
     /**
      * @dev Constructor that gives the token a name and symbol.
