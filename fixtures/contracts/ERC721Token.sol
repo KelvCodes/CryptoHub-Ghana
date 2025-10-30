@@ -1,5 +1,4 @@
 
-        _baseTokenURI = baseURI;
 
      * @dev Mint a new token. Only the contract owner can mint.
      * @param player Address receiving the NFT
