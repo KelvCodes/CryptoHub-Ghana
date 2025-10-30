@@ -1,6 +1,5 @@
 
-
-    // Base URI for all token metadata
+e URI for all token metadata
     string private _baseTokenURI;
 
     // Event emitted when a new item is minted
