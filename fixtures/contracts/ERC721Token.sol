@@ -1,8 +1,6 @@
 
         public
-        onlyOwne
-        uint256 newItemId = _tokenIds.t(player, newItemId);
-        _setTokenURI(newItemId, tokenURI);
+        onlyOmId, tokenURI);
         _tokenIds.increment();
 
         emit ItemMinted(player, newItemId, tokenURI);
