@@ -1,7 +1,6 @@
 ss receiving the NFT
      * @param tokenURI Metadata URI of the token
-     */
-    function awardItem(address player, string memory tokenURI)
+     */player, string memory tokenURI)
         public
         onlyOwner
         returns (uint256)
