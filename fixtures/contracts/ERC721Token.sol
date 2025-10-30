@@ -1,6 +1,4 @@
 
-import "@openzeppelin/contracts/access/Ownable.sol";
-
 /**
  * @title ERC721Token
  * @dev A simple NFT smart contract with metadata and controlled minting
