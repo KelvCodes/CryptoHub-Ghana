@@ -1,6 +1,4 @@
 
-/**
- * @title ERC721Token
  * @dev A simple NFT smart contract with metadata and controlled minting
  */
 contract ERC721Token is ERC721URIStorage, Ownable {
