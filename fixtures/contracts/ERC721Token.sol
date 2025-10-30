@@ -1,5 +1,4 @@
 
-    constructor1("GameItem", "ITM") {
         _baseTokenURI = baseURI;
     }
 
