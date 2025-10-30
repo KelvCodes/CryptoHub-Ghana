@@ -1,4 +1,4 @@
-ntracts/token/ERC721/extensions/ERC721URIStorage.sol";
+ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
