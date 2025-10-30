@@ -1,5 +1,4 @@
-act with metadata and controlled minting
- */
+
 contract ERC721Token is ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
