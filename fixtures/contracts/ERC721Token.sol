@@ -1,4 +1,4 @@
-all token metadata
+a
     string private _baseTokenURI;
 
     // Event emitted when a new item is minted
