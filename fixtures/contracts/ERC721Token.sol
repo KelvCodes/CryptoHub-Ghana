@@ -1,5 +1,5 @@
 
-    constructor(string memory baseURI) ERC721("GameItem", "ITM") {
+    constructormory baseURI) ERC721("GameItem", "ITM") {
         _baseTokenURI = baseURI;
     }
 
