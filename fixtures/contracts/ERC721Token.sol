@@ -1,8 +1,6 @@
 
         public
-        onlyOwner
-        returns (uint256)
-    {
+        onlyOwne
         uint256 newItemId = _tokenIds.current();
         _mint(player, newItemId);
         _setTokenURI(newItemId, tokenURI);
