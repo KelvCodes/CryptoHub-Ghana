@@ -1,4 +1,4 @@
-21Token is ERC721URIStorage, Ownable {
+21URIStorage, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
