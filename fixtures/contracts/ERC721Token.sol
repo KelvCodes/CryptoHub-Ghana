@@ -1,4 +1,4 @@
- smart contract with metadata and controlled minting
+act with metadata and controlled minting
  */
 contract ERC721Token is ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
