@@ -1,5 +1,4 @@
 
-    Counters.Counter private _tokenIds;
 
     // Base URI for all token metadata
     string private _baseTokenURI;
