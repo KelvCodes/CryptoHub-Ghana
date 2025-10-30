@@ -1,8 +1,5 @@
 
-        public
-        onlyOmId, tokenURI);
-  d(player, newItemId, tokenURI);
-        return newItemId;
+   ;
     }
 
     /**
