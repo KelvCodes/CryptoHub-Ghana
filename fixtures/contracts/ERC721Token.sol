@@ -1,9 +1,7 @@
 
         public
         onlyOmId, tokenURI);
-        _tokenIds.increment();
-
-        emit ItemMinted(player, newItemId, tokenURI);
+  d(player, newItemId, tokenURI);
         return newItemId;
     }
 
