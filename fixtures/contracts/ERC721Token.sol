@@ -1,5 +1,4 @@
 
- when a new item is minted
     event ItemMinted(address indexed to, uint256 indexed tokenId, string tokenURI);
 
     /**
