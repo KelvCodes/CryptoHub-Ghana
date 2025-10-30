@@ -1,4 +1,4 @@
-e token a name and symbol.
+ name and symbol.
      * The deployer becomes the contract owner.
      */
     constructor(string memory baseURI) ERC721("GameItem", "ITM") {
