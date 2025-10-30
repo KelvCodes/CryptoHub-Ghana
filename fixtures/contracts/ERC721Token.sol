@@ -1,4 +1,4 @@
-eded to, uint256 indexed tokenId, string tokenURI);
+indexed tokenId, string tokenURI);
 
     /**
      * @dev Constructor that gives the token a name and symbol.
