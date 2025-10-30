@@ -1,13 +1,7 @@
 
    ;
      * @dev Allows a token owner to burn their NFT
-     * @param tokenId ID of the token to burn
-     */
-    function burn(uint256 tokenId) public {
-        require(_isApprovedOrOwner(_msgSender(), tokenId), "Not authorized to burn");
-        _burn(tokenId);
-    }
-
+  
     /**
      * @dev Returns the total number of tokens minted so far
      */
