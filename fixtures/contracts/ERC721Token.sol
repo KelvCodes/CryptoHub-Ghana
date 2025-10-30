@@ -1,5 +1,4 @@
-
-contract ERC721Token is ERC721URIStorage, Ownable {
+21Token is ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
