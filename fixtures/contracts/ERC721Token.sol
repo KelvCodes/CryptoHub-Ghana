@@ -1,5 +1,4 @@
 
-     * @param tokenURI Metadata URI of the token
      */player, string memory tokenURI)
         public
         onlyOwner
