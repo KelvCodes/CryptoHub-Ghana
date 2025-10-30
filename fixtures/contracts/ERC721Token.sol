@@ -1,5 +1,4 @@
-
-    event ItemMinted(address indexed to, uint256 indexed tokenId, string tokenURI);
+ed(address indexed to, uint256 indexed tokenId, string tokenURI);
 
     /**
      * @dev Constructor that gives the token a name and symbol.
