@@ -54,7 +54,7 @@ contract AdvancedERC721Token is ERC721URIStorage, ERC2981, Ownable, Pausable {
     }
 
     // ============================================================
-    // 🔹 MODIFIERS
+    //  MODIFIERS
     // ============================================================
     modifier onlyMinter() {
         require(owner() == _msgSender() || approvedMinters[_msgSender()], "Not authorized to mint");
