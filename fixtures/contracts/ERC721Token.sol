@@ -32,7 +32,7 @@ contract AdvancedERC721Token is ERC721URIStorage, ERC2981, Ownable, Pausable {
     mapping(address => bool) public approvedMinters;
 
     // ============================================================
-    // 🔹 EVENTS
+    //  EVENTS
     // ============================================================
     event ItemMinted(address indexed to, uint256 indexed tokenId, string tokenURI);
     event BatchMinted(address indexed to, uint256 quantity);
