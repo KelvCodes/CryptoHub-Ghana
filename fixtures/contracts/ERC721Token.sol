@@ -104,7 +104,7 @@ contract AdvancedERC721Token is ERC721URIStorage, ERC2981, Ownable, Pausable {
     }
 
     // ============================================================
-    // 🔹 BURN FUNCTIONALITY
+    //  BURN FUNCTIONALITY
     // ============================================================
     function burn(uint256 tokenId) public whenNotPaused {
         require(_isApprovedOrOwner(_msgSender(), tokenId), "Not authorized to burn");
