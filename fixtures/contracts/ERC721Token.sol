@@ -112,7 +112,7 @@ contract AdvancedERC721Token is ERC721URIStorage, ERC2981, Ownable, Pausable {
     }
 
     // ============================================================
-    // 🔹 ADMIN CONTROLS
+    //  ADMIN CONTROLS
     // ============================================================
 
     function pause() public onlyOwner {
