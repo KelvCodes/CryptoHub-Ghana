@@ -1,6 +1,4 @@
-
-
-    // Modifier to restrict access to only the owner
+ess to only the owner
     modifier onlyOwner() {
         require(msg.sender == owner, "Access denied: Only owner can perform this action");
         _;
