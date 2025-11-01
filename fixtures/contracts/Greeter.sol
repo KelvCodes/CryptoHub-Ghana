@@ -1,5 +1,4 @@
-
-    // Modifier to prevent setting the same greeting
+tting the same greeting
     modifier notSameGreeting(string memory _newGreeting) {
         require(
             keccak256(bytes(_newGreeting)) != keccak256(bytes(greeting)),
