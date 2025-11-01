@@ -1,4 +1,4 @@
-    event CounterIncremented(uint256 newValue, address incrementedBy);
+256 newValue, address incrementedBy);
     event CounterReset(uint256 timestamp);
 
     // Modifier to restrict access to only the owner
