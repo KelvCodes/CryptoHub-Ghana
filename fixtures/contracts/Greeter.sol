@@ -1,7 +1,5 @@
 
-            "New greeting must be different from the current one"
-        );
-        _;
+           
     }
 
     // Constructor runs only once — sets initial greeting and owner
