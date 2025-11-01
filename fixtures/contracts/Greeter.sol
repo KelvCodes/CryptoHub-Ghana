@@ -1,8 +1,7 @@
 
 
         public
-        onlyOwner
-        notSameGreeting(_newGreeting)
+        onlyOwnewGreeting)
         returns (bool, string memory)
     {
         emit GreetingChanging(greeting, _newGreeting);
