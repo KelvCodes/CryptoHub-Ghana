@@ -4,11 +4,7 @@ ry)
         emit GreetingChanging(greeting, _newGreeting);
 
         greeting = _newGreeting;
-        lastUpdated = block.timestamp;
-        greetingHistory.push(_newGreeting);
-
-        emit GreetingChanged(_newGreeting, msg.sender, block.timestamp);
-        return (true, greeting);
+  
     }
 
     /**
