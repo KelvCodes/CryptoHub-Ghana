@@ -1,5 +1,4 @@
 
-        // Record initial greeting in history
         greetingHistory.push(_initialGreeting);
     }
 
