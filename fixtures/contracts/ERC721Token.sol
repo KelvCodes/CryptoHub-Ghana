@@ -1,4 +1,4 @@
-apping for approved minters (besides owner)
+oved minters (besides owner)
     mapping(address => bool) public approvedMinters;
 
     // ============================================================
