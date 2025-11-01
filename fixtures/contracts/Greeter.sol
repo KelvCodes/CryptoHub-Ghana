@@ -1,5 +1,4 @@
 
-        owner = msg.sender;
         lastUpdated = block.timestamp;
 
         // Record initial greeting in history
