@@ -1,5 +1,5 @@
 
-ivate _baseTokenURI;
+URI;
 
     // Mapping for approved minters (besides owner)
     mapping(address => bool) public approvedMinters;
