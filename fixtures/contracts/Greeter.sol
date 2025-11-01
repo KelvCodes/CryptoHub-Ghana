@@ -1,7 +1,5 @@
 
-
-
-    /// @notice Returns the current counter value
+e Returns the current counter value
     function getCounter() public view returns (uint256) {
         return counter;
     }
