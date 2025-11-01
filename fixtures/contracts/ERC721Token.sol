@@ -1,6 +1,5 @@
 
-
-    // Base URI for all tokens
+I for all tokens
     string private _baseTokenURI;
 
     // Mapping for approved minters (besides owner)
