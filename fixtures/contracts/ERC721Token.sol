@@ -1,5 +1,4 @@
-oved minters (besides owner)
-    mapping(address => bool) public approvedMinters;
+ress => bool) public approvedMinters;
 
     // ============================================================
     //  EVENTS
