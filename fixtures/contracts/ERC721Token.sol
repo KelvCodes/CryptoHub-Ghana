@@ -1,5 +1,4 @@
-
- * @dev A professional-grade NFT smart contract that supports:
+-grade NFT smart contract that supports:
  *  - Metadata storage
  *  - Royalties (ERC2981)
  *  - Minting control
