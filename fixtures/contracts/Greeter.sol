@@ -1,4 +1,4 @@
- greeting message and counter.
+
  * Includes owner-only control, greeting history tracking, timestamp logging,
  * and emits events for all state changes.
  */
