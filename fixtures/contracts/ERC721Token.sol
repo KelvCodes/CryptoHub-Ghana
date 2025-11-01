@@ -6,10 +6,6 @@
   S
     // ============================================================
 
-    /**
-     * @dev Mint a single NFT to a player.
-     * Only owner or approved minter can call.
-     */
     function awardItem(address player, string memory tokenURI)
         public
         onlyMinter
