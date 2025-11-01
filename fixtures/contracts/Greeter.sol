@@ -1,13 +1,4 @@
 
-ry)
-    {
-        emit GreetingChanging(greeting, _newGreeting);
-
-        greeting = _newGreeting;
-  
-    }
-
-    /**
      * @notice Increment the counter by 1.
      * Emits an event after incrementing.
      */
