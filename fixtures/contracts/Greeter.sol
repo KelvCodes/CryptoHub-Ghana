@@ -1,9 +1,6 @@
 
 
-    /// @notic
-
-    /// @notice Returns all past greetings
-    function getGreetingHistory() public view returns (string[] memory) {
+ingHistory() public view returns (string[] memory) {
         return greetingHistory;
     }
 
