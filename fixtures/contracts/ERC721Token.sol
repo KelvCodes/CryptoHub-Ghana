@@ -1,5 +1,4 @@
--grade NFT smart contract that supports:
- *  - Metadata storage
+
  *  - Royalties (ERC2981)
  *  - Minting control
  *  - Pausable transfers
