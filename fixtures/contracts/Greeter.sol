@@ -2,12 +2,7 @@
 
 ingHistory() publi
     }
-
-    // --- STATE-CHANGING FUNCTIONS ---
-
-    /**
-     * @notice Update the greeting message.
-     * Emits events before and after changing the greeting.
+vents before and after changing the greeting.
      * Can only be called by the owner.
      */
     function setGreeting(string memory _newGreeting)
