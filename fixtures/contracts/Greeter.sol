@@ -1,7 +1,4 @@
 
-        greetingHistory.push(_initialGreeting);
-    }
-
     // --- VIEW FUNCTIONS ---
 
     /// @notice Returns the current greeting message
