@@ -1,6 +1,5 @@
 ========
-    // ============================================================
-    event ItemMinted(address indexed to, uint256 indexed tokenId, string tokenURI);
+  emMinted(address indexed to, uint256 indexed tokenId, string tokenURI);
     event BatchMinted(address indexed to, uint256 quantity);
     event BaseURIUpdated(string newBaseURI);
     event MinterUpdated(address indexed minter, bool status);
