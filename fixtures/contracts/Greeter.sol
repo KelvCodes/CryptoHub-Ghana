@@ -1,5 +1,4 @@
 
-    // --- VIEW FUNCTIONS ---
 
     /// @notice Returns the current greeting message
     function greet() public view returns (string memory) {
