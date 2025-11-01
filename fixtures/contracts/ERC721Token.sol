@@ -1,4 +1,4 @@
-minter, bool status);
+
     event ContractPaused(address indexed admin);
     event ContractUnpaused(address indexed admin);
 
