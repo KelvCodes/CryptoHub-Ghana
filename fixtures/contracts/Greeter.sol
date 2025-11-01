@@ -1,8 +1,4 @@
 
-        require(msg.sender == owner, "Access denied: Only owner can perform this action");
-        _;
-    }
-
     // Modifier to prevent setting the same greeting
     modifier notSameGreeting(string memory _newGreeting) {
         require(
