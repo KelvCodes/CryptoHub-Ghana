@@ -1,7 +1,6 @@
 
 
-ingHistory() public view returns (string[] memory) {
-        return greetingHistory;
+ingHistory() publi
     }
 
     // --- STATE-CHANGING FUNCTIONS ---
