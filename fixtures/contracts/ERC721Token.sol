@@ -1,6 +1,4 @@
-
- */
-contract AdvancedERC721Token is ERC721UR Counters for Counters.Counter;
+oken is ERC721UR Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
     // Base URI for all tokens
