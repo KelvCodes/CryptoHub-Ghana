@@ -1,5 +1,4 @@
 
-        counter = 0;
         owner = msg.sender;
         lastUpdated = block.timestamp;
 
