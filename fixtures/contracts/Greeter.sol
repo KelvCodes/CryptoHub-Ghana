@@ -1,4 +1,4 @@
-eting history tracking, timestamp logging,
+
  * and emits events for all state changes.
  */
 contract AdvancedGreeter {
