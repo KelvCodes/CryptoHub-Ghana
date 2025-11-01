@@ -1,7 +1,4 @@
 
-e Returns the current counter valuens (uint256) {
-        return counter;
-    }
 
     /// @notice Returns the number of greetings stored in history
     function getGreetingHistoryCount() public view returns (uint256) {
