@@ -1,5 +1,5 @@
 
-    string private greeting;
+
     address public owner;
     uint256 public lastUpdated;
 
