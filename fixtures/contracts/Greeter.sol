@@ -1,6 +1,4 @@
 
-        lastUpdated = block.timestamp;
-
         // Record initial greeting in history
         greetingHistory.push(_initialGreeting);
     }
