@@ -1,6 +1,5 @@
 
  *  - Pausable transfers
- *  - Batch minting
  *  - Burn functionality
  *  - Admin role management
  */
