@@ -1,5 +1,4 @@
-
-    modifier notSameGreeting(string memory _newGreeting) {
+eGreeting(string memory _newGreeting) {
         require(
             keccak256(bytes(_newGreeting)) != keccak256(bytes(greeting)),
             "New greeting must be different from the current one"
