@@ -1,6 +1,5 @@
- returns (string memory) {
-        return greeting;
-    }
+
+
 
     /// @notice Returns the current counter value
     function getCounter() public view returns (uint256) {
