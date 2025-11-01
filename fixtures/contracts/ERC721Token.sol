@@ -1,5 +1,4 @@
 
- *  - Admin role management
  */
 contract AdvancedERC721Token is ERC721URIStorage, ERC2981, Ownable, Pausable {
     using Counters for Counters.Counter;
