@@ -1,9 +1,6 @@
 
 
-    /// @notice Returns the number of greetings stored in history
-    function getGreetingHistoryCount() public view returns (uint256) {
-        return greetingHistory.length;
-    }
+    /// @notic
 
     /// @notice Returns all past greetings
     function getGreetingHistory() public view returns (string[] memory) {
