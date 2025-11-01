@@ -1,5 +1,4 @@
 
- *  - Minting control
  *  - Pausable transfers
  *  - Batch minting
  *  - Burn functionality
