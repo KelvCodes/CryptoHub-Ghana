@@ -1,8 +1,4 @@
 
-           
-    }
-
-    // Constructor runs only once — sets initial greeting and owner
     constructor(string memory _initialGreeting) {
         greeting = _initialGreeting;
         counter = 0;
