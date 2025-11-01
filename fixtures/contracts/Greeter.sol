@@ -1,6 +1,4 @@
-.
- */
-contract AdvancedGreeter {
+
     // State variables
     uint256 private counter;
     string private greeting;
