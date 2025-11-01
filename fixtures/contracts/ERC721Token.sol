@@ -1,5 +1,4 @@
-ndexed tokenId, string tokenURI);
-    event BatchMinted(address indexed to, uint256 quantity);
+tity);
     event BaseURIUpdated(string newBaseURI);
     event MinterUpdated(address indexed minter, bool status);
     event ContractPaused(address indexed admin);
