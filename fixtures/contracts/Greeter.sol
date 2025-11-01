@@ -3,7 +3,6 @@
 vents before and after changing the greeting.
      * Can only be called by the owner.
      */
-    function setGreeting(string memory _newGreeting)
         public
         onlyOwner
         notSameGreeting(_newGreeting)
