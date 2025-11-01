@@ -1,6 +1,5 @@
 
 
-    // Store all previous greetings
     string[] public greetingHistory;
 
     // Events for transparency
