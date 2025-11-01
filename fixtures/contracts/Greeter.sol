@@ -1,6 +1,4 @@
 
-
-    address public owner;
     uint256 public lastUpdated;
 
     // Store all previous greetings
