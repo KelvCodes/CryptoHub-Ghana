@@ -1,8 +1,5 @@
 
-
-        public
-        onlyOwnewGreeting)
-        returns (bool, string memory)
+ry)
     {
         emit GreetingChanging(greeting, _newGreeting);
 
