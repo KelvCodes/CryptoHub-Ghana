@@ -1,6 +1,5 @@
 
 
-    string[] public greetingHistory;
 
     // Events for transparency
     event GreetingChanging(string from, string to);
