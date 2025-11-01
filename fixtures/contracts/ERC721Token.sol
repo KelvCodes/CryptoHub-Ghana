@@ -1,6 +1,4 @@
-
-/**
- * @title AdvancedERC721Token
+RC721Token
  * @dev A professional-grade NFT smart contract that supports:
  *  - Metadata storage
  *  - Royalties (ERC2981)
