@@ -1,7 +1,4 @@
-
-URI;
-
-    // Mapping for approved minters (besides owner)
+apping for approved minters (besides owner)
     mapping(address => bool) public approvedMinters;
 
     // ============================================================
