@@ -4,14 +4,7 @@
 
     // ============================================================
     //  CONSTRUCTOR
-    // ============================================================
-    constructor(string memory baseURI, address royaltyReceiver, uint96 royaltyFeesInBips)
-        ERC721("GameItem", "ITM")
-    {
-        _baseTokenURI = baseURI;
-
-        // Set royalty info (5% = 500 basis points)
-        _setDefaultRoyalty(royaltyReceiver, royaltyFeesInBips);
+    //yalty(royaltyReceiver, royaltyFeesInBips);
     }
 
     // ============================================================
