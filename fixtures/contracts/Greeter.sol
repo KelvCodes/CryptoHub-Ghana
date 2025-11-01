@@ -1,5 +1,4 @@
-
- * and emits events for all state changes.
+.
  */
 contract AdvancedGreeter {
     // State variables
