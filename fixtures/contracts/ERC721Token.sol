@@ -1,5 +1,4 @@
-contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/security/Pausable.sol";
+ecurity/Pausable.sol";
 import "@openzeppelin/contracts/token/common/ERC2981.sol";
 
 /**
