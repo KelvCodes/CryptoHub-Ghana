@@ -1,5 +1,4 @@
 
- *  - Royalties (ERC2981)
  *  - Minting control
  *  - Pausable transfers
  *  - Batch minting
