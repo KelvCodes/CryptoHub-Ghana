@@ -1,5 +1,4 @@
 
-    constructor(string memory _initialGreeting) {
         greeting = _initialGreeting;
         counter = 0;
         owner = msg.sender;
