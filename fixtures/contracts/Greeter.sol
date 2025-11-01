@@ -1,6 +1,5 @@
 
-e Returns the current counter value
-    function getCounter() public view returns (uint256) {
+e Returns the current counter valuens (uint256) {
         return counter;
     }
 
