@@ -1,5 +1,4 @@
 
-    uint256 public lastUpdated;
 
     // Store all previous greetings
     string[] public greetingHistory;
