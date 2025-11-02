@@ -1,6 +1,4 @@
-    owner.transfer(address(this).balance);
-    }
-
+    own
     /// @notice Dummy function to demonstrate the use of a custom error with a string
     /// @dev This always reverts using a custom error `CustomError`
     function badRequire() public {
