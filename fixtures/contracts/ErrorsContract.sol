@@ -1,6 +1,5 @@
 
-
- error indicating that a function was called by an unauthorized address
+dicating that a function was called by an unauthorized address
 error Unauthorized();
 
 // Custom error that allows passing a specific error message
