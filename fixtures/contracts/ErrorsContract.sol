@@ -1,6 +1,4 @@
 
-    constructor() {}
-
     /// @notice Attempts to transfer the contract balance to the owner if caller is authorized
     /// @dev Reverts with a custom `Unauthorized` error if the caller is not the owner
     function unauthorize() public {
