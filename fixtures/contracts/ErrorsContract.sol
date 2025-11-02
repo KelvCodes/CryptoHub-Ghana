@@ -1,4 +1,3 @@
-or Unauthorized();
 
 // Custom error that allows passing a specific error message
 error CustomError(string);
