@@ -1,4 +1,4 @@
-n was called by an unauthorized address
+lled by an unauthorized address
 error Unauthorized();
 
 // Custom error that allows passing a specific error message
