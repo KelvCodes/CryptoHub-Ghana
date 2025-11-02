@@ -1,4 +1,4 @@
-to a default zero address (can be customized)
+ult zero address (can be customized)
     constructor() {}
 
     /// @notice Attempts to transfer the contract balance to the owner if caller is authorized
