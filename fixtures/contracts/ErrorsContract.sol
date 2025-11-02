@@ -1,5 +1,4 @@
-owner address as payable (so it can receive Ether)
-    address payable owner = payable(0x0);
+s payable owner = payable(0x0);
 
     /// @notice Constructor sets the owner to a default zero address (can be customized)
     constructor() {}
