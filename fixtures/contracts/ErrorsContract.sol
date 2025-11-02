@@ -1,4 +1,4 @@
-wner = payable(0x0);
+ = payable(0x0);
 
     /// @notice Constructor sets the owner to a default zero address (can be customized)
     constructor() {}
