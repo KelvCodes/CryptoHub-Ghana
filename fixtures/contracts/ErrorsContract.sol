@@ -1,5 +1,4 @@
- a specific error message
-error CustomError(string);
+
 
 /// @title ErrorsContract - Demonstrates usage of custom errors and revert handling
 contract ErrorsContract {
