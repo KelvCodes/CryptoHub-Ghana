@@ -1,4 +1,4 @@
-nauthorized();
+
 
         // If authorized, transfer the contract's entire balance to the owner
         owner.transfer(address(this).balance);
