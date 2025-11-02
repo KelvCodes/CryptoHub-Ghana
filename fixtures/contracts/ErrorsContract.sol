@@ -1,5 +1,4 @@
-to the owner
-        owner.transfer(address(this).balance);
+    owner.transfer(address(this).balance);
     }
 
     /// @notice Dummy function to demonstrate the use of a custom error with a string
