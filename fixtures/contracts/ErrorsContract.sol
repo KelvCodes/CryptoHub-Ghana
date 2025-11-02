@@ -1,4 +1,4 @@
-notice Constructor sets the owner to a default zero address (can be customized)
+ Constructor sets the owner to a default zero address (can be customized)
     constructor() {}
 
     /// @notice Attempts to transfer the contract balance to the owner if caller is authorized
