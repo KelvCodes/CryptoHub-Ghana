@@ -1,5 +1,4 @@
 
-ity ^0.8.13;
 
 // Custom error indicating that a function was called by an unauthorized address
 error Unauthorized();
