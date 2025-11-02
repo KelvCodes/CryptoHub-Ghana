@@ -1,4 +1,4 @@
-ze() public {
+
         // Check if the function caller is NOT the owner
         if (msg.sender != owner) revert Unauthorized();
 
