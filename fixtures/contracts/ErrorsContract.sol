@@ -1,5 +1,4 @@
-lled by an unauthorized address
-error Unauthorized();
+lled by an error Unauthorized();
 
 // Custom error that allows passing a specific error message
 error CustomError(string);
