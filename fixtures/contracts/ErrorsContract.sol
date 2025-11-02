@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GNU
+-License-Identifier: GNU
 pragma solidity ^0.8.13;
 
 // Custom error indicating that a function was called by an unauthorized address
@@ -35,3 +35,4 @@ contract ErrorsContract {
         owner.transfer(address(this).balance);
     }
 }
+
