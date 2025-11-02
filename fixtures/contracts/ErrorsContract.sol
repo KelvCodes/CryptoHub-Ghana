@@ -1,5 +1,4 @@
-
-        // Check if the function caller is NOT the owner
+e function caller is NOT the owner
         if (msg.sender != owner) revert Unauthorized();
 
         // If authorized, transfer the contract's entire balance to the owner
