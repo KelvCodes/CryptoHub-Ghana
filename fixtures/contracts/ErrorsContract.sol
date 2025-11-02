@@ -1,4 +1,4 @@
-om `Unauthorized` error if the caller is not the owner
+ized` error if the caller is not the owner
     function unauthorize() public {
         // Check if the function caller is NOT the owner
         if (msg.sender != owner) revert Unauthorized();
