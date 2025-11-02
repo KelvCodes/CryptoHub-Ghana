@@ -1,5 +1,4 @@
-
-contract ErrorsContract {
+rsContract {
     // Declare the owner address as payable (so it can receive Ether)
     address payable owner = payable(0x0);
 
