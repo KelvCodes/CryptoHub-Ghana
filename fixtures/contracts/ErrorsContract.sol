@@ -1,6 +1,5 @@
  always reverts using a custom error `CustomError`
-
-    function badRequire() public {
+re() public {
         // This condition is always true (1 < 2), so the revert always triggers
         if (1 < 2) revert CustomError("reverted using custom Error");
 
