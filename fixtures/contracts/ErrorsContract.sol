@@ -1,4 +1,4 @@
- errors and revert handling
+rt handling
 contract ErrorsContract {
     // Declare the owner address as payable (so it can receive Ether)
     address payable owner = payable(0x0);
