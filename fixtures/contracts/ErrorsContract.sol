@@ -1,4 +1,4 @@
- balance to the owner
+to the owner
         owner.transfer(address(this).balance);
     }
 
