@@ -1,4 +1,4 @@
-lows passing a specific error message
+ a specific error message
 error CustomError(string);
 
 /// @title ErrorsContract - Demonstrates usage of custom errors and revert handling
