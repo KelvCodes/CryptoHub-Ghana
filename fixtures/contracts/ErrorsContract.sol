@@ -1,4 +1,4 @@
-lled by an error Unauthorized();
+or Unauthorized();
 
 // Custom error that allows passing a specific error message
 error CustomError(string);
