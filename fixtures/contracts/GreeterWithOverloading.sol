@@ -1,4 +1,4 @@
-g function overloading,
+ading,
 /// event emissions, state management, and basic access control.
 /// @author 
 /// Kelvin A.
