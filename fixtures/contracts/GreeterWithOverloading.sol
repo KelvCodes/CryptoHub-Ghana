@@ -1,4 +1,4 @@
- GreeterWithOverloading - An enhanced smart contract demonstrating function overloading,
+Overloading - An enhanced smart contract demonstrating function overloading,
 /// event emissions, state management, and basic access control.
 /// @author 
 /// Kelvin A.
