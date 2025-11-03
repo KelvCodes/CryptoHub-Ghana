@@ -1,4 +1,4 @@
-s a greeting message, while counting how many times the greeting or counter is changed.
+ while counting how many times the greeting or counter is changed.
 /// @dev Demonstrates Solidity features like function overloading, modifiers, and events.
 contract GreeterWithOverloading {
     // ------------------------------------------------------------------------
