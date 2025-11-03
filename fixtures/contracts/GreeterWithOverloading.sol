@@ -1,13 +1,4 @@
-eting that optionally suppresses events.
-    /// @param _greeting The new greeting string.
-    /// @param _raiseEvents If true, emits events before and after updating.
-    /// @return success Indicates whether the operation succeeded.
-    /// @return newGreeting The newly updated greeting string.
-    function setGreeting(string memory _greeting, bool _raiseEvents)
-        public
-        onlyOwner
-        returns (bool success, string memory newGreeting)
-    {
+
         if (_raiseEvents) emit GREETING_CHANGING(greeting, _greeting);
         greeting = _greeting;
         if (_raiseEvents) emit GREETING_CHANGED(greeting);
