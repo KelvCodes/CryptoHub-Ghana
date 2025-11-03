@@ -1,5 +1,4 @@
-
-/// @dev Demonstrates Solidity features like function overloading, modifiers, and events.
+s Solidity features like function overloading, modifiers, and events.
 contract GreeterWithOverloading {
     // ------------------------------------------------------------------------
     // State Variables
