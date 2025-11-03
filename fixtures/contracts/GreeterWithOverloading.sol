@@ -1,5 +1,4 @@
-
-        require(msg.sender == owner, "Access denied: Only owner can call this function");
+ess denied: Only owner can call this function");
         _;
     }
 
