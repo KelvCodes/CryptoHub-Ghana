@@ -1,4 +1,4 @@
-ate counter;
+
 
     /// @notice Holds the current greeting message.
     string private greeting;
