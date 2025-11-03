@@ -1,5 +1,4 @@
-reeting and sets the deployer as the owner.
-    /// @param _greeting The initial greeting string.
+reeting and sets the deployer as the .
     constructor(string memory _greeting) {
         greeting = _greeting;
         counter = 0;
