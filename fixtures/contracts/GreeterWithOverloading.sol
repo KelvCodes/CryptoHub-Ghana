@@ -1,6 +1,4 @@
 
-    event GREETING_CHANGING(string indexed from, string indexed to);
-
     /// @notice Emitted after the greeting has been changed.
     event GREETING_CHANGED(string indexed newGreeting);
 
