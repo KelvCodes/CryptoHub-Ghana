@@ -1,4 +1,4 @@
- Holds the current greeting message.
+urrent greeting message.
     string private greeting;
 
     /// @notice The address of the contract owner.
