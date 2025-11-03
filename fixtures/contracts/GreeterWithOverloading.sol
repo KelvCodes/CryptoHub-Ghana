@@ -1,4 +1,4 @@
- address of the contract owner.
+contract owner.
     address public owner;
 
     // ------------------------------------------------------------------------
