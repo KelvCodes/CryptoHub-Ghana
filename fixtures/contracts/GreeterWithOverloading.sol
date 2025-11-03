@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GNU
+X-License-Identifier: GNU
 pragma solidity ^0.8.13;
 
 /// @title GreeterWithOverloading - An enhanced smart contract demonstrating function overloading,
