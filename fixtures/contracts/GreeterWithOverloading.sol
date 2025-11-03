@@ -1,5 +1,4 @@
-ading,
-/// event emissions, state management, and basic access control.
+issions, state management, and basic access control.
 /// @author 
 /// Kelvin A.
 /// @notice This contract stores and updates a greeting message, while counting how many times the greeting or counter is changed.
