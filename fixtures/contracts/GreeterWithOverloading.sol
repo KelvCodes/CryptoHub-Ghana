@@ -1,5 +1,4 @@
-;
-    // Events
+
     // ------------------------------------------------------------------------
 
     /// @notice Emitted before the greeting is changed.
