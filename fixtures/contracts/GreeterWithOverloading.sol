@@ -1,4 +1,4 @@
-smart contract demonstrating function overloading,
+ demonstrating function overloading,
 /// event emissions, state management, and basic access control.
 /// @author 
 /// Kelvin A.
