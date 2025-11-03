@@ -1,6 +1,4 @@
 
-
-    /// @dev Restricts access to only the owner of the contract.
     modifier onlyOwner() {
         require(msg.sender == owner, "Access denied: Only owner can call this function");
         _;
