@@ -1,5 +1,4 @@
-ng) {
-        greeting 
+
         owner = msg.sender;
     }
 
