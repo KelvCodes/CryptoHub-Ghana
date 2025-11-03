@@ -1,6 +1,5 @@
 ng) {
-        greeting = _greeting;
-        counter = 0;
+        greeting 
         owner = msg.sender;
     }
 
