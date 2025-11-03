@@ -1,5 +1,4 @@
-
-    event COUNTER_INCREMENTED(uint256 newValue);
+TED(uint256 newValue);
 
     // ------------------------------------------------------------------------
     // Modifiers
