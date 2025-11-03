@@ -1,7 +1,4 @@
-
-
-    /// @notice Tracks how many times `increment()` has been called.
-    uint256 private counter;
+ate counter;
 
     /// @notice Holds the current greeting message.
     string private greeting;
