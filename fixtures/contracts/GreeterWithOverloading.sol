@@ -1,15 +1,4 @@
-reeting message.
-    function greet() public view returns (string memory) {
-        return greeting;
-    }_greeting)
-        public
-        onlyOwner
-        returns (bool success, string memory newGreeting)
-    {
-        emit GREETING_CHANGING(greeting, _greeting);
-        greeting = _greeting;
-        emit GREETING_CHANGED(greeting);
-        return (true, greeting);
+, greeting);
     }
 
     /// @notice Overloaded version of setGreeting that optionally suppresses events.
