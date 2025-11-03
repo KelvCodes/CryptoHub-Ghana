@@ -1,5 +1,4 @@
-----------------------------------------------------------------
-    // Constructor
+
     // ------------------------------------------------------------------------
 
     /// @notice Initializes the contract with an initial greeting and sets the deployer as the owner.
