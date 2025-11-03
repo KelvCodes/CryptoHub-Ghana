@@ -1,4 +1,4 @@
- demonstrating function overloading,
+g function overloading,
 /// event emissions, state management, and basic access control.
 /// @author 
 /// Kelvin A.
