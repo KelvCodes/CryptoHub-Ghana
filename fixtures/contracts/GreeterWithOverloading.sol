@@ -1,5 +1,4 @@
-
-    /// @notice Emitted after the greeting has been changed.
+ed after the greeting has been changed.
     event GREETING_CHANGED(string indexed newGreeting);
 
     /// @notice Emitted when the counter is incremented.
