@@ -1,7 +1,4 @@
-, greeting);
-    }
-
-    /// @notice Overloaded version of setGreeting that optionally suppresses events.
+eting that optionally suppresses events.
     /// @param _greeting The new greeting string.
     /// @param _raiseEvents If true, emits events before and after updating.
     /// @return success Indicates whether the operation succeeded.
