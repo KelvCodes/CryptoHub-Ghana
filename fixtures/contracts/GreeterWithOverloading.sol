@@ -1,6 +1,4 @@
-
-    // Modifiers
-    // ------------------------------------------------------------------------
+---------------------------------------------------------------
 
     /// @dev Restricts access to only the owner of the contract.
     modifier onlyOwner() {
