@@ -1,5 +1,4 @@
-ting message.
-    string private greeting;
+g;
 
     /// @notice The address of the contract owner.
     address public owner;
