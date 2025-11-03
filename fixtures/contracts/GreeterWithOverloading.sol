@@ -1,4 +1,4 @@
-greeting or counter is changed.
+
 /// @dev Demonstrates Solidity features like function overloading, modifiers, and events.
 contract GreeterWithOverloading {
     // ------------------------------------------------------------------------
