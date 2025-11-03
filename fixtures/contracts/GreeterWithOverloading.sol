@@ -1,4 +1,4 @@
-n the counter is incremented.
+
     event COUNTER_INCREMENTED(uint256 newValue);
 
     // ------------------------------------------------------------------------
