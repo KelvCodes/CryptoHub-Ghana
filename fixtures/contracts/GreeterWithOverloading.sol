@@ -1,4 +1,4 @@
-se-Identifier: GNU
+GNU
 pragma solidity ^0.8.13;
 
 /// @title GreeterWithOverloading - An enhanced smart contract demonstrating function overloading,
