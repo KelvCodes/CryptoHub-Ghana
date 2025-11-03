@@ -1,8 +1,6 @@
 ----------------------------------------------------
     // Greeting Functions
-    // ------------------------------------------------------------------------
-
-    /// @notice Returns the current greeting message.
+    // ---s the current greeting message.
     /// @return The active greeting message.
     function greet() public view returns (string memory) {
         return greeting;
