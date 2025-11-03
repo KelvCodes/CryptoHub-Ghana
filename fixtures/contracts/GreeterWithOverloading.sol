@@ -1,13 +1,7 @@
 reeting message.
     function greet() public view returns (string memory) {
         return greeting;
-    }
-
-    /// @notice Updates the greeting and emits change events.
-    /// @param _greeting The new greeting string to set.
-    /// @return success Indicates whether the operation succeeded.
-    /// @return newGreeting The newly updated greeting string.
-    function setGreeting(string memory _greeting)
+    }_greeting)
         public
         onlyOwner
         returns (bool success, string memory newGreeting)
