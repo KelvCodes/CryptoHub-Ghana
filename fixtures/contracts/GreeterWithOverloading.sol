@@ -1,7 +1,5 @@
 
     // ------------------------------------------------------------------------
-    // State Variables
-    // ------------------------------------------------------------------------
 
     /// @notice Tracks how many times `increment()` has been called.
     uint256 private counter;
