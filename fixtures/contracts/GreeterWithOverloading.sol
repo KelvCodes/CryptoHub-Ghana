@@ -1,5 +1,4 @@
 
-    modifier onlyOwner() {
         require(msg.sender == owner, "Access denied: Only owner can call this function");
         _;
     }
