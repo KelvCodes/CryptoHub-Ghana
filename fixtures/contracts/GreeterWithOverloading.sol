@@ -1,5 +1,4 @@
-
-    /// @notice Initializes the contract with an initial greeting and sets the deployer as the owner.
+lizes the contract with an initial greeting and sets the deployer as the owner.
     /// @param _greeting The initial greeting string.
     constructor(string memory _greeting) {
         greeting = _greeting;
