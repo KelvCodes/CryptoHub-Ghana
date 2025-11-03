@@ -1,5 +1,4 @@
-reeting and sets the deployer as the .
-    constructor(string memory _greeting) {
+ng) {
         greeting = _greeting;
         counter = 0;
         owner = msg.sender;
