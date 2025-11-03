@@ -1,6 +1,4 @@
-
-
-    /// @notice Holds the current greeting message.
+ Holds the current greeting message.
     string private greeting;
 
     /// @notice The address of the contract owner.
