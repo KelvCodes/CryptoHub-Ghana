@@ -1,6 +1,4 @@
 
-/// @author 
-/// Kelvin A.
 /// @notice This contract stores and updates a greeting message, while counting how many times the greeting or counter is changed.
 /// @dev Demonstrates Solidity features like function overloading, modifiers, and events.
 contract GreeterWithOverloading {
