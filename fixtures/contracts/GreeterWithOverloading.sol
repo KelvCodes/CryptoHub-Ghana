@@ -1,4 +1,4 @@
-solidity ^0.8.13;
+
 
 /// @title GreeterWithOverloading - An enhanced smart contract demonstrating function overloading,
 /// event emissions, state management, and basic access control.
