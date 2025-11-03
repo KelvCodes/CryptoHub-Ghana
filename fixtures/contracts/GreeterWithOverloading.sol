@@ -1,6 +1,4 @@
-
-
-/// @title GreeterWithOverloading - An enhanced smart contract demonstrating function overloading,
+ GreeterWithOverloading - An enhanced smart contract demonstrating function overloading,
 /// event emissions, state management, and basic access control.
 /// @author 
 /// Kelvin A.
