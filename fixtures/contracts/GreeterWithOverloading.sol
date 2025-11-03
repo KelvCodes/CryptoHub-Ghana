@@ -1,4 +1,4 @@
-s Solidity features like function overloading, modifiers, and events.
+ like function overloading, modifiers, and events.
 contract GreeterWithOverloading {
     // ------------------------------------------------------------------------
     // State Variables
