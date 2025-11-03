@@ -1,4 +1,4 @@
- like functing, modifiers, and events.
+
 contract GreeterWithOverloading {
     // ------------------------------------------------------------------------
     // State Variables
