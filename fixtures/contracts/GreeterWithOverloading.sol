@@ -1,4 +1,3 @@
-ed after the greeting ANGED(string indexed newGreeting);
 
     /// @notice Emitted when the counter is incremented.
     event COUNTER_INCREMENTED(uint256 newValue);
