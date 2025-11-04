@@ -1,4 +1,4 @@
-Event emitted when the string value is updated.
+ when the string value is updated.
     event TestStringUpdated(
         address indexed updater,
         string oldValue,
