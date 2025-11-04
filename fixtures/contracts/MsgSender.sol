@@ -1,4 +1,4 @@
-yer (owner).
+
     address public owner;
 
     // ======================================
