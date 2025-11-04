@@ -1,4 +1,4 @@
-MsgSender
+
  * @dev A simple demonstration contract showing how to handle
  * message senders, string storage, and state updates in Solidity.
  */
