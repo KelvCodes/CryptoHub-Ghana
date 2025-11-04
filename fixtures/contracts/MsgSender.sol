@@ -1,4 +1,4 @@
-rage, and state updates in Solidity.
+e updates in Solidity.
  */
 contract MsgSender {
     // ======================================
