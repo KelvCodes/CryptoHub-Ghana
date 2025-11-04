@@ -1,4 +1,4 @@
-t emitted when ownership is transferred.
+
     event OwnershipTransferred(
         address indexed previousOwner,
         address indexed newOwner
