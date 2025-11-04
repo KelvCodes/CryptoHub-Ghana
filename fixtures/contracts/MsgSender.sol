@@ -1,4 +1,4 @@
- simple demonstration contract showing how to handle
+emonstration contract showing how to handle
  * message senders, string storage, and state updates in Solidity.
  */
 contract MsgSender {
