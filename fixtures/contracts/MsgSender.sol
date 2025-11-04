@@ -1,4 +1,4 @@
- when the string value is updated.
+ring value is updated.
     event TestStringUpdated(
         address indexed updater,
         string oldValue,
