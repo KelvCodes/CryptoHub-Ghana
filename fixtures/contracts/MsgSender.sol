@@ -1,6 +1,4 @@
 
-    // 🔹 MODIFIERS
-    // ======================================
 
     // Restricts certain functions to only the owner.
     modifier onlyOwner() {
