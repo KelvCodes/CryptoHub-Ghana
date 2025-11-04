@@ -1,4 +1,4 @@
-ders, string storage, and state updates in Solidity.
+rage, and state updates in Solidity.
  */
 contract MsgSender {
     // ======================================
