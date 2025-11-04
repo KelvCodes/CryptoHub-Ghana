@@ -1,9 +1,4 @@
 
-
-    // Restricts certain functions to only the owner.
-    modifier onlyOwner() {
-        require(msg.sender == owner, "Access Denied: Not the owner");
-        _;
     }
 
     // ======================================
