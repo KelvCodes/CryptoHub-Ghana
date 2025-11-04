@@ -1,5 +1,4 @@
- GNU
-pragma solidity ^0.8.13;
+a solidity ^0.8.13;
 
 /**
  * @title MsgSender
