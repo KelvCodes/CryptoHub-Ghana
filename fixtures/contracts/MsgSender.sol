@@ -1,5 +1,4 @@
 
-    sublic testString;
 
     // Tracks how many times the string has been updated.
     uint256 public updateCount;
