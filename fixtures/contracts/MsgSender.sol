@@ -1,6 +1,4 @@
-
-
-     the address of the contract deployer (owner).
+ of the contract deployer (owner).
     address public owner;
 
     // ======================================
