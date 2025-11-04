@@ -1,4 +1,4 @@
-tract deployer (owner).
+yer (owner).
     address public owner;
 
     // ======================================
