@@ -1,6 +1,6 @@
 
 
-    // Stores a string message.
+ a string message.
     string public testString;
 
     // Tracks how many times the string has been updated.
