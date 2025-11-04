@@ -1,5 +1,5 @@
 
-    event TestStringUpdated(
+ringUpdated(
         address indexed updater,
         string oldValue,
         string newValue,
