@@ -1,5 +1,4 @@
-
-    // ======================================
+==
 
     // Event emitted when the string value is updated.
     event TestStringUpdated(
