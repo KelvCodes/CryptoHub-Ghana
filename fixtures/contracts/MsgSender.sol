@@ -1,12 +1,6 @@
 
     }
-
-    // ======================================
-    // 🔹 CONSTRUCTOR
-    // ======================================
-
-    /**
-     * @dev Sets the initial test string and the contract owner.
+nitial test string and the contract owner.
      * @param _testString The initial string value.
      */
     constructor(string memory _testString) {
