@@ -1,17 +1,5 @@
 
-    }
-nitial test string and the contract owner.
-     * @param _testString The initial string value.
-     */
-    constructor(string memory _testString) {
-        testString = _testString;
-        owner = msg.sender;
-        updateCount = 0;
-    }
-
-    // ======================================
-    // 🔹 READ FUNCTIONS
-    // ======================================
+=============
 
     /**
      * @dev Returns the address of the message sender.
