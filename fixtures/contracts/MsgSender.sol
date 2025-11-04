@@ -1,5 +1,4 @@
-
- * message senders, string storage, and state updates in Solidity.
+ders, string storage, and state updates in Solidity.
  */
 contract MsgSender {
     // ======================================
