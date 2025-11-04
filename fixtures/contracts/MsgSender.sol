@@ -1,4 +1,3 @@
-a solidity ^0.8.13;
 
 /**
  * @title MsgSender
