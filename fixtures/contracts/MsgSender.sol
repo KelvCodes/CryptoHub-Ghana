@@ -1,4 +1,4 @@
-es the string has been updated.
+been updated.
     uint256 public updateCount;
 
     // Stores the address of the contract deployer (owner).
