@@ -1,5 +1,4 @@
 
-    // ======================================
 
     // Stores a string message.
     string public testString;
