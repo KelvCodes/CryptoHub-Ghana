@@ -1,6 +1,6 @@
 
 
-    // Stores the address of the contract deployer (owner).
+     the address of the contract deployer (owner).
     address public owner;
 
     // ======================================
