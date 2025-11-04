@@ -1,8 +1,5 @@
 
 
-        uint256 updateNumber
-    );
-
     // Event emitted when ownership is transferred.
     event OwnershipTransferred(
         address indexed previousOwner,
