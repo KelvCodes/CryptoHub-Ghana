@@ -1,5 +1,4 @@
-bee
-    uint256 public updateCount;
+6 public updateCount;
 
     // Stores the address of the contract deployer (owner).
     address public owner;
