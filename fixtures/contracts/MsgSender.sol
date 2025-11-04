@@ -1,4 +1,4 @@
-been updated.
+bee
     uint256 public updateCount;
 
     // Stores the address of the contract deployer (owner).
