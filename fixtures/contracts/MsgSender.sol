@@ -1,5 +1,5 @@
 
-        string newValue,
+
         uint256 updateNumber
     );
 
