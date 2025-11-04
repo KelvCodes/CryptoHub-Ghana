@@ -1,5 +1,4 @@
 
-        address indexed previousOwner,
         address indexed newOwner
     );
 
