@@ -1,4 +1,4 @@
- of the contract deployer (owner).
+tract deployer (owner).
     address public owner;
 
     // ======================================
