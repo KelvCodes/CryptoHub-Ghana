@@ -1,6 +1,4 @@
-
-
-    // Tracks how many times the string has been updated.
+ how many times the string has been updated.
     uint256 public updateCount;
 
     // Stores the address of the contract deployer (owner).
