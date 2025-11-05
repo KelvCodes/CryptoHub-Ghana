@@ -1,5 +1,5 @@
 
-    // Private state variable to store a string attribute
+  ivate state variable to store a string attribute
     string private myAttribute;
 
     // Public function to retrieve the value of 'myAttribute'
