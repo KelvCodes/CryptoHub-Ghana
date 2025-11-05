@@ -1,4 +1,4 @@
-o store a string attribute
+tore a string attribute
     string private myAttribute;
 
     // Public function to retrieve the value of 'myAttribute'
