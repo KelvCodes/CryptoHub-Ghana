@@ -1,4 +1,4 @@
-se-Identifier: GNU
+ifier: GNU
 // Specifies the license type for this contract (GNU License)
 
 pragma solidity ^0.8.13;
