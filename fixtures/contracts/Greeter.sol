@@ -222,7 +222,7 @@ contract UltimateGreeterPro {
     }
 
     // ================================
-    // 🧾 UTILITIES
+    //  UTILITIES
     // ================================
     function getActiveGreetings() public view returns (GreetingRecord[] memory) {
         uint256 total = greetingRecords.length;
