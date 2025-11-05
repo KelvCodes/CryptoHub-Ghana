@@ -81,7 +81,7 @@ contract UltimateGreeterPro {
     }
 
     // ================================
-    // 🏗️ CONSTRUCTOR
+    //  CONSTRUCTOR
     // ================================
     constructor(string memory _initialGreeting) {
         owner = msg.sender;
