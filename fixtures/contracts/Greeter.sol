@@ -195,7 +195,7 @@ contract UltimateGreeterPro {
     }
 
     // ================================
-    // ⭐ GREETING MANAGEMENT
+    //  GREETING MANAGEMENT
     // ================================
     function pinGreeting(uint256 index) public onlyAdmin notPaused {
         require(index < greetingRecords.length, "Invalid index");
