@@ -1,4 +1,4 @@
- variable to store a string attribute
+le to store a string attribute
     string private myAttribute;
 
     // Public function to retrieve the value of 'myAttribute'
