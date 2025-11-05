@@ -1,4 +1,4 @@
-tore a string attribute
+a string attribute
     string private myAttribute;
 
     // Public function to retrieve the value of 'myAttribute'
