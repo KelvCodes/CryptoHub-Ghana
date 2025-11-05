@@ -133,7 +133,7 @@ contract UltimateGreeterPro {
     }
 
     // ================================
-    // 🧩 STATE-CHANGING FUNCTIONS
+    //  STATE-CHANGING FUNCTIONS
     // ================================
     function setGreeting(string memory _newGreeting)
         public
