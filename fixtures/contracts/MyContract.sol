@@ -1,4 +1,4 @@
-tribute
+
     string private myAttribute;
 
     // Public function to retrieve the value of 'myAttribute'
