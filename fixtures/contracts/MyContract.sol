@@ -1,4 +1,4 @@
-es the Solidity compiler version required to compile this contract
+olidity compiler version required to compile this contract
 // Version 0.8.13 or higher (but below 0.9.0) is compatible
 
 // Define the contract named 'MyContract'
