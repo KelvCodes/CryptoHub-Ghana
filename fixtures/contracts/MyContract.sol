@@ -1,4 +1,3 @@
-.8.13 or higher (but below 0.9.0) is compatible
 
 // Define the contract named 'MyContract'
 contract MyContract {
