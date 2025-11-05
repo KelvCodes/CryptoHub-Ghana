@@ -1,4 +1,4 @@
-ine the contract named 'MyContract'
+the contract named 'MyContract'
 contract MyContract {
     // Private state variable to store a string attribute
     string private myAttribute;
