@@ -1,4 +1,4 @@
-ate myAttribute;
+myAttribute;
 
     // Public function to retrieve the value of 'myAttribute'
     // The 'view' keyword indicates that this function does not modify the blockchain state
