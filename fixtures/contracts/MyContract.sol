@@ -1,4 +1,4 @@
-ntract'
+'
 contract MyContract {
     // Private state variable to store a string attribute
     string private myAttribute;
