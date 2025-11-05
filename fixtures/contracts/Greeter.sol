@@ -164,7 +164,7 @@ contract UltimateGreeterPro {
     }
 
     // ================================
-    // 🔐 ADMIN & OWNER FUNCTIONS
+    //  ADMIN & OWNER FUNCTIONS
     // ================================
     function addAdmin(address newAdmin) public onlyOwner {
         require(newAdmin != address(0), "Invalid admin");
