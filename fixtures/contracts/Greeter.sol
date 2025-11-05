@@ -12,7 +12,7 @@ pragma solidity ^0.8.20;
  */
 contract UltimateGreeterPro {
     // ================================
-    // 📦 STRUCTS
+    //  STRUCTS
     // ================================
     struct GreetingRecord {
         string message;
