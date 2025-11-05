@@ -55,7 +55,7 @@ contract UltimateGreeterPro {
     event GreetingRestored(uint256 indexed index, address restoredBy);
 
     // ================================
-    // 🛡️ MODIFIERS
+    //  MODIFIERS
     // ================================
     modifier onlyOwner() {
         require(msg.sender == owner, "Access denied: only owner");
