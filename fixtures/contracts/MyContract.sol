@@ -1,5 +1,5 @@
 
-a solidity ^0.8.13;
+y ^0.8.13;
 // Declares the Solidity compiler version required to compile this contract
 // Version 0.8.13 or higher (but below 0.9.0) is compatible
 
