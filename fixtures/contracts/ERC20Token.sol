@@ -1,4 +1,4 @@
-uctor(uint256 initialSupply) ERC20('Gold', 'GLD') {
+nt256 initialSupply) ERC20('Gold', 'GLD') {
 		_mint(msg.sender, initialSupply);
 	}
 }
