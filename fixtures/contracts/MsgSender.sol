@@ -86,7 +86,7 @@ contract AdvancedMsgSender {
     }
 
     // =========================================================
-    // 🔹 READ FUNCTIONS
+    //  READ FUNCTIONS
     // =========================================================
 
     /// @notice Returns the address that called the function.
