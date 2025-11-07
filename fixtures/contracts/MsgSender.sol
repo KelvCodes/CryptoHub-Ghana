@@ -53,7 +53,7 @@ contract AdvancedMsgSender {
     event StringRestored(address indexed triggeredBy, string restoredValue);
 
     // =========================================================
-    // 🔹 MODIFIERS
+    //  MODIFIERS
     // =========================================================
 
     modifier onlyOwner() {
