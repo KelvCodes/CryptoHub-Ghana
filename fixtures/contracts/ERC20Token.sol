@@ -1,4 +1,4 @@
 
-		_mint(msg.sender, initialSupply);
+		(msg.sender, initialSupply);
 	}
 }
