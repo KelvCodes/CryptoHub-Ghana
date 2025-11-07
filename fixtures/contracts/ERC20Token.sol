@@ -1,4 +1,4 @@
- ERC20('Gold', 'GLD') {
+'GLD') {
 		_mint(msg.sender, initialSupply);
 	}
 }
