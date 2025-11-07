@@ -36,7 +36,7 @@ contract AdvancedMsgSender {
     error NoPreviousValue();
 
     // =========================================================
-    // 🔹 EVENTS
+    //  EVENTS
     // =========================================================
 
     event TestStringUpdated(
