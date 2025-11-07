@@ -11,7 +11,7 @@ pragma solidity ^0.8.13;
  */
 contract AdvancedMsgSender {
     // =========================================================
-    // 🔹 STATE VARIABLES
+    //  STATE VARIABLES
     // =========================================================
 
     string public testString;
