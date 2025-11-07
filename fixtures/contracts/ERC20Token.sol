@@ -1,4 +1,4 @@
-t '@openzeppelin/contracts/token/ERC20/ERC20.sol';
+penzeppelin/contracts/token/ERC20/ERC20.sol';
 
 contract ERC20Token is ERC20 {
 	constructor(uint256 initialSupply) ERC20('Gold', 'GLD') {
