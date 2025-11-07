@@ -1,4 +1,3 @@
 
-		(msg.sender, initialSupply);
 	}
 }
