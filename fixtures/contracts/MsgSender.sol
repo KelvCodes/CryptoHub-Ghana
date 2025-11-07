@@ -26,7 +26,7 @@ contract AdvancedMsgSender {
     mapping(uint256 => uint256) private updateTimestamps;
 
     // =========================================================
-    // 🔹 CUSTOM ERRORS (Gas-efficient alternative to require)
+    //  CUSTOM ERRORS (Gas-efficient alternative to require)
     // =========================================================
 
     error Unauthorized(address caller);
