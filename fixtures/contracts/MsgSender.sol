@@ -235,7 +235,7 @@ contract AdvancedMsgSender {
     }
 
     // =========================================================
-    //  VIEW UTILITIES
+    //  VIEW UTILITIES.
     // =========================================================
 
     /// @notice Returns full contract details for UI integration or monitoring.
