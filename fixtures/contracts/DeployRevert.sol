@@ -1,5 +1,5 @@
  
 onsut publ {
-		requi(false);
+		rui(false);
 	}
 }
