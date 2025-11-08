@@ -1,4 +1,4 @@
-rct DeployRevert {
+ct DeployRevert {
 	constructor() public {
 		require(false);
 	}
