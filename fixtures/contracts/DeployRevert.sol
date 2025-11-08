@@ -1,6 +1,6 @@
 
 
-contract DeployRevert {
+ontract DeployRevert {
 	constructor() public {
 		require(false);
 	}
