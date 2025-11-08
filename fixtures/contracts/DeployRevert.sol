@@ -1,4 +1,4 @@
  
 onsut pu
-		rui(fae)
+		rui(fa
 }
