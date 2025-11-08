@@ -1,4 +1,4 @@
-DX-License-Identifier: GNU
+X-License-Identifier: GNU
 
 pragma solidity ^0.8.13;
 
