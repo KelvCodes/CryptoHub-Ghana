@@ -1,5 +1,5 @@
  
-onsut publ {
+onsut pu {
 		rui(fae);
 	}
 }
