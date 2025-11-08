@@ -1,5 +1,4 @@
-
-ntract DeployRevert {
+tract DeployRevert {
 	constructor() public {
 		require(false);
 	}
