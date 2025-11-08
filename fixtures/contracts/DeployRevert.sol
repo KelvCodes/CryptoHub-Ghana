@@ -1,1 +1,107 @@
+// SPDX-License-Identifier: GNU
+pragma solidity ^0.8.13;
+
+/**
+ * @title DeployRevert
+ * @author Kelvin
+ * @notice Demonstrates how contract deployment can fail (revert) under certain conditions.
+ * @dev Includes examples of require(), revert(), and custom error usage.
+ */
+contract DeployRevert {
+    // ===========================================
+    // 🔹 STATE VARIABLES
+    // ===========================================
+
+    // Address of the contract deployer (creator)
+    address public deployer;
+
+    // Reason why the deployment failed (for demonstration)
+    string public failReason;
+
+    // Flag to indicate if the deployment passed checks
+    bool public deployedSuccessfully;
+
+    // ===========================================
+    // 🔹 CUSTOM ERRORS
+    // ===========================================
+
+    error DeploymentFailed(string reason);
+    error InvalidDeployer(address sender);
+
+    // ===========================================
+    // 🔹 EVENTS
+    // ===========================================
+
+    event DeploymentAttempt(address indexed deployer, string message, bool success);
+    event FallbackCalled(address indexed sender, uint256 amount);
+    event EtherReceived(address indexed sender, uint256 value);
+
+    // ===========================================
+    // 🔹 CONSTRUCTOR
+    // ===========================================
+    /**
+     * @notice Constructor simulates deployment validation checks.
+     * @param shouldFail Boolean flag that determines if deployment should revert.
+     * @dev If `shouldFail` is true, the constructor reverts using a custom error.
+     */
+    constructor(bool shouldFail) payable {
+        deployer = msg.sender;
+
+        // Example conditional logic before deploying
+        if (msg.sender == address(0)) {
+            revert InvalidDeployer(msg.sender);
+        }
+
+        // Simulate a failure based on the provided flag
+        if (shouldFail) {
+            failReason = "Manual deployment failure triggered.";
+            emit DeploymentAttempt(msg.sender, failReason, false);
+            revert DeploymentFailed("Deployment reverted intentionally.");
+        }
+
+        // If no failure condition is met
+        deployedSuccessfully = true;
+        failReason = "Deployment successful.";
+        emit DeploymentAttempt(msg.sender, failReason, true);
+    }
+
+    // ===========================================
+    // 🔹 FALLBACK AND RECEIVE FUNCTIONS
+    // ===========================================
+
+    /// @notice Triggered when contract receives Ether without calldata.
+    receive() external payable {
+        emit EtherReceived(msg.sender, msg.value);
+    }
+
+    /// @notice Triggered when calldata doesn’t match any function signature.
+    fallback() external payable {
+        emit FallbackCalled(msg.sender, msg.value);
+    }
+
+    // ===========================================
+    // 🔹 PUBLIC FUNCTIONS
+    // ===========================================
+
+    /**
+     * @notice Returns a simple summary of the deployment state.
+     * @return _deployer The address of the deployer.
+     * @return _status Whether deployment was successful.
+     * @return _reason Reason message.
+     */
+    function getDeploymentSummary()
+        public
+        view
+        returns (address _deployer, bool _status, string memory _reason)
+    {
+        return (deployer, deployedSuccessfully, failReason);
+    }
+
+    /**
+     * @notice Example function that reverts manually.
+     */
+    function forceRevert() public pure {
+        revert DeploymentFailed("Manual function revert triggered.");
+    }
+}
 
