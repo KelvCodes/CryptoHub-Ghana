@@ -1,5 +1,4 @@
  
 onsut pu
-		rui(fae);
-	}
+		rui(fae)
 }
