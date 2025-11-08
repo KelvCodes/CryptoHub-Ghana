@@ -1,4 +1,4 @@
-loyRevert {
+yRevert {
 	constructor() public {
 		require(false);
 	}
