@@ -1,5 +1,4 @@
-
-agma solidity ^0.8.13;
+gma solidity ^0.8.13;
 
 contract DeployRevert {
 	constructor() public {
