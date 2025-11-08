@@ -1,5 +1,5 @@
  
-	constructor() public {
+onstructor() public {
 		require(false);
 	}
 }
