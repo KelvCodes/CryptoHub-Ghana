@@ -1,4 +1,4 @@
-tract DeployRevert {
+ract DeployRevert {
 	constructor() public {
 		require(false);
 	}
