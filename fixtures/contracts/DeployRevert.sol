@@ -1,5 +1,5 @@
  
-onsructor() public {
+onsuctor() public {
 		require(false);
 	}
 }
