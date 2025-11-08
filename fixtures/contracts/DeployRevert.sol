@@ -1,4 +1,4 @@
-eployRevert {
+loyRevert {
 	constructor() public {
 		require(false);
 	}
