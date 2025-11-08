@@ -1,5 +1,5 @@
  
-onsucto) public {
+onsuto) public {
 		require(false);
 	}
 }
