@@ -1,5 +1,5 @@
  
 onsut publ {
-		require(false);
+		requi(false);
 	}
 }
