@@ -1,4 +1,4 @@
- ^08.13;
+8.13;
 
 contract DeployRevert {
 	constructor() public {
