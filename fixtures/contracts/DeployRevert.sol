@@ -1,5 +1,5 @@
  
-onsut public {
+onsut publ {
 		require(false);
 	}
 }
