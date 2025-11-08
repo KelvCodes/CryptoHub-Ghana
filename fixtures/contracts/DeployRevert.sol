@@ -1,5 +1,5 @@
  
-onsut pu {
+onsut pu
 		rui(fae);
 	}
 }
