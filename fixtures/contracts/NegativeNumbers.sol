@@ -1,4 +1,4 @@
-d(int256 indexed one);
+xed one);
 
     /// @notice Event with two negative numbers (not indexed)
     event TwoNegativeNumbers(int256 one, int256 two);
