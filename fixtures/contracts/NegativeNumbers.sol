@@ -1,4 +1,4 @@
-gative numbers (not indexed)
+mbers (not indexed)
     event TwoNegativeNumbers(int256 one, int256 two);
 
     /// @notice Event with two negative numbers, both indexed for easier search/filtering
