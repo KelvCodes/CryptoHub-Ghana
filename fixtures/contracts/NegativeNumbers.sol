@@ -1,4 +1,4 @@
- signed integer which can be negative
+nteger which can be negative
     int256 public storedNegativeNumber;
 
     /// @notice Event with a single negative number (not indexed)
