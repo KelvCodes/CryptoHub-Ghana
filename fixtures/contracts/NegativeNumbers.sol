@@ -1,7 +1,4 @@
-sIndexed(
-        uint256 indexed positive,
-        int256 indexed negative,
-        string str
+sIn
     );
 
     /// @notice Constructor to initialize the contract with a starting negative number
