@@ -1,4 +1,4 @@
-m, allowing filtering)
+
     event OneNegativeNumberIndexed(int256 indexed one);
 
     /// @notice Event with two negative numbers (not indexed)
