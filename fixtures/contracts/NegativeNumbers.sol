@@ -1,4 +1,4 @@
- OneNegativeNumberIndexed(int256 indexed one);
+berIndexed(int256 indexed one);
 
     /// @notice Event with two negative numbers (not indexed)
     event TwoNegativeNumbers(int256 one, int256 two);
