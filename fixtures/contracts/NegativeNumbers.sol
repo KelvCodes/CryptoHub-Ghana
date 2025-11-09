@@ -1,6 +1,5 @@
 
 
- NegativeNumbers
 /// @notice Demonstrates using signed integers (int256) and emitting events that include negative numbers
 contract NegativeNumbers {
     /// @notice Stores a signed integer which can be negative
