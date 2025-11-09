@@ -1,6 +1,5 @@
 
-
-    /// @notice Event with a single negative number (not indexed)
+vent with a single negative number (not indexed)
     event OneNegativeNumber(int256 one);
 
     /// @notice Event with a single negative number (indexed, allowing filtering)
