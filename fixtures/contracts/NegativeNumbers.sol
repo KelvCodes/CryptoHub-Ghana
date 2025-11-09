@@ -1,4 +1,4 @@
-e Stores a signed integer which can be negative
+ signed integer which can be negative
     int256 public storedNegativeNumber;
 
     /// @notice Event with a single negative number (not indexed)
