@@ -1,12 +1,4 @@
-sIn
-integer to emit
-    function oneNegativeNumber(int256 number) public {
-        emit OneNegativeNumber(number);               // emits without indexing
-        emit OneNegativeNumberIndexed(number);        // emits with indexing for easier filtering
-    }
-
-    /// @notice Emits two events with two negative numbers, one with indexing and one without
-    /// @param number First signed integer
+teger
     /// @param number2 Second signed integer
     function twoNegativeNumbers(int256 number, int256 number2) public {
         emit TwoNegativeNumbers(number, number2);                 // emits without indexing
