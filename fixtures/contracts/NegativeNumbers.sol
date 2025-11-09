@@ -1,5 +1,5 @@
  
-    int256 public storedNegativeNumber;
+ storedNegativeNumber;
 
     /// @notice Event with a single negative number (not indexed)
     event OneNegativeNumber(int256 one);
