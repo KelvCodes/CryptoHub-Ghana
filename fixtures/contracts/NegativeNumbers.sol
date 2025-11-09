@@ -1,4 +1,4 @@
-er (not indexed)
+dexed)
     event OneNegativeNumber(int256 one);
 
     /// @notice Event with a single negative number (indexed, allowing filtering)
