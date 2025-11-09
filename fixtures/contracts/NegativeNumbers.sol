@@ -1,5 +1,4 @@
-
- single negative number (not indexed)
+gative number (not indexed)
     event OneNegativeNumber(int256 one);
 
     /// @notice Event with a single negative number (indexed, allowing filtering)
