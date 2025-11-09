@@ -1,5 +1,4 @@
-with two negative numbers, both indexed for easier search/filtering
-    event TwoNegativeNumbersIndexed(int256 indexed one, int256 indexed two);
+with two     event TwoNegativeNumbersIndexed(int256 indexed one, int256 indexed two);
 
     /// @notice Event that mixes a positive unsigned integer, a negative number, and a string
     event OtherNegativeNumbers(uint256 positive, int256 negative, string str);
