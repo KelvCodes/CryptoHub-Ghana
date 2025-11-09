@@ -1,14 +1,5 @@
 sIn
-    );
-
-    /// @notice Constructor to initialize the contract with a starting negative number
-    /// @param number The initial value to store (can be negative)
-    constructor(int256 number) {
-        storedNegativeNumber = number;
-    }
-
-    /// @notice Emits two events with a single negative number, one indexed and one not
-    /// @param number The signed integer to emit
+integer to emit
     function oneNegativeNumber(int256 number) public {
         emit OneNegativeNumber(number);               // emits without indexing
         emit OneNegativeNumberIndexed(number);        // emits with indexing for easier filtering
