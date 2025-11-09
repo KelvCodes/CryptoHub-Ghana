@@ -1,6 +1,5 @@
 
 
- ussiegativeNumbers {
     /// @notice Stores a signed integer which can be negative
     int256 public storedNegativeNumber;
 
