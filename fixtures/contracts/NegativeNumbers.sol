@@ -1,5 +1,5 @@
 
-    /// @notice Event with a single negative number (indexed, allowing filtering)
+ Event with a single negative number (indexed, allowing filtering)
     event OneNegativeNumberIndexed(int256 indexed one);
 
     /// @notice Event with two negative numbers (not indexed)
