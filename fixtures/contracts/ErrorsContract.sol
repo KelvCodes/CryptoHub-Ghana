@@ -1,5 +1,4 @@
-n transfer of Ether fails
-    error TransferFailed(uint256 amount, address to);
+n tra TransferFailed(uint256 amount, address to);
 
     // =============================
     // ========= EVENTS ===========
