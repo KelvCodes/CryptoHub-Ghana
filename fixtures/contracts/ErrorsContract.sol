@@ -1,4 +1,4 @@
-n tra TransferFailed(uint256 amount, address to);
+d(uint256 amount, address to);
 
     // =============================
     // ========= EVENTS ===========
