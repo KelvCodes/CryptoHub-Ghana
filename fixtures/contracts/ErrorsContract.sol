@@ -1,8 +1,4 @@
 
-    // =============================
-    // ======== CONSTRUCTOR =======
-    // =============================
-    
     /// @notice Sets the deployer as the initial owner
     constructor() {
         owner = payable(msg.sender);
