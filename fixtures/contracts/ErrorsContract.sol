@@ -1,7 +1,6 @@
 
     
-    event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
-    event FundsTransferred(address indexed to, uint256 amount);
+    event OwnershipTransdress indexed to, uint256 amount);
     event Received(address indexed from, uint256 amount);
 
     // =============================
