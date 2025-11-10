@@ -1,5 +1,4 @@
-
- CustomError(string message);
+ror(string message);
 
     /// @notice Thrown when transfer of Ether fails
     error TransferFailed(uint256 amount, address to);
