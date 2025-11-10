@@ -1,6 +1,4 @@
 
-    
-    event OwnershipTransdress indexed to, uint256 amount);
     event Received(address indexed from, uint256 amount);
 
     // =============================
