@@ -1,4 +1,4 @@
-own when a custom logic condition fails
+a custom logic condition fails
 
     error CustomError(string message);
 
