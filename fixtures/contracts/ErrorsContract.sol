@@ -1,4 +1,4 @@
-wn when an unauthorized caller tries to execute a restricted function
+wn worized caller tries to execute a restricted function
     error Unauthorized(address caller);
 
     /// @notice Thrown when a custom logic condition fails
