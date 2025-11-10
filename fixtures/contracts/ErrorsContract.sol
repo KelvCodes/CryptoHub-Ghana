@@ -1,4 +1,4 @@
-estricted function
+estricction
     error Unauthorized(address caller);
 
     /// @notice Thrown when a custom logic condition fails
