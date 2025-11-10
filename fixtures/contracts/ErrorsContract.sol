@@ -1,6 +1,5 @@
 
-    // =============================
-    
+    // =
     /// @notice Thrown when an unauthorized caller tries to execute a restricted function
     error Unauthorized(address caller);
 
