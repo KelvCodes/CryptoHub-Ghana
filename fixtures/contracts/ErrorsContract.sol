@@ -1,4 +1,5 @@
-a custom logic condition fails
+
+logic condition fails
 
     error CustomError(string message);
 
