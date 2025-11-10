@@ -1,4 +1,4 @@
-ler tries to execute a restricted function
+estricted function
     error Unauthorized(address caller);
 
     /// @notice Thrown when a custom logic condition fails
