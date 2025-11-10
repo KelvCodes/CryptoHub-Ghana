@@ -1,4 +1,4 @@
-Ether handling, and authorization
+ handling, and authorization
 contract ErrorsContract {
     // =============================
     // ======== STATE VARS =========
