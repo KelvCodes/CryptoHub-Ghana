@@ -1,9 +1,4 @@
 
-=======
-
-    /// @notice Transfers contract balance to the owner
-    /// @dev Only callable by the owner
-    functi
         (bool success, ) = owner.call{value: balance}("");
         if (!success) revert TransferFailed(balance, owner);
 
