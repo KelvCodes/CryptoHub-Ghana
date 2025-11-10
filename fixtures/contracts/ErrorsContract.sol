@@ -1,7 +1,6 @@
 
     // ======== MODIFIERS =========
-    // ====================
-        if (msg.sender != owner) revert Unauthorized(msg.sender);
+    // =============uthorized(msg.sender);
         _;
     }
 
