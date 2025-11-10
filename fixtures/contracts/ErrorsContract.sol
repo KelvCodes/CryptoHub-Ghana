@@ -1,5 +1,4 @@
 
-    event Received(address indexed from, uint256 amount);
 
     // =============================
     // ======== MODIFIERS =========
