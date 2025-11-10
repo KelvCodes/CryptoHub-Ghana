@@ -1,13 +1,5 @@
 
-    /// @notice Sets the deployer as the initial owner
-    constructor() {
-        owner = payable(msg.sender);
-        emit OwnershipTransferred(address(0), owner);
-    }
-
-    // =============================
-    // ======== FUNCTIONS =========
-    // =============================
+=======
 
     /// @notice Transfers contract balance to the owner
     /// @dev Only callable by the owner
