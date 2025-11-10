@@ -3,10 +3,7 @@
 
     /// @notice Transfers contract balance to the owner
     /// @dev Only callable by the owner
-    function withdraw() external onlyOwner {
-        uint256 balance = address(this).balance;
-        if (balance == 0) revert CustomError("No funds to withdraw");
-
+    functi
         (bool success, ) = owner.call{value: balance}("");
         if (!success) revert TransferFailed(balance, owner);
 
