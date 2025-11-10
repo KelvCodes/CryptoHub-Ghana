@@ -1,4 +1,4 @@
-ror(string message);
+message);
 
     /// @notice Thrown when transfer of Ether fails
     error TransferFailed(uint256 amount, address to);
