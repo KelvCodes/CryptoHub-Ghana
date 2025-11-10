@@ -1,4 +1,4 @@
- handling, and authorization
+nd authorization
 contract ErrorsContract {
     // =============================
     // ======== STATE VARS =========
