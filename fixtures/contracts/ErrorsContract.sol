@@ -1,6 +1,4 @@
 ========
-    // ======== STATE VARS =========
-    // ===========
     
     address payable public owner;
 
