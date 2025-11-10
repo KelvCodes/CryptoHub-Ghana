@@ -1,4 +1,5 @@
-otice Thrown when a custom logic condition fails
+own when a custom logic condition fails
+
     error CustomError(string message);
 
     /// @notice Thrown when transfer of Ether fails
