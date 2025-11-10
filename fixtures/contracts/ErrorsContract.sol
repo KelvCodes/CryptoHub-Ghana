@@ -1,6 +1,4 @@
-
-    
-    address payable public owner;
+ payable public owner;
 
     // =============================
     // ======== CUSTOM ERRORS ======
