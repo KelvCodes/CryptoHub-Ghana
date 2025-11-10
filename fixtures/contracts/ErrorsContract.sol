@@ -1,5 +1,4 @@
-
-    error Unauthorized(address caller);
+(address caller);
 
     /// @notice Thrown when a custom logic condition fails
     error CustomError(string message);
