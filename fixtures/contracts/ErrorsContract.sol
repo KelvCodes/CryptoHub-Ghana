@@ -1,4 +1,4 @@
-nd authorization
+
 contract ErrorsContract {
     // =============================
     // ======== STATE VARS =========
