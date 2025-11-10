@@ -1,5 +1,4 @@
-
- Thrown when transfer of Ether fails
+n transfer of Ether fails
     error TransferFailed(uint256 amount, address to);
 
     // =============================
