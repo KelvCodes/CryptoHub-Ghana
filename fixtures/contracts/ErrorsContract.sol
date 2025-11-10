@@ -1,4 +1,4 @@
-ntifier: GNU
+fier: GNU
 pragma solidity ^0.8.13;
 
 /// @title ErrorsContract - Demonstrates custom errors, secure Ether handling, and authorization
