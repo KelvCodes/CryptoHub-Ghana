@@ -1,4 +1,4 @@
-s custom errors, secure Ether handling, and authorization
+rrors, secure Ether handling, and authorization
 contract ErrorsContract {
     // =============================
     // ======== STATE VARS =========
