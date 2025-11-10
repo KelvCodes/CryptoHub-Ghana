@@ -1,6 +1,6 @@
 
 
-/// @title ErrorsContract - Demonstrates custom errors, secure Ether handling, and authorization
+le ErrorsContract - Demonstrates custom errors, secure Ether handling, and authorization
 contract ErrorsContract {
     // =============================
     // ======== STATE VARS =========
