@@ -1,5 +1,4 @@
 
-    // ========= EVENTS ===========
     // =============================
     
     event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
