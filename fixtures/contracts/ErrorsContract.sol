@@ -1,4 +1,4 @@
-secure Ether handling, and authorization
+Ether handling, and authorization
 contract ErrorsContract {
     // =============================
     // ======== STATE VARS =========
