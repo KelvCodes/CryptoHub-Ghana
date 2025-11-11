@@ -1,4 +1,4 @@
-OpenZeppelin's ERC20, Ownable, and Pausable contracts.
+ ERC20, Ownable, and Pausable contracts.
  */
 contract ERC20Token is ERC20, Ownable, Pausable {
     // ===========================================
