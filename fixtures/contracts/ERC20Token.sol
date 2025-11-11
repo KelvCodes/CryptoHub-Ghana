@@ -1,5 +1,5 @@
-ccess/Ownable.sol";
-import "@openzeppelin/contracts/security/Pausable.sol";
+ccess/Ownable.sol"
+ntracts/security/Pausable.sol";
 
 /**
  * @title Advanced ERC20 Token
