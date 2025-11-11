@@ -1,4 +1,4 @@
-penzeppelin/contracts/token/ERC20/ERC20.sol";
+n/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 
