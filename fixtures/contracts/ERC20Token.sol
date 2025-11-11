@@ -1,4 +1,4 @@
-tA=================================
+=======
     // EVENTS
     // ===========================================
     event TokensMinted(address indexed to, uint256 amount);
