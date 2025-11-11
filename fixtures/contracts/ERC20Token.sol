@@ -1,11 +1,6 @@
 
 
-    // ============
-    /// @notice Allows the owner to mint new tokens to a specified address.
-    /// @param to The recipient of the minted tokens.
-    /// @param amount The number of tokens to mint.
-    function mint(address to, uint256 amount) external onlyOwner whenNotPaused {
-        if (to == address(0)) revert ZeroAddress();
+ress(0)) revert ZeroAddress();
         if (amount == 0) revert InsufficientAmount();
 
         _mint(to, amount);
