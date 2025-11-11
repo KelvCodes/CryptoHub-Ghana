@@ -1,6 +1,6 @@
 
 
-// Importing OpenZeppelin ERC20 and Ownable contracts for standard functionality
+// rting OpenZeppelin ERC20 and Ownable contracts for standard functionality
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
