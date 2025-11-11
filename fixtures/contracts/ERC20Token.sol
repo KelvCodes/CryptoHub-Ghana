@@ -1,4 +1,4 @@
- ERC20, Ownable, and Pausable contracts.
+and Pausable contracts.
  */
 contract ERC20Token is ERC20, Ownable, Pausable {
     // ===========================================
