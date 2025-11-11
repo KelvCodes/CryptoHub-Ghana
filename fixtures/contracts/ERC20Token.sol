@@ -1,9 +1,6 @@
 =======(e.g., "GLD").
      * @param initialSupply The initial number of tokens (in wei units, e.g., 1000 * 10**decimals()).
      */
-    constructor(
-        string memory name_,
-        string memory symbol_,
         uint256 initialSupply
     ) ERC20(name_, symbol_) {
         if (initialSupply == 0) revert InsufficientAmount();
