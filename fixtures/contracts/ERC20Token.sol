@@ -1,9 +1,6 @@
 
 
-    // ===========================================
-    // TOKEN FUNCTIONS
-    // ===========================================
-
+    // ============
     /// @notice Allows the owner to mint new tokens to a specified address.
     /// @param to The recipient of the minted tokens.
     /// @param amount The number of tokens to mint.
