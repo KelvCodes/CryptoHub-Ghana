@@ -1,11 +1,5 @@
 =======
-    // EVEdress indexed from, uint256 amount);
-    event TokenPaused(address indexed by);
-    event TokenUnpaused(address indexed by);
-
-    // ===========================================
-    // CONSTRUCTOR
-    // ===========================================
+==========================
     /**
      * @notice Deploys the token with a name, symbol, and initial supply.
      * @param name_ The token name (e.g., "Gold").
