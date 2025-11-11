@@ -1,11 +1,6 @@
 =======(e.g., "GLD").
      * @param initialSupply The initial number of tokens (in wei units, e.g., 1000 * 10**decimals()).
-     */
-        uint256 initialSupply
-    ) ERC20(name_, symbol_) {
-        if (initialSupply == 0) revert InsufficientAmount();
-        _mint(msg.sender, initialSupply);
-        transferOwnership(msg.sender);
+     ender);
     }
 
     // ===========================================
