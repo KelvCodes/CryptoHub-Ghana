@@ -1,9 +1,4 @@
-=======
-==========================
-    /**
-     * @notice Deploys the token with a name, symbol, and initial supply.
-     * @param name_ The token name (e.g., "Gold").
-     * @param symbol_ The token symbol (e.g., "GLD").
+=======(e.g., "GLD").
      * @param initialSupply The initial number of tokens (in wei units, e.g., 1000 * 10**decimals()).
      */
     constructor(
