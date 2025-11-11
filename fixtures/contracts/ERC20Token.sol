@@ -1,4 +1,4 @@
-, pausing, and ownership control.
+ship control.
  * @dev Extends OpenZeppelin's ERC20, Ownable, and Pausable contracts.
  */
 contract ERC20Token is ERC20, Ownable, Pausable {
