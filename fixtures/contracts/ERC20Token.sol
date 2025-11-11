@@ -1,4 +1,4 @@
-Identifier: GNU
+er: GNU
 pragma solidity ^0.8.13;
 
 // Importing OpenZeppelin ERC20 and Ownable contracts for standard functionality
