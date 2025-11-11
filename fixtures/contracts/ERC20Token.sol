@@ -1,17 +1,4 @@
 
-
-ress(0)) revert ZeroAddress();
-        if (amount == 0) 
-    }
-
-    /// @notice Allows any token holder to burn (destroy) their tokens.
-    /// @param amount The number of tokens to burn.
-    function burn(uint256 amount) external whenNotPaused {
-        if (amount == 0) revert InsufficientAmount();
-        _burn(msg.sender, amount);
-        emit TokensBurned(msg.sender, amount);
-    }
-
     // ===========================================
     // PAUSING FUNCTIONALITY
     // ===========================================
