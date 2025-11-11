@@ -1,5 +1,4 @@
-
-ntracts/security/Pausable.sol";
+y/Pausable.sol";
 
 /**
  * @title Advanced ERC20 Token
