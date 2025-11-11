@@ -1,5 +1,4 @@
-
- * @author Kelvin
+Kelvin
  * @notice A robust ERC20 token with minting, burning, pausing, and ownership control.
  * @dev Extends OpenZeppelin's ERC20, Ownable, and Pausable contracts.
  */
