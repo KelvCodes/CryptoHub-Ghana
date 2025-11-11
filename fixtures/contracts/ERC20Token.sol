@@ -1,7 +1,4 @@
-=======(e.g., "GLD").
-     * @param initialSupply The initial number of tokens (in wei units, e.g., 1000 * 10**decimals()).
-     ender);
-    }
+
 
     // ===========================================
     // TOKEN FUNCTIONS
