@@ -1,10 +1,7 @@
 
 
 ress(0)) revert ZeroAddress();
-        if (amount == 0) revert InsufficientAmount();
-
-        _mint(to, amount);
-        emit TokensMinted(to, amount);
+        if (amount == 0) 
     }
 
     /// @notice Allows any token holder to burn (destroy) their tokens.
