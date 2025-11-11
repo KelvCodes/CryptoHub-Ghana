@@ -1,5 +1,4 @@
-
-    error InsufficientAmount();
+tAmount();
     error Unauthorized(address caller);
 
     // ===========================================
