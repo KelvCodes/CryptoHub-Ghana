@@ -1,8 +1,5 @@
 =======
-    // EVENTS
-    // ===========================================
-    event TokensMinted(address indexed to, uint256 amount);
-    event TokensBurned(address indexed from, uint256 amount);
+    // EVEdress indexed from, uint256 amount);
     event TokenPaused(address indexed by);
     event TokenUnpaused(address indexed by);
 
