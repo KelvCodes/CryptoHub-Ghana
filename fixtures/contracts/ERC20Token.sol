@@ -1,5 +1,4 @@
-
-import "@openzeppelin/contracts/access/Ownable.sol";
+penzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 
 /**
