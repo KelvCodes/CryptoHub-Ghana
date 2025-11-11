@@ -1,13 +1,6 @@
 
     // ===========================================
-    // PAUSING FUNCTIONALITY
-    // ===========================================
-
-    /// @notice Pauses all token transfers and minting (onlyOwner).
-    function pause() external onlyOwner {
-        _pause();
-        emit TokenPaused(msg.sender);
-    }
+    /
 
     /// @notice Unpauses token transfers and minting (onlyOwner).
     function unpause() external onlyOwner {
