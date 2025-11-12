@@ -1,6 +1,6 @@
 
 
-/**
+
  * @title MyContract
  * @author Kelvin A.
  * @notice A feature-rich Solidity contract demonstrating string storage, 
