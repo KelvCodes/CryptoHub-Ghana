@@ -1,5 +1,4 @@
-
- * ownership, event logging, function overloading, and history tracking.
+p, event logging, function overloading, and history tracking.
  */
 contract MyContract {
     // ======================================
