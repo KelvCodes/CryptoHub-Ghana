@@ -1,4 +1,4 @@
-Identifier: GNU
+ifier: GNU
 pragma solidity ^0.8.13;
 
 /**
