@@ -1,4 +1,4 @@
-tract demonstrating string storage, 
+ demonstrating string storage, 
  * ownership, event logging, function overloading, and history tracking.
  */
 contract MyContract {
