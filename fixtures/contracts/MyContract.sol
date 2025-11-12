@@ -1,7 +1,4 @@
-
-
-    // 
-    // ======================================
+=================
 
     constructor(string memory initialValue) {
         if (bytes(initialValue).length == 0) revert EmptyString();
