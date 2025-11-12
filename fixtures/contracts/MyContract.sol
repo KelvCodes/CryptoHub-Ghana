@@ -1,15 +1,4 @@
-=================
-
-
-    /// @notice Returns the current value of the attribute
-    function getAttr() public view returns (string memory) {
-        return myAttribute;
-    }
-
-    /// @notice Returns the full history of attribute updates
-    function getHistory() public view returns (string[] memory) {
-        return attributeHistory;
-    }
+===============
 
     // ======================================
     // WRITE FUNCTIONS
