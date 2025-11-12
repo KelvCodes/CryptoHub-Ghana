@@ -1,4 +1,4 @@
-Solidity contract demonstrating string storage, 
+ity contract demonstrating string storage, 
  * ownership, event logging, function overloading, and history tracking.
  */
 contract MyContract {
