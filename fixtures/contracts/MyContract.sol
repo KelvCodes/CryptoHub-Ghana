@@ -1,5 +1,4 @@
-
-contract MyContract {
+ract MyContract {
     // ======================================
     // STATE VARIABLES
     // ======================================
