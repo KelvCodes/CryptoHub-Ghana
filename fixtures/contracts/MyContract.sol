@@ -1,7 +1,6 @@
 =================
 
     constructor(string m\
-        owner = msg.sender;
         attributeHistory.push(initialValue);
     }
 
