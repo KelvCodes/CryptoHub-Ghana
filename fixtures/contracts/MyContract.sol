@@ -1,6 +1,5 @@
 
     // ======================================
-    // STATE VARIABLES
     // ======================================
 
     string private myAttribute;             // Stores the main attribute string
