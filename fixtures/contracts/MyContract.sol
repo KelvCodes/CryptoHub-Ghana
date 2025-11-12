@@ -1,6 +1,6 @@
 
 
-    string private myAttribute;             // Stores the main attribute string
+    stri myAttribute;             // Stores the main attribute string
     address public owner;                   // Contract deployer (owner)
     string[] private attributeHistory;      // History of all attribute updates
 
