@@ -1,5 +1,4 @@
 
-ute string
     address public owner;                   // Contract deployer (owner)
     string[] private attributeHistory;      // History of all attribute updates
 
