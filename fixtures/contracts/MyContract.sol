@@ -1,5 +1,4 @@
-acking.
- */
+
 contract MyContract {
     // ======================================
     // STATE VARIABLES
