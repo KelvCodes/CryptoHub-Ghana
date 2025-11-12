@@ -1,8 +1,7 @@
 
 
     // ======================================
-    // EVENTS
-    // ======================================
+    // EVENTS==
 
     event AttributeUpdated(address indexed updater, string oldValue, string newValue);
     event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
