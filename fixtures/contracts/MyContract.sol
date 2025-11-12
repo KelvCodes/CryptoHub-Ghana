@@ -1,4 +1,4 @@
-, function overloading, and history tracking.
+tion overloading, and history tracking.
  */
 contract MyContract {
     // ======================================
