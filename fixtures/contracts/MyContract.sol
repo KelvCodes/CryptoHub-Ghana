@@ -1,4 +1,4 @@
-eature-rich Solidity contract demonstrating string storage, 
+e-rich Solidity contract demonstrating string storage, 
  * ownership, event logging, function overloading, and history tracking.
  */
 contract MyContract {
