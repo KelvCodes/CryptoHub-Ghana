@@ -1,6 +1,5 @@
 
     // ======================================
-    // ======================================
 
     string private myAttribute;             // Stores the main attribute string
     address public owner;                   // Contract deployer (owner)
