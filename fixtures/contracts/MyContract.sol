@@ -1,16 +1,4 @@
-===============
-
-    // ======================================
-    // WRITE FUNCTIONS
-    // ======================================
-
-    /// @notice Updates the attribute value
-    /// @param newValue The new string value to set
-    function setAttr(string memory newValue) public onlyOwner {
-        if (bytes(newValue).length == 0) revert EmptyString();
-
-        string memory oldValue = myAttribute;
-        myAttribute = newValue;
+Value;
         attributeHistory.push(newValue);
 
         emit AttributeUpdated(msg.sender, oldValue, newValue);
