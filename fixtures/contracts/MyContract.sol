@@ -1,5 +1,4 @@
-          // Contract deployer (owner)
-    string[] private attributeHistory;      // History of all attribute updates
+          // Contract depl   // History of all attribute updates
 
     // ======================================
     // CUSTOM ERRORS
