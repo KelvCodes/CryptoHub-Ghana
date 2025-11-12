@@ -1,9 +1,6 @@
 =================
 
-    constructor(string m\
-        attributeHistory.push(initialValue);
-    }
-
+    constructor
     // ======================================
     // PUBLIC VIEW FUNCTIONS
     // ======================================
