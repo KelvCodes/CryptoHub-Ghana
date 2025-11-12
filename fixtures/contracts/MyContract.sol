@@ -1,8 +1,6 @@
 =================
 
-    constructor(string memory initialValue) {
-        if (bytes(initialValue).length == 0) revert EmptyString();
-        myAttribute = initialValue;
+    constructor(string m\
         owner = msg.sender;
         attributeHistory.push(initialValue);
     }
