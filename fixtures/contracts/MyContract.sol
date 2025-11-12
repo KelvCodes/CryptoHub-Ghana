@@ -1,4 +1,4 @@
-Contract
+
  * @author Kelvin A.
  * @notice A feature-rich Solidity contract demonstrating string storage, 
  * ownership, event logging, function overloading, and history tracking.
