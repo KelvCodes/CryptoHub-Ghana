@@ -1,9 +1,5 @@
 =================
 
-    constructor
-    // ======================================
-    // PUBLIC VIEW FUNCTIONS
-    // ======================================
 
     /// @notice Returns the current value of the attribute
     function getAttr() public view returns (string memory) {
