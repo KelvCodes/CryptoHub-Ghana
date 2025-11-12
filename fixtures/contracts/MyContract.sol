@@ -1,11 +1,7 @@
 
 
     // ===========
-    // ===============
-
-        if (msg.sender != owner) revert Unauthorized(msg.sender);
-        _;
-    }
+    // =======]
 
     // ======================================
     // CONSTRUCTOR
