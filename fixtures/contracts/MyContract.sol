@@ -1,4 +1,4 @@
-ating string storage, 
+ring storage, 
  * ownership, event logging, function overloading, and history tracking.
  */
 contract MyContract {
