@@ -1,4 +1,4 @@
-age, 
+
  * ownership, event logging, function overloading, and history tracking.
  */
 contract MyContract {
