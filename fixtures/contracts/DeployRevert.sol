@@ -1,4 +1,4 @@
-or demonstration)
+
     string public failReason;
 
     // Flag to indicate if the deployment passed checks
