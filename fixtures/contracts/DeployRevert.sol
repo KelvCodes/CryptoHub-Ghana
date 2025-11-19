@@ -1,4 +1,4 @@
-====== VA=================================
+============================
 
     // Address of the contract deployer (creator)
     address public deployer;
