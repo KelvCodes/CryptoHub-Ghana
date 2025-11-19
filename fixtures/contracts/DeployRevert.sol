@@ -1,4 +1,4 @@
-e deployment passed checks
+ passed checks
     bool public deployedSuccessfully;
 
     // ===========================================
