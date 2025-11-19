@@ -1,4 +1,4 @@
-t deployer (creator)
+
     address public deployer;
 
     // Reason why the deployment failed (for demonstration)
