@@ -1,6 +1,4 @@
- ^0.8.13;
 
-/**
  * @title DeployRevert
  * @author Kelvin
  * @notice Demonstrates how contract deployment can fail (revert) under certain conditions.
