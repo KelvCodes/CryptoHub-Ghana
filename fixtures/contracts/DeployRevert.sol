@@ -1,4 +1,4 @@
- passed checks
+
     bool public deployedSuccessfully;
 
     // ===========================================
