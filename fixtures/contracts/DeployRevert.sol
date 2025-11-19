@@ -1,5 +1,4 @@
-
-    error InvalidDeployer(address sender);
+idDeployer(address sender);
 
     // ===========================================
     // 🔹 EVENTS
