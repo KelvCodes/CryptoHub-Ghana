@@ -1,5 +1,4 @@
-
-mentAttempt(address indexed deployer, string message, bool success);
+t(address indexed deployer, string message, bool success);
     event FallbackCalled(address indexed sender, uint256 amount);
     event EtherReceived(address indexed sender, uint256 value);
 
