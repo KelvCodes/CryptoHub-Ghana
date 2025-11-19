@@ -1,5 +1,5 @@
 ow contract deployment can fail (revert) under certain conditions.
- * @dev Includes examples of require(), revert(), and custom error usage.
+ *xamples of require(), revert(), and custom error usage.
  */
 contract DeployRevert {
     // ===========================================
