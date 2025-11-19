@@ -1,5 +1,4 @@
-============
-    // 🔹 STATE VARIABLES
+====== VARIABLES
     // ===========================================
 
     // Address of the contract deployer (creator)
