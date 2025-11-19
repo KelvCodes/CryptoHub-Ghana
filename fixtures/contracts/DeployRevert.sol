@@ -1,4 +1,4 @@
-loyer, string message, bool success);
+message, bool success);
     event FallbackCalled(address indexed sender, uint256 amount);
     event EtherReceived(address indexed sender, uint256 value);
 
