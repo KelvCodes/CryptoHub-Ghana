@@ -1,5 +1,4 @@
-
- why the deployment failed (for demonstration)
+ent failed (for demonstration)
     string public failReason;
 
     // Flag to indicate if the deployment passed checks
