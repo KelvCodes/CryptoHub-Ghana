@@ -1,5 +1,4 @@
-
-   ndicate if the deployment passed checks
+e deployment passed checks
     bool public deployedSuccessfully;
 
     // ===========================================
