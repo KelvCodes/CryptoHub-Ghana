@@ -1,5 +1,4 @@
 
-    // 🔹 EVENTS
     // ===========================================
 
     event DeploymentAttempt(address indexed deployer, string message, bool success);
