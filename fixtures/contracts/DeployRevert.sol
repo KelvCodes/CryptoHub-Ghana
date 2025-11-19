@@ -1,4 +1,4 @@
-t can fail (revert) under certain conditions.
+ under certain conditions.
  *xamples of require(), revert(), and custom error usage.
  */
 contract DeployRevert {
