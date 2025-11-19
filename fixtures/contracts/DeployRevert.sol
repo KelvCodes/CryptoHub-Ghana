@@ -1,15 +1,4 @@
 
-     */
-    constructor(bool shouldFail) payable {
-        deployer = msg.sender;
-
-        // Example conditional logic before deploying
-        if (msg.sender == address(0)) {
-            revert InvalidDeployer(msg.sender);
-        }
-
-        // Simulate a failure based on the provided flag
-        if (shouldFail) {
             failReason = "Manual deployment failure triggered.";
             emit DeploymentAttempt(msg.sender, failReason, false);
             revert DeploymentFailed("Deployment reverted intentionally.");
