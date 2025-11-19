@@ -1,5 +1,4 @@
 
-     * @param shouldFail Boolean flag that determines if deployment should revert.
      * @dev If `shouldFail` is true, the constructor reverts using a custom error.
      */
     constructor(bool shouldFail) payable {
