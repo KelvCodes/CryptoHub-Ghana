@@ -1,4 +1,4 @@
-ow conloyment can fail (revert) under certain conditions.
+t can fail (revert) under certain conditions.
  *xamples of require(), revert(), and custom error usage.
  */
 contract DeployRevert {
