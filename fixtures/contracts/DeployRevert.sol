@@ -1,6 +1,5 @@
 
-   
-    // Flag to indicate if the deployment passed checks
+   ndicate if the deployment passed checks
     bool public deployedSuccessfully;
 
     // ===========================================
