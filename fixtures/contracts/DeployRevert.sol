@@ -1,6 +1,4 @@
 
-    event EtherReceived(address indexed sender, uint256 value);
-
     // ===========================================
     // 🔹 CONSTRUCTOR
     // ===========================================
