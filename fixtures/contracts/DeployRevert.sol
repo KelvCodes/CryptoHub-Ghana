@@ -1,5 +1,4 @@
-
-    bool public deployedSuccessfully;
+deployedSuccessfully;
 
     // ===========================================
     // 🔹 CUSTOM ERRORS
