@@ -1,6 +1,4 @@
-
-
-    error DeploymentFailed(string reason);
+ploymentFailed(string reason);
     error InvalidDeployer(address sender);
 
     // ===========================================
