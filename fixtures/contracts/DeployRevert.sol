@@ -1,5 +1,4 @@
 
-    address public deployer;
 
     // Reason why the deployment failed (for demonstration)
     string public failReason;
