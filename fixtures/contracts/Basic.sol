@@ -1,4 +1,4 @@
-======================
+===========
 //   OpenSea NFT Sale Script
 //  This script demonstrates how to list NFTs for sale on OpenSea
 //  using fixed-price, Dutch auction, and English auction formats.
