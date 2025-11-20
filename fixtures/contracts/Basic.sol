@@ -1,6 +1,5 @@
 
-
-// Import Web3 provider tools and subproviders
+der tools and subproviders
 const {
   MnemonicWalletSubprovider,
 } = require("@0x/subproviders");
