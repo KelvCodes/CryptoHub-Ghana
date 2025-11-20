@@ -1,4 +1,4 @@
-sing fixed-price, Dutch auction, and English auction formats.
+, Dutch auction, and English auction formats.
 // =============================================================
 
 // -------------------------------------------------------------
