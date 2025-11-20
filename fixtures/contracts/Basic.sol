@@ -1,5 +1,4 @@
- OpenSea
-//  using fixed-price, Dutch auction, and English auction formats.
+sing fixed-price, Dutch auction, and English auction formats.
 // =============================================================
 
 // -------------------------------------------------------------
