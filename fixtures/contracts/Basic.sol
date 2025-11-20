@@ -1,5 +1,4 @@
-ecific constants from the SDK
-const { OpenSeaPort, Network } = opensea;
+ecific constaconst { OpenSeaPort, Network } = opensea;
 
 // Import Web3 provider tools and subproviders
 const {
