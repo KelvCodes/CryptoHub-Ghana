@@ -1,5 +1,5 @@
 
-coiderEngine = require("web3-provider-engine");
+
 
 // -------------------------------------------------------------
 //   Load Environment Variables
