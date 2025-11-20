@@ -1,6 +1,4 @@
 
-u
-const {
   MnemonicWalletSubprovider,
 } = require("@0x/subproviders");
 const RPCSubprovider = require("web3-provider-engine/subproviders/rpc");
