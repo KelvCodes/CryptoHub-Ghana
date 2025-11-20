@@ -1,4 +1,4 @@
-relevant typesconst opensea = require("opensea-js");
+nst opensea = require("opensea-js");
 const { WyvernSchemaName } = require("opensea-js/lib/types");
 
 // Extract specific constants from the SDK
