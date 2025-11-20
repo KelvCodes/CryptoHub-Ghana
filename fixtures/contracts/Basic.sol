@@ -1,4 +1,4 @@
-Network } = opensea;
+
 
 // Import Web3 provider tools and subproviders
 const {
