@@ -1,5 +1,4 @@
-
-the OpenSea JS SDK and relevant types
+Sea JS SDK and relevant types
 const opensea = require("opensea-js");
 const { WyvernSchemaName } = require("opensea-js/lib/types");
 
