@@ -1,4 +1,4 @@
-ecific constaconst { OpenSeaPort, Network } = opensea;
+ OpenSeaPort, Network } = opensea;
 
 // Import Web3 provider tools and subproviders
 const {
