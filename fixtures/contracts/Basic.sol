@@ -1,4 +1,4 @@
-FTs for sale on OpenSea
+ OpenSea
 //  using fixed-price, Dutch auction, and English auction formats.
 // =============================================================
 
