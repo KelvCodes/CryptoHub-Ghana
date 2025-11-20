@@ -1,4 +1,4 @@
-e("web3-provider-engine/subproviders/rpc");
+ne/subproviders/rpc");
 coiderEngine = require("web3-provider-engine");
 
 // -------------------------------------------------------------
