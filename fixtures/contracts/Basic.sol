@@ -1,5 +1,5 @@
 
-ools and subproviders
+ubproviders
 const {
   MnemonicWalletSubprovider,
 } = require("@0x/subproviders");
