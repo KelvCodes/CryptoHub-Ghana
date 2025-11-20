@@ -1,5 +1,4 @@
-
-//   Import Required Modules
+uired Modules
 // -------------------------------------------------------------
 
 // Import the OpenSea JS SDK and relevant types
