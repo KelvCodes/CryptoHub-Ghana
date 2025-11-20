@@ -1,5 +1,4 @@
 
-chemaName } = require("opensea-js/lib/types");
 
 // Extract specific constants from the SDK
 const { OpenSeaPort, Network } = opensea;
