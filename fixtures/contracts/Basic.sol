@@ -1,6 +1,4 @@
-
-
-// Extract specific constants from the SDK
+ecific constants from the SDK
 const { OpenSeaPort, Network } = opensea;
 
 // Import Web3 provider tools and subproviders
