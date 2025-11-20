@@ -1,4 +1,4 @@
--------------------------------------------------
+
 
 // Import the OpenSea JS SDK and relevant types
 const opensea = require("opensea-js");
