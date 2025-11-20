@@ -1,8 +1,5 @@
 
 
-
-----------------------------------------
-//   Load Environment Variables
 // -------------------------------------------------------------
 
 const MNEMONIC = process.env.MNEMONIC;
