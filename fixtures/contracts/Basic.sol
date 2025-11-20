@@ -1,4 +1,4 @@
-rovider = require("web3-provider-engine/subproviders/rpc");
+e("web3-provider-engine/subproviders/rpc");
 coiderEngine = require("web3-provider-engine");
 
 // -------------------------------------------------------------
