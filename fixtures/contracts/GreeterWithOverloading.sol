@@ -1,6 +1,4 @@
 
-
-    /// @notice Thrown when an invalid address is provided.
     error InvalidAddress(address provided);
 
     /// @notice Thrown when an invalid value (e.g., zero) is passed.
