@@ -1,4 +1,4 @@
-tice Holds t      /// @notice Stores the contract owner.
+   /// @notice Stores the contract owner.
     address public owner;
 
     /// @notice Indicates whether the contract is paused.
