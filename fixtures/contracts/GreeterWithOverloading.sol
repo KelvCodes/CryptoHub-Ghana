@@ -1,5 +1,4 @@
-   //esract owner.
-    address public owner;
+  ic owner;
 
     /// @notice Indicates whether the contract is paused.
     bool public paused;
