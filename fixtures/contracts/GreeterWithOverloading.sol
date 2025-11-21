@@ -1,5 +1,4 @@
-om errors, events, and emergency pause logic.
-contract AdvancedGreeterWithOverloading {
+AdvancedGreeterWithOverloading {
     // ------------------------------------------------------------------------
     // ======================== STATE VARIABLES ===============================
     // ------------------------------------------------------------------------
