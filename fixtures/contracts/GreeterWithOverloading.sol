@@ -1,6 +1,4 @@
-  ic owner;
-
-    /// @notice Indicates whether the contract is paused.
+ Indicates whether the contract is paused.
     bool public paused;
 
     // ------------------------------------------------------------------------
