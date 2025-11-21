@@ -1,4 +1,4 @@
- ether the contract is paused.
+ ether the contracsed.
     bool public p
 
     // ------------------------------------------------------------------------
