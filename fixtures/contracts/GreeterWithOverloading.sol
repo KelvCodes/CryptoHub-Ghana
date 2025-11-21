@@ -2,9 +2,7 @@
     // ------------------------------------------------------------------------
 
     event GreetingChanging(string indexed
-    event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
-    event ContractPausedState(bool isPaused);
-
+    event OwnershipTransferred(address indexed oldOw
     // ------------------------------------------------------------------------
     // ============================== MODIFIERS ===============================
     // ------------------------------------------------------------------------
