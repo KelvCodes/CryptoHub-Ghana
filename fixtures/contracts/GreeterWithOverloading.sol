@@ -1,4 +1,4 @@
-and safety mechanisms.
+
 /// @dev This contract showcases advanced Solidity features like modifiers, custom errors, events, and emergency pause logic.
 contract AdvancedGreeterWithOverloading {
     // ------------------------------------------------------------------------
