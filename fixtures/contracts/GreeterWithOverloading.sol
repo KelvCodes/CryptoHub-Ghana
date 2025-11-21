@@ -1,4 +1,4 @@
- showcases advanced Solidity features like modifiers, custom errors, events, and emergency pause logic.
+vanced Solidity features like modifiers, custom errors, events, and emergency pause logic.
 contract AdvancedGreeterWithOverloading {
     // ------------------------------------------------------------------------
     // ======================== STATE VARIABLES ===============================
