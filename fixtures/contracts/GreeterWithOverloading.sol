@@ -1,6 +1,4 @@
-times the    uint256 private counter;
-
-    /// @notice Holds the active greeting message.
+times the     /// @notice Holds the active greeting message.
     string private greeting;
 
     /// @notice Stores the contract owner.
