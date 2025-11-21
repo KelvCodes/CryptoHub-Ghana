@@ -1,4 +1,4 @@
-like modifiers, custom errors, events, and emergency pause logic.
+iers, custom errors, events, and emergency pause logic.
 contract AdvancedGreeterWithOverloading {
     // ------------------------------------------------------------------------
     // ======================== STATE VARIABLES ===============================
