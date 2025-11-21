@@ -1,6 +1,5 @@
 
-    error
-    /// @notice Thrown when an action is attempted while the contract is paused.
+    error attempted while the contract is paused.
     error ContractPaused();
 
     // ------------------------------------------------------------------------
