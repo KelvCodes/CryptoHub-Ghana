@@ -1,7 +1,6 @@
 
     error InvalidAddress(address provided);
-
-    /// @notice Thrown when an invalid value (e.g., zero) is passed.
+ro) is passed.
     error InvalidValue(uint256 value);
 
     /// @notice Thrown when an action is attempted while the contract is paused.
