@@ -1,5 +1,4 @@
-
-/// @notice An enhanced smart contract demonstrating function overloading, events, state management, access control, and safety mechanisms.
+tion overloading, events, state management, access control, and safety mechanisms.
 /// @dev This contract showcases advanced Solidity features like modifiers, custom errors, events, and emergency pause logic.
 contract AdvancedGreeterWithOverloading {
     // ------------------------------------------------------------------------
