@@ -1,5 +1,4 @@
 
-    error attempted while the contract is paused.
     error ContractPaused();
 
     // ------------------------------------------------------------------------
