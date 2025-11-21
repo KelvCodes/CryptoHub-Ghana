@@ -1,4 +1,4 @@
- ==============================
+
     // ------------------------------------------------------------------------
 
     /// @notice Thrown when a non-owner tries to execute a restricted function.
