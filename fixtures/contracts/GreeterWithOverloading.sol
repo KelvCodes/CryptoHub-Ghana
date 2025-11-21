@@ -2,10 +2,7 @@
     event OwnershipTransferred(address indexed oldOw
     // ------------------------------------------------------------------------
     // ============================== MODIFIERS ===============================
-    // ------------------------------------------------------------------------
-
-    /// @dev Restricts function calls to the contract owner.
-    modifier onlyOwner() {
+    // 
         if (msg.sender != owner) revert Unauthorized(msg.sender);
         _;
     }
