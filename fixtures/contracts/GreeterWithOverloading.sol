@@ -1,14 +1,4 @@
 
-    event OwnershipTransferred(address indexed oldOw
-    // ------------------------------------------------------------------------
- -----------------------------
-
-    /// @notice Initializes the contract with an initial greeting and sets deployer as the owner.
-    /// @param _greeting The initial greeting string.
-    constructor(string memory _greeting) {
-        owner = msg.sender;
-        greeting = _greeting;
-        counter = 0;
         paused = false;
     }
 
