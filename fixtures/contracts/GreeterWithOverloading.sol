@@ -1,5 +1,5 @@
 
-/// @dev This contract showcases advanced Solidity features like modifiers, custom errors, events, and emergency pause logic.
+ This contract showcases advanced Solidity features like modifiers, custom errors, events, and emergency pause logic.
 contract AdvancedGreeterWithOverloading {
     // ------------------------------------------------------------------------
     // ======================== STATE VARIABLES ===============================
