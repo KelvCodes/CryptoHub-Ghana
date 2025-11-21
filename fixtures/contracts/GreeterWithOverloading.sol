@@ -1,5 +1,4 @@
-
-    // ======================== STATE VARIABLES ===============================
+ STATE VARIABLES ===============================
     // ------------------------------------------------------------------------
 
     /// @notice Tracks how many times the counter has been incremented.
