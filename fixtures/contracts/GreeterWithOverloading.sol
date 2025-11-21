@@ -1,5 +1,4 @@
-tice Holds the active greeting message.
-    string private greeting;
+tice Holds t    string private greeting;
 
     /// @notice Stores the contract owner.
     address public owner;
