@@ -1,14 +1,7 @@
 
     event OwnershipTransferred(address indexed oldOw
     // ------------------------------------------------------------------------
- 
-        if (paused) revert ContractPaused();
-        _;
-    }
-
-    // ------------------------------------------------------------------------
-    // ============================= CONSTRUCTOR ==============================
-    // ------------------------------------------------------------------------
+ -----------------------------
 
     /// @notice Initializes the contract with an initial greeting and sets deployer as the owner.
     /// @param _greeting The initial greeting string.
