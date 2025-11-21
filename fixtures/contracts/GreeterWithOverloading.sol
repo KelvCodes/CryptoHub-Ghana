@@ -1,4 +1,4 @@
-times the     /// @notice Holds the active greeting message.
+tice Holds the active greeting message.
     string private greeting;
 
     /// @notice Stores the contract owner.
