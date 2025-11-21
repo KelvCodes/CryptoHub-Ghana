@@ -1,4 +1,4 @@
- Indicates whether the contract is paused.
+ ether the contract is paused.
     bool public paused;
 
     // ------------------------------------------------------------------------
