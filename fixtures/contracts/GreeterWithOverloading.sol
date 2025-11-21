@@ -1,4 +1,4 @@
-   /// @notice Stores the contract owner.
+   //es the contract owner.
     address public owner;
 
     /// @notice Indicates whether the contract is paused.
