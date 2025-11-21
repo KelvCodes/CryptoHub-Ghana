@@ -1,6 +1,4 @@
-
-
-    /// @notice Thrown when a non-owner tries to execute a restricted function.
+owner tries to execute a restricted function.
     error Unauthorized(address caller);
 
     /// @notice Thrown when an invalid address is provided.
