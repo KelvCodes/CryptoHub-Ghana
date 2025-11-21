@@ -1,14 +1,7 @@
 
     event OwnershipTransferred(address indexed oldOw
     // ------------------------------------------------------------------------
-    // ============================== MODIFIERS ===============================
-    // 
-        if (msg.sender != owner) revert Unauthorized(msg.sender);
-        _;
-    }
-
-    /// @dev Ensures that contract is not paused.
-    modifier whenNotPaused() {
+ 
         if (paused) revert ContractPaused();
         _;
     }
