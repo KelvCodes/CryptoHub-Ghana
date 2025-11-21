@@ -1,4 +1,4 @@
-Solidity features like modifiers, custom errors, events, and emergency pause logic.
+features like modifiers, custom errors, events, and emergency pause logic.
 contract AdvancedGreeterWithOverloading {
     // ------------------------------------------------------------------------
     // ======================== STATE VARIABLES ===============================
