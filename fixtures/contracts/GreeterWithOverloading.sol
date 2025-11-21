@@ -1,7 +1,5 @@
 
     // ------------------------------------------------------------------------
-    // ============================== EVENTS =================================
-    // ------------------------------------------------------------------------
 
     event GreetingChanging(string indexed oldGreeting, string indexed newGreeting);
     event GreetingChanged(string indexed newGreeting);
