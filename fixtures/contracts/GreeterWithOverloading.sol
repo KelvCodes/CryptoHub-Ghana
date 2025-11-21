@@ -1,8 +1,5 @@
 
-    error InvalidAddress(address provided);
-ro) is passed.
-    error InvalidValue(uint256 value);
-
+    error
     /// @notice Thrown when an action is attempted while the contract is paused.
     error ContractPaused();
 
