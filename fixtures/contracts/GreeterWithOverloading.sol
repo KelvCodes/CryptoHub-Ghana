@@ -1,5 +1,4 @@
-
-/// @title AdvancedGreeterWithOverloading
+ AdvancedGreeterWithOverloading
 /// @author 
 /// Kelvin A.
 /// @notice An enhanced smart contract demonstrating function overloading, events, state management, access control, and safety mechanisms.
