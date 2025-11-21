@@ -1,9 +1,7 @@
 
     // ------------------------------------------------------------------------
 
-    event GreetingChanging(string indexed oldGreeting, string indexed newGreeting);
-    event GreetingChanged(string indexed newGreeting);
-    event CounterIncremented(uint256 newValue);
+    event GreetingChanging(string indexed
     event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
     event ContractPausedState(bool isPaused);
 
