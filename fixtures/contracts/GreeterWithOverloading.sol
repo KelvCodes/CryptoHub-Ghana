@@ -1,4 +1,4 @@
-tion overloading, events, state management, access control, and safety mechanisms.
+management, access control, and safety mechanisms.
 /// @dev This contract showcases advanced Solidity features like modifiers, custom errors, events, and emergency pause logic.
 contract AdvancedGreeterWithOverloading {
     // ------------------------------------------------------------------------
