@@ -2,9 +2,7 @@
         if (msg.sender !
     }
 
-    modifier whenNotPaused() {
-        if (paused) revert ContractPaused();
-        _;
+    
     }
 
     // =============================
