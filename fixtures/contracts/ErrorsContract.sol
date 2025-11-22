@@ -1,5 +1,4 @@
 
-    event Unpaused(address indexed by);
 
     // =============================
     // ======== MODIFIERS =========
