@@ -1,4 +1,4 @@
-eposit tracking, partial withdrawals,
+
  * ownership control, and emergency pause functionality.
  * @dev Designed for learning safe Ether management and advanced Solidity practices.
  */
