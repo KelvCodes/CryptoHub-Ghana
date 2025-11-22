@@ -1,5 +1,3 @@
-ns are paused
-    bool public paused;
 
     /// @notice Tracks user deposits
     mapping(address => uint256) public deposits;
