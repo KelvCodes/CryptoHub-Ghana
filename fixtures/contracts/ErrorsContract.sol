@@ -1,7 +1,5 @@
 
 
-    // =============================
-    // ======== MODIFIERS =========
 
     modifier onlyOwner() {
         if (msg.sender != owner) revert Unauthorized(msg.sender);
