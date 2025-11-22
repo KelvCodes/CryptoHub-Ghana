@@ -1,4 +1,4 @@
-tle AdvancedErrorsContract
+rsContract
  * @author Kelvin
  * @notice Demonstrates custom errors, secure Ether handling, deposit tracking, partial withdrawals,
  * ownership control, and emergency pause functionality.
