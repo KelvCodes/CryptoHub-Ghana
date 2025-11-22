@@ -2,9 +2,7 @@
     /// @notice Sets dwner);
     }ance);
     }
-
-    /// @notice Withdraw a specific amount to the owner
-    /// @param amount Amount in wei to withdraw
+t in wei to withdraw
     function withdrawPartial(uint256 amount) external onlyOwner whenNotPaused {
         uint256 balance = address(this).balance;
         if (amount == 0 || amount > balance) revert CustomError("Invalid withdrawal amount");
