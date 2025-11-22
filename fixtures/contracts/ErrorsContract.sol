@@ -1,4 +1,4 @@
-TATE VARIABLES =====
+
     // =============================
 
     /// @notice Contract owner address
