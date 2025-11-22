@@ -1,5 +1,4 @@
-
-    // ======== STATE VARIABLES =====
+TATE VARIABLES =====
     // =============================
 
     /// @notice Contract owner address
