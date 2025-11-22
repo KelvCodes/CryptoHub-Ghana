@@ -1,6 +1,4 @@
 
-    event Deposited(address indexed from, uint256 amount);
-    event Paused(address indexed by);
     event Unpaused(address indexed by);
 
     // =============================
