@@ -1,5 +1,4 @@
 
-ed oldOwner, address indexed newOwner);
     event FundsTransferred(address indexed to, uint256 amount);
     event Deposited(address indexed from, uint256 amount);
     event Paused(address indexed by);
