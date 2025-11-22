@@ -1,5 +1,4 @@
-er management and advanced Solidity practices.
- */
+
 contract AdvancedErrorsContract {
     // =============================
     // ======== STATE VARIABLES =====
