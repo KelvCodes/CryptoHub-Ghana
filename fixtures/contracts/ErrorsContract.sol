@@ -3,10 +3,7 @@
     }ance);
     }
 t in wei to withdraw
-    function withdrawPartial(uint256 amount) external onlyOwner whenNotPaused {
-        uint256 balance = address(this).balance;
-        if (amount == 0 || amount > balance) revert CustomError("Invalid withdrawal amount");
-
+    function withd
         (bool success, ) = owner.call{value: amount}("");
         if (!success) revert TransferFailed(amount, owner);
 
