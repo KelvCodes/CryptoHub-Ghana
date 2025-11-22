@@ -3,9 +3,6 @@
     }ance);
     }
 t in wei to withdraw
-    function withd
-        (boolount);
-    }
 
     /// @notice Update contract ownership
     /// @param newOwner New owner address
