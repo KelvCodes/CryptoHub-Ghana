@@ -1,4 +1,4 @@
-earning safe Ether management and advanced Solidity practices.
+er management and advanced Solidity practices.
  */
 contract AdvancedErrorsContract {
     // =============================
