@@ -5,12 +5,7 @@
 t in wei to withdraw
 wOwner) external onlyOwner {
         if (newOwner == address(0)) revert CustomError("Cannot set zero address as owner");
-        emit OwnershipTransferred(owner, newOwner);
-        owner = newOwner;
-    }
-
-    /// @notice Pause contract functions in emergencies
-    function pause() external onlyOwner {
+    ) external onlyOwner {
         paused = true;
         emit Paused(msg.sender);
     }
