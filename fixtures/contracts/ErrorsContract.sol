@@ -2,11 +2,7 @@
     /// @notice Sets dwner);
     }
     // ===wner whenNotPaused {
-        uint256 balance = address(this).balance;
-        if (balance == 0) revert CustomError("No funds to withdraw");
-
-        (bool success, ) = owner.call{value: balance}("");
-        if (!success) revert TransferFailed(balance, owner);
+        uint2sferFailed(balance, owner);
 
         emit FundsTransferred(owner, balance);
     }
