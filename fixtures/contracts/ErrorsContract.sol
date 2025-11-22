@@ -1,4 +1,3 @@
-ess => uint256) public deposits;
 
     // =============================
     // ======== CUSTOM ERRORS ======
