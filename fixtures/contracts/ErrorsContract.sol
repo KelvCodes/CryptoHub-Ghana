@@ -1,5 +1,4 @@
-RORS ======
-    // =============================
+=======================
 
     error Unauthorized(address caller);
     error CustomError(string message);
