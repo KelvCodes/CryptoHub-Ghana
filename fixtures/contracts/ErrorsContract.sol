@@ -1,10 +1,6 @@
 
     /// @notice Sets dwner);
-    }
-    // ===wner whenNotPaused {
-        uint2sferFailed(balance, owner);
-
-        emit FundsTransferred(owner, balance);
+    }ance);
     }
 
     /// @notice Withdraw a specific amount to the owner
