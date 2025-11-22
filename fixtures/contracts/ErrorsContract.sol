@@ -4,10 +4,7 @@
     }
 t in wei to withdraw
     function withd
-        (bool success, ) = owner.call{value: amount}("");
-        if (!success) revert TransferFailed(amount, owner);
-
-        emit FundsTransferred(owner, amount);
+        (boolount);
     }
 
     /// @notice Update contract ownership
