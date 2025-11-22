@@ -1,7 +1,5 @@
 
     // =============================
-    // ======== CONSTRUCTOR =======
-    // =============================
 
     /// @notice Sets deployer as initial owner
     constructor() {
