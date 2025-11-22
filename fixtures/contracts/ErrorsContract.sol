@@ -3,10 +3,7 @@
     }ance);
     }
 t in wei to withdraw
-
-    /// @notice Update contract ownership
-    /// @param newOwner New owner address
-    function updateOwner(address payable newOwner) external onlyOwner {
+wOwner) external onlyOwner {
         if (newOwner == address(0)) revert CustomError("Cannot set zero address as owner");
         emit OwnershipTransferred(owner, newOwner);
         owner = newOwner;
