@@ -1,5 +1,4 @@
-
-    mapping(address => uint256) public deposits;
+ess => uint256) public deposits;
 
     // =============================
     // ======== CUSTOM ERRORS ======
