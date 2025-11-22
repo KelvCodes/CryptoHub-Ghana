@@ -1,6 +1,4 @@
 
-    // =============================
-
     /// @notice Contract owner address
     address payable public owner;
 
