@@ -1,5 +1,4 @@
-
-    event FundsTransferred(address indexed to, uint256 amount);
+address indexed to, uint256 amount);
     event Deposited(address indexed from, uint256 amount);
     event Paused(address indexed by);
     event Unpaused(address indexed by);
