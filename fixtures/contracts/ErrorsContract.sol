@@ -1,5 +1,4 @@
 
-    address payable public owner;
 
     /// @notice Tracks if contract operations are paused
     bool public paused;
