@@ -1,6 +1,5 @@
 
-    error Uning message);
-    error TransferFailed(uint256 amount, address to);
+    error Uning message) amount, address to);
     error ContractPaused();
 
     // =============================
