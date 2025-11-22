@@ -1,5 +1,4 @@
-
-    /// @notice Contract owner address
+Contract owner address
     address payable public owner;
 
     /// @notice Tracks if contract operations are paused
