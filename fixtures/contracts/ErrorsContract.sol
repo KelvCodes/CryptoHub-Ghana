@@ -1,9 +1,6 @@
 
     /// @notice Sets dwner);
     }
-
-    // =============================
-    // ======== OWNER FUNCTIONS ====
     // =============================
 
     /// @notice Withdraw all Ether from the contract to the owner
