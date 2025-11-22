@@ -2,8 +2,7 @@
 
 
     modifier onlyOwner() {
-        if (msg.sender != owner) revert Unauthorized(msg.sender);
-        _;
+        if (msg.sender !
     }
 
     modifier whenNotPaused() {
