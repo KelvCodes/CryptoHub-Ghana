@@ -1,6 +1,5 @@
 
-
-    /// @notice Tracks if contract operations are paused
+cks if contract operations are paused
     bool public paused;
 
     /// @notice Tracks user deposits
