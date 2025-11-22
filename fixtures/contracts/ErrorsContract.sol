@@ -1,5 +1,4 @@
-
-pragma solidity ^0.8.13;
+solidity ^0.8.13;
 
 /**
  * @title AdvancedErrorsContract
