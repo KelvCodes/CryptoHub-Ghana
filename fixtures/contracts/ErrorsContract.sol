@@ -1,10 +1,7 @@
 
     /// @notice Sets dwner);
     }
-    // =============================
-
-    /// @notice Withdraw all Ether from the contract to the owner
-    function withdrawAll() external onlyOwner whenNotPaused {
+    // ===wner whenNotPaused {
         uint256 balance = address(this).balance;
         if (balance == 0) revert CustomError("No funds to withdraw");
 
