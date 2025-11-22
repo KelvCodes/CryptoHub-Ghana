@@ -1,5 +1,4 @@
-
-contract AdvancedErrorsContract {
+dvancedErrorsContract {
     // =============================
     // ======== STATE VARIABLES =====
     // =============================
