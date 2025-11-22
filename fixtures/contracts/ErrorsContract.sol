@@ -1,6 +1,4 @@
 
-    error Uning message) amount, address to);
-    error ContractPaused();
 
     // =============================
     // ========= EVENTS ===========
