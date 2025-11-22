@@ -1,10 +1,7 @@
 
     // =============================
 
-    /// @notice Sets deployer as initial owner
-    constructor() {
-        owner = payable(msg.sender);
-        emit OwnershipTransferred(address(0), owner);
+    /// @notice Sets dwner);
     }
 
     // =============================
