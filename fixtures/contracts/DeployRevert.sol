@@ -1,6 +1,4 @@
-
-
-    /// @notice The address that deployed the smart contract.
+he address that deployed the smart contract.
     address public deployer;
 
     /// @notice Reason for deployment failure or success.
