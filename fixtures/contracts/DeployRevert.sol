@@ -1,5 +1,4 @@
 
-    // 🔹 STATE VARIABLES
     // ===========================================
 
     /// @notice The address that deployed the smart contract.
