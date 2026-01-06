@@ -1,12 +1,5 @@
 (uint256 sent, uint256 requireint256 expected);
-yer, string mes
-    // 🔹 CONSTRUCTOR
-    // ===========================================
-    /**
-     * @notice Constructor demonstrates deployment validation logic.
-     * @param shouldFail Forces constructor to intentionally revert if set to true.
-     */
-    constructor(bool shouldFail) payable {
+y) payable {
         deployer = msg.sender;
 
         if (msg.sender == address(0)) {
