@@ -1,5 +1,4 @@
-
- * @dev Includes require(), revert(), assert(), custom errors, events, and deployment validation.
+assert(), custom errors, events, and deployment validation.
  */
 contract DeployRevertPro {
     // ===========================================
