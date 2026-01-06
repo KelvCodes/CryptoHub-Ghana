@@ -1,6 +1,5 @@
 
-
-mestamp when deployment occurred.
+en deployment occurred.
     uint256 public deploymentTimestamp;
 
     // ===========================================
