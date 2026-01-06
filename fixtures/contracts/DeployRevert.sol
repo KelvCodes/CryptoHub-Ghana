@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GNU
+-License-Identifier: GNU
 pragma solidity ^0.8.13;
 
 /**
