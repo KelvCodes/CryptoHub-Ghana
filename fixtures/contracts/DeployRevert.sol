@@ -1,4 +1,4 @@
-the smart contract.
+
     address public deployer;
 
     /// @notice Reason for deployment failure or success.
