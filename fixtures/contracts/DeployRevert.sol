@@ -1,5 +1,4 @@
-ailure or success.
-    string public failReason;
+ailure ilReason;
 
     /// @notice Boolean flag showing whether deployment was successful.
     bool public deployedSuccessfully;
