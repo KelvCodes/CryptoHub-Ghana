@@ -1,5 +1,5 @@
 
-    uint256 public deploymentTimestamp;
+c deploymentTimestamp;
 
     // ===========================================
     // 🔹 CUSTOM ERRORS
