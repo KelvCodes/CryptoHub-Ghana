@@ -1,11 +1,5 @@
 (uint256 sent, uint256 requireint256 expected);
-yer, string message, bool success, uint256 valueSent);
-    event EtherReceived(address indexed sender, uint256 value);
-    event FallbackCalled(address indexed sender, uint256 amount, bytes data);
-    event Withdrawn(address indexed to, uint256 amount);
-    event ValueCheckPassed(uint256 number);
-
-    // ===========================================
+yer, string mes
     // 🔹 CONSTRUCTOR
     // ===========================================
     /**
