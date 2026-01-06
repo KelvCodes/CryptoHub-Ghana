@@ -1,20 +1,4 @@
 
-
-        if (shouldFail) {
-            failReason = "Manual deployment failure triggered.";
-            emit DeploymentAttempt(msg.sender, failReason, false, msg.value);
-            revert DeploymentFailed("Deployment reverted intentionally.");
-        }
-
-        deployedSuccessfully = true;
-        failReason = "Deployment successful.";
-        deploymentTimestamp = block.timestamp;
-
-        emit DeploymentAttempt(msg.sender, failReason, true, msg.value);
-    }
-
-    // ===========================================
-    // 🔹 FALLBACK & RECEIVE
     // ===========================================
 
     receive() external payable {
