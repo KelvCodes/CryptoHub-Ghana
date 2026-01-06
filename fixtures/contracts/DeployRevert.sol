@@ -1,5 +1,4 @@
-
-    error InsufficientDeploymentFunds(uint256 sent, uint256 required);
+(uint256 sent, uint256 required);
     error UnauthorizedAccess(address caller);
     error NumberTooSmall(uint256 provided, uint256 expected);
 
