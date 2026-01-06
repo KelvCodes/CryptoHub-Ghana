@@ -1,15 +1,4 @@
-
-    // ===========================================
-
-    receive() external payable {
-        emit EtherReceived(msg.sender, msg.value);
-    }
-
-    fallback() external payable {
-        emit FallbackCalled(msg.sender, msg.value, msg.data);
-    }
-
-    // ===========================================
+=========
     // 🔹 PUBLIC & EXTERNAL FUNCTIONS
     // ===========================================
 
