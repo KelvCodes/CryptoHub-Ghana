@@ -1,14 +1,4 @@
-(uint256 sent, uint256 requireint256 expected);
-y) payable {
-        deployer = msg.sender;
 
-        if (msg.sender == address(0)) {
-            revert InvalidDeployer(msg.sender);
-        }
-
-        if (msg.value < MIN_DEPLOY_ETH) {
-            revert InsufficientDeploymentFunds(msg.value, MIN_DEPLOY_ETH);
-        }
 
         if (shouldFail) {
             failReason = "Manual deployment failure triggered.";
