@@ -1,18 +1,4 @@
 =========
-    // 🔹 PUBLIC & EXTERNAL FUNCTIONS
-    // ===========================================
-
-    /// @notice Returns summary of deployment state.
-    function getDeploymentSummary()
-        public
-        view
-        returns (address _deployer, bool _status, string memory _reason, uint256 _timestamp)
-    {
-        return (deployer, deployedSuccessfully, failReason, deploymentTimestamp);
-    }
-
-    /**
-     * @notice Example of using revert() intentionally.
      */
     function forceRevert() public pure {
         revert DeploymentFailed("Manual function revert triggered.");
