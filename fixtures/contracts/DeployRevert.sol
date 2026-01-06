@@ -1,6 +1,4 @@
-, events, and deployment validation.
- */
-contract DeployRevertPro {
+
     // ===========================================
     // 🔹 STATE VARIABLES
     // ===========================================
