@@ -1,4 +1,4 @@
- MIN_DEPLOY_ETH = 0.01 ether;
+Y_ETH = 0.01 ether;
 
     /// @notice Timestamp when deployment occurred.
     uint256 public deploymentTimestamp;
