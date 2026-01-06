@@ -1,4 +1,4 @@
-vert mechanics, constructor failure conditions, access control,
+structor failure conditions, access control,
  *         Ether handling, and multiple error-handling patterns in Solidity.
  * @dev Includes require(), revert(), assert(), custom errors, events, and deployment validation.
  */
