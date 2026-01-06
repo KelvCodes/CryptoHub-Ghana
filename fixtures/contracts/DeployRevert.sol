@@ -1,4 +1,4 @@
- deployedSuccessfully;
+sfully;
 
     /// @notice Minimum ETH required to successfully deploy this contract.
     uint256 public constant MIN_DEPLOY_ETH = 0.01 ether;
