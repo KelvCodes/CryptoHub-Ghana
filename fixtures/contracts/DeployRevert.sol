@@ -1,4 +1,4 @@
-ean flag showing whether deployment was successful.
+howing whether deployment was successful.
     bool public deployedSuccessfully;
 
     /// @notice Minimum ETH required to successfully deploy this contract.
