@@ -1,4 +1,4 @@
-ailure ilReason;
+
 
     /// @notice Boolean flag showing whether deployment was successful.
     bool public deployedSuccessfully;
