@@ -1,6 +1,6 @@
 
 
-    /// @notice Timestamp when deployment occurred.
+mestamp when deployment occurred.
     uint256 public deploymentTimestamp;
 
     // ===========================================
