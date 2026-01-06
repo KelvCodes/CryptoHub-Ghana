@@ -1,4 +1,4 @@
- deployment was successful.
+as successful.
     bool public deployedSuccessfully;
 
     /// @notice Minimum ETH required to successfully deploy this contract.
