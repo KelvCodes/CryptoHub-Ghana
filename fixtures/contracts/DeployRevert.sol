@@ -1,5 +1,4 @@
 
-    // ===========================================
 
     /// @notice The address that deployed the smart contract.
     address public deployer;
