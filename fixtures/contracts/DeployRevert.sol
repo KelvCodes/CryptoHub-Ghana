@@ -1,4 +1,3 @@
-lic deployer;
 
     /// @notice Reason for deployment failure or success.
     string public failReason;
