@@ -1,5 +1,4 @@
-
-    uint256 public constant MIN_DEPLOY_ETH = 0.01 ether;
+blic constant MIN_DEPLOY_ETH = 0.01 ether;
 
     /// @notice Timestamp when deployment occurred.
     uint256 public deploymentTimestamp;
