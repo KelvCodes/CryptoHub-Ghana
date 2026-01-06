@@ -1,4 +1,4 @@
-ling, and multiple error-handling patterns in Solidity.
+ling, and multidling patterns in Solidity.
  * @dev Includes require(), revert(), assert(), custom errors, events, and deployment validation.
  */
 contract DeployRevertPro {
