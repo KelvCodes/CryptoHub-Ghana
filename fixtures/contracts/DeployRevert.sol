@@ -1,5 +1,5 @@
 
-led(string reason);
+led(
     error InvalidDeployer(address sender);
     error InsufficientDeploymentFunds(uint256 sent, uint256 required);
     error UnauthorizedAccess(address caller);
