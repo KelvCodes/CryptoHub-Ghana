@@ -1,4 +1,4 @@
-r deployment failure or success.
+ailure or success.
     string public failReason;
 
     /// @notice Boolean flag showing whether deployment was successful.
