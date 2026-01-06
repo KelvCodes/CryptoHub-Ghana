@@ -1,4 +1,4 @@
-assert(), custom errors, events, and deployment validation.
+, events, and deployment validation.
  */
 contract DeployRevertPro {
     // ===========================================
