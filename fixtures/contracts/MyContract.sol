@@ -1,5 +1,4 @@
-
-    event AttributeUnlockedEvent();
+ibuteUnlockedEvent();
 
     // ======================================
     // MODIFIERS
