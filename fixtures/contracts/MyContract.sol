@@ -1,6 +1,5 @@
 
 
-    error EmptyString();
     error ContractPaused();
     error AttributeLocked(uint256 until);
 
