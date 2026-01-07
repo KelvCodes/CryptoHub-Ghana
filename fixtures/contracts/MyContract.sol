@@ -1,7 +1,5 @@
 
     // ======================================
-    // STATE VARIABLES
-    // ======================================
     string private myAttribute;                 // Current stored string
     address public owner;                       // Contract owner
     bool public paused;                         // Paused state flag
