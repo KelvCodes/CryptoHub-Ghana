@@ -1,5 +1,4 @@
-g
-    uint256 public lastUpdated;                 // Timestamp of last attribute update
+           // Timestamp of last attribute update
     uint256 public lockUntil;                   // Timestamp until which attribute is locked
 
     struct HistoryEntry {
