@@ -1,4 +1,4 @@
-attribute update
+
     uint256 public lockUntil;                   // Timestamp until which attribute is locked
 
     struct HistoryEntry {
