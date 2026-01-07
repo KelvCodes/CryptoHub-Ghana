@@ -1,4 +1,4 @@
-, string newValue, uint256 time)
+
     event OwnershipT indexed by);
     event AttributeLockedEvent(uint256 until);
     event AttributeUnlockedEvent();
