@@ -1,6 +1,4 @@
 
-    }
-===========
     error Unauthorized(address caller);
     error EmptyString();
     error ContractPaused();
