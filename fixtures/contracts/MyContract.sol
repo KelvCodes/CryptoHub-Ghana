@@ -1,80 +1,272 @@
+// SPDX-License-Identifier: GNU
+pragma solidity ^0.8.13;
 
+/**
+ * @title MyContract v3.0
+ * @author Kelvin
+ * @notice Enterprise-grade contract demonstrating secure string handling,
+ *         role-based access control, pausing, locking, rate-limiting,
+ *         integrity verification, and audit-friendly architecture.
+ *
+ * @dev Designed for production learning, interviews, and security reviews.
+ */
+contract MyContract {
+    // ============================================================
+    // 🔹 CONSTANTS
+    // ============================================================
 
-    /// @notice Updates the attribute value with event emission
-    function setAttr(string memory newValue) public onlyOwner notPaused notLocked {
+    uint256 public constant MIN_UPDATE_INTERVAL = 30; // seconds
+
+    // ============================================================
+    // 🔹 STATE VARIABLES (STORAGE LAYOUT AWARE)
+    // ============================================================
+
+    string private _attribute;
+    bytes32 private _attributeHash;
+
+    address public owner;
+    mapping(address => bool) public admins;
+
+    bool public paused;
+    uint256 public lastUpdated;
+    uint256 public lockUntil;
+
+    uint256 public lastUpdateAttempt;
+
+    struct HistoryEntry {
+        string value;
+        bytes32 valueHash;
+        uint256 timestamp;
+        address updater;
+    }
+
+    HistoryEntry[] private history;
+
+    // ============================================================
+    // 🔹 CUSTOM ERRORS (GAS EFFICIENT)
+    // ============================================================
+
+    error Unauthorized(address caller);
+    error EmptyString();
+    error ContractPaused();
+    error AttributeLocked(uint256 until);
+    error UpdateTooFrequent(uint256 nextAllowedTime);
+    error InvalidAddress();
+    error IntegrityMismatch();
+
+    // ============================================================
+    // 🔹 EVENTS
+    // ============================================================
+
+    event AttributeUpdated(
+        address indexed updater,
+        string oldValue,
+        string newValue,
+        uint256 timestamp
+    );
+
+    event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
+    event AdminAdded(address indexed admin);
+    event AdminRemoved(address indexed admin);
+
+    event ContractPaused(address indexed by);
+    event ContractUnpaused(address indexed by);
+
+    event AttributeLockedEvent(uint256 until);
+    event AttributeUnlockedEvent();
+
+    // ============================================================
+    // 🔹 MODIFIERS
+    // ============================================================
+
+    modifier onlyOwner() {
+        if (msg.sender != owner) revert Unauthorized(msg.sender);
+        _;
+    }
+
+    modifier onlyAdminOrOwner() {
+        if (msg.sender != owner && !admins[msg.sender]) {
+            revert Unauthorized(msg.sender);
+        }
+        _;
+    }
+
+    modifier whenNotPaused() {
+        if (paused) revert ContractPaused();
+        _;
+    }
+
+    modifier whenNotLocked() {
+        if (block.timestamp < lockUntil) revert AttributeLocked(lockUntil);
+        _;
+    }
+
+    modifier rateLimited() {
+        if (block.timestamp < lastUpdateAttempt + MIN_UPDATE_INTERVAL) {
+            revert UpdateTooFrequent(lastUpdateAttempt + MIN_UPDATE_INTERVAL);
+        }
+        _;
+    }
+
+    // ============================================================
+    // 🔹 CONSTRUCTOR
+    // ============================================================
+
+    constructor(string memory initialValue) {
+        if (bytes(initialValue).length == 0) revert EmptyString();
+
+        owner = msg.sender;
+        _setAttribute(initialValue);
+
+        lastUpdated = block.timestamp;
+        history.push(
+            HistoryEntry(
+                initialValue,
+                _attributeHash,
+                block.timestamp,
+                msg.sender
+            )
+        );
+    }
+
+    // ============================================================
+    // 🔹 INTERNAL CORE LOGIC
+    // ============================================================
+
+    function _setAttribute(string memory newValue) internal {
+        _attribute = newValue;
+        _attributeHash = keccak256(abi.encodePacked(newValue));
+        lastUpdated = block.timestamp;
+        lastUpdateAttempt = block.timestamp;
+    }
+
+    function _validateIntegrity(string memory value) internal view {
+        if (keccak256(abi.encodePacked(value)) != _attributeHash) {
+            revert IntegrityMismatch();
+        }
+    }
+
+    // ============================================================
+    // 🔹 VIEW FUNCTIONS
+    // ============================================================
+
+    function getAttribute() external view returns (string memory) {
+        return _attribute;
+    }
+
+    function getAttributeHash() external view returns (bytes32) {
+        return _attributeHash;
+    }
+
+    function verifyIntegrity() external view returns (bool) {
+        return keccak256(abi.encodePacked(_attribute)) == _attributeHash;
+    }
+
+    function getHistoryLength() external view returns (uint256) {
+        return history.length;
+    }
+
+    /**
+     * @notice Paginated history fetch (gas-safe)
+     */
+    function getHistory(uint256 offset, uint256 limit)
+        external
+        view
+        returns (HistoryEntry[] memory)
+    {
+        uint256 end = offset + limit;
+        if (end > history.length) end = history.length;
+
+        HistoryEntry[] memory page = new HistoryEntry[](end - offset);
+        for (uint256 i = offset; i < end; i++) {
+            page[i - offset] = history[i];
+        }
+        return page;
+    }
+
+    // ============================================================
+    // 🔹 WRITE FUNCTIONS
+    // ============================================================
+
+    function setAttribute(string memory newValue)
+        external
+        onlyAdminOrOwner
+        whenNotPaused
+        whenNotLocked
+        rateLimited
+    {
         if (bytes(newValue).length == 0) revert EmptyString();
 
-        string memory oldValue = myAttribute;
-        myAttribute = newValue;
-        lastUpdated = block.timestamp;
-        attributeHistory.push(HistoryEntry(newValue, block.timestamp));
+        string memory oldValue = _attribute;
+        _setAttribute(newValue);
+
+        history.push(
+            HistoryEntry(
+                newValue,
+                _attributeHash,
+                block.timestamp,
+                msg.sender
+            )
+        );
 
         emit AttributeUpdated(msg.sender, oldValue, newValue, block.timestamp);
     }
 
-    /// @notice Overloaded version with optional event emission
-    function setAttr(string memory newValue, bool emitEvent) public onlyOwner notPaused notLocked {
-        if (bytes(newValue).length == 0) revert EmptyString();
+    // ============================================================
+    // 🔹 PAUSE & LOCK CONTROL
+    // ============================================================
 
-        string memory oldValue = myAttribute;
-        myAttribute = newValue;
-        lastUpdated = block.timestamp;
-        attributeHistory.push(HistoryEntry(newValue, block.timestamp));
-
-        if (emitEvent) {
-            emit AttributeUpdated(msg.sender, oldValue, newValue, block.timestamp);
-        }
-    }
-
-    // ======================================
-    // CONTRACT CONTROL FUNCTIONS
-    // ======================================
-
-    /// @notice Pause the contract (disable updates)
     function pause() external onlyOwner {
         paused = true;
         emit ContractPaused(msg.sender);
     }
 
-    /// @notice Unpause the contract
     function unpause() external onlyOwner {
         paused = false;
         emit ContractUnpaused(msg.sender);
     }
 
-    /// @notice Lock updates for a specified duration (in seconds)
     function lockAttribute(uint256 duration) external onlyOwner {
         lockUntil = block.timestamp + duration;
         emit AttributeLockedEvent(lockUntil);
     }
 
-    /// @notice Unlock attribute manually before time
     function unlockAttribute() external onlyOwner {
         lockUntil = 0;
         emit AttributeUnlockedEvent();
     }
 
-    // ======================================
-    // OWNER MANAGEMENT
-    // ======================================
+    // ============================================================
+    // 🔹 ROLE MANAGEMENT
+    // ============================================================
 
-    /// @notice Transfers ownership to a new address
-    function transferOwnership(address newOwner) public onlyOwner {
-        if (newOwner == address(0)) revert Unauthorized(newOwner);
+    function addAdmin(address admin) external onlyOwner {
+        if (admin == address(0)) revert InvalidAddress();
+        admins[admin] = true;
+        emit AdminAdded(admin);
+    }
+
+    function removeAdmin(address admin) external onlyOwner {
+        admins[admin] = false;
+        emit AdminRemoved(admin);
+    }
+
+    function transferOwnership(address newOwner) external onlyOwner {
+        if (newOwner == address(0)) revert InvalidAddress();
         address oldOwner = owner;
         owner = newOwner;
         emit OwnershipTransferred(oldOwner, newOwner);
     }
 
-    // ======================================
-    // FALLBACKS
-    // ======================================
+    // ============================================================
+    // 🔹 FALLBACKS
+    // ============================================================
 
     receive() external payable {
-        // Accept ETH just for demonstration
+        // ETH accepted intentionally (future extensibility)
     }
 
     fallback() external payable {
-        // Handles calls to non-existent functions
+        // Safe fallback
     }
 }
