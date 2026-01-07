@@ -1,5 +1,4 @@
 
-    event AttributeLockedEvent(uint256 until);
     event AttributeUnlockedEvent();
 
     // ======================================
