@@ -1,4 +1,4 @@
-                  // Timestamp until which attribute is locked
+l which attribute is locked
 
     struct HistoryEntry {
         string value;
