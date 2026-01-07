@@ -1,5 +1,4 @@
-/ Current stored string
-    address public owner;                       // Contract owner
+                    // Contract owner
     bool public paused;                         // Paused state flag
     uint256 public lastUpdated;                 // Timestamp of last attribute update
     uint256 public lockUntil;                   // Timestamp until which attribute is locked
