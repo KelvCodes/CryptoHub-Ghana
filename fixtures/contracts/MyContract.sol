@@ -1,5 +1,4 @@
-
-        attributeHistory.push(HistoryEntry(initialValue, block.timestamp));
+push(HistoryEntry(initialValue, block.timestamp));
     }
 
     // ======================================
