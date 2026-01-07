@@ -1,4 +1,4 @@
-istoryEntry {
+
         string value;
         uint256 timestamp;
     }
