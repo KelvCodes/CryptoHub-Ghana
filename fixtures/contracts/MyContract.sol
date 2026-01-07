@@ -1,7 +1,5 @@
 
       
-
-    modifier notLocked() {
         if (block.timestamp < lockUntil) revert AttributeLocked(lockUntil);
         _;
     }
