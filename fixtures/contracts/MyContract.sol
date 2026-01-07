@@ -1,6 +1,4 @@
-^0.8.13;
 
-/**
  * @title MyContract v2.0
  * @author Kelvin
  * @notice A robust contract showcasing secure string handling, pausing, time-based locking, and event-driven logging.
