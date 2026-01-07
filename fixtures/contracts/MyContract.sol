@@ -1,16 +1,4 @@
 
-    }w returns (uint256) {
-        return lastUpdated;
-    }
-
-    /// @notice Compares two strings for equality
-    function compareStrings(string memory a, string memory b) public pure returns (bool) {
-        return keccak256(abi.encodePacked(a)) == keccak256(abi.encodePacked(b));
-    }
-
-    // ======================================
-    // WRITE FUNCTIONS
-    // ======================================
 
     /// @notice Updates the attribute value with event emission
     function setAttr(string memory newValue) public onlyOwner notPaused notLocked {
