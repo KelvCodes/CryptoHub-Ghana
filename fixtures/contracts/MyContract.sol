@@ -1,6 +1,4 @@
 
-    // =======evert Unauthorized(msg.sender);
-        _;
     }
 
     modifier notPaused() {
