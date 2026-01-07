@@ -1,7 +1,7 @@
 
     }
 
-    // CUSTOM ERRORS
+    // CUSTOM ER
     // ======================================
     error Unauthorized(address caller);
     error EmptyString();
