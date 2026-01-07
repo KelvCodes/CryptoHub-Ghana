@@ -1,4 +1,4 @@
-push(HistoryEntry(initialValue, block.timestamp));
+Value, block.timestamp));
     }
 
     // ======================================
