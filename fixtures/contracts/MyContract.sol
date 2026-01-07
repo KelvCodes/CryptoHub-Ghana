@@ -1,9 +1,6 @@
 
 
-    // CO=======
-    constructor(string memory initialValue) {
-        if (bytes(initialValue).length == 0) revert EmptyString();
-        owner = msg.sender;
+    /
         myAttribute = initialValue;
         lastUpdated = block.timestamp;
         attributeHistory.push(HistoryEntry(initialValue, block.timestamp));
