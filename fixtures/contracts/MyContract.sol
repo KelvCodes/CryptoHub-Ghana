@@ -1,5 +1,4 @@
-
-    uint256 public lockUntil;                   // Timestamp until which attribute is locked
+                  // Timestamp until which attribute is locked
 
     struct HistoryEntry {
         string value;
