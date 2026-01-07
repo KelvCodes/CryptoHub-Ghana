@@ -1,13 +1,5 @@
 
-    }
-
-    /// @notice Returns the entire history of attribute updates with timestamps
-    function getHistory() public view returns (HistoryEntry[] memory) {
-        return attributeHistory;
-    }
-
-    /// @notice Returns the last updated timestamp
-    function getLastUpdateTime() public view returns (uint256) {
+    }w returns (uint256) {
         return lastUpdated;
     }
 
