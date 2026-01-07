@@ -1,7 +1,4 @@
 
-
-    /
-        myAttribute = initialValue;
         lastUpdated = block.timestamp;
         attributeHistory.push(HistoryEntry(initialValue, block.timestamp));
     }
