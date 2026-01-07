@@ -1,7 +1,5 @@
 , string newValue, uint256 time)
-    event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
-    event ContractPaused(address indexed by);
-    event ContractUnpaused(address indexed by);
+    event OwnershipT indexed by);
     event AttributeLockedEvent(uint256 until);
     event AttributeUnlockedEvent();
 
