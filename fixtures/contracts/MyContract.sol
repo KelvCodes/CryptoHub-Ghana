@@ -1,6 +1,4 @@
-l w
-
-    struct HistoryEntry {
+istoryEntry {
         string value;
         uint256 timestamp;
     }
