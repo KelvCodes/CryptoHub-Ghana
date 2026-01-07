@@ -1,4 +1,4 @@
-robust contract showcasing secure string handling, pausing, time-based locking, and event-driven logging.
+act showcasing secure string handling, pausing, time-based locking, and event-driven logging.
  */
 contract MyContract {
     // ======================================
