@@ -1,6 +1,5 @@
 
 
-    // ======================================
     // CONSTRUCTOR
     // ======================================
     constructor(string memory initialValue) {
