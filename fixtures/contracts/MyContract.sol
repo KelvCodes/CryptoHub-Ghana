@@ -1,7 +1,4 @@
 
-    }
-
-    modifier notPaused() {
         if (paused) revert ContractPaused();
         _;
     }
