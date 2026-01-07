@@ -1,8 +1,6 @@
 
     }
 
-    HistoryEntry[] private attributeHistory;    // Detailed update history (value + timestamp)
-
     // ======================================
     // CUSTOM ERRORS
     // ======================================
