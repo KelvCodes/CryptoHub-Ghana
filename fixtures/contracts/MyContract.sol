@@ -1,8 +1,4 @@
 
-      
-        if (block.timestamp < lockUntil) revert AttributeLocked(lockUntil);
-        _;
-    }
 
     // ======================================
     // CONSTRUCTOR
