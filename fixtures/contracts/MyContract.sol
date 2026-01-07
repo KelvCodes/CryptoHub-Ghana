@@ -1,5 +1,4 @@
- Kelvin
- * @notice A robust contract showcasing secure string handling, pausing, time-based locking, and event-driven logging.
+robust contract showcasing secure string handling, pausing, time-based locking, and event-driven logging.
  */
 contract MyContract {
     // ======================================
