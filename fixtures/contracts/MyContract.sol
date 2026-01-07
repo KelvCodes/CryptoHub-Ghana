@@ -1,6 +1,4 @@
 
-        s
-        uint256 timestamp;
     }
 
     HistoryEntry[] private attributeHistory;    // Detailed update history (value + timestamp)
