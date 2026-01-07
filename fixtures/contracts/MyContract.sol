@@ -1,4 +1,5 @@
-pdated(address indexed updater, string oldValue, string newValue, uint256 time)
+
+updater, string oldValue, string newValue, uint256 time)
     event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
     event ContractPaused(address indexed by);
     event ContractUnpaused(address indexed by);
