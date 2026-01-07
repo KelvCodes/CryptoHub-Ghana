@@ -1,4 +1,4 @@
-l which attribute is locked
+l w
 
     struct HistoryEntry {
         string value;
