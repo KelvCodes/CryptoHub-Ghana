@@ -1,5 +1,4 @@
-================
-    // 🔹 STATE VARIABLES
+S
     // =============================================================
 
     /// @notice Stores a signed integer that can hold both positive and negative values.
