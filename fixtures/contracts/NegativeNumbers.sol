@@ -1,4 +1,4 @@
-and safe handling of underflows/overflows.
+f underflows/overflows.
  * @dev Adds access control, arithmetic functions, and detailed event logs.
  */
 contract AdvancedNegativeNumbers {
