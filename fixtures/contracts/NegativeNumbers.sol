@@ -1,5 +1,4 @@
 
-    event OneNegativeNumberIndexed(int256 indexed one);
     event TwoNegativeNumbers(int256 one, int256 two);
     event TwoNegativeNumbersIndexed(int256 indexed one, int256 indexed two);
 
