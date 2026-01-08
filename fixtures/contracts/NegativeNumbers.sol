@@ -1,6 +1,4 @@
-ailed event logs.
- */
-contract AdvancedNegativeNumbers {
+ct AdvancedNegativeNumbers {
     // =============================================================
     // 🔹 STATE VARIABLES
     // =============================================================
