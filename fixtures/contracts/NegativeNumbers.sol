@@ -1,7 +1,5 @@
 
 
-    // =============================================================
-
     /// @notice Emitted when a new signed number is stored.
     event NumberUpdated(address indexed updater, int256 oldValue, int256 newValue, uint256 updateCount);
 
