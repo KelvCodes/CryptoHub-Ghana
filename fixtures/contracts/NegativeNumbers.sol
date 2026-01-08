@@ -1,7 +1,4 @@
-
-
-/**
- * @title AdvancedNegativeNumbers
+gativeNumbers
  * @author Kelvin
  * @notice Demonstrates working with signed integers (positive and negative),
  * event indexing, arithmetic operations, and safe handling of underflows/overflows.
