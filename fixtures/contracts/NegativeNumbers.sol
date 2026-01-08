@@ -1,4 +1,4 @@
-signed integers (positive and negative),
+and negative),
  * event indexing, arithmetic operations, and safe handling of underflows/overflows.
  * @dev Adds access control, arithmetic functions, and detailed event logs.
  */
