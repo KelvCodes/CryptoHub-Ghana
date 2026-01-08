@@ -1,4 +1,4 @@
- functions, and detailed event logs.
+ailed event logs.
  */
 contract AdvancedNegativeNumbers {
     // =============================================================
