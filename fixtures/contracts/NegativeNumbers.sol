@@ -1,5 +1,4 @@
-perations occur.
-    event ArithmeticOperation(
+eticOperation(
         address indexed executor,
         string operation,
         int256 inputValue,
