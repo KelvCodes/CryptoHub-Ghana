@@ -1,4 +1,4 @@
-, int256 indexed two);
+
 
     /// @notice Mixed event with unsigned (positive), signed (negative), and string data.
     event OtherNegativeNumbers(uint256 positive, int256 negative, string str);
