@@ -1,4 +1,4 @@
-when arithmetic operations occur.
+perations occur.
     event ArithmeticOperation(
         address indexed executor,
         string operation,
