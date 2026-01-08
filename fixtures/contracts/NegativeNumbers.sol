@@ -1,4 +1,4 @@
-dates have been made to the stored number.
+ made to the stored number.
     uint256 public updateCount;
 
     // =============================================================
