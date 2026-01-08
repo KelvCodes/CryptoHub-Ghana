@@ -1,5 +1,4 @@
 
-        address indexed executor,
         string operation,
         int256 inputValue,
         int256 result
