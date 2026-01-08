@@ -1,14 +1,4 @@
-red(address indexed previousOwner, address indexed newOwner);
 
-    // =============================================================
-    // 🔹 CUSTOM ERRORS
-    // =============================================================
-
-    error Unauthorized();
-    error InvalidOperation(string message);
-
-    // =============================================================
-    // 🔹 MODIFIERS
     // =============================================================
 
     /// @dev Restricts function access to the contract owner only.
