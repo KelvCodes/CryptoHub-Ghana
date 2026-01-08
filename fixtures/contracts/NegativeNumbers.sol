@@ -1,4 +1,4 @@
-), signed (negative), and string data.
+
     event OtherNegativeNumbers(uint256 positive, int256 negative, string str);
     event OtherNegativeNumbersIndexed(uint256 indexed positive, int256 indexed negative, string str);
 
