@@ -1,7 +1,4 @@
-negative, string str);
-
-    /// @notice Ownership change event.
-    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
+red(address indexed previousOwner, address indexed newOwner);
 
     // =============================================================
     // 🔹 CUSTOM ERRORS
