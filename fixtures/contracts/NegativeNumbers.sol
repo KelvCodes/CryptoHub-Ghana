@@ -1,6 +1,4 @@
-
-
-    /// @notice Emitted when arithmetic operations occur.
+when arithmetic operations occur.
     event ArithmeticOperation(
         address indexed executor,
         string operation,
