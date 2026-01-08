@@ -1,4 +1,4 @@
-ntrol, arithmetic functions, and detailed event logs.
+ functions, and detailed event logs.
  */
 contract AdvancedNegativeNumbers {
     // =============================================================
