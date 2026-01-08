@@ -1,5 +1,4 @@
-
-    int256 private storedNumber;
+oredNumber;
 
     /// @notice The address of the contract owner.
     address public owner;
