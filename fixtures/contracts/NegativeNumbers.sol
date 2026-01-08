@@ -1,4 +1,4 @@
-The address of the contract owner.
+f the contract owner.
     address public owner;
 
     /// @notice Tracks how many updates have been made to the stored number.
