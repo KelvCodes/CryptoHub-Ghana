@@ -1,5 +1,4 @@
-
-gle and double negative number emissions.
+egative number emissions.
     event OneNegativeNumber(int256 one);
     event OneNegativeNumberIndexed(int256 indexed one);
     event TwoNegativeNumbers(int256 one, int256 two);
