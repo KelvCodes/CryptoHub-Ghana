@@ -1,6 +1,4 @@
-
-    event TwoNegativeNumbers(int256 one, int256 two);
-    event TwoNegativeNumbersIndexed(int256 indexed one, int256 indexed two);
+, int256 indexed two);
 
     /// @notice Mixed event with unsigned (positive), signed (negative), and string data.
     event OtherNegativeNumbers(uint256 positive, int256 negative, string str);
