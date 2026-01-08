@@ -1,6 +1,4 @@
-
-
-    /// @ned when a new signed number is stored.
+ned number is stored.
     event NumberUpdated(address indexed updater, int256 oldValue, int256 newValue, uint256 updateCount);
 
     /// @notice Emitted when arithmetic operations occur.
