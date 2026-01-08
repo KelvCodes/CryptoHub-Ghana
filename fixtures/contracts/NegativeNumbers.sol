@@ -1,6 +1,4 @@
 
-
-    /// @notice Stores a signed integer that can hold both positive and negative values.
     int256 private storedNumber;
 
     /// @notice The address of the contract owner.
