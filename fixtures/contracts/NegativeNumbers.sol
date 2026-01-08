@@ -1,7 +1,4 @@
 
-        int256 inputValue,
-        int256 result
-    );
 
     /// @notice Demonstrates single and double negative number emissions.
     event OneNegativeNumber(int256 one);
