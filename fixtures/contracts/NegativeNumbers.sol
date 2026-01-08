@@ -1,7 +1,5 @@
 
 
-    // ========
-    // 🔹 EVENTS
     // =============================================================
 
     /// @notice Emitted when a new signed number is stored.
