@@ -1,8 +1,4 @@
-
-
-const rpcUrl = process.env.INFURA_KEY
-  ? `https://${network}.infura.io/v3/${CONFIG.NODE_API_KEY}`
-  : `https://eth-${network}.alchemyapi.io/v2/${CONFIG.NODE_API_KEY}`;
+.io/v2/${CONFIG.NODE_API_KEY}`;
 
 const providerEngine = new Web3ProviderEngine();
 providerEngine.addProvider(mnemonicWalletSubprovider);
