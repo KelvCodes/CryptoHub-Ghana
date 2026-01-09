@@ -1,4 +1,4 @@
-Sale Script (Ultimate Edition)
+
 //   metadata validation, structured logs, scheduler utilities,
 //   TypeScript-friendly structure, and improved error handling.
 // =============================================================
