@@ -1,4 +1,3 @@
-"opensea-js/lib/types");
 
 const {
   MnemonicWalletSubprovider,
