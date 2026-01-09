@@ -1,4 +1,4 @@
-Name } = require("opensea-js/lib/types");
+"opensea-js/lib/types");
 
 const {
   MnemonicWalletSubprovider,
