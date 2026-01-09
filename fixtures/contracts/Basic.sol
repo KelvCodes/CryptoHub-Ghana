@@ -1,6 +1,5 @@
 ----------------------------
-
-const BASE_DERIVATION_PATH = `44'/60'/0'/0`;
+`44'/60'/0'/0`;
 
 const mnemonicWalletSubprovider = new MnemonicWalletSubprovider({
   mnemonic: CONFIG.MNEMONIC,
