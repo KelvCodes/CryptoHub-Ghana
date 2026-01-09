@@ -2,8 +2,7 @@
 
 function log(msg) {
   const timestamp = new Date().toISOString();
-  console.log(`[${timestamp}] ${msg}`);
-}
+  console.log(`[${
 
 function logError(err) {
   const timestamp = new Date().toISOString();
