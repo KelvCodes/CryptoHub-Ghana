@@ -1,5 +1,4 @@
- {
-    console.error(`❌ Missing environment variable: ${field}`);
+❌ Missing environment variable: ${field}`);
     process.exit(1);
   }
 });
