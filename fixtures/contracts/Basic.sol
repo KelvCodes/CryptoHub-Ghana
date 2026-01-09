@@ -1,4 +1,4 @@
-nning without OpenSea API key. Rate limits may apply.");
+key. Rate limits may apply.");
 }
 
 // -------------------------------------------------------------
