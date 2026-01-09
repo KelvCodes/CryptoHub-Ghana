@@ -2,9 +2,7 @@
 
  process.env.MNEMONIC,
   NODE_API_KEY: process.env.INFURA_KEY || process.env.ALCHEMY_KEY,
-  NETWORK: process.env.NETWORK || "rinkeby",
-  OWNER_ADDRESS: process.env.OWNER_ADDRESS,
-  NFT_CONTRACT_ADDRESS: process.env.NFT_CONTRACT_ADDRESS,
+RESS: process.env.NFT_CONTRACT_ADDRESS,
   API_KEY: process.env.API_KEY || "",
   SAFE_MODE: process.env.SAFE_MODE !== "false",
 };
