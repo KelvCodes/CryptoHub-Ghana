@@ -1,5 +1,4 @@
-
-  console.warn("⚠️  Running without OpenSea API key. Rate limits may apply.");
+nning without OpenSea API key. Rate limits may apply.");
 }
 
 // -------------------------------------------------------------
