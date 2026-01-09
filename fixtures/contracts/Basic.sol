@@ -1,4 +1,4 @@
-❌ Missing environment variable: ${field}`);
+variable: ${field}`);
     process.exit(1);
   }
 });
