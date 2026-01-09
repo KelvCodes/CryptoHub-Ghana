@@ -1,9 +1,7 @@
 SS",
   "NFT_CONTRACT_ADDRESS",
 ];
-
-requiredFields.forEach((field) => {
-  if (!CONFIG[field]) {
+NFIG[field]) {
     console.error(`❌ Missing environment variable: ${field}`);
     process.exit(1);
   }
