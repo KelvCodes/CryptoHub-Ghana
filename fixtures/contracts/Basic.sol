@@ -1,4 +1,4 @@
-variable: ${field}`);
+${field}`);
     process.exit(1);
   }
 });
