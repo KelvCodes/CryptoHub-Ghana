@@ -1,5 +1,4 @@
-
-rocess.env.INFURA_KEY || process.env.ALCHEMY_KEY,
+KEY || process.env.ALCHEMY_KEY,
 RESS: process.env.NFT_CONTRACT_ADDRESS,
   API_KEY: process.env.API_KEY || "",
   SAFE_MODE: process.env.SAFE_MODE !== "false",
