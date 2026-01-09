@@ -1,4 +1,4 @@
-uire("opensea-js");
+
 const { WyvernSchemaName } = require("opensea-js/lib/types");
 
 const {
