@@ -1,5 +1,4 @@
 Sale Script (Ultimate Edition)
-//   With bulk listings, smart retries, dynamic pricing,
 //   metadata validation, structured logs, scheduler utilities,
 //   TypeScript-friendly structure, and improved error handling.
 // =============================================================
