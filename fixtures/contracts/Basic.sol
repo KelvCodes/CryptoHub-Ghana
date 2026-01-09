@@ -1,5 +1,4 @@
-
-const { WyvernSchemaName } = require("opensea-js/lib/types");
+Name } = require("opensea-js/lib/types");
 
 const {
   MnemonicWalletSubprovider,
