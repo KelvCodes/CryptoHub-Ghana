@@ -1,5 +1,4 @@
 
-rovider = require= require("web3-provider-engine");
 
 const fs = require("fs");
 const path = require("path");
