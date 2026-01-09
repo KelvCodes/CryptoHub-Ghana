@@ -1,44 +1,145 @@
-ent: ${event}`)
+// =============================================================
+// OpenSea NFT Advanced Sale Script
+// Production-Ready Edition
+// Supports fixed price, Dutch auctions, English auctions,
+// bulk listings, retries, structured logging, and validation.
+// =============================================================
+
+// -------------------------------------------------------------
+// Imports
+// -------------------------------------------------------------
+require("dotenv").config();
+
+const { OpenSeaPort, Network } = require("opensea-js");
+const { WyvernSchemaName } = require("opensea-js/lib/types");
+
+const { MnemonicWalletSubprovider } = require("@0x/subproviders");
+const RPCSubprovider = require("web3-provider-engine/subproviders/rpc");
+const Web3ProviderEngine = require("web3-provider-engine");
+
+// -------------------------------------------------------------
+// Configuration & Environment Validation
+// -------------------------------------------------------------
+
+const CONFIG = {
+  MNEMONIC: process.env.MNEMONIC,
+  NODE_API_KEY: process.env.INFURA_KEY || process.env.ALCHEMY_KEY,
+  NETWORK: process.env.NETWORK || "rinkeby",
+  OWNER_ADDRESS: process.env.OWNER_ADDRESS,
+  NFT_CONTRACT_ADDRESS: process.env.NFT_CONTRACT_ADDRESS,
+  OPENSEA_API_KEY: process.env.API_KEY || "",
+  SAFE_MODE: process.env.SAFE_MODE !== "false",
+};
+
+const REQUIRED_ENV_VARS = [
+  "MNEMONIC",
+  "NODE_API_KEY",
+  "NETWORK",
+  "OWNER_ADDRESS",
+  "NFT_CONTRACT_ADDRESS",
+];
+
+REQUIRED_ENV_VARS.forEach((key) => {
+  if (!CONFIG[key]) {
+    console.error(`Missing required environment variable: ${key}`);
+    process.exit(1);
+  }
+});
+
+if (!CONFIG.OPENSEA_API_KEY) {
+  console.warn(
+    "Warning: OpenSea API key not provided. Rate limits may apply."
+  );
+}
+
+// -------------------------------------------------------------
+// Logging Utilities
+// -------------------------------------------------------------
+
+function log(message) {
+  console.log(`[${new Date().toISOString()}] ${message}`);
+}
+
+function logError(error) {
+  console.error(`[${new Date().toISOString()}] ERROR`);
+  console.error(error);
+}
+
+// -------------------------------------------------------------
+// Web3 Provider Setup
+// -------------------------------------------------------------
+
+const BASE_DERIVATION_PATH = "44'/60'/0'/0";
+
+const walletSubprovider = new MnemonicWalletSubprovider({
+  mnemonic: CONFIG.MNEMONIC,
+  baseDerivationPath: BASE_DERIVATION_PATH,
+});
+
+const resolvedNetwork =
+  CONFIG.NETWORK === "mainnet" || CONFIG.NETWORK === "live"
+    ? "mainnet"
+    : "rinkeby";
+
+const rpcUrl = process.env.INFURA_KEY
+  ? `https://${resolvedNetwork}.infura.io/v3/${CONFIG.NODE_API_KEY}`
+  : `https://eth-${resolvedNetwork}.alchemyapi.io/v2/${CONFIG.NODE_API_KEY}`;
+
+const providerEngine = new Web3ProviderEngine();
+providerEngine.addProvider(walletSubprovider);
+providerEngine.addProvider(new RPCSubprovider({ rpcUrl }));
+providerEngine.start();
+
+// -------------------------------------------------------------
+// OpenSea SDK Initialization
+// -------------------------------------------------------------
+
+const seaport = new OpenSeaPort(
+  providerEngine,
+  {
+    networkName:
+      resolvedNetwork === "mainnet" ? Network.Main : Network.Rinkeby,
+    apiKey: CONFIG.OPENSEA_API_KEY,
+  },
+  (event) => log(`SDK Event: ${event}`)
 );
 
 // -------------------------------------------------------------
-//   HELPER FUNCTIONS
+// Utility Helpers
 // -------------------------------------------------------------
 
-// Metadata validation (optional but recommended)
 async function validateMetadata(tokenId) {
-  // In real projects you would fetch actual metadata here
-  log(`🔍 Validating metadata for token ${tokenId}...`);
+  log(`Validating metadata for token ${tokenId}`);
   return true;
 }
 
-// Sleep utility (useful for rate limit protection)
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-// Retry wrapper for robust execution
-async function safeExecute(fn, retries = 5) {
-  for (let i = 0; i < retries; i++) {
+async function withRetries(action, retries = 5) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
     try {
-      return await fn();
-    } catch (err) {
-      logError(err);
-      const wait = 2000 * (i + 1);
-      log(`⏳ Retrying in ${wait / 1000}s (${i + 1}/${retries})...`);
-      await sleep(wait);
+      return await action();
+    } catch (error) {
+      logError(error);
+      if (attempt === retries) {
+        throw new Error("Maximum retry attempts reached.");
+      }
+      const delay = attempt * 2000;
+      log(`Retrying in ${delay / 1000} seconds (${attempt}/${retries})`);
+      await sleep(delay);
     }
   }
-  throw new Error("❌ Max retries reached. Aborting.");
 }
 
 // -------------------------------------------------------------
-//   SALE TEMPLATES
+// Listing Strategies
 // -------------------------------------------------------------
 
 async function createFixedPriceListing(tokenId, price) {
-  return await safeExecute(async () => {
-    log(`🛒 Creating FIXED PRICE listing for Token ${tokenId}...`);
+  return withRetries(async () => {
+    log(`Creating fixed-price listing for token ${tokenId}`);
 
     await validateMetadata(tokenId);
 
@@ -53,16 +154,17 @@ async function createFixedPriceListing(tokenId, price) {
       accountAddress: CONFIG.OWNER_ADDRESS,
     });
 
-    log(`✅ Fixed-price listing created: ${order.asset.openseaLink}`);
+    log(`Fixed-price listing created: ${order.asset.openseaLink}`);
     return order;
   });
 }
 
-async function createDutchAuctionListing(tokenId, start, end, hours) {
-  return await safeExecute(async () => {
-    log(`⏬ Creating DUTCH AUCTION for Token ${tokenId}...`);
+async function createDutchAuctionListing(tokenId, startPrice, endPrice, hours) {
+  return withRetries(async () => {
+    log(`Creating Dutch auction for token ${tokenId}`);
 
-    const expirationTime = Math.round(Date.now() / 1000 + 60 * 60 * hours);
+    const expirationTime =
+      Math.floor(Date.now() / 1000) + hours * 60 * 60;
 
     const order = await seaport.createSellOrder({
       asset: {
@@ -70,25 +172,26 @@ async function createDutchAuctionListing(tokenId, start, end, hours) {
         tokenAddress: CONFIG.NFT_CONTRACT_ADDRESS,
         schemaName: WyvernSchemaName.ERC721,
       },
-      startAmount: start,
-      endAmount: end,
+      startAmount: startPrice,
+      endAmount: endPrice,
       expirationTime,
       accountAddress: CONFIG.OWNER_ADDRESS,
     });
 
-    log(`✅ Dutch auction created: ${order.asset.openseaLink}`);
+    log(`Dutch auction created: ${order.asset.openseaLink}`);
     return order;
   });
 }
 
 async function createEnglishAuctionListing(tokenId, startBid, hours) {
-  return await safeExecute(async () => {
-    log(`🔨 Creating ENGLISH AUCTION for Token ${tokenId}...`);
+  return withRetries(async () => {
+    log(`Creating English auction for token ${tokenId}`);
 
-    const expirationTime = Math.round(Date.now() / 1000 + 60 * 60 * hours);
+    const expirationTime =
+      Math.floor(Date.now() / 1000) + hours * 60 * 60;
 
-    const weth =
-      CONFIG.NETWORK === "mainnet" || CONFIG.NETWORK === "live"
+    const wethAddress =
+      resolvedNetwork === "mainnet"
         ? "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
         : "0xc778417e063141139fce010982780140aa0cd5ab";
 
@@ -101,46 +204,41 @@ async function createEnglishAuctionListing(tokenId, startBid, hours) {
       startAmount: startBid,
       expirationTime,
       waitForHighestBid: true,
-      paymentTokenAddress: weth,
+      paymentTokenAddress: wethAddress,
       accountAddress: CONFIG.OWNER_ADDRESS,
     });
 
-    log(`✅ English auction created: ${order.asset.openseaLink}`);
+    log(`English auction created: ${order.asset.openseaLink}`);
     return order;
   });
 }
 
 // -------------------------------------------------------------
-//   BULK LISTING ENGINE
+// Bulk Listing
 // -------------------------------------------------------------
 
-async function bulkListFixed(tokens, price) {
-  for (const token of tokens) {
-    await createFixedPriceListing(token, price);
-    await sleep(1500); // avoid rate limit
+async function bulkFixedPriceListings(tokenIds, price) {
+  for (const tokenId of tokenIds) {
+    await createFixedPriceListing(tokenId, price);
+    await sleep(1500);
   }
 }
 
 // -------------------------------------------------------------
-//   MAIN EXECUTION FUNCTION
+// Main Execution
 // -------------------------------------------------------------
 
 async function main() {
-  log("🚀 Starting OpenSea NFT Listing Script (Ultimate Edition)");
+  log("Starting OpenSea NFT listing process");
 
   await createFixedPriceListing(1, 0.05);
   await createDutchAuctionListing(2, 0.05, 0.01, 24);
   await createEnglishAuctionListing(3, 0.03, 24);
 
-  // Optional: bulk listing
-  // await bulkListFixed([4,5,6,7], 0.02);
+  // Example bulk listing
+  // await bulkFixedPriceListings([4, 5, 6], 0.02);
 
-  log("🎉 ALL LISTINGS COMPLETED");
+  log("All listings completed successfully");
 }
 
-// -------------------------------------------------------------
-//   EXECUTE SCRIPT
-// -------------------------------------------------------------
-
-main().catch((err) => logError(err));
-
+main().catch(logError);
