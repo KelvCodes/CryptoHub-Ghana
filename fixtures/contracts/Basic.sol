@@ -1,8 +1,4 @@
-----------------------------
-`44'/60'/0'/0`;
-
-const mnemonicWalletSubprovider = new MnemonicWalletSubprovider({
-  mnemonic: CONFIG.MNEMONIC,
+NEMONIC,
   baseDerivationPath: BASE_DERIVATION_PATH,
 });
 
