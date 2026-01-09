@@ -1,5 +1,4 @@
 
-  console.error(`\n[${timestamp}] ❌ ERROR `);
   console.error(err);
   console.error();
 }
