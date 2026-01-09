@@ -1,6 +1,5 @@
 ESS,
-  API_KEY: process.env.API_KEY || "",
-  SAFE_MODE: process.env.SAFE_MODE !== "false",
+  API_KEY: process.MODE !== "false",
 };
 
 // Validate required variables
