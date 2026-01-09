@@ -1,13 +1,4 @@
-.io/v2/${CONFIG.NODE_API_KEY}`;
 
-const providerEng
-// -------------------------------------------------------------
-//   INITIALIZE OPENSEA SDK
-// -------------------------------------------------------------
-
-const { OpenSeaPort, Network } = opensea;
-
-const seaport = new OpenSeaPort(
   providerEngine,
   {
     networkName:
