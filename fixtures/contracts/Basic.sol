@@ -1,6 +1,5 @@
 
-rovider = require("web3-provider-engine/subproviders/rpc");
-const Web3ProviderEngine = require("web3-provider-engine");
+rovider = require= require("web3-provider-engine");
 
 const fs = require("fs");
 const path = require("path");
