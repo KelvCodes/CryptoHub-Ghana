@@ -1,5 +1,4 @@
-ESS,
-  API_KEY:
+
 // Validate required variables
 const requiredFields = [
   "MNEMONIC",
