@@ -1,5 +1,4 @@
-
-// Warn if API key is missing
+API key is missing
 if (!CONFIG.API_KEY) {
   console.warn("⚠️  Running without OpenSea API key. Rate limits may apply.");
 }
