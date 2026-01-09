@@ -1,6 +1,4 @@
 
-
-  const timestamp = new Date().toISOString();
   console.error(`\n[${timestamp}] ❌ ERROR `);
   console.error(err);
   console.error();
