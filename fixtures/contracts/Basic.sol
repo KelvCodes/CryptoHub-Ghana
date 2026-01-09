@@ -1,6 +1,4 @@
-CT_ADDRESS",
-];
-NFIG[field]) {
+ {
     console.error(`❌ Missing environment variable: ${field}`);
     process.exit(1);
   }
