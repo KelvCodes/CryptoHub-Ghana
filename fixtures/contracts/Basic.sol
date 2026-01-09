@@ -1,8 +1,4 @@
-sds = [
-  "MNEMONIC",
-  "NODE_API_KEY",
-  "NETWORK",
-  "OWNER_ADDRESS",
+SS",
   "NFT_CONTRACT_ADDRESS",
 ];
 
