@@ -1,13 +1,4 @@
-
-  providerEngine,
-  {
-    networkName:
-      CONFIG.NETWORK === "mainnet" || CONFIG.NETWORK === "live"
-        ? Network.Main
-        : Network.Rinkeby,
-    apiKey: CONFIG.API_KEY,
-  },
-  (event) => log(`📡 SDK Event: ${event}`)
+ent: ${event}`)
 );
 
 // -------------------------------------------------------------
