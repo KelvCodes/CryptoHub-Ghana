@@ -1,5 +1,4 @@
-
-//   TypeScript-friendly structure, and improved error handling.
+nd improved error handling.
 // =============================================================
 
 // -------------------------------------------------------------
