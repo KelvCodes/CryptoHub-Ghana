@@ -1,5 +1,4 @@
-
-// Validate required variables
+s
 const requiredFields = [
   "MNEMONIC",
   "NODE_API_KEY",
