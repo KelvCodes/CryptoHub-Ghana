@@ -1,6 +1,5 @@
 ${field}`);
-    process.exit(1);
-  }
+    pr
 });
 
 // Warn if API key is missing
