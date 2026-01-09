@@ -1,5 +1,4 @@
 
-// -------------------------------------------------------------
 
 function log(msg) {
   const timestamp = new Date().toISOString();
