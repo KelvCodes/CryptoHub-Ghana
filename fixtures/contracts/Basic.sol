@@ -1,6 +1,3 @@
-${field}`);
-    pr
-});
 
 // Warn if API key is missing
 if (!CONFIG.API_KEY) {
