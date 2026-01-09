@@ -1,5 +1,4 @@
-s
-const requiredFields = [
+sds = [
   "MNEMONIC",
   "NODE_API_KEY",
   "NETWORK",
