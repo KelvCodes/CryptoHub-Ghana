@@ -1,5 +1,4 @@
-
-//   metadata validation, structured logs, scheduler utilities,
+d logs, scheduler utilities,
 //   TypeScript-friendly structure, and improved error handling.
 // =============================================================
 
