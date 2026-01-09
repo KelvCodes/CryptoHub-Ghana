@@ -1,9 +1,6 @@
 .io/v2/${CONFIG.NODE_API_KEY}`;
 
-const providerEngine = new Web3ProviderEngine();
-providerEngine.addProvidubprovider({ rpcUrl }));
-providerEngine.start();
-
+const providerEng
 // -------------------------------------------------------------
 //   INITIALIZE OPENSEA SDK
 // -------------------------------------------------------------
