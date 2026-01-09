@@ -1,10 +1,5 @@
 
 
-const network =
-  CONFIG.NETWORK === "mainnet" || CONFIG.NETWORK === "live"
-    ? "mainnet"
-    : "rinkeby";
-
 const rpcUrl = process.env.INFURA_KEY
   ? `https://${network}.infura.io/v3/${CONFIG.NODE_API_KEY}`
   : `https://eth-${network}.alchemyapi.io/v2/${CONFIG.NODE_API_KEY}`;
