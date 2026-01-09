@@ -1,5 +1,4 @@
-SS",
-  "NFT_CONTRACT_ADDRESS",
+CT_ADDRESS",
 ];
 NFIG[field]) {
     console.error(`❌ Missing environment variable: ${field}`);
