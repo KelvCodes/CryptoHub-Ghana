@@ -1,7 +1,5 @@
 ESS,
-  API_KEY: process.MODE !== "false",
-};
-
+  API_KEY:
 // Validate required variables
 const requiredFields = [
   "MNEMONIC",
