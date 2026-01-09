@@ -1,6 +1,4 @@
-NEMONIC,
-  baseDerivationPath: BASE_DERIVATION_PATH,
-});
+
 
 const network =
   CONFIG.NETWORK === "mainnet" || CONFIG.NETWORK === "live"
