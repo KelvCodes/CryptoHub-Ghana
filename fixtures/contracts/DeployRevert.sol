@@ -1,7 +1,5 @@
 
 
-    bool private locked; // reentrancy guard
-
     // Pull-payment accounting
     mapping(address => uint256) private pendingWithdrawals;
 
