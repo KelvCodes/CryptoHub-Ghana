@@ -1,5 +1,4 @@
-
-esents lifecycle state of the contract
+e state of the contract
     enum DeploymentState {
         NotDeployed,
         Active,
