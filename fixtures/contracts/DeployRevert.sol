@@ -1,5 +1,4 @@
- handling, access control, pausing,
- *         reentrancy protection, and professional smart contract architecture.
+professional smart contract architecture.
  *
  * @dev This contract is intentionally verbose and educational.
  *      Designed for learning, auditing practice, and interview demonstrations.
