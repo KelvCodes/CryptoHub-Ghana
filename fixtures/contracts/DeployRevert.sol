@@ -1,4 +1,4 @@
-e state of the contract
+
     enum DeploymentState {
         NotDeployed,
         Active,
