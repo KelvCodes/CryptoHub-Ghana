@@ -1,7 +1,4 @@
-
- *
- * @dev This contract is intentionally verbose and educational.
- *      Designed for learning, auditing practice, and interview demonstrations.
+, auditing practice, and interview demonstrations.
  */
 contract DeployRevertPro {
     // =============================================================
