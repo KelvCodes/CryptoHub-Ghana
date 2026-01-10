@@ -1,6 +1,4 @@
 
-    error ContractPaused();
-    error ReentrancyDetected();
     error ZeroAmount();
     error ExternalCallFailed();
 
