@@ -1,6 +1,4 @@
-amount);
-    event ContractPausedEvent(address indexed caller);
-    event ContractResumedEvent(address indexed caller);
+
     event ExternalCallResult(bool success, bytes data);
 
     // =============================================================
