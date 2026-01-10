@@ -1,15 +1,4 @@
 
-    modifier nonReentrant() {
-        if (locked) revert ReentrancyDetected();
-        locked = true;
-        _;
-        locked = false;
-    }
-
-    // =============================================================
-    // 🔹 CONSTRUCTOR
-    // =============================================================
-
     /**
      * @notice Validates deployment and optionally forces failure
      * @param shouldFail Forces constructor to revert if true
