@@ -1,8 +1,4 @@
-nt,
-        string message
-    );
-
-    event EtherReceived(address indexed sender, uint256 amount);
+ss indexed sender, uint256 amount);
     event EtherWithdrawn(address indexed to, uint256 amount);
     event ContractPausedEvent(address indexed caller);
     event ContractResumedEvent(address indexed caller);
