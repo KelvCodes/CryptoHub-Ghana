@@ -1,5 +1,4 @@
 
-    enum DeploymentState {
         NotDeployed,
         Active,
         Paused,
