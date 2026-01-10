@@ -1,7 +1,3 @@
-actPaused();
-        }
-        _;
-    }
 
     modifier nonReentrant() {
         if (locked) revert ReentrancyDetected();
