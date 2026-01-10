@@ -1,6 +1,4 @@
 
-    uint256 public deploymentTimestamp;
-    uint256 public totalEtherReceived;
 
     uint256 public constant MIN_DEPLOY_ETH = 0.01 ether;
 
