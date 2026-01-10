@@ -1,5 +1,4 @@
-
-    DeploymentState public deploymentState;
+ public deploymentState;
 
     string public lastStatusMessage;
     uint256 public deploymentTimestamp;
