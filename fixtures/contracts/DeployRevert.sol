@@ -1,5 +1,4 @@
 
-    error Unauth
     error ContractPaused();
     error ReentrancyDetected();
     error ZeroAmount();
