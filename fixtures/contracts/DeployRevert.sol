@@ -1,5 +1,4 @@
 
-        NotDeployed,
         Active,
         Paused,
         Failed
