@@ -1,5 +1,4 @@
 
-    address public immutable deployer;
     DeploymentState public deploymentState;
 
     string public lastStatusMessage;
