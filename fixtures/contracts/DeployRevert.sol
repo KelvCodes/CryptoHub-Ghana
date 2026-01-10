@@ -1,19 +1,4 @@
 
-    receive() external payable {
-        totalEtherReceived += msg.value;
-        emit EtherReceived(msg.sender, msg.value);
-    }
-
-    fallback() external payable {
-        totalEtherReceived += msg.value;
-        emit EtherReceived(msg.sender, msg.value);
-    }
-
-    // =============================================================
-    // 🔹 CORE FUNCTIONS
-    // =============================================================
-
-    /**
      * @notice Demonstrates require-based validation
      */
     function checkValue(uint256 value) external pure {
