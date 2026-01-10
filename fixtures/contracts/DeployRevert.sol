@@ -1,4 +1,4 @@
-advanced contract demonstrating Solidity revert mechanics,
+t demonstrating Solidity revert mechanics,
  *         deployment validation, ETH handling, access control, pausing,
  *         reentrancy protection, and professional smart contract architecture.
  *
