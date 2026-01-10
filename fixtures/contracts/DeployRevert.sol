@@ -1,6 +1,4 @@
 
-,
-        bool success,
         uint256 valueSent,
         string message
     );
