@@ -1,11 +1,4 @@
-
-\
-        _;
-    }
-
-    modifier whenActive() {
-        if (deploymentState != DeploymentState.Active) {
-            revert ContractPaused();
+actPaused();
         }
         _;
     }
