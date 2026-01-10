@@ -1,9 +1,4 @@
 
-    /**
-     * @notice Validates deployment and optionally forces failure
-     * @param shouldFail Forces constructor to revert if true
-     */
-    constructor(bool sho
             revert InsufficientDeploymentFunds(msg.value, MIN_DEPLOY_ETH);
         }
 
