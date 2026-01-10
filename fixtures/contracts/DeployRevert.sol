@@ -1,5 +1,4 @@
-hanics,
- *         deployment validation, ETH handling, access control, pausing,
+alidation, ETH handling, access control, pausing,
  *         reentrancy protection, and professional smart contract architecture.
  *
  * @dev This contract is intentionally verbose and educational.
