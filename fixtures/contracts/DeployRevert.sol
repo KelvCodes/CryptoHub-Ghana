@@ -3,12 +3,7 @@
      * @notice Validates deployment and optionally forces failure
      * @param shouldFail Forces constructor to revert if true
      */
-    constructor(bool shouldFail) payable {
-        if (msg.sender == address(0)) {
-            revert InvalidDeployer(msg.sender);
-        }
-
-        if (msg.value < MIN_DEPLOY_ETH) {
+    constructor(bool sho
             revert InsufficientDeploymentFunds(msg.value, MIN_DEPLOY_ETH);
         }
 
