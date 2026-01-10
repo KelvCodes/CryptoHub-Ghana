@@ -1,7 +1,4 @@
-
-
-/**
- * @title DeployRevertPro
+eployRevertPro
  * @author Kelvin
  * @notice Ultra-advanced contract demonstrating Solidity revert mechanics,
  *         deployment validation, ETH handling, access control, pausing,
