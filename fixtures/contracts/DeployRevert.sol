@@ -1,7 +1,5 @@
 
-
-    event DeploymentAttempt(
-        address indexed deployer,
+,
         bool success,
         uint256 valueSent,
         string message
