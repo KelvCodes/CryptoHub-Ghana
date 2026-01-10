@@ -1,6 +1,4 @@
-, auditing practice, and interview demonstrations.
- */
-contract DeployRevertPro {
+t DeployRevertPro {
     // =============================================================
     // 🔹 ENUMS
     // =============================================================
