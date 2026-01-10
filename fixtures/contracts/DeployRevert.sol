@@ -1,5 +1,4 @@
-ss indexed sender, uint256 amount);
-    event EtherWithdrawn(address indexed to, uint256 amount);
+amount);
     event ContractPausedEvent(address indexed caller);
     event ContractResumedEvent(address indexed caller);
     event ExternalCallResult(bool success, bytes data);
