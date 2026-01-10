@@ -1,4 +1,4 @@
-lidity revert mechanics,
+hanics,
  *         deployment validation, ETH handling, access control, pausing,
  *         reentrancy protection, and professional smart contract architecture.
  *
