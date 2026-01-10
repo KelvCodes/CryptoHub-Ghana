@@ -1,5 +1,5 @@
 
-    error UnauthorizedAccess(address caller);
+    error Unauth
     error ContractPaused();
     error ReentrancyDetected();
     error ZeroAmount();
