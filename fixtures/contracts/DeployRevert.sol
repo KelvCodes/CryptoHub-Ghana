@@ -1,5 +1,4 @@
 
-    error ZeroAmount();
     error ExternalCallFailed();
 
     // =============================================================
