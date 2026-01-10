@@ -1,13 +1,4 @@
 
- = "Deployment successful";
-
-        emit DeploymentAttempt(msg.sender, true, msg.value, lastStatusMessage);
-    }
-
-    // =============================================================
-    // 🔹 RECEIVE & FALLBACK
-    // =============================================================
-
     receive() external payable {
         totalEtherReceived += msg.value;
         emit EtherReceived(msg.sender, msg.value);
