@@ -1,9 +1,6 @@
 
     event ExternalCallResult(bool success, bytes data);
 
-    // ======================
-    // =============================================================
-
     modifier onlyDeployer() {
         if (msg.sender != deployer) {
             revert UnauthorizedAccess(msg.sender);
