@@ -1,6 +1,5 @@
 
-
-    /// @notice Represents lifecycle state of the contract
+esents lifecycle state of the contract
     enum DeploymentState {
         NotDeployed,
         Active,
