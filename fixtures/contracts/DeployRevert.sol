@@ -1,5 +1,4 @@
 
-    mapping(address => uint256) private pendingWithdrawals;
 
     // =============================================================
     // 🔹 CUSTOM ERRORS (GAS OPTIMIZED)
