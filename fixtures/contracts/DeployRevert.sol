@@ -1,5 +1,4 @@
 
-    string public lastStatusMessage;
     uint256 public deploymentTimestamp;
     uint256 public totalEtherReceived;
 
