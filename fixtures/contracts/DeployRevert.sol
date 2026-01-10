@@ -1,19 +1,5 @@
 
-            revert InsufficientDeploymentFunds(msg.value, MIN_DEPLOY_ETH);
-        }
-
-        deployer = msg.sender;
-        totalEtherReceived += msg.value;
-
-        if (shouldFail) {
-            deploymentState = DeploymentState.Failed;
-            emit DeploymentAttempt(msg.sender, false, msg.value, "Forced failure");
-            revert DeploymentFailed("Constructor intentionally reverted");
-        }
-
-        deploymentState = DeploymentState.Active;
-        deploymentTimestamp = block.timestamp;
-        lastStatusMessage = "Deployment successful";
+ = "Deployment successful";
 
         emit DeploymentAttempt(msg.sender, true, msg.value, lastStatusMessage);
     }
