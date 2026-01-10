@@ -1,7 +1,5 @@
 
 
-    uint256 public constant MIN_DEPLOY_ETH = 0.01 ether;
-
     bool private locked; // reentrancy guard
 
     // Pull-payment accounting
