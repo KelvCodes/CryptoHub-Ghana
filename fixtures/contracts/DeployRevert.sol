@@ -1,7 +1,4 @@
 
-    // 🔹 STATE VARIABLES
-    // =============================================================
-
     address public immutable deployer;
     DeploymentState public deploymentState;
 
