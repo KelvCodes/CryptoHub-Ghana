@@ -1,6 +1,4 @@
 ct {
-    // =======================================
-
     string public constant CONTRACT_NAME = "UltraAdvancedErrorsContract";
     string public constant CONTRACT_VERSION = "2.0";
 
