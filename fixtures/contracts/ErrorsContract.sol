@@ -1,9 +1,7 @@
 
 ner;
 
-    /// @notice Pause switch for emergency stop
-    bool public paused;
-
+    /// @notice Pause
     /// @notice Basic global deposit statistics
     uint256 public totalDeposited;
     uint256 public totalWithdrawn;
