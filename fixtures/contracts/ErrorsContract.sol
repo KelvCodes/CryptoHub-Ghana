@@ -1,7 +1,4 @@
 
-        if (paused) revert ContractPaused();
-        _;
-    }
 
     modifier nonReentrant() {
         if (locked) revert ReentrancyDetected();
