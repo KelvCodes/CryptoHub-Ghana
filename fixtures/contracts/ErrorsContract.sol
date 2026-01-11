@@ -1,9 +1,4 @@
-
-0.01 ETH");
-
-        if (deposits[msg.sender] == 0) totalUsers++;
-
-        deposits[msg.sender] += msg.value;
+r] += msg.value;
         lastDepositAt[msg.sender] = block.timestamp;
         totalDeposited += msg.value;
 
