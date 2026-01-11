@@ -1,9 +1,4 @@
 
-    uint256 public totalUsers;
-
-    /// @not
-    /// @notice Fee percentage (e.g., 100 = 1%)
-    uint256 public feeBasisPoints = 50; // 0.5% default
 
     /// @notice Tracks each user's deposits
     mapping(address => uint256) public deposits;
