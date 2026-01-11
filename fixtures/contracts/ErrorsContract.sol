@@ -1,5 +1,4 @@
 
- * - Custom errors
  * - Deposit tracking + per-user histories
  * - User withdrawals
  * - Owner partial/full withdrawals
