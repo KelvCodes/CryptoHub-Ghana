@@ -1,5 +1,4 @@
 
- * - Emergency pause system
  * - Manual reentrancy guard
  * - Token recovery
  * - Fees
