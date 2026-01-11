@@ -1,8 +1,4 @@
 s
-
-    event Paused(address indexed by);
-    event Unpaused(address indexed by);
-
     event EmergencyDrain(address indexed by, uint256 amount);
 
     // ============================================================
