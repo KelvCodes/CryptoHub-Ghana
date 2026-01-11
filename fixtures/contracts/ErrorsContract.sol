@@ -1,6 +1,4 @@
 
-
-    /// @notice Tracks each user's deposits
     mapping(address => uint256) public deposits;
 
     /// @notice Records timestamps of each user's last deposit
