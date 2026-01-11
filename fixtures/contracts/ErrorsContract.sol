@@ -1,5 +1,4 @@
-ct {
-    string public constant CONTRACT_NAME = "UltraAdvancedErrorsContract";
+ct {ErrorsContract";
     string public constant CONTRACT_VERSION = "2.0";
 
     address payable public owner;
