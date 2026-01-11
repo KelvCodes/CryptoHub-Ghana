@@ -1,5 +1,4 @@
-ct {ErrorsContract";
-    string public constant CONTRACT_VERSION = "2.0";
+
 ner;
 
     /// @notice Pause switch for emergency stop
