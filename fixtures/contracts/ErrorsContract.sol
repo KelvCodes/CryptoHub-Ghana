@@ -1,9 +1,7 @@
 
     uint256 public totalUsers;
 
-    /// @notice Reentrancy guard status
-    bool private locked;
-
+    /// @not
     /// @notice Fee percentage (e.g., 100 = 1%)
     uint256 public feeBasisPoints = 50; // 0.5% default
 
