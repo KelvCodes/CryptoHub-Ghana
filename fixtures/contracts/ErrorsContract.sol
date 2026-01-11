@@ -1,6 +1,4 @@
 
-    error TransferFailed(uint256 amount, address to);
-
     error ReentrancyDetected();
 
     // ============================================================
