@@ -2,13 +2,7 @@
     fallback() external payable {
         deposits[msg.sender] += msg.value;
         lastDepositAt[msg.sender] = block.timestamp;
-        totalDeposited += msg.value;
-        emit Deposited(msg.sender, msg.value);
-    }
-
-    // ============================================================
-    // =================== USER WITHDRAWALS =======================
-    // ============================================================
+        ======================================
 
     /// @notice Users withdraw their own funds
     function userWithdraw(uint256 amount) external nonReentrant whenNotPaused {
