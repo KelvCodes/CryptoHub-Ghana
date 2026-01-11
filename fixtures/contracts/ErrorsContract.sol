@@ -1,9 +1,3 @@
-ayable {
-        deposits[msg.sender] += msg.value;
-        lastDepositAt[msg.sender] = block.timestamp;
-        totalDeposited += msg.value;
-        emit Deposited(msg.sender, msg.value);
-    }
 
     fallback() external payable {
         deposits[msg.sender] += msg.value;
