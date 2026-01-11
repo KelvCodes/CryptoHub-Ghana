@@ -1,8 +1,5 @@
 
 
-    
-    event FeeUpdated(uint256 oldFee, uint256 newFee);
-
     event Deposited(address indexed from, uint256 amount);
     event UserWithdrawn(address indexed user, uint256 amount);
     event OwnerWithdrawn(address indexed owner, uint256 amount);
