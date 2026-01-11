@@ -1,6 +1,4 @@
 
- * - Manual reentrancy guard
- * - Token recovery
  * - Fees
  * - Ownership control
  * - Secure Ether flow
