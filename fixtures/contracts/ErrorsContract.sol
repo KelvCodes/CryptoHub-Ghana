@@ -1,6 +1,6 @@
 
 
-    event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
+    
     event FeeUpdated(uint256 oldFee, uint256 newFee);
 
     event Deposited(address indexed from, uint256 amount);
