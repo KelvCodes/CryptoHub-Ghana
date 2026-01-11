@@ -1,8 +1,6 @@
 
  * - Fees
- * - Ownership control
- * - Secure Ethecure, production-grade contract architecture.
- */
+ * - Ownership 
 contract UltraAdvancedErrorsContract {
     // ============================================================
     // =======================   STATE   ===========================
