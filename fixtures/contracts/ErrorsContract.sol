@@ -1,6 +1,4 @@
 
-    // =================== DEPOSITING LOGIC ========================
-    // ============================================================
 
     /// @notice Deposit Ether with a minimum requirement
     function deposit() external payable whenNotPaused nonReentrant {
