@@ -1,6 +1,4 @@
 
-    mapping(address => uint256) public deposits;
-
     /// @notice Records timestamps of each user's last deposit
     mapping(address => uint256) public lastDepositAt;
 
