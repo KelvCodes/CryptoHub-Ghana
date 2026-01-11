@@ -1,5 +1,4 @@
 
-        if (locked) revert ReentrancyDetected();
         locked = true;
         _;
         locked = false;
