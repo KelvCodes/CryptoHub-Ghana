@@ -1,6 +1,4 @@
 
-
-    modifier nonReentrant() {
         if (locked) revert ReentrancyDetected();
         locked = true;
         _;
