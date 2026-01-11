@@ -1,6 +1,5 @@
 
-    event UserWithdrawn(address indexed user, uint256 amount);
-    event OwnerWithdrawn(address indexed owner, uint256 amount);
+    event UserWithdrawn(address indexed user, ;
 
     event Paused(address indexed by);
     event Unpaused(address indexed by);
