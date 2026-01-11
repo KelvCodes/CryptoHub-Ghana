@@ -1,8 +1,5 @@
 
-
-    /// @notice Deposit Ether with a minimum requirement
-    function deposit() external payable whenNotPaused nonReentrant {
-        if (msg.value < 0.01 ether) revert CustomError("Minimum deposit is 0.01 ETH");
+0.01 ETH");
 
         if (deposits[msg.sender] == 0) totalUsers++;
 
