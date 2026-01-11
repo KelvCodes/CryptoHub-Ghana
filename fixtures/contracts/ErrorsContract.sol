@@ -1,6 +1,4 @@
 
-    error Reentrancy=========================
-    // ======================= EVENTS ==============================
     // ============================================================
 
     event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
