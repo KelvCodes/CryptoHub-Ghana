@@ -1,7 +1,4 @@
 
-ner;
-
-    /// @notice Pause
     /// @notice Basic global deposit statistics
     uint256 public totalDeposited;
     uint256 public totalWithdrawn;
