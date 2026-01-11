@@ -1,5 +1,4 @@
-
-    event UserWithdrawn(address indexed user, ;
+s
 
     event Paused(address indexed by);
     event Unpaused(address indexed by);
