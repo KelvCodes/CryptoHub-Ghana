@@ -1,6 +1,4 @@
-r] += msg.value;
-        lastDepositAt[msg.sender] = block.timestamp;
-        totalDeposited += msg.value;
+alue;
 
         emit Deposited(msg.sender, msg.value);
     }
