@@ -1,7 +1,4 @@
 
-        locked = true
-    }
-================
 
     constructor() {
         owner = payable(msg.sender);
