@@ -1,9 +1,7 @@
 
  * - Fees
  * - Ownership control
- * - Secure Ether flow
- * - Global analytics
- * @dev Perfect for learning secure, production-grade contract architecture.
+ * - Secure Ethecure, production-grade contract architecture.
  */
 contract UltraAdvancedErrorsContract {
     // ============================================================
