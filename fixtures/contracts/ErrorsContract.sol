@@ -2,7 +2,7 @@
 
     error CustomError(string message);
     error TransferFailed(uint256 amount, address to);
-    error ContractPaused();
+
     error ReentrancyDetected();
 
     // ============================================================
