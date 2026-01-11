@@ -1,5 +1,4 @@
 
- * - User withdrawals
  * - Owner partial/full withdrawals
  * - Emergency pause system
  * - Manual reentrancy guard
