@@ -1,6 +1,5 @@
+s
 
-        require(_tokenIds.current() + quantity <= maxSupply, "Exceeds max supply");
-        _;
     }
 
     modifier addressLimitNotExceeded(address to, uint256 quantity) {
