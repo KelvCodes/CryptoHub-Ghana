@@ -1,9 +1,4 @@
 
-        onlyMinter
-        whenNotPaused
-       = 1;
-
-        emit ItemMinted(player, newItemId, tokenURI);
         return newItemId;
     }
 
