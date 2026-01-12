@@ -1,7 +1,4 @@
 
-        address royaltyReceiver,
-        uint96 royaltyFeesInBips
-    ) ERC721(name, symbol) {
         _baseTokenURI = baseURI;
         _unrevealedURI = unrevealedURI;
         maxPerAddress = _maxPerAddress;
