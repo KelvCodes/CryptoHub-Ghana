@@ -1,5 +1,4 @@
 
-    string private _unrevealedURI;
     bool public revealed;
 
     mapping(address => bool) public approvedMinters;
