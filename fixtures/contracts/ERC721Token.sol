@@ -1,5 +1,4 @@
 
-    event ContractUnpaused(address indexed admin);
     event TokenRevealed();
 
     // ============================================================
