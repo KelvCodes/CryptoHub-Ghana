@@ -1,4 +1,4 @@
-int256 indexed tokenId, string tokenURI);
+
     event BatchMinted(address indexed to, uint256 quantity);
     event BaseURIUpdated(string newBaseURI);
     event UnrevealedURIUpdated(string newURI);
