@@ -1,8 +1,4 @@
 
-    modifier onlyMinter() {
-        require(owner() == msg.sender || approvedMinters[msg.sender], "Not authorized to mint");
-        _;
-    }
 
     modifier supplyNotExceeded(uint256 quantity) {
         require(_tokenIds.current() + quantity <= maxSupply, "Exceeds max supply");
