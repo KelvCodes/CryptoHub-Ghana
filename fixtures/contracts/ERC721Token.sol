@@ -1,5 +1,4 @@
 
-        uint256 _maxPerAddress,
         address royaltyReceiver,
         uint96 royaltyFeesInBips
     ) ERC721(name, symbol) {
