@@ -1,4 +1,4 @@
-T contract with:
+
  *  - ERC721 metadata storage
  *  - ERC721Enumerable token enumeration
  *  - ERC2981 royalties support
