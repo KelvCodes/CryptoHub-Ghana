@@ -1,5 +1,4 @@
-n
- *  - ERC2981 royalties support
+
  *  - Role-based minting control
  *  - Pausable transfers
  *  - Batch minting
