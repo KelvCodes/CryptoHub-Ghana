@@ -1,4 +1,4 @@
- ERC2981, Ownable, Pausable {
+
     using Counters for Counters.Counter;
 
     // ============================================================
