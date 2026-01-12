@@ -1,15 +1,7 @@
 
         onlyMinter
         whenNotPaused
-        supplyNotExceeded(1)
-        addressLimitNotExceeded(player, 1)
-        returns (uint256)
-    {
-        uint256 newItemId = _tokenIds.current();
-        _mint(player, newItemId);
-        _setTokenURI(newItemId, tokenURI);
-        _tokenIds.increment();
-        addressMintCount[player] += 1;
+       = 1;
 
         emit ItemMinted(player, newItemId, tokenURI);
         return newItemId;
