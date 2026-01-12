@@ -1,5 +1,4 @@
 
-    string private _baseTokenURI;
     string private _unrevealedURI;
     bool public revealed;
 
