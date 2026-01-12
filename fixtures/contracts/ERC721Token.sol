@@ -1,10 +1,4 @@
 s
-
-    }
-
-    modifier addressLimitNotExceeded(address to, uint256 quantity) {
-        require(addressMintCount[to] + quantity <= maxPerAddress, "Exceeds max per address");
-        _;
     }
 
     // ============================================================
