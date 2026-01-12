@@ -1,11 +1,4 @@
-s
-    }
 
-    // ============================================================
-    //  MINTING FUNCTIONS
-    // ============================================================
-    function awardItem(address player, string memory tokenURI)
-        public
         onlyMinter
         whenNotPaused
         supplyNotExceeded(1)
