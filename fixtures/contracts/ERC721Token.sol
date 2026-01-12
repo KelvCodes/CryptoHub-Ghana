@@ -1,5 +1,4 @@
 
-        _unrevealedURI = unrevealedURI;
         maxPerAddress = _maxPerAddress;
         maxSupply = _maxSupply;
         revealed = false;
