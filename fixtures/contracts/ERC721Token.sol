@@ -1,5 +1,4 @@
 
-    uint256 public maxPerAddress;
     uint256 public maxSupply;
 
     // ============================================================
