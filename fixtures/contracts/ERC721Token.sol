@@ -1,6 +1,4 @@
 
-
-    modifier supplyNotExceeded(uint256 quantity) {
         require(_tokenIds.current() + quantity <= maxSupply, "Exceeds max supply");
         _;
     }
