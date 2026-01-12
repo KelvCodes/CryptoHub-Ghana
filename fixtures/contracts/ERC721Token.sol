@@ -1,5 +1,4 @@
 
- *  - Whitelist & mint limits
  *  - Metadata reveal mechanism
  *  - Safe fund withdrawal
  */
