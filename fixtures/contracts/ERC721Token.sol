@@ -1,6 +1,4 @@
-
- */
-contract UltraAdvancedERC721Token is ERC721URIStorage, ERC721Enumerable, ERC2981, Ownable, Pausable {
+C721Token is ERC721URIStorage, ERC721Enumerable, ERC2981, Ownable, Pausable {
     using Counters for Counters.Counter;
 
     // ============================================================
