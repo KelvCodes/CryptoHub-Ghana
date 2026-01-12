@@ -1,6 +1,4 @@
-
-import "@openzeppelin/contracts/security/Pausable.sol";
-import "@openzeppelin/contracts/token/common/ERC2981.sol";
+;
 
 /**
  * @title UltraAdvancedERC721Token
