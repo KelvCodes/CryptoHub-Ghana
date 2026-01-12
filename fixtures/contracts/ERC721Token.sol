@@ -1,7 +1,4 @@
-
-    constructor(
-        string memory name,
-        string memory symbol,
+mbol,
         string memory baseURI,
         string memory unrevealedURI,
         uint256 _maxSupply,
