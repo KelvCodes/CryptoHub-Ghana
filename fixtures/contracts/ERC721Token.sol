@@ -1,7 +1,4 @@
 
-    // ============================================================
-    //  MODIFIERS
-    // ============================================================
     modifier onlyMinter() {
         require(owner() == msg.sender || approvedMinters[msg.sender], "Not authorized to mint");
         _;
