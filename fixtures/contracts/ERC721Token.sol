@@ -1,5 +1,4 @@
 
-    mapping(address => uint256) public addressMintCount;
     uint256 public maxPerAddress;
     uint256 public maxSupply;
 
