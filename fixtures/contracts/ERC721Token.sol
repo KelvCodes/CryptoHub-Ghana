@@ -1,6 +1,4 @@
 
-    // ============================================================
-    Counters.Counter private _tokenIds;
     string private _baseTokenURI;
     string private _unrevealedURI;
     bool public revealed;
