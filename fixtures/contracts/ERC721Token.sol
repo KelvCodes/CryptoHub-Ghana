@@ -1,5 +1,4 @@
 
- *  - ERC721 metadata storage
  *  - ERC721Enumerable token enumeration
  *  - ERC2981 royalties support
  *  - Role-based minting control
