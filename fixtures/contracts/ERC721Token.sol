@@ -1,5 +1,4 @@
 
-        _baseTokenURI = baseURI;
         _unrevealedURI = unrevealedURI;
         maxPerAddress = _maxPerAddress;
         maxSupply = _maxSupply;
