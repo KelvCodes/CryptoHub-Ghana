@@ -1,5 +1,4 @@
 
-        maxPerAddress = _maxPerAddress;
         maxSupply = _maxSupply;
         revealed = false;
 
