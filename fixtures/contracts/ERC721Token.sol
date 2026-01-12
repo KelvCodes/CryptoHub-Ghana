@@ -1,5 +1,4 @@
 
-    bool public revealed;
 
     mapping(address => bool) public approvedMinters;
     mapping(address => uint256) public addressMintCount;
