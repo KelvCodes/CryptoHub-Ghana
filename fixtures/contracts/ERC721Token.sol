@@ -1,6 +1,4 @@
 
- *  - Batch minting
- *  - Token burn
  *  - Whitelist & mint limits
  *  - Metadata reveal mechanism
  *  - Safe fund withdrawal
