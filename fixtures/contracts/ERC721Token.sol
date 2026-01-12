@@ -1,5 +1,4 @@
 
- *  - Role-based minting control
  *  - Pausable transfers
  *  - Batch minting
  *  - Token burn
