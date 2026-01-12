@@ -1,5 +1,4 @@
 
-        string memory unrevealedURI,
         uint256 _maxSupply,
         uint256 _maxPerAddress,
         address royaltyReceiver,
