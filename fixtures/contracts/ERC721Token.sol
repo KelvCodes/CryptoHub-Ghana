@@ -1,7 +1,4 @@
-;
 
-/**
- * @title UltraAdvancedERC721Token
  * @dev A professional-grade NFT contract with:
  *  - ERC721 metadata storage
  *  - ERC721Enumerable token enumeration
