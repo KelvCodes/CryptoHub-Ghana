@@ -1,6 +1,4 @@
-
-        maxSupply = _maxSupply;
-        revealed = false;
+s
 
         // Default royalty
         _setDefaultRoyalty(royaltyReceiver, royaltyFeesInBips);
