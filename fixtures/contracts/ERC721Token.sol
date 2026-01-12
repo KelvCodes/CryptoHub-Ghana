@@ -1,5 +1,4 @@
 
-    //  STATE VARIABLES
     // ============================================================
     Counters.Counter private _tokenIds;
     string private _baseTokenURI;
