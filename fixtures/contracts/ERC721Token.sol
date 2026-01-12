@@ -1,5 +1,4 @@
 
- *  - Metadata reveal mechanism
  *  - Safe fund withdrawal
  */
 contract UltraAdvancedERC721Token is ERC721URIStorage, ERC721Enumerable, ERC2981, Ownable, Pausable {
