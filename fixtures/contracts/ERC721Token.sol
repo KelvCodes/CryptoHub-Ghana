@@ -1,8 +1,3 @@
-s
-
-        // Default royalty
-        _setDefaultRoyalty(royaltyReceiver, royaltyFeesInBips);
-    }
 
     // ============================================================
     //  MODIFIERS
