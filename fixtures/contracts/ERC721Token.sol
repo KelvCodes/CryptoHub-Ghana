@@ -1,6 +1,4 @@
 
-    event BaseURIUpdated(string newBaseURI);
-    event UnrevealedURIUpdated(string newURI);
     event MinterUpdated(address indexed minter, bool status);
     event ContractPaused(address indexed admin);
     event ContractUnpaused(address indexed admin);
