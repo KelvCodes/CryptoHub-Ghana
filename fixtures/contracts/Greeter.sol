@@ -1,5 +1,4 @@
 
-    string private currentGreeting;
     address public owner;
     uint256 public lastUpdated;
     string public version = "v2.0.0";
