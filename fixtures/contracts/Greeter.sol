@@ -1,5 +1,4 @@
-c
-    modifier onlyAdmin() {
+
         require(admins[msg.sender] || msg.sender == owner, "Access denied: only admin or owner");
         _;
     }
