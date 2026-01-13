@@ -1,7 +1,5 @@
 
     // ================================
-    //  VIEW FUNCTIONS
-    // ================================
     function greet() public view returns (string memory) {
         return currentGreeting;
     }
