@@ -1,5 +1,4 @@
-
-            keccak256(bytes(_newGreeting)) != keccak256(bytes(currentGreeting)),
+= keccak256(bytes(currentGreeting)),
             "New greeting must differ from current"
         );
         _;
