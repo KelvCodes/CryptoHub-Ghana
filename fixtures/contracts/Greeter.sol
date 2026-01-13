@@ -1,5 +1,4 @@
 
- * - Greeting history with timestamps and sender tracking
  * - Greeting analytics, pinning, and removal system
  * - Contract versioning, pause mechanism, and event logging
  */
