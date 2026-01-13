@@ -1,5 +1,4 @@
 
- * - Contract versioning, pause mechanism, and event logging
  */
 contract UltimateGreeterPro {
     // ================================
