@@ -1,5 +1,4 @@
 
-        counter = 0;
         lastUpdated = block.timestamp;
         greetingRecords.push(GreetingRecord(_initialGreeting, msg.sender, block.timestamp, false, false));
     }
