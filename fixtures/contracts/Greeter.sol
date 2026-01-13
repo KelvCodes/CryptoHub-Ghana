@@ -1,5 +1,4 @@
- {
-        require(msg.sender == owner, "Access denied: only owner");
+cess denied: only owner");
         _;
     }
 
