@@ -1,5 +1,4 @@
-eeting(string memory _newGreeting) {
-        require(
+
             keccak256(bytes(_newGreeting)) != keccak256(bytes(currentGreeting)),
             "New greeting must differ from current"
         );
