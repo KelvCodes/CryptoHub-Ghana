@@ -1,6 +1,4 @@
-
-    address public owner;
-    uint256 public lastUpdated;
+d;
     string public version = "v2.0.0";
 
     bool public paused;
