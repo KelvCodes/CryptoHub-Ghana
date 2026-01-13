@@ -1,5 +1,4 @@
 
-    event GreetingRestored(uint256 indexed index, address restoredBy);
 
     // ================================
     //  MODIFIERS
