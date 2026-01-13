@@ -1,7 +1,4 @@
 
-    }
-
-    modifier notPaused() {
         require(!paused, "Contract is paused");
         _;
     }
