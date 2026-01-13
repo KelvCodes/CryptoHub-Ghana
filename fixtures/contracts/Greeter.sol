@@ -1,7 +1,5 @@
 
 
-
-    // Mappings for roles and greetings
     mapping(address => bool) public admins;
     GreetingRecord[] private greetingRecords;
 
