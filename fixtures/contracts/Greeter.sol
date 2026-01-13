@@ -1,5 +1,4 @@
 
-    event GreetingUnpinned(uint256 indexed index, address unpinnedBy);
     event GreetingRemoved(uint256 indexed index, address removedBy);
     event GreetingRestored(uint256 indexed index, address restoredBy);
 
