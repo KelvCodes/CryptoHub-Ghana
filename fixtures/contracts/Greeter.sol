@@ -1,5 +1,4 @@
 
-    GreetingRecord[] private greetingRecords;
 
     // ================================
     //  EVENTS
