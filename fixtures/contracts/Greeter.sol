@@ -1,6 +1,4 @@
 
-    struct GreetingRecord {
-        string message;
         address setBy;
         uint256 timestamp;
         bool pinned;
