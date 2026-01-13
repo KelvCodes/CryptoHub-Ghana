@@ -1,8 +1,4 @@
 
-    }
-
-    // ================================
-    //  CONSTRUCTOR
     // ================================
     constructor(string memory _initialGreeting) {
         owner = msg.sender;
