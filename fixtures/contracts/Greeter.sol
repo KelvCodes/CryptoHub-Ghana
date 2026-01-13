@@ -1,5 +1,5 @@
 
-    bool public paused;
+
 
     // Mappings for roles and greetings
     mapping(address => bool) public admins;
