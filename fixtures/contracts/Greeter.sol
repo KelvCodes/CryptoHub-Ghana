@@ -1,5 +1,4 @@
 
-    event ContractUnpaused(address indexed by);
     event GreetingPinned(uint256 indexed index, string message, address pinnedBy);
     event GreetingUnpinned(uint256 indexed index, address unpinnedBy);
     event GreetingRemoved(uint256 indexed index, address removedBy);
