@@ -1,5 +1,4 @@
 
-    event AdminRemoved(address indexed admin);
     event ContractPaused(address indexed by);
     event ContractUnpaused(address indexed by);
     event GreetingPinned(uint256 indexed index, string message, address pinnedBy);
