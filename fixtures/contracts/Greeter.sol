@@ -1,5 +1,4 @@
 
-    uint256 private counter;
     string private currentGreeting;
     address public owner;
     uint256 public lastUpdated;
