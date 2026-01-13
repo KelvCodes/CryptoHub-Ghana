@@ -1,6 +1,6 @@
 
 
-    mapping(address => bool) public admins;
+s => bool) public admins;
     GreetingRecord[] private greetingRecords;
 
     // ================================
