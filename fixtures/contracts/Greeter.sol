@@ -1,5 +1,3 @@
-d;
-    string public version = "v2.0.0";
 
     bool public paused;
 
