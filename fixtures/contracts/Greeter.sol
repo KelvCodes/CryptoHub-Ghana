@@ -1,7 +1,4 @@
 
-        greetingRecords.push(GreetingRecord(_initialGreeting, msg.sender, block.timestamp, false, false));
-    }
-
     // ================================
     //  VIEW FUNCTIONS
     // ================================
