@@ -1,5 +1,4 @@
 
- * - Greeting analytics, pinning, and removal system
  * - Contract versioning, pause mechanism, and event logging
  */
 contract UltimateGreeterPro {
