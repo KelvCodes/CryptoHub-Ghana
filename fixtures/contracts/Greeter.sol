@@ -1,6 +1,4 @@
 
-
-s => bool) public admins;
     GreetingRecord[] private greetingRecords;
 
     // ================================
