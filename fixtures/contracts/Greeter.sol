@@ -1,6 +1,4 @@
-
-    event CounterIncremented(uint256 newValue, address indexed incrementedBy);
-    event CounterReset(address indexed resetBy, uint256 timestamp);
+setBy, uint256 timestamp);
     event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
     event AdminAdded(address indexed admin);
     event AdminRemoved(address indexed admin);
