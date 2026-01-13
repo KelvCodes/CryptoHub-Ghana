@@ -1,5 +1,4 @@
-==
-    event GreetingChanging(string from, string to, address changedBy);
+g from, string to, address changedBy);
     event GreetingChanged(string newGreeting, address indexed changedBy, uint256 timestamp);
     event CounterIncremented(uint256 newValue, address indexed incrementedBy);
     event CounterReset(address indexed resetBy, uint256 timestamp);
