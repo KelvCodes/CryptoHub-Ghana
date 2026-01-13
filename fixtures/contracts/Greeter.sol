@@ -1,5 +1,4 @@
 
-        require(!paused, "Contract is paused");
         _;
     }
 
