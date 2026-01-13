@@ -1,5 +1,4 @@
-
-    event GreetingChanged(string newGreeting, address indexed changedBy, uint256 timestamp);
+ress indexed changedBy, uint256 timestamp);
     event CounterIncremented(uint256 newValue, address indexed incrementedBy);
     event CounterReset(address indexed resetBy, uint256 timestamp);
     event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
