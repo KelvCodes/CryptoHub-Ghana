@@ -1,4 +1,4 @@
-A next-generation greeting contract with advanced management, analytics,
+act with advanced management, analytics,
  * and modular control features. Includes:
  * - Role-based access control (Owner + Admins)
  * - Greeting history with timestamps and sender tracking
