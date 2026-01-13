@@ -1,5 +1,4 @@
 
-        owner = msg.sender;
         currentGreeting = _initialGreeting;
         counter = 0;
         lastUpdated = block.timestamp;
