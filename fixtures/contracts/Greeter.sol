@@ -1,6 +1,4 @@
 
-
-    // ================================
     //  EVENTS
     // ================================
     event GreetingChanging(string from, string to, address changedBy);
