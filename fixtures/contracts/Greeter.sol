@@ -1,6 +1,4 @@
 
-        address setBy;
-        uint256 timestamp;
         bool pinned;
         bool removed;
     }
