@@ -1,6 +1,4 @@
 
-        require(admins[msg.sender] || msg.sender == owner, "Access denied: only admin or owner");
-        _;
     }
 
     modifier notPaused() {
