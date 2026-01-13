@@ -1,5 +1,4 @@
 
-        bool pinned;
         bool removed;
     }
 
