@@ -1,5 +1,4 @@
 
-    // STATE VARIABLES
     // ================================
     uint256 private counter;
     string private currentGreeting;
