@@ -1,5 +1,4 @@
-dling,
- *         role-based access control, pausing, locking, rate-limiting,
+d access control, pausing, locking, rate-limiting,
  *         integrity verification, and audit-friendly architecture.
  *
  * @dev Designed for production learning, interviews, and security reviews.
