@@ -1,6 +1,5 @@
 
-
-    uint256 public lastUpdateAttempt;
+Attempt;
 
     struct HistoryEntry {
         string value;
