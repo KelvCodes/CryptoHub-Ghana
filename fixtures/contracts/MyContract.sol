@@ -1,7 +1,5 @@
 
     // ============================================================
-    // 🔹 CUSTOM ERRORS (GAS EFFICIENT)
-    // ============================================================
 
     error Unauthorized(address caller);
     error EmptyString();
