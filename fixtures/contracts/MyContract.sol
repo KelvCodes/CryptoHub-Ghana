@@ -1,5 +1,4 @@
 
- * @author Kelvin
  * @notice Enterprise-grade contract demonstrating secure string handling,
  *         role-based access control, pausing, locking, rate-limiting,
  *         integrity verification, and audit-friendly architecture.
