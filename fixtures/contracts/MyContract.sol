@@ -1,10 +1,6 @@
 
         _;
-        _;
-    }
-
-    modifier whenNotLocked() {
-        if (block.timestamp < lockUntil) revert AttributeLocked(lockUntil);
+        ) revert AttributeLocked(lockUntil);
         _;
     }
 
