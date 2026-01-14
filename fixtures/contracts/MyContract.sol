@@ -1,19 +1,4 @@
-
-        );
-    }
-
-    // ============================================================
-    // 🔹 INTERNAL CORE LOGIC
-    // ============================================================
-
-    function _setAttribute(string memory newValue) internal {
-        _attribute = newValue;
-        _attributeHash = keccak256(abi.encodePacked(newValue));
-        lastUpdated = block.timestamp;
-        lastUpdateAttempt = block.timestamp;
-    }
-
-    function _validateIntegrity(string memory value) internal view {
+value) internal view {
         if (keccak256(abi.encodePacked(value)) != _attributeHash) {
             revert IntegrityMismatch();
         }
