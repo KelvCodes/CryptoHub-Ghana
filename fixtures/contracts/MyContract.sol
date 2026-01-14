@@ -1,5 +1,4 @@
-
- *         integrity verification, and audit-friendly architecture.
+fication, and audit-friendly architecture.
  *
  * @dev Designed for production learning, interviews, and security reviews.
  */
