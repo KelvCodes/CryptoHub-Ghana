@@ -1,4 +1,4 @@
-igned for production learning, interviews, and security reviews.
+ning, interviews, and security reviews.
  */
 contract MyContract {
     // ============================================================
