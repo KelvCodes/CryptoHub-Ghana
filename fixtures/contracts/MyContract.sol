@@ -1,4 +1,4 @@
-d audit-friendly architecture.
+y architecture.
  *
  * @dev Designed for production learning, interviews, and security reviews.
  */
