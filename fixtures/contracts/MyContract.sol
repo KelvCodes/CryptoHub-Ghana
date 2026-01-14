@@ -1,5 +1,4 @@
 
- * @title MyContract v3.0
  * @author Kelvin
  * @notice Enterprise-grade contract demonstrating secure string handling,
  *         role-based access control, pausing, locking, rate-limiting,
