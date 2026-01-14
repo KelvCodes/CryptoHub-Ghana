@@ -1,5 +1,4 @@
 
-_UPDATE_INTERVAL = 30; // seconds
 
     // ============================================================
     // 🔹 STATE VARIABLES (STORAGE LAYOUT AWARE)
