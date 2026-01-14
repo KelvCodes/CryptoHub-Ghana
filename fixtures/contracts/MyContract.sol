@@ -1,8 +1,5 @@
 
-        uint256 timestamp
-    );
-
-    event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
+OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
     event AdminAdded(address indexed admin);
     event AdminRemoved(address indexed admin);
 
