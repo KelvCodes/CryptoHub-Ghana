@@ -1,7 +1,4 @@
 
-Attempt;
-
-    struct HistoryEntry {
         string value;
         bytes32 valueHash;
         uint256 timestamp;
