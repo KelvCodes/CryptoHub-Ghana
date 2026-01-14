@@ -1,4 +1,4 @@
-e contract demonstrating secure string handling,
+ting secure string handling,
  *         role-based access control, pausing, locking, rate-limiting,
  *         integrity verification, and audit-friendly architecture.
  *
