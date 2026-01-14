@@ -1,4 +1,4 @@
-fication, and audit-friendly architecture.
+d audit-friendly architecture.
  *
  * @dev Designed for production learning, interviews, and security reviews.
  */
