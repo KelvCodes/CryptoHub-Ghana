@@ -2,12 +2,6 @@
         _;
     }
 
-    modifier onlyAdminOrOwnns[msg.sender]) {
-            revert Unauthorized(msg.sender);
-        }
-        _;
-    }
-
     modifier whenNotPaused() {
         if (paused) revert ContractPaused();
         _;
