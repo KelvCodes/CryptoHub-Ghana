@@ -1,6 +1,4 @@
-y architecture.
- *
- * @dev Designed for production learning, interviews, and security reviews.
+igned for production learning, interviews, and security reviews.
  */
 contract MyContract {
     // ============================================================
