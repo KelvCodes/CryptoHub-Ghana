@@ -1,13 +1,4 @@
 
-
-    // ============================================================
-    // 🔹 CONSTRUCTOR
-    // ============================================================
-
-    constructor(string memory initialValue) {
-        if (bytes(initialValue).length == 0) revert EmptyString();
-
-        owner = msg.sender;
         _setAttribute(initialValue);
 
         lastUpdated = block.timestamp;
