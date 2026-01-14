@@ -1,6 +1,4 @@
-
-    err
-    error AttributeLocked(uint256 until);
+);
     error UpdateTooFrequent(uint256 nextAllowedTime);
     error InvalidAddress();
     error IntegrityMismatch();
