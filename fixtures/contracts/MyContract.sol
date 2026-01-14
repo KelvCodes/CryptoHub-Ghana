@@ -1,5 +1,4 @@
 
-        string value;
         bytes32 valueHash;
         uint256 timestamp;
         address updater;
