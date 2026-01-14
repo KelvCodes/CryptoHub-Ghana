@@ -1,7 +1,4 @@
 
-
-    error Unauthorized(address caller);
-    error EmptyString();
     error ContractPaused();
     error AttributeLocked(uint256 until);
     error UpdateTooFrequent(uint256 nextAllowedTime);
