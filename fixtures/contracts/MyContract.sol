@@ -1,5 +1,4 @@
-dentifier: GNU
-pragma solidity ^0.8.13;
+8.13;
 
 /**
  * @title MyContract v3.0
