@@ -1,6 +1,4 @@
 
-    string private _attribute;
-    bytes32 private _attributeHash;
 
     address public owner;
     mapping(address => bool) public admins;
