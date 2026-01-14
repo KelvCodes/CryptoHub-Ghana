@@ -1,14 +1,4 @@
 
-        _setAttribute(initialValue);
-
-        lastUpdated = block.timestamp;
-        history.push(
-            HistoryEntry(
-                initialValue,
-                _attributeHash,
-                block.timestamp,
-                msg.sender
-            )
         );
     }
 
