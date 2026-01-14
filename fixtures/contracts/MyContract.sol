@@ -1,6 +1,4 @@
-);
-    error UpdateTooFrequent(uint256 nextAllowedTime);
-    error InvalidAddress();
+
     error IntegrityMismatch();
 
     // ============================================================
