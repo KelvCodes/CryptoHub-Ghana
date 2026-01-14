@@ -1,5 +1,4 @@
 
-    event AdminRemoved(address indexed admin);
 
     event ContractPaused(address indexed by);
     event ContractUnpaused(address indexed by);
