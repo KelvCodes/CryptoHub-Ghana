@@ -1,6 +1,4 @@
-ool) public admins;
 
-    bool public paused;
     uint256 public lastUpdated;
     uint256 public lockUntil;
 
