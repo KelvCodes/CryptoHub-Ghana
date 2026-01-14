@@ -1,4 +1,4 @@
-ting secure string handling,
+dling,
  *         role-based access control, pausing, locking, rate-limiting,
  *         integrity verification, and audit-friendly architecture.
  *
