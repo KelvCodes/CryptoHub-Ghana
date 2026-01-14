@@ -1,5 +1,4 @@
 
-    // ============================================================
 
     uint256 public constant MIN_UPDATE_INTERVAL = 30; // seconds
 
