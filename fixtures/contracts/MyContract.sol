@@ -1,6 +1,4 @@
-
-    // 🔹 STATE VARIABLES (STORAGE LAYOUT AWARE)
-    // ============================================================
+============
 
     string private _attribute;
     bytes32 private _attributeHash;
