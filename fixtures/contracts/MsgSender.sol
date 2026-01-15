@@ -1,5 +1,4 @@
 
-        uint256 updateNumber,
         uint256 timestamp
     );
 
