@@ -1,5 +1,4 @@
 
-    error ContractPaused();
     error EmptyStringNotAllowed();
     error NoPreviousValue();
 
