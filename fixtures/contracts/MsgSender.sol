@@ -1,5 +1,4 @@
-
-    /// @notice Returns a contract summary including message, count, and owner.
+t summary including message, count, and owner.
     function getSummary()
         external
         view
