@@ -1,4 +1,4 @@
-wnership, event logging,
+
  * pausability, state management, and custom error handling.
  * @dev This contract builds on basic concepts with advanced Solidity patterns.
  */
