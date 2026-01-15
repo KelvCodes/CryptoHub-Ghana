@@ -2,8 +2,7 @@
         _;
     }
 
-    modifier whenNotPaused() {
-        if (paused) revert ContractPaused();
+    modifier whenNotPausedtractPaused();
         _;
     }
 
