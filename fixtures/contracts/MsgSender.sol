@@ -1,5 +1,4 @@
-t summary including message, count, and owner.
-    function getSummary()
+
         external
         view
         returns (string memory currentString, uint256 totalUpdates, address currentOwner, bool isPaused)
