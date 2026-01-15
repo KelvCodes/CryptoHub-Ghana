@@ -1,6 +1,4 @@
 
-        owner = msg.sender;
-        updateCount = 0;
         paused = false;
 
         updateHistory.push(_initialString);
