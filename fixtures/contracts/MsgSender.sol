@@ -1,6 +1,4 @@
 
-    // =========================================================
-
     error Unauthorized(address caller);
     error InvalidAddress(address provided);
     error ContractPaused();
