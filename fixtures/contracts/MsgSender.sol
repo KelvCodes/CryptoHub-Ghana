@@ -1,4 +1,4 @@
-dity contract demonstrating `msg.sender`, ownership, event logging,
+g `msg.sender`, ownership, event logging,
  * pausability, state management, and custom error handling.
  * @dev This contract builds on basic concepts with advanced Solidity patterns.
  */
