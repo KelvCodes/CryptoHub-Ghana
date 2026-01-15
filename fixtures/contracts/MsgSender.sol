@@ -1,8 +1,4 @@
 
-    // =========================================================
-
-    string public testString;
-    uint256 public updateCount;
     address public owner;
     bool public paused;
 
