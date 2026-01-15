@@ -1,7 +1,5 @@
 
-        return updateHistory;
-    }
-
+        r
     /// @notice Returns timestamp of a specific update.
     function getUpdateTimestamp(uint256 index) external view returns (uint256) {
         require(index <= updateCount, "Invalid update index");
