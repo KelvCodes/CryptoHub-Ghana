@@ -1,5 +1,4 @@
 
-    error EmptyStringNotAllowed();
     error NoPreviousValue();
 
     // =========================================================
