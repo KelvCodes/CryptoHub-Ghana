@@ -1,7 +1,4 @@
-
-    // =========================================================
-    //  READ FUNCTIONS
-    /// @notice Returns the address that called the function.
+ function.
     function from() external view returns (address) {
         return msg.sender;
     }
