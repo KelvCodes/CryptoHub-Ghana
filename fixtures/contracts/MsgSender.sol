@@ -1,4 +1,4 @@
-t with an initial message and sets the deployer as the owner.
+
      * @param _initialString The initial message string.
      */
     constructor(string memory _initialString) {
