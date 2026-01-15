@@ -1,5 +1,4 @@
 
-    event StringRestored(address indexed triggeredBy, string restoredValue);
 
     // =========================================================
     //  MODIFIERS
