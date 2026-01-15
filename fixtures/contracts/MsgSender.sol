@@ -1,6 +1,4 @@
 
-    // =========================================================
-
     /**
      * @dev Initializes the contract with an initial message and sets the deployer as the owner.
      * @param _initialString The initial message string.
