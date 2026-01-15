@@ -1,5 +1,4 @@
 
-    // =========================================================
 
     event TestStringUpdated(
         address indexed updater,
