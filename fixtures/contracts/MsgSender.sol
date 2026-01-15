@@ -1,5 +1,4 @@
 
-    bool public paused;
 
     // Array to track the history of all past messages.
     string[] private updateHistory;
