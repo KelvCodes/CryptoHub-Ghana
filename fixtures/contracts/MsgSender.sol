@@ -1,5 +1,4 @@
 
-        testString = _initialString;
         owner = msg.sender;
         updateCount = 0;
         paused = false;
