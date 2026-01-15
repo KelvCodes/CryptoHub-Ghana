@@ -1,5 +1,4 @@
 
-    error InvalidAddress(address provided);
     error ContractPaused();
     error EmptyStringNotAllowed();
     error NoPreviousValue();
