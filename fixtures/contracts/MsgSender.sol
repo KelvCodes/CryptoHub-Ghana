@@ -1,6 +1,4 @@
-sage string.
-     */
-    constructor(string memory _initialString) {
+ {
         if (bytes(_initialString).length == 0) revert EmptyStringNotAllowed();
         testString = _initialString;
         owner = msg.sender;
