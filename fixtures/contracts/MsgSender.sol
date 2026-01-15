@@ -1,6 +1,4 @@
 
-    {
-        return (testString, updateCount, owner, paused);
     }
 
     /// @notice Returns all past messages in history.
