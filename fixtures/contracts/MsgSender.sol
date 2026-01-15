@@ -1,5 +1,4 @@
 
-    event StringReset(address indexed triggeredBy, uint256 resetAt);
     event StringRestored(address indexed triggeredBy, string restoredValue);
 
     // =========================================================
