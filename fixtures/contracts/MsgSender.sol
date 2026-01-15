@@ -1,7 +1,5 @@
 
-        external
-        view
-        returns (string memory currentString, uint256 totalUpdates, address currentOwner, bool isPaused)
+         memory currentString, uint256 totalUpdates, address currentOwner, bool isPaused)
     {
         return (testString, updateCount, owner, paused);
     }
