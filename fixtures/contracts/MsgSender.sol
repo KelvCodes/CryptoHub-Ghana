@@ -1,7 +1,4 @@
-
-
-/**
- * @title AdvancedMsgSender
+cedMsgSender
  * @author 
  * Kelvin A.
  * @notice A feature-rich Solidity contract demonstrating `msg.sender`, ownership, event logging,
