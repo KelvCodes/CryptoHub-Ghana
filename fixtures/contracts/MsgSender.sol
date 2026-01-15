@@ -1,5 +1,4 @@
-
- * pausability, state management, and custom error handling.
+tom error handling.
  * @dev This contract builds on basic concepts with advanced Solidity patterns.
  */
 contract AdvancedMsgSender {
