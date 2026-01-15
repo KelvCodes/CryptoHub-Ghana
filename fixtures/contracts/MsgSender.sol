@@ -1,6 +1,4 @@
 
-    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
-    event ContractPausedState(bool isPaused);
     event StringReset(address indexed triggeredBy, uint256 resetAt);
     event StringRestored(address indexed triggeredBy, string restoredValue);
 
