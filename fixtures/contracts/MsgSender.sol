@@ -1,5 +1,4 @@
 
-    //  CUSTOM ERRORS (Gas-efficient alternative to require)
     // =========================================================
 
     error Unauthorized(address caller);
