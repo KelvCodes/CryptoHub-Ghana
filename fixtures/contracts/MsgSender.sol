@@ -1,5 +1,4 @@
 
-         memory currentString, uint256 totalUpdates, address currentOwner, bool isPaused)
     {
         return (testString, updateCount, owner, paused);
     }
