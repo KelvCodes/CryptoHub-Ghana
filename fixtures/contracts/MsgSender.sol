@@ -1,5 +1,4 @@
 
-        if (msg.sender != owner) revert Unauthorized(msg.sender);
         _;
     }
 
