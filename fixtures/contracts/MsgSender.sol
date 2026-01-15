@@ -1,5 +1,4 @@
 
-        updateHistory.push(_initialString);
         updateTimestamps[updateCount] = block.timestamp;
     }
 
