@@ -1,5 +1,4 @@
 
-    mapping(uint256 => uint256) private updateTimestamps;
 
     // =========================================================
     //  CUSTOM ERRORS (Gas-efficient alternative to require)
