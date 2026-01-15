@@ -1,7 +1,4 @@
 
-    }
-
-    /// @notice Returns all past messages in history.
     function getHistory() external view returns (string[] memory) {
         return updateHistory;
     }
