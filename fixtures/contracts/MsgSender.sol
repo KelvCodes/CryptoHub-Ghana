@@ -1,6 +1,4 @@
 
-
-    // Mapping to store the timestamp of each update.
     mapping(uint256 => uint256) private updateTimestamps;
 
     // =========================================================
