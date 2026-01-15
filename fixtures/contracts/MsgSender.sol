@@ -1,8 +1,6 @@
  function.
     function from() external view returns (address) {
-        return msg.sender;
-    }
-
+        return msg.
     /// @notice Returns a contract summary including message, count, and owner.
     function getSummary()
         external
