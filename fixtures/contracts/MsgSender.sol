@@ -1,6 +1,4 @@
 
-
-    event TestStringUpdated(
         address indexed updater,
         string oldValue,
         string newValue,
