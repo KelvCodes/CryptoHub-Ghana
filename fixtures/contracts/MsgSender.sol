@@ -1,4 +1,4 @@
-th == 0) revert EmptyStringNotAllowed();
+
         testString = _initialString;
         owner = msg.sender;
         updateCount = 0;
