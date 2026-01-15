@@ -1,7 +1,4 @@
 
-        uint256 timestamp
-    );
-
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
     event ContractPausedState(bool isPaused);
     event StringReset(address indexed triggeredBy, uint256 resetAt);
