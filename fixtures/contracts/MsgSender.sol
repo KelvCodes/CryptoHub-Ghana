@@ -1,5 +1,4 @@
 
-    address public owner;
     bool public paused;
 
     // Array to track the history of all past messages.
