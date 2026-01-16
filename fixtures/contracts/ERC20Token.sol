@@ -1,5 +1,4 @@
 
-    // ===========================================
     uint256 public transactionFee; // Fee in basis points (e.g., 100 = 1%)
     uint256 public maxTxAmount; // Anti-whale limit
     address public treasuryWallet; // Fee collector
