@@ -1,5 +1,4 @@
 
-    error ZeroAddress();
     error InsufficientAmount();
     error Unauthorized(address caller);
     error BlacklistedAddress(address user);
