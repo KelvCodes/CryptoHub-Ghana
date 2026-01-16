@@ -1,5 +1,4 @@
-
-    address public treasuryWallet; // Fee collector
+reasuryWallet; // Fee collector
 
     mapping(address => bool) public blacklisted;
 
