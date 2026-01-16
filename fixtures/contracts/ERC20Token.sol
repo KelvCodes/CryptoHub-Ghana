@@ -1,6 +1,4 @@
 
-
-    // ===========================================
     // STATE VARIABLES
     // ===========================================
     uint256 public transactionFee; // Fee in basis points (e.g., 100 = 1%)
