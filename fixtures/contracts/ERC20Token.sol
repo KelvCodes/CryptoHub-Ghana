@@ -1,4 +1,4 @@
-ntifier: GNU
+
 pragma solidity ^0.8.13;
 
 // Importing OpenZeppelin contracts for best practices
