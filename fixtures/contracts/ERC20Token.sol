@@ -1,4 +1,4 @@
-imate ERC20 Token by Kelvin
+ Token by Kelvin
  * @author Kelvin
  * @notice A powerful ERC20 token featuring minting, burning, pausing, fees, blacklisting, and advanced access control.
  * @dev Combines OpenZeppelin’s ERC20, Ownable, Pausable, and AccessControl modules.
