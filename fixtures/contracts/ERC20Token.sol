@@ -1,6 +1,5 @@
 
 
-    mapping(address => bool) public blacklisted;
 
     // ===========================================
     // CUSTOM ERRORS
