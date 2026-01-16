@@ -1,4 +1,4 @@
-ty ^0.8.13;
+
 
 // Importing OpenZeppelin contracts for best practices
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
