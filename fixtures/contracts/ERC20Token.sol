@@ -1,5 +1,4 @@
 
-    event AddressBlacklisted(address indexed user);
     event AddressRemovedFromBlacklist(address indexed user);
 
     // ===========================================
