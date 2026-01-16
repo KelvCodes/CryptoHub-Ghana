@@ -1,5 +1,4 @@
 
-    event TokenPaused(address indexed by);
     event TokenUnpaused(address indexed by);
     event FeeUpdated(uint256 newFee);
     event MaxTxUpdated(uint256 newLimit);
