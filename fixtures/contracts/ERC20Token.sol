@@ -1,5 +1,4 @@
 
-    event TokensBurned(address indexed from, uint256 amount);
     event TokenPaused(address indexed by);
     event TokenUnpaused(address indexed by);
     event FeeUpdated(uint256 newFee);
