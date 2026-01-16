@@ -1,4 +1,4 @@
-stant BURNER_ROLE = keccak256("BURNER_ROLE");
+
 
     // ===========================================
     // STATE VARIABLES
