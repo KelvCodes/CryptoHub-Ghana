@@ -1,5 +1,4 @@
-
- * @dev Combines OpenZeppelin’s ERC20, Ownable, Pausable, and AccessControl modules.
+n’s ERC20, Ownable, Pausable, and AccessControl modules.
  */
 contract UltimateERC20Token is ERC20, Ownable, Pausable, AccessControl {
     // ===========================================
