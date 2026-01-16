@@ -1,5 +1,4 @@
 
-    error InvalidMaxTx(uint256 amount);
 
     // ===========================================
     // EVENTS
