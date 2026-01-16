@@ -1,6 +1,4 @@
-
-contract UltimateERC20Token is ERC20, Ownable, Pausable, AccessControl {
-    // ===========================================
+========================================
     // CONSTANTS & ROLES
     // ===========================================
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
