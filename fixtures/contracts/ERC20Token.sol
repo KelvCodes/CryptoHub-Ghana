@@ -1,5 +1,4 @@
- Ownable, Pausable, and AccessControl modules.
- */
+ Ownable,
 contract UltimateERC20Token is ERC20, Ownable, Pausable, AccessControl {
     // ===========================================
     // CONSTANTS & ROLES
