@@ -1,6 +1,4 @@
 
-    error BlacklistedAddress(address user);
-    error InvalidFee(uint256 fee);
     error InvalidMaxTx(uint256 amount);
 
     // ===========================================
