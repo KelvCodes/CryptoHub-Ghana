@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GNU
+icense-Identifier: GNU
 pragma solidity ^0.8.13;
 
 // Importing OpenZeppelin contracts for best practices
@@ -185,4 +185,5 @@ contract UltimateERC20Token is ERC20, Ownable, Pausable, AccessControl {
         return (transactionFee, treasuryWallet);
     }
 }
+
 
