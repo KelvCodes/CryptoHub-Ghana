@@ -1,5 +1,4 @@
-
-import "@openzeppelin/contracts/access/AccessControl.sol";
+zeppelin/contracts/access/AccessControl.sol";
 
 /**
  * @title Ultimate ERC20 Token by Kelvin
