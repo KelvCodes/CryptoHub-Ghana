@@ -1,4 +1,4 @@
-maxTxAmount; // Anti-whale limit
+xAmount; // Anti-whale limit
     address public treasuryWallet; // Fee collector
 
     mapping(address => bool) public blacklisted;
