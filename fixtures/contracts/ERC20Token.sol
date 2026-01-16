@@ -1,5 +1,4 @@
-
-    bytes32 public constant BURNER_ROLE = keccak256("BURNER_ROLE");
+stant BURNER_ROLE = keccak256("BURNER_ROLE");
 
     // ===========================================
     // STATE VARIABLES
