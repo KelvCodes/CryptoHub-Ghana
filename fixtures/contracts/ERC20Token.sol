@@ -1,5 +1,4 @@
 
-    error InsufficientAmount();
     error Unauthorized(address caller);
     error BlacklistedAddress(address user);
     error InvalidFee(uint256 fee);
