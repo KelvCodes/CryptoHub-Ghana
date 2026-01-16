@@ -1,6 +1,4 @@
-
-
-// Importing OpenZeppelin contracts for best practices
+ing OpenZeppelin contracts for best practices
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
