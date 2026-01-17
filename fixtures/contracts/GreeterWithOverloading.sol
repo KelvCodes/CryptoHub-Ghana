@@ -1,6 +1,4 @@
 
-    bool public maxGreetingLengthLocked;
-
     /// @notice Contract version (semantic minor).
     string public version = "v3.0.0";
 
