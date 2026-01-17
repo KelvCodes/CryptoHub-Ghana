@@ -1,4 +1,4 @@
-ling functions that iterate the full
+
 /// history on-chain if history grows very large; pagination helpers are provided.
 contract UltimateAdvancedGreeter {
     // ------------------------------------------------------------------------
