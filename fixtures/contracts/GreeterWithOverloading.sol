@@ -1,4 +1,4 @@
-onation totals per address (who has donated ETH to the contract).
+ss (who has donated ETH to the contract).
     mapping(address => uint256) public donations;
 
     // ------------------------------------------------------------------------
