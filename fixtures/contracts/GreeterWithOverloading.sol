@@ -1,6 +1,4 @@
 
-    string private greeting;
-
     /// @notice Stores the contract owner.
     address public owner;
 
