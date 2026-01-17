@@ -1,4 +1,4 @@
-reeting message.
+
     string private greeting;
 
     /// @notice Stores the contract owner.
