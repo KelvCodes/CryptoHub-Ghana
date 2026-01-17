@@ -1,5 +1,4 @@
 
-    error MaxGreetingLengthExceeded(uint256 provided, uint256 maxAllowed);
     error ReentrancyGuard();
     error AlreadyLocked();
     error NothingToWithdraw();
