@@ -1,19 +1,4 @@
 
-    // ------------------------------------------------------------------------
-    // ============================== GUARDS ============================
-
-    /// @dev Basic reentrancy guard.
-    uint8 private _locked = 1;
-
-    modifier nonReentrant() {
-        if (_locked != 1) revert ReentrancyGuard();
-        _locked = 2;
-        _;
-        _locked = 1;
-    }
-
-    /// @dev Restricts function calls to the contract owner.
-    modifier onlyOwner() {
         if (msg.sender != owner) revert Unauthorized(msg.sender);
         _;
     }
