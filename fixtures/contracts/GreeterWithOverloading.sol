@@ -1,4 +1,4 @@
-ss (who has donated ETH to the contract).
+
     mapping(address => uint256) public donations;
 
     // ------------------------------------------------------------------------
