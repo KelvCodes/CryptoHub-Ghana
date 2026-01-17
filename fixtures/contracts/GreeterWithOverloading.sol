@@ -1,6 +1,4 @@
-^0.8.13;
-
-/// @title UltimateAdvancedGreeter
+ncedGreeter
 /// @author Kelvin A.
 /// @notice A hardened, feature-rich greeting manager contract demonstrating
 /// overloading, history tracking, role management, pause/emergency controls,
