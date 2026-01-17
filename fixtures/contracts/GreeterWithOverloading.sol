@@ -1,5 +1,4 @@
 
-    event AdminAdded(address indexed admin);
     event AdminRemoved(address indexed admin);
     event ContractPausedState(bool isPaused, address indexed by);
     event DonationReceived(address indexed donor, uint256 amount);
