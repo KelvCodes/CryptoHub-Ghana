@@ -1,5 +1,4 @@
 
-    string public version = "v3.0.0";
 
     /// @notice Mapping for admin role addresses.
     mapping(address => bool) public admins;
