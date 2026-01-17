@@ -1,6 +1,4 @@
-
-
-    /// @notice Donation totals per address (who has donated ETH to the contract).
+onation totals per address (who has donated ETH to the contract).
     mapping(address => uint256) public donations;
 
     // ------------------------------------------------------------------------
