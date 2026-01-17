@@ -1,8 +1,5 @@
 
-    // ------------------------------------------------------------------------
-
-    /// @notice Represents one greeting record in history.
-    struct GreetingRecord {
+    // --------------------------------------
         string message;
         address setBy;
         uint256 timestamp;
