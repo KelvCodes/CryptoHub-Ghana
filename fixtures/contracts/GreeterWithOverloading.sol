@@ -1,6 +1,4 @@
 
-    event GreetingRemoved(uint256 indexed index, address indexed removedBy);
-    event GreetingRestored(uint256 indexed index, address indexed restoredBy);
     event CounterIncremented(uint256 newValue, address indexed by);
     event CounterReset(uint256 newValue, address indexed by);
     event OwnershipTransferInitiated(address indexed currentOwner, address indexed pendingOwner);
