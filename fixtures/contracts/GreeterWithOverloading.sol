@@ -1,6 +1,4 @@
 
-    bool public paused;
-
     /// @notice Reasonable max greeting length (in bytes) enforced.
     uint256 public maxGreetingLength;
 
