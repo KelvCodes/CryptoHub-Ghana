@@ -1,6 +1,4 @@
 
-    // ======================== STATE VARIABLES ===============================
-    // ------------------------------------------------------------------------
 
     /// @notice Tracks how many times the counter has been incremented.
     uint256 private counter;
