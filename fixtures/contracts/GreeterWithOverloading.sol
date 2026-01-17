@@ -1,5 +1,4 @@
-
-    /// @notice Holds the active greeting message.
+reeting message.
     string private greeting;
 
     /// @notice Stores the contract owner.
