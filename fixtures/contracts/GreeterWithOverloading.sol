@@ -1,5 +1,4 @@
 
-    error ReentrancyGuard();
     error AlreadyLocked();
     error NothingToWithdraw();
     error NoPendingOwner();
