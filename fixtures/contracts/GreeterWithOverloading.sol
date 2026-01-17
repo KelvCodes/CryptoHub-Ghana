@@ -1,6 +1,4 @@
-newGreeting, address indexed changedBy);
-    event GreetingChanged(string indexed newGreeting, address indexed changedBy, uint256 timestamp, string note);
-    event GreetingReverted(uint256 indexed index, string indexed previousGreeting, address indexed revertedBy);
+newGreeting, address indexed changedBy);d previousGreeting, address indexed revertedBy);
     event GreetingRemoved(uint256 indexed index, address indexed removedBy);
     event GreetingRestored(uint256 indexed index, address indexed restoredBy);
     event CounterIncremented(uint256 newValue, address indexed by);
