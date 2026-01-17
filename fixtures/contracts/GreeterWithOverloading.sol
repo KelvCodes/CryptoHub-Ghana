@@ -1,7 +1,5 @@
 
     // ----
-        string note; // optional human-readable note
-        bool removed; // logical deletion flag
     }
 
     /// @notice All greetings ever set (initial greeting is recorded at deploy).
