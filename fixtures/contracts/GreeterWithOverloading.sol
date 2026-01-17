@@ -1,8 +1,5 @@
 
 
-    /// @notice Mapping for admin role addresses.
-    mapping(address => bool) public admins;
-
     /// @notice Donation totals per address (who has donated ETH to the contract).
     mapping(address => uint256) public donations;
 
