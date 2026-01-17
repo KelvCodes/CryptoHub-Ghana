@@ -1,5 +1,3 @@
-s ever set (initial greeting is recorded at deploy).
-    GreetingRecord[] private greetingHistory;
 
     // ------------------------------------------------------------------------
     // ============================== GUARDS ==================================
