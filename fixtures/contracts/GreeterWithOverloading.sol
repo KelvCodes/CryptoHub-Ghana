@@ -1,4 +1,4 @@
-es whether the contract is paused.
+
     bool public paused;
 
     /// @notice Reasonable max greeting length (in bytes) enforced.
