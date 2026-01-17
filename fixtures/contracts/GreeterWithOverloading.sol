@@ -1,6 +1,4 @@
-
-    event CounterIncremented(uint256 newValue, address indexe
-    event OwnershipTransferInitiated(address indexed currentOwner, address indexed pendingOwner);
+, address indexed pendingOwner);
     event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
     event AdminAdded(address indexed admin);
     event AdminRemoved(address indexed admin);
