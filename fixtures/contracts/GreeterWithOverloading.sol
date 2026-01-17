@@ -1,5 +1,4 @@
-
-/// history on-chain if history grows very large; pagination helpers are provided.
+rows very large; pagination helpers are provided.
 contract UltimateAdvancedGreeter {
     // ------------------------------------------------------------------------
     // ======================== STATE VARIABLES ===============================
