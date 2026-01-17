@@ -1,5 +1,4 @@
-ncedGreeter
-/// @author Kelvin A.
+
 /// @notice A hardened, feature-rich greeting manager contract demonstrating
 /// overloading, history tracking, role management, pause/emergency controls,
 /// donation handling, and utility helpers.
