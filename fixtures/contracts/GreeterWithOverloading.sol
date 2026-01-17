@@ -1,5 +1,5 @@
+s
 
-    /// @notice Stores the contract owner.
     address public owner;
 
     /// @notice Pending owner used for two-step ownership transfer.
