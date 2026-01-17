@@ -1,5 +1,4 @@
 
-/// @notice A hardened, feature-rich greeting manager contract demonstrating
 /// overloading, history tracking, role management, pause/emergency controls,
 /// donation handling, and utility helpers.
 /// @dev Designed to be gas-aware: avoid calling functions that iterate the full
