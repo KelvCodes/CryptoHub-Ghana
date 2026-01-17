@@ -1,8 +1,4 @@
-
-    // ----
-    }
-
-    /// @notice All greetings ever set (initial greeting is recorded at deploy).
+s ever set (initial greeting is recorded at deploy).
     GreetingRecord[] private greetingHistory;
 
     // ------------------------------------------------------------------------
