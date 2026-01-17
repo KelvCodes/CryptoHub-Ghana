@@ -1,5 +1,4 @@
 
-    /// @notice Reasonable max greeting length (in bytes) enforced.
     uint256 public maxGreetingLength;
 
     /// @notice If true, the `maxGreetingLength` cannot be changed again.
