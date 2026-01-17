@@ -1,5 +1,4 @@
 
-    uint256 public maxGreetingLength;
 
     /// @notice If true, the `maxGreetingLength` cannot be changed again.
     bool public maxGreetingLengthLocked;
