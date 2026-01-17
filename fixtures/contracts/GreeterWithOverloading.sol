@@ -1,4 +1,4 @@
-ndexed oldOwner, address indexed newOwner);
+
     event AdminAdded(address indexed admin);
     event AdminRemoved(address indexed admin);
     event ContractPausedState(bool isPaused, address indexed by);
