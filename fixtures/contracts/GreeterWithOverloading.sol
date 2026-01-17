@@ -1,5 +1,3 @@
-er has been incremented.
-    uint256 private counter;
 
     /// @notice Holds the active greeting message.
     string private greeting;
