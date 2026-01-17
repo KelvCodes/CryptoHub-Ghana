@@ -1,6 +1,5 @@
 
-
-    /// @notice If true, the `maxGreetingLength` cannot be changed again.
+xGreetingLength` cannot be changed again.
     bool public maxGreetingLengthLocked;
 
     /// @notice Contract version (semantic minor).
