@@ -1,5 +1,4 @@
 
-/// overloading, history tracking, role management, pause/emergency controls,
 /// donation handling, and utility helpers.
 /// @dev Designed to be gas-aware: avoid calling functions that iterate the full
 /// history on-chain if history grows very large; pagination helpers are provided.
