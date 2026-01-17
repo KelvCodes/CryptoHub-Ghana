@@ -1,5 +1,4 @@
-er);
-    error InvalidAddress(address provided);
+
     error InvalidValue(uint256 value);
     error ContractPaused();
     error MaxGreetingLengthExceeded(uint256 provided, uint256 maxAllowed);
