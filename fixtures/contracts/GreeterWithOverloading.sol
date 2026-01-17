@@ -1,5 +1,4 @@
-
-    /// @notice Contract version (semantic minor).
+ version (semantic minor).
     string public version = "v3.0.0";
 
     /// @notice Mapping for admin role addresses.
