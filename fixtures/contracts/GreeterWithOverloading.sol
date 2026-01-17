@@ -1,5 +1,4 @@
-t);
-    event ERC20Withdrawal(address indexed token, address indexed to, uint256 amount);
+
     event MaxGreetingLengthUpdated(uint256 oldLength, uint256 newLength, address indexed by);
     event MaxGreetingLengthLocked(address indexed by);
 
