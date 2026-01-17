@@ -1,9 +1,5 @@
 s
 
-    address public owner;
-
-    /// @notice Pending owner used for two-step ownership transfer.
-    address public pendingOwner;
 
     /// @notice Indicates whether the contract is paused.
     bool public paused;
