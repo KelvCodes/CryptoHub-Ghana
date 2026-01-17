@@ -1,6 +1,4 @@
-
-    event AdminRemoved(address indexed admin);
-    event ContractPausedState(bool isPaused, address indexed by);
+d, address indexed by);
     event DonationReceived(address indexed donor, uint256 amount);
     event Withdrawal(address indexed to, uint256 amount);
     event ERC20Withdrawal(address indexed token, address indexed to, uint256 amount);
