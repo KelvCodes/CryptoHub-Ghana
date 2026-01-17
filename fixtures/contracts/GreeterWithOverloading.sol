@@ -1,6 +1,4 @@
 
-    event MaxGreetingLengthUpdated(uint256 oldLength, uint256 newLength, address indexed by);
-    event MaxGreetingLengthLocked(address indexed by);
 
     // ------------------------------------------------------------------------
     // ============================== STRUCTS =================================
