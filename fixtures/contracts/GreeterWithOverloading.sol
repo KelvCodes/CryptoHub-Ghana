@@ -1,6 +1,4 @@
-
-    // ============================== EVENTS =====================
-    event GreetingChanging(string indexed oldGreeting, string indexed newGreeting, address indexed changedBy);
+newGreeting, address indexed changedBy);
     event GreetingChanged(string indexed newGreeting, address indexed changedBy, uint256 timestamp, string note);
     event GreetingReverted(uint256 indexed index, string indexed previousGreeting, address indexed revertedBy);
     event GreetingRemoved(uint256 indexed index, address indexed removedBy);
