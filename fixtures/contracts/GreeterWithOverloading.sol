@@ -1,8 +1,5 @@
 
-    // --------------------------------------
-        string message;
-        address setBy;
-        uint256 timestamp;
+    // ----
         string note; // optional human-readable note
         bool removed; // logical deletion flag
     }
