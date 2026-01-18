@@ -1,10 +1,4 @@
-
-
-    event Paused(bool state);
-    event DonationReceived(address indexed from, uint256 amount);
-    event Withdrawal(address indexed to, uint256 amount);
-
-    event TimelockScheduled(bytes32 indexed id, uint256 executeAfter);
+;
     event TimelockExecuted(bytes32 indexed id);
     event TimelockCancelled(bytes32 indexed id);
 
