@@ -1,7 +1,6 @@
 
         NONE,
-        OWNER,
-        ADMIN,
+        OW
         MODERATOR,
         AUDITOR
     }
