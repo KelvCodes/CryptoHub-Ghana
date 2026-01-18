@@ -1,7 +1,5 @@
 
 
-/* ============================================================================
- *  UltimateAdvancedGreeter v4.0.0
  *  Author: Kelvin A.
  *
  *  EXTENDED EDITION (600+ lines)
