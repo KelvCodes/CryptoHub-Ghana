@@ -1,5 +1,4 @@
 
-    GreetingStats public stats;
 
     mapping(address => Role) public roles;
     mapping(address => RateLimit) private rateLimits;
