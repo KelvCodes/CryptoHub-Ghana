@@ -1,8 +1,4 @@
 
-    uint256 private counter;
-
-    bool public paused;
-
     uint256 public maxGreetingLength;
     bool public maxGreetingLengthLocked;
 
