@@ -1,8 +1,5 @@
 
 
-    event RoleGranted(address indexed account, Role role);
-    event RoleRevoked(address indexed account, Role role);
-
     event OwnershipTransferInitiated(address indexed oldOwner, address indexed newOwner);
     event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
 
