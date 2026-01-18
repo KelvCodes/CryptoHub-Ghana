@@ -1,5 +1,5 @@
 
-        bool cancelled;
+
     }
 
     struct RateLimit {
