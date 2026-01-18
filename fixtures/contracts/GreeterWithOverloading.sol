@@ -1,6 +1,4 @@
-
-    error InvalidValue(uint256 value);
-    error InvalidAddress(address addr);
+r);
     error ContractPaused();
     error RateLimited(uint256 waitTime);
     error AlreadyLocked();
