@@ -1,8 +1,5 @@
 
 
-    event OwnershipTransferInitiated(address indexed oldOwner, address indexed newOwner);
-    event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
-
     event Paused(bool state);
     event DonationReceived(address indexed from, uint256 amount);
     event Withdrawal(address indexed to, uint256 amount);
