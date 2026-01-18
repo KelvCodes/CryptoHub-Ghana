@@ -1,6 +1,4 @@
 
-    error TimelockCancelled(bytes32 id);
-    error NothingToWithdraw();
     error Reentrancy();
 
     /* ------------------------------------------------------------------------
