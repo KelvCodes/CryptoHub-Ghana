@@ -1,5 +1,4 @@
 
-        bool executed;
         bool cancelled;
     }
 
