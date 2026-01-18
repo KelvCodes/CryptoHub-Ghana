@@ -1,6 +1,4 @@
 
-
-    string private greeting;
     uint256 private counter;
 
     bool public paused;
