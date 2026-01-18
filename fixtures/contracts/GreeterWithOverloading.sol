@@ -1,5 +1,4 @@
 
-        uint256 totalRemovals;
         uint256 totalRestores;
     }
 
