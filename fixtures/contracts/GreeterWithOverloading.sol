@@ -1,6 +1,4 @@
 
-
-    mapping(address => Role) public roles;
     mapping(address => RateLimit) private rateLimits;
     mapping(bytes32 => TimelockAction) public timelockActions;
 
