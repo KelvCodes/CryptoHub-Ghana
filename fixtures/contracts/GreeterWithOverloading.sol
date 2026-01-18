@@ -1,5 +1,4 @@
 
- *   learning, auditing, and demonstration purposes.
  * ==========================================================================*/
 
 contract UltimateAdvancedGreeter {
