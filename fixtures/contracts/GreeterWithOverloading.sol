@@ -1,7 +1,4 @@
 
-        NONE,
-        OW
-        MODERATOR,
         AUDITOR
     }
 
