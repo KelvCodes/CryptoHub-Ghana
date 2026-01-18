@@ -1,6 +1,4 @@
 
-     * --------------------------------------------------------------------- */
-
     address public owner;
     address public pendingOwner;
 
