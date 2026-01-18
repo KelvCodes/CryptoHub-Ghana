@@ -1,5 +1,4 @@
 
- *   - Donation & treasury management
  *   - Emergency & recovery tools
  *   - Extensive analytics helpers
  *
