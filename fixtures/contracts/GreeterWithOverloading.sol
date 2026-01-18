@@ -1,6 +1,4 @@
 
- *
- *   - Advanced role-based access control
  *   - Timelocks
  *   - Rate limiting
  *   - Greeting lifecycle management
