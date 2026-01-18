@@ -1,5 +1,4 @@
 
-    address public owner;
     address public pendingOwner;
 
     string private greeting;
