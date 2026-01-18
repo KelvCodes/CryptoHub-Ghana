@@ -1,5 +1,4 @@
-TE:
- *   This contract is intentionally verbose and feature-rich for
+
  *   learning, auditing, and demonstration purposes.
  * ==========================================================================*/
 
