@@ -1,6 +1,4 @@
-
-        bytes32 id;
-        address proposer;
+ser;
         uint256 executeAfter;
         bytes data;
         bool executed;
