@@ -1,7 +1,4 @@
-r);
-    error ContractPaused();
-    error RateLimited(uint256 waitTime);
-    error AlreadyLocked();
+
     error TimelockNotReady(bytes32 id);
     error TimelockExecuted(bytes32 id);
     error TimelockCancelled(bytes32 id);
