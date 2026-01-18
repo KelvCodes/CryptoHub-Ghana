@@ -1,5 +1,4 @@
 
-    address public pendingOwner;
 
     string private greeting;
     uint256 private counter;
