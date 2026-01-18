@@ -1,5 +1,4 @@
 
- *   - EIP-712 hashing utilities
  *   - Donation & treasury management
  *   - Emergency & recovery tools
  *   - Extensive analytics helpers
