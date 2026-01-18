@@ -1,5 +1,4 @@
 
-        bytes data;
         bool executed;
         bool cancelled;
     }
