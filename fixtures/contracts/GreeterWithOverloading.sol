@@ -1,6 +1,4 @@
 
-    error TimelockNotReady(bytes32 id);
-    error TimelockExecuted(bytes32 id);
     error TimelockCancelled(bytes32 id);
     error NothingToWithdraw();
     error Reentrancy();
