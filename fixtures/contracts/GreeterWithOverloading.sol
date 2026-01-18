@@ -1,8 +1,4 @@
 
-        uint256 cooldown;
-    }
-
-    struct GreetingStats {
         uint256 totalChanges;
         uint256 totalReverts;
         uint256 totalRemovals;
