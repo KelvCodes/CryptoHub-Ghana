@@ -1,7 +1,5 @@
 
 
-    GreetingRecord[] private greetingHistory;
-
     mapping(address => uint256) public donations;
 
     uint8 private _lock = 1;
