@@ -1,5 +1,4 @@
 
-        uint256 lastAction;
         uint256 cooldown;
     }
 
