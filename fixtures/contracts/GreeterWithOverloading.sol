@@ -1,8 +1,4 @@
 
-     * --------------------------------------------------------------------- */
-
-    event GreetingChanged(string newGreeting, address indexed by, uint256 version);
-    event GreetingReverted(uint256 indexed index, address indexed by);
     event GreetingRemoved(uint256 indexed index, address indexed by);
     event GreetingRestored(uint256 indexed index, address indexed by);
 
