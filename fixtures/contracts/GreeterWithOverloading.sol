@@ -1,5 +1,4 @@
 
- *   - Timelocks
  *   - Rate limiting
  *   - Greeting lifecycle management
  *   - EIP-165 support
