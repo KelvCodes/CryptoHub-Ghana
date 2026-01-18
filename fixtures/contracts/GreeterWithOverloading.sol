@@ -1,7 +1,4 @@
 
-
-    string public version = "v4.0.0";
-
     GreetingStats public stats;
 
     mapping(address => Role) public roles;
