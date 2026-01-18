@@ -1,6 +1,4 @@
 
-    uint256 public maxGreetingLength;
-    bool public maxGreetingLengthLocked;
 
     string public version = "v4.0.0";
 
