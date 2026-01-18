@@ -1,9 +1,4 @@
 
-
-        ui
-    }
-
-    struct TimelockAction {
         bytes32 id;
         address proposer;
         uint256 executeAfter;
