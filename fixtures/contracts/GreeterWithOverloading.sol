@@ -1,7 +1,4 @@
 
-        AUDITOR
-    }
-
     struct GreetingRecord {
         string message;
         address setBy;
