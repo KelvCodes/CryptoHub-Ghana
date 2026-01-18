@@ -1,7 +1,4 @@
 
-
- *  Author: Kelvin A.
- *
  *  EXTENDED EDITION (600+ lines)
  *
  *  This contract demonstrates:
