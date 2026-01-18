@@ -1,9 +1,6 @@
 
 
-        uint256 timestamp;
-        string note;
-        bool removed;
-        uint256 version;
+        ui
     }
 
     struct TimelockAction {
