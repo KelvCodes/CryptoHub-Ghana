@@ -1,7 +1,4 @@
 
-    event GreetingRemoved(uint256 indexed index, address indexed by);
-    event GreetingRestored(uint256 indexed index, address indexed by);
-
     event CounterIncremented(uint256 newValue, address indexed by);
     event CounterReset(address indexed by);
 
