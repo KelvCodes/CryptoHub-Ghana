@@ -1,6 +1,4 @@
 
-    event CounterIncremented(uint256 newValue, address indexed by);
-    event CounterReset(address indexed by);
 
     event RoleGranted(address indexed account, Role role);
     event RoleRevoked(address indexed account, Role role);
