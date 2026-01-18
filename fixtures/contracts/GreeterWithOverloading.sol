@@ -1,5 +1,4 @@
 
- *   - Extensive analytics helpers
  *
  *  NOTE:
  *   This contract is intentionally verbose and feature-rich for
