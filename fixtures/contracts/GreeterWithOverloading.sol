@@ -1,5 +1,4 @@
 
- *  EXTENDED EDITION (600+ lines)
  *
  *  This contract demonstrates:
  *   - Advanced role-based access control
