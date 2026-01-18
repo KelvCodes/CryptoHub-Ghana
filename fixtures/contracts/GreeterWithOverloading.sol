@@ -1,5 +1,4 @@
 
-    enum Role {
         NONE,
         OWNER,
         ADMIN,
