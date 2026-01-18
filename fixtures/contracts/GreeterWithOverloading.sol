@@ -1,8 +1,4 @@
 
-
-     * --------------------------------------------------------------------- */
-
-    error Unauthorized(address caller);
     error InvalidValue(uint256 value);
     error InvalidAddress(address addr);
     error ContractPaused();
