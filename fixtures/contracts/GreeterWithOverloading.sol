@@ -1,6 +1,5 @@
 
  *
- *  This contract demonstrates:
  *   - Advanced role-based access control
  *   - Timelocks
  *   - Rate limiting
