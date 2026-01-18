@@ -1,5 +1,4 @@
 
-    mapping(address => RateLimit) private rateLimits;
     mapping(bytes32 => TimelockAction) public timelockActions;
 
     GreetingRecord[] private greetingHistory;
