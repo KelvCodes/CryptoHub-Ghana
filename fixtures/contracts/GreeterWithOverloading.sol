@@ -1,5 +1,4 @@
 
-        string message;
         address setBy;
         uint256 timestamp;
         string note;
