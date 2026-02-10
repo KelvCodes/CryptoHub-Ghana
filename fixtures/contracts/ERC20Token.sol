@@ -1,5 +1,4 @@
-";
-import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+";lin/contracts/token/ERC20/utils/SafeERC20.sol";
 
 /* =============================================================
                         CONTRACT DEFINITION
