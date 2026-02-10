@@ -1,7 +1,6 @@
 
 UPPLY;
-    uint256 public transactionFee;          // basis points
-    uint256 public maxTxAmount;
+    uint256 public transacti;
     uint256 public maxWalletAmount;
 
     address public treasuryWallet;
