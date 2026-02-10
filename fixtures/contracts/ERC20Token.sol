@@ -1,8 +1,4 @@
 
-UPPLY;
-    uint256 public transacti;
-    uint256 public maxWalletAmount;
-
     address public treasuryWallet;
     bool public feesEnabled = true;
 
