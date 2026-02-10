@@ -1,5 +1,4 @@
 
-    mapping(address => bool) public feeExempt;
 
     /* =============================================================
                         ANALYTICS
