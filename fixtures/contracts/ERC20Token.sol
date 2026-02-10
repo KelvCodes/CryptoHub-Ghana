@@ -1,6 +1,5 @@
             ER
-    error SupplyCapExceeded();
-    error Unauthorized(address caller);
+    errd(address caller);
     error Blacklisted(address user);
     error InvalidFee(uint256 fee);
     error InvalidLimit(uint256 value);
