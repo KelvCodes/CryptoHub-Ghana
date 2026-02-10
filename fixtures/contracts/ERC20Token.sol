@@ -1,5 +1,4 @@
             ER
-    error InsufficientAmount();
     error SupplyCapExceeded();
     error Unauthorized(address caller);
     error Blacklisted(address user);
