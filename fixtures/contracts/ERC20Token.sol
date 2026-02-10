@@ -1,7 +1,4 @@
-            ERRORS
-    ============================================================= */
-
-    error ZeroAddress();
+            ER
     error InsufficientAmount();
     error SupplyCapExceeded();
     error Unauthorized(address caller);
