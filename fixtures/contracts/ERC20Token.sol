@@ -1,19 +1,4 @@
-            ER
-    errd(address caller);
-    error Blacklisted(addr
-    error InvalidLimit(uint256 value);
-    error FeesDisabled();
 
-    /* =============================================================
-                            EVENTS
-    ============================================================= */
-
-    event TokensMinted(address indexed to, uint256 amount);
-    event TokensBurned(address indexed from, uint256 amount);
-    event FeeUpdated(uint256 newFee);
-    event TreasuryUpdated(address indexed treasury);
-    event FeeExemptionUpdated(address indexed user, bool status);
-    event BlacklistUpdated(address indexed user, bool status);
     event WhitelistUpdated(address indexed user, bool status);
     event FeesToggled(bool enabled);
     event EmergencyWithdraw(address indexed token, uint256 amount);
