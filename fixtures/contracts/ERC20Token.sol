@@ -1,7 +1,6 @@
             ER
     errd(address caller);
-    error Blacklisted(address user);
-    error InvalidFee(uint256 fee);
+    error Blacklisted(addr
     error InvalidLimit(uint256 value);
     error FeesDisabled();
 
