@@ -1,5 +1,4 @@
 
-    mapping(address => bool) public whitelisted;
     mapping(address => bool) public feeExempt;
 
     /* =============================================================
