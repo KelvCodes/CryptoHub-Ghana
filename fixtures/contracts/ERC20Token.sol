@@ -1,8 +1,7 @@
 
 ==== */
 
-    uint256 public totalTransfers;
-    uint256 public totalFeesCollected;
+    uint256 public ed;
 
     mapping(address => uint256) public userTransferCount;
 
