@@ -1,6 +1,4 @@
-
-
-    bytes32 public constant MINTER_ROLE  = keccak256("MINTER_ROLE");
+ER_ROLE  = keccak256("MINTER_ROLE");
     bytes32 public constant BURNER_ROLE  = keccak256("BURNER_ROLE");
     bytes32 public constant PAUSER_ROLE  = keccak256("PAUSER_ROLE");
     bytes32 public constant ADMIN_ROLE   = keccak256("ADMIN_ROLE");
