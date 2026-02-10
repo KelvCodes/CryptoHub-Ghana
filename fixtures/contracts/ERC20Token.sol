@@ -1,5 +1,4 @@
-E");
-    bytes32 public constant PAUSER_ROLE  = keccak256("PAUSER_ROLE")ic constant ADMIN_ROLE   = keccak256("ADMIN_ROLE");
+c constant PAUSER_ROLE  = keccak256("PAUSER_ROLE")ic constant ADMIN_ROLE   = keccak256("ADMIN_ROLE");
 
     /* =============================================================
                         TOKEN CONFIGURATION
