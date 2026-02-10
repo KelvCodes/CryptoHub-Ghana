@@ -1,6 +1,5 @@
 
-
-    uint256 public immutable MAX_SUPPLY;
+UPPLY;
     uint256 public transactionFee;          // basis points
     uint256 public maxTxAmount;
     uint256 public maxWalletAmount;
