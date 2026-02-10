@@ -1,5 +1,4 @@
 
-    ============================================================= */
 
     uint256 public immutable MAX_SUPPLY;
     uint256 public transactionFee;          // basis points
