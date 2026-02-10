@@ -1,4 +1,4 @@
-nstant BURNER_ROLE  = keccak256("BURNER_ROLE");
+ccak256("BURNER_ROLE");
     bytes32 public constant PAUSER_ROLE  = keccak256("PAUSER_ROLE");
     bytes32 public constant ADMIN_ROLE   = keccak256("ADMIN_ROLE");
 
