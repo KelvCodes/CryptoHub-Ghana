@@ -1,5 +1,4 @@
-
- *         fee logic, blacklist, whitelist, caps, analytics,
+s,
  *         emergency tools and governance support.
  */
 contract UltimateERC20Token is ERC20, Ownable, Pausable, AccessControl {
