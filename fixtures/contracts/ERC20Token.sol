@@ -1,7 +1,4 @@
 
-============================================================= */
-
-/**
  * @title Ultimate ERC20 Token PRO
  * @author Kelvin
  * @notice Enterprise-grade ERC20 token with advanced security,
