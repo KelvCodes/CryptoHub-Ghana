@@ -1,4 +1,4 @@
-de ERC20 token with advanced security,
+
  *         fee logic, blacklist, whitelist, caps, analytics,
  *         emergency tools and governance support.
  */
