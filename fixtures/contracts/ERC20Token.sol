@@ -1,6 +1,5 @@
 
- * @author Kelvin
- * @notice Enterprise-grade ERC20 token with advanced security,
+ * @author Kelvinse-grade ERC20 token with advanced security,
  *         fee logic, blacklist, whitelist, caps, analytics,
  *         emergency tools and governance support.
  */
