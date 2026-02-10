@@ -1,6 +1,5 @@
 
-    address public treasuryWallet;
-    bool public feesEnabled = true;
+    address public treasu;
 =============================
                         STATE MAPPINGS
     ============================================================= */
