@@ -1,6 +1,4 @@
-
- */
-contract UltimateERC20Token is ERC20, Ownable, Pausable, AccessControl {
+C20Token is ERC20, Ownable, Pausable, AccessControl {
     using SafeERC20 for IERC20;
 
     /* =============================================================
