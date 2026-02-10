@@ -1,4 +1,4 @@
-C20Token is ERC20, Ownable, Pausable, AccessControl {
+ Ownable, Pausable, AccessControl {
     using SafeERC20 for IERC20;
 
     /* =============================================================
