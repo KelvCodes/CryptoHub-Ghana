@@ -1,5 +1,4 @@
-
- * - Constructor validation & forced deployment revert
+orced deployment revert
  * - Custom errors (gas optimized)
  * - Require vs Revert vs Assert
  * - Pull payments & reentrancy protection
