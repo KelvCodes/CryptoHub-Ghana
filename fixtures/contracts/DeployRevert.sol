@@ -1,6 +1,4 @@
 
- * - Audit-friendly architecture
- *
  * @dev
  * This contract is intentionally verbose and educational.
  * Designed for interviews, audits, and deep Solidity mastery.
