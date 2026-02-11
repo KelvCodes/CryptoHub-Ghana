@@ -1,5 +1,4 @@
-
-    mapping(address => uint256) private pendingWithdrawals;
+ private pendingWithdrawals;
     mapping(address => uint256) private lastWithdrawTime;
 
     // =============================================================
