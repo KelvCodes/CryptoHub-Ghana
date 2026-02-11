@@ -1,7 +1,6 @@
 
         Emergency,
-        Failed
-    }
+        Fai
 
     enum Role {
         NONE,
