@@ -1,4 +1,4 @@
-tra (Enterprise Edition)
+tion)
  * =============================================================
  * @author Kelvin
  *
