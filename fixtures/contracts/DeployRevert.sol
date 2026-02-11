@@ -1,5 +1,4 @@
- private pendingWithdrawals;
-    mapping(address => uint256) private lastWithdrawTime;
+ private pen) private lastWithdrawTime;
 
     // =============================================================
     // 🔹 CUSTOM ERRORS
