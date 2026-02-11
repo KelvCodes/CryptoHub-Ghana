@@ -1,6 +1,4 @@
- Kelvin
- *
- * @notice
+e
  * This contract demonstrates professional-grade Solidity patterns:
  * - Constructor validation & forced deployment revert
  * - Custom errors (gas optimized)
