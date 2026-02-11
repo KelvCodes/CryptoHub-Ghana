@@ -1,6 +1,4 @@
 
-    // 🔹 ENUMS=================================================
-
     enum DeploymentState {
         NotDeployed,
         Active,
