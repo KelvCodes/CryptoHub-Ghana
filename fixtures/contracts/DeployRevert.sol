@@ -1,6 +1,5 @@
 
-        Emergency,
-        Fai
+
 
     enum Role {
         NONE,
