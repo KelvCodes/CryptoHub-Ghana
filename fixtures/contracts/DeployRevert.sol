@@ -1,5 +1,4 @@
 
-    uint256 public deploymentTimestamp;
     uint256 public totalEtherReceived;
     uint256 public totalEtherWithdrawn;
 
