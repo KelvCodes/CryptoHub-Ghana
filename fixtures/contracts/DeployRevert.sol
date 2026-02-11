@@ -1,4 +1,4 @@
- private pen) private lastWithdrawTime;
+
 
     // =============================================================
     // 🔹 CUSTOM ERRORS
