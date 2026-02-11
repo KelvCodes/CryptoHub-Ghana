@@ -1,6 +1,4 @@
 
-        Active,
-        Paused,
         Emergency,
         Failed
     }
