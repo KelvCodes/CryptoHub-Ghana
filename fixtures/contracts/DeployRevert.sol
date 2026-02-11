@@ -1,9 +1,7 @@
 
 
 
-    enum Role {
-        NONE,
-        DEPLOYER,
+    enu
         ADMIN
     }
 
