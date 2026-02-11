@@ -1,6 +1,4 @@
-tion)
- * =============================================================
- * @author Kelvin
+ Kelvin
  *
  * @notice
  * This contract demonstrates professional-grade Solidity patterns:
