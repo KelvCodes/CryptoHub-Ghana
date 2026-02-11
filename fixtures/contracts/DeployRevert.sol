@@ -1,5 +1,4 @@
 
-onstant MIN_DEPLOY_ETH = 0.01 ether;
     uint256 public constant MAX_WITHDRAW_PER_TX = 5 ether;
     uint256 public constant WITHDRAW_COOLDOWN = 1 minutes;
 
