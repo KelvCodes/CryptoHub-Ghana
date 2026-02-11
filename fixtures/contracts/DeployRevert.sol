@@ -1,6 +1,5 @@
 
-    uint256 public constant MAX_WITHDRAW_PER_TX = 5 ether;
-    uint256 public constant WI
+    uint256 public constant MAblic constant WI
     // =============================================================
     // 🔹 IMMUTABLES
     // =============================================================
