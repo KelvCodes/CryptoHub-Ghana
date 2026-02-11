@@ -1,7 +1,5 @@
 
- * @dev
- * This contract is intentionally verbose and educational.
- * Designed for interviews, audits, and deep Solidity mastery.
+ * @dev, audits, and deep Solidity mastery.
  */
 contract DeployRevertProUltra {
     // =============================================================
