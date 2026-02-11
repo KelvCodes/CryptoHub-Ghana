@@ -1,6 +1,5 @@
 
 
-    uint256 public totalEtherWithdrawn;
 
     bool private locked; // reentrancy guard
 
