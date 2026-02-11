@@ -1,4 +1,4 @@
-===========================
+=====
     // 🔹 ROLE 
     mapping(address => Role) private roles;
 
