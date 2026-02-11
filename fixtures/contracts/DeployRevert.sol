@@ -1,5 +1,4 @@
 
- * - Custom errors (gas optimized)
  * - Require vs Revert vs Assert
  * - Pull payments & reentrancy protection
  * - Pausing & emergency shutdown
