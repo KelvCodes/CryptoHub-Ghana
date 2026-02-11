@@ -1,5 +1,4 @@
 
- * - Pull payments & reentrancy protection
  * - Pausing & emergency shutdown
  * - Try/Catch & low-level calls
  * - Access control & role separation
