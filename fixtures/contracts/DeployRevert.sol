@@ -1,4 +1,4 @@
-ade Solidity patterns:
+
  * - Constructor validation & forced deployment revert
  * - Custom errors (gas optimized)
  * - Require vs Revert vs Assert
