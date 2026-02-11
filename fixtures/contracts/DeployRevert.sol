@@ -1,6 +1,4 @@
 
- * - Access control & role separation
- * - ETH accounting & rate limiting
  * - Audit-friendly architecture
  *
  * @dev
