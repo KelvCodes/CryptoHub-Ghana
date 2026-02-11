@@ -1,5 +1,4 @@
 
- * - Require vs Revert vs Asse
  * - Pull payments & reentrancy protection
  * - Pausing & emergency shutdown
  * - Try/Catch & low-level calls
