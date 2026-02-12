@@ -1,5 +1,4 @@
-rws
- *  - Security reviews
+ity reviews
  *  - Enterprise contract architecture demos
  */
 contract MyContract {
