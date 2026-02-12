@@ -1,4 +1,4 @@
-Enterprise & Audit-Grade Solidity Contract
+-Grade Solidity Contract
  * =============================================================
  *
  *  Author: Kelvin
