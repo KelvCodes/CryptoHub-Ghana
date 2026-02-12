@@ -1,6 +1,4 @@
-ity reviews
- *  - Ente==============================================
-    // 🔹 VERSIONING & METADATA
+
     // ============================================================
 
     string public constant CONTRACT_NAME = "MyContract";
