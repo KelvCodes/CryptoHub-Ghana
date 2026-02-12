@@ -2,8 +2,7 @@
  *  - Pausing & locking
  *  - Historical tracking
  *  - Integrity verification
- *  - Emergency recovery patterns
- *  - Governance-style admin approvals
+ *  - Emergencstyle admin approvals
  *  - Analytics & introspection helpers
  *
  *  Designed for:
