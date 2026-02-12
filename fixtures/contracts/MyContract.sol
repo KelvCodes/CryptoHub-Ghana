@@ -1,6 +1,4 @@
-
- *  - Role-based access control
- *  - Rate limiting
+ limiting
  *  - Pausing & locking
  *  - Historical tracking
  *  - Integrity verification
