@@ -1,5 +1,4 @@
-
-    uint256 public constant MIN_UPDATE_INTERVAL = 30; // seconds
+nt MIN_UPDATE_INTERVAL = 30; // seconds
     uint256 public constant MAX_LOCK_DURATION = 30 days;
     uint256 public constant EMERGENCY_COOLDOWN = 1 hours;
 
