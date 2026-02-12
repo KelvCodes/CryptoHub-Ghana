@@ -1,7 +1,4 @@
 yEntry {
-        string value;
-        byte
-        bool integrityVerified;
     }
 
     HistoryEntry[] private history;
