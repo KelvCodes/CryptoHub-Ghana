@@ -1,5 +1,4 @@
-
-    // ============================================================
+==============
 
     string private _attribute;
     bytes32 private _attributeHash;
