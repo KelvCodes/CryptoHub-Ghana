@@ -1,4 +1,3 @@
-MAX_LOCK_DURATION = GENCY_COOLDOWN = 1 hours;
 
     // ============================================================
     // 🔹 STORAGE VARIABLES (LAYOUT AWARE)
