@@ -1,6 +1,5 @@
 rgencstyle admin approvals
- *  - Analytics & introspection helpers
- *
+ *  - Analytics & intro
  *  Designed for:
  *  - Production learning
  *  - Senior Solidity interviews
