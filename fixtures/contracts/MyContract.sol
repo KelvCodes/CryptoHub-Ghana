@@ -1,7 +1,4 @@
-AGE
-    // ============================================================
-
-    struct HistoryEntry {
+yEntry {
         string value;
         bytes32 valueHash;
         uint256 timestamp;
