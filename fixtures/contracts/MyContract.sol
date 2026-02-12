@@ -1,7 +1,3 @@
-yEntry {
-    }
-
-    HistoryEntry[] private history;
 
     // ============================================================
     // 🔹 GOVERNANCE / ADMIN PROPOSALS
