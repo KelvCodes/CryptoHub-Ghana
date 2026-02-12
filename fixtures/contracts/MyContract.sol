@@ -1,6 +1,4 @@
-IN PROPOSALS
-    // ===========================
-    struct AdminProposal {
+roposal {
         address proposedAdmin;
         address proposer;
         uint256 timestamp;
