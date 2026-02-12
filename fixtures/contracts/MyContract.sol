@@ -1,6 +1,5 @@
 IN PROPOSALS
-    // ============================================================
-
+    // ===========================
     struct AdminProposal {
         address proposedAdmin;
         address proposer;
