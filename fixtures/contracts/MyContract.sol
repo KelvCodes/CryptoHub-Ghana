@@ -1,7 +1,5 @@
 
  *
- *  Author: Kelvin
- *
  *  This contract 
  *  - Role-based access control
  *  - Rate limiting
