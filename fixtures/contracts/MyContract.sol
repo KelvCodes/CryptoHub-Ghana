@@ -1,7 +1,4 @@
-posal[] private adminProposals;
 
-    // ============================================================
-    // 🔹 CUSTOM ERRORS
     // ============================================================
 
     error Unauthorized(address caller);
