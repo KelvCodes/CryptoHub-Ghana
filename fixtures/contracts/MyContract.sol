@@ -1,12 +1,4 @@
-
-    );
-
-    event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
-
-    event AdminAdded(address indexed admin);
-    event AdminRemoved(address indexed admin);
-
-    event ContractPaused(address indexed by);
+ontractPaused(address indexed by);
     event ContractUnpaused(address indexed by);
 
     event AttributeLockedEvent(uint256 until);
