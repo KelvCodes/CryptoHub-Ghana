@@ -2,8 +2,7 @@
  *
  *  Author: Kelvin
  *
- *  This contract demonstrates:
- *  - Secure string storage
+ *  This contract 
  *  - Role-based access control
  *  - Rate limiting
  *  - Pausing & locking
