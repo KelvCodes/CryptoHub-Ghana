@@ -1,6 +1,4 @@
-roposal {
-        address proposedAdmin;
-        addresstamp;
+
         bool approved;
         bool executed;
     }
