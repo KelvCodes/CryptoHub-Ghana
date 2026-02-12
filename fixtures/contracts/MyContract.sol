@@ -1,6 +1,4 @@
 
-    uint256 public lastUpdateAttempt;
-    uint256 public lockUntil;
     uint256 public lastEmergencyAction;
 
     uint256 public totalUpdates;
