@@ -1,6 +1,5 @@
 
- *  - Production learning
- *  - Senior Solidity interviews
+ *  - Production learws
  *  - Security reviews
  *  - Enterprise contract architecture demos
  */
