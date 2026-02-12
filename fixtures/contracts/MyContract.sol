@@ -1,7 +1,5 @@
 ;
-    bytes32 private _attributeHash;
-
-    address public owner;
+    bytes32 private _
     mapping(address => bool) public admins;
 
     bool public paused;
