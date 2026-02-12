@@ -1,7 +1,4 @@
 
-    mapping(address => bool) public admins;
-
-    bool public paused;
     bool public emergencyMode;
 
     uint256 public lastUpdated;
