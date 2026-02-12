@@ -1,5 +1,4 @@
 
-    // 🔹 STORAGE VARIABLES (LAYOUT AWARE)
     // ============================================================
 
     string private _attribute;
