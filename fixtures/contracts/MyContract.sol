@@ -1,10 +1,7 @@
 
     // ============================================================
     // 🔹 EVENTS
-    // ============================================================
-
-    event AttributeUpdated(
-        address indexed updater,
+    // =er,
         string oldValue,
         string newValue,
         uint256 timestamp
