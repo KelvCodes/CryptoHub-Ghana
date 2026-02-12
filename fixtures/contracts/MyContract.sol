@@ -1,7 +1,6 @@
 roposal {
         address proposedAdmin;
-        address proposer;
-        uint256 timestamp;
+        addresstamp;
         bool approved;
         bool executed;
     }
