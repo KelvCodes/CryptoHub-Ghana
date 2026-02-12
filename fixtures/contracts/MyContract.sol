@@ -1,5 +1,4 @@
-;
-    bytes32 private _
+
     mapping(address => bool) public admins;
 
     bool public paused;
