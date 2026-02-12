@@ -1,6 +1,5 @@
 ity reviews
- *  - Enterprise contract architecture demos
- */
+ *  - Enterprise 
 contract MyContract {
     // ============================================================
     // 🔹 VERSIONING & METADATA
