@@ -1,6 +1,4 @@
-rgencstyle admin approvals
- *  - Analytics & intro
- *  Designed for:
+
  *  - Production learning
  *  - Senior Solidity interviews
  *  - Security reviews
