@@ -1,7 +1,6 @@
 il);
     error UpdateTooFrequent(uint256 nextAllowedTime);
     error InvalidAddress();
-    error IntegrityMismatch();
     error EmergencyActive();
     error LockDurationTooLong();
     error CooldownActive(uint256 nextAllowedTime);
