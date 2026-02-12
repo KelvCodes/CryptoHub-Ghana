@@ -1,10 +1,4 @@
 
-    // ============================================================
-    // 🔹 EVENTS
-    // =er,
-        string oldValue,
-        string newValue,
-        uint256 timestamp
     );
 
     event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
