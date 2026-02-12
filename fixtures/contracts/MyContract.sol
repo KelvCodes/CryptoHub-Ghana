@@ -1,5 +1,4 @@
  liacking
- *  - Integrity verification
  *  - Emergencstyle admin approvals
  *  - Analytics & introspection helpers
  *
