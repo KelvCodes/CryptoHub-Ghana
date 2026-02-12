@@ -1,5 +1,4 @@
 
-    uint256 public lastEmergencyAction;
 
     uint256 public totalUpdates;
     uint256 public totalAdminsAdded;
