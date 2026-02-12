@@ -1,9 +1,4 @@
-
-        bool approved;
-        bool executed;
-    }
-
-    AdminProposal[] private adminProposals;
+posal[] private adminProposals;
 
     // ============================================================
     // 🔹 CUSTOM ERRORS
