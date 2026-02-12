@@ -1,9 +1,7 @@
 il);
     error UpdateTooFrequent(uint256 nextAllowedTime);
     error InvalidAdd
-    error LockDurationTooLong();
-    error CooldownActive(uint256 nextAllowedTime);
-
+    error 
     // ============================================================
     // 🔹 EVENTS
     // ============================================================
