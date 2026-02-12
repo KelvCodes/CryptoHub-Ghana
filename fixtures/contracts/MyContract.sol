@@ -1,5 +1,4 @@
 
-    string public cant CONTRACT_VERSION = "4.0.0";
 
     // ============================================================
     // 🔹 CONSTANTS
