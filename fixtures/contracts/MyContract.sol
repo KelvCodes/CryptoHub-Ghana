@@ -1,21 +1,4 @@
-ed(address indexed by);
-    event EmergencyModeDisabled(address indexed by);
-
-    event AdminProposalCreated(uint256 indexed id, address indexed admin);
-    event AdminProposalApproved(uint256 indexed id);
-    event AdminProposalExecuted(uint256 indexed id);
-
-    // ============================================================
-    // 🔹 MODIFIERS
-    // ============================================================
-
-    modifier onlyOwner() {
-        if (msg.sender != owner) revert Unauthorized(msg.sender);
-        _;
-    }
-
-    modifier onlyAdminOrOwner() {
-        if (msg.sender != owner && !admins[msg.sender]) {
+dmins[msg.sender]) {
             revert Unauthorized(msg.sender);
         }
         _;
