@@ -1,10 +1,4 @@
-ontractPaused(address indexed by);
-    event ContractUnpaused(address indexed by);
-
-    event AttributeLockedEvent(uint256 until);
-    event AttributeUnlockedEvent();
-
-    event EmergencyModeEnabled(address indexed by);
+ed(address indexed by);
     event EmergencyModeDisabled(address indexed by);
 
     event AdminProposalCreated(uint256 indexed id, address indexed admin);
