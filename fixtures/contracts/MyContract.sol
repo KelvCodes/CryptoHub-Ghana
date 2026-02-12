@@ -1,7 +1,6 @@
 );
     error EmptyString();
-    error ContractPaused();
-    error AttributeLocked(uint256 until);
+    erroocked(uint256 until);
     error UpdateTooFrequent(uint256 nextAllowedTime);
     error InvalidAddress();
     error IntegrityMismatch();
