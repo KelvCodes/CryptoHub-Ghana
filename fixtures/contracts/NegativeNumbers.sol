@@ -1,5 +1,4 @@
-ty, indexs, and emergency controls.
- */
+
 contract AdvancedNegativeNumbersV2 {
     // =============================================================
     // 🔹 STATE
