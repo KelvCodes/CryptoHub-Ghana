@@ -1,7 +1,5 @@
 
-        int256 input,
-        int256 result
-    );
+        int256 in
 
     event OwnershipTransferred(
         address indexed previousOwner,
