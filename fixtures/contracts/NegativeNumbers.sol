@@ -1,6 +1,4 @@
-dity ^0.8.13;
 
-/**
  * @title AdvancedNegativeNumbersV2
  * @author Kelvin
  * @notice Production-grade demonstration of signed integers, ownership,
