@@ -1,9 +1,4 @@
-d(msg.sender, oldValue, newValue, updateCount);
-===================================================
-    // 🔹 VIEW FUNCTIONS
-    // =============================================================
-
-    function getStoredNumber() external view returns (int256) {
+ns (int256) {
         return _storedNumber;
     }
 
