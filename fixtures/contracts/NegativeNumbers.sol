@@ -1,8 +1,4 @@
 
-ender;
-
-    // =============================================================
-
     function _updateNumber(int256 newValue) internal {
         int256 oldValue = _storedNumber;
         _storedNumber = newValue;
