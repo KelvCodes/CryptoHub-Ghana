@@ -1,7 +1,6 @@
 
 
-    uint256 public updateCount;
-    bool public paused;
+    uint2
 
     // =============================================================
     // 🔹 ENUMS
