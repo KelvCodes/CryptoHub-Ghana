@@ -1,5 +1,4 @@
-ership,
- * arithmetic safety, indexed events, and emergency controls.
+ty, indexed events, and emergency controls.
  */
 contract AdvancedNegativeNumbersV2 {
     // =============================================================
