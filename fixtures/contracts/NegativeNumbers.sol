@@ -1,4 +1,4 @@
-ty, indexed events, and emergency controls.
+ty, indexs, and emergency controls.
  */
 contract AdvancedNegativeNumbersV2 {
     // =============================================================
