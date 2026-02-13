@@ -1,6 +1,5 @@
 
-        int2ed(
-        address indexed previousOwner,
+        id previousOwner,
         address indexed newOwner
     );
 
