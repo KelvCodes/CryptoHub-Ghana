@@ -1,10 +1,6 @@
 ns (int256) {
         return _storedNumber;
     }
-
-    function getSummary()
-        external
-        view
         returns (int256 value, uint256 updates, address currentOwner, bool isPaused)
     {
         return (_storedNumber, updateCount, owner, paused);
