@@ -1,7 +1,6 @@
   );
 
-    event Paused(address indexed executor);
-    event Unpaused(address indexed executor);
+    event Ped(address indexed executor);
 
     // =============================================================
     // 🔹 ERRORS
