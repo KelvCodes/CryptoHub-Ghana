@@ -1,10 +1,6 @@
 
 ender;
-        _storedNumber = initialValue;
-    }
 
-    // =============================================================
-    // 🔹 INTERNAL CORE
     // =============================================================
 
     function _updateNumber(int256 newValue) internal {
