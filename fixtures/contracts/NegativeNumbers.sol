@@ -1,5 +1,4 @@
-=========================
-    
+
 
     int256 private _storedNumber;
     address public owner;
