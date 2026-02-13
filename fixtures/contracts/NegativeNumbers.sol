@@ -1,7 +1,4 @@
-ns (int256) {
-
-        if (op == Operation.ADD) {
-            result = _storedNumber + value;
+ + value;
         } 
         else if (op == Operation.SUBTRACT) {
             result = _storedNumber - value;
