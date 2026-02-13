@@ -1,8 +1,7 @@
 
     event NumberUpd
         int256 oldValue,
-        int256 newValue,
-        uint256 updateCount
+        int256 newVal
     );
 
     event ArithmeticExecuted(
