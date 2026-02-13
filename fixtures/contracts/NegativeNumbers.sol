@@ -1,6 +1,5 @@
 
-    event NumberUpdated(
-        address indexed executor,
+    event NumberUpd
         int256 oldValue,
         int256 newValue,
         uint256 updateCount
