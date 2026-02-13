@@ -1,8 +1,5 @@
 
-
-    }
- initialValue) {
-        owner = msg.sender;
+ender;
         _storedNumber = initialValue;
     }
 
