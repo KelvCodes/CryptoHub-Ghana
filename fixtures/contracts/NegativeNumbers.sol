@@ -1,10 +1,7 @@
 
 
     }
-
-    // =======================================
-
-    constructor(int256 initialValue) {
+ initialValue) {
         owner = msg.sender;
         _storedNumber = initialValue;
     }
