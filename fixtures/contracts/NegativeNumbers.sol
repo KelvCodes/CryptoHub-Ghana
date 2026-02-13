@@ -1,6 +1,6 @@
 
  exed executor,
-        Operation operation,
+        Opertion,
         int256 input,
         int256 result
     );
