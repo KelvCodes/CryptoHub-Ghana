@@ -1,6 +1,5 @@
 
-        id previousOwner,
-        address indexed newOwner
+        id previouwner
     );
 
     event Paused(address indexed executor);
