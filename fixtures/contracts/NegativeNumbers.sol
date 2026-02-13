@@ -1,8 +1,4 @@
-
-    function _updateNumber(int256 newValue) internal {
-        int256 oldValue = _storedNumber;
-    
-        emit NumberUpdated(msg.sender, oldValue, newValue, updateCount);
+d(msg.sender, oldValue, newValue, updateCount);
     }
 
     // =============================================================
