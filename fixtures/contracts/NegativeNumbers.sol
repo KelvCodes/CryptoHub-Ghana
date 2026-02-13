@@ -1,6 +1,4 @@
-
-        id previouwner
-    );
+  );
 
     event Paused(address indexed executor);
     event Unpaused(address indexed executor);
