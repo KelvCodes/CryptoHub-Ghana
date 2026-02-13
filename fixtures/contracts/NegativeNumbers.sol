@@ -1,9 +1,6 @@
 
       
-        int256 newVal
-    );
-
-    event ArithmeticExecuted(
+xecuted(
         address indexed executor,
         Operation operation,
         int256 input,
