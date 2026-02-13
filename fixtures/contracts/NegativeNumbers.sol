@@ -1,12 +1,5 @@
 ns (int256) {
-        return _storedNumber;
-    }
-        returns (int256 value, uint256 updates, address currentOwner, bool isPaused)
-    {
-        return (_storedNumber, updateCount, owner, paused);
-    }
-
-    // =============================================================
+====================================
     // 🔹 ARITHMETIC OPERATIONS
     // =============================================================
 
