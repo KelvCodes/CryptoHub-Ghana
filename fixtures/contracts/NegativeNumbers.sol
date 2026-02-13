@@ -1,7 +1,5 @@
 
-      
-xecuted(
-        address indexed executor,
+ exed executor,
         Operation operation,
         int256 input,
         int256 result
