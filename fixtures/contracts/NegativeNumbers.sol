@@ -1,4 +1,4 @@
- demonstration of signed integers, ownership,
+ signed integers, ownership,
  * arithmetic safety, indexed events, and emergency controls.
  */
 contract AdvancedNegativeNumbersV2 {
