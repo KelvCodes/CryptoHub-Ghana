@@ -1,4 +1,4 @@
- signed integers, ownership,
+ership,
  * arithmetic safety, indexed events, and emergency controls.
  */
 contract AdvancedNegativeNumbersV2 {
