@@ -1,14 +1,4 @@
 ns (int256) {
-====================================
-    // 🔹 ARITHMETIC OPERATIONS
-    // =============================================================
-
-    function execute(Operation op, int256 value)
-        external
-        onlyOwner
-        whenNotPaused
-    {
-        int256 result;
 
         if (op == Operation.ADD) {
             result = _storedNumber + value;
