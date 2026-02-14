@@ -1,5 +1,5 @@
 
- * @dev Designed for education + portfolio-level demonstration
+ortfolio-level demonstration
  * =============================================================
  */
 contract AdvancedMsgSenderV2 {
