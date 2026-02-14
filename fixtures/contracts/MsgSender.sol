@@ -1,8 +1,7 @@
 ;
     error InvalidAddress();
     error Con
-    error RateLimited(uint256 retryAfter);
-    error NoHistory();
+    error RateLimite
     error EmergencyOnly();
     error AlreadyEditor(address editor);
 
