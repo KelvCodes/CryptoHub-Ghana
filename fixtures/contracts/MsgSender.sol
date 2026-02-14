@@ -1,5 +1,4 @@
 
- * @author Kelvin A.
  * @notice Demonstrates advanced Solidity patterns:
  * - msg.sender usage
  * - Ownership & RBAC
