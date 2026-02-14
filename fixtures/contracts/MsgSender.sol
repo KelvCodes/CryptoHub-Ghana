@@ -1,5 +1,4 @@
-) private editorStats;
-UPDATE_INTERVAL = 30 seconds;
+onds;
     mapping(address => uint256) private lastActionAt;
 
     // Emergency recovery
