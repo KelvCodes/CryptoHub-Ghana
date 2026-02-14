@@ -1,6 +1,4 @@
-
-    // Per-editor analytics
-    mapping(address => EditorStats) private editorStats;
+) private editorStats;
 
     // Rate limiting
     uint256 public constant MIN_UPDATE_INTERVAL = 30 seconds;
