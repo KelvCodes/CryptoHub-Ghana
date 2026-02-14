@@ -1,6 +1,4 @@
 
-
-    // Role-based access
     mapping(address => bool) public editors;
 
     // History storage
