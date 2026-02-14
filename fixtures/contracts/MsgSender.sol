@@ -1,6 +1,4 @@
 
- * - Pausing (read/write)
- * - State versioning
  * - History tracking
  * - Rate limiting
  * - Emergency recovery
