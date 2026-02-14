@@ -1,8 +1,4 @@
 
-    //////////////////////////////////////////////////////////////*/
-
-    event StringUpdated(
-        address indexed updater,
         string oldValue,
         string newValue,
         uint256 indexed version,
