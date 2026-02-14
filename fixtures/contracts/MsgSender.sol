@@ -1,6 +1,4 @@
 
- * - Defensive programming
- *
  * @dev Designed for education + portfolio-level demonstration
  * =============================================================
  */
