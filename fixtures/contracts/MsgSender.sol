@@ -1,7 +1,4 @@
 
-    enum Pau
-    }
-
     struct UpdateSnapshot {
         string value;
         address updater;
