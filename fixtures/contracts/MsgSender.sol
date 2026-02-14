@@ -1,5 +1,4 @@
-================================
- * @title AdvancedMsgSenderV2 (Enterprise Edition)
+erprise Edition)
  * @author Kelvin A.
  * @notice Demonstrates advanced Solidity patterns:
  * - msg.sender usage
