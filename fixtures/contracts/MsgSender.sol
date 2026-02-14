@@ -1,4 +1,3 @@
-pshots;Timestamps;
 
     // Per-editor analytics
     mapping(address => EditorStats) private editorStats;
