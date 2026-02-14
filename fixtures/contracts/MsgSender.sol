@@ -1,5 +1,4 @@
-onds;
-    mapping(address => uint256) private lastActionAt;
+nt256) private lastActionAt;
 
     // Emergency recovery
     bool public emergencyMode;
