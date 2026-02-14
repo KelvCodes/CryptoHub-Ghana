@@ -1,7 +1,4 @@
-
-
-    // History storage
-    UpdateSnapshot[] private snapshots;
+pshots;
 
     // Timestamp mapping for quick lookup
     mapping(uint256 => uint256) private updateTimestamps;
