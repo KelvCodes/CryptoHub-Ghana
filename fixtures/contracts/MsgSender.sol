@@ -1,16 +1,4 @@
 
-    modifier onlyOwner() {
-        if (msg.sender != owner) revert Unauthorized(msg.sender);
-        _;
-    }
-
-    modifier onlyEditor() {
-        if (!editors[msg.sender] && msg.sender != owner)
-            revert Unauthorized(msg.sender);
-        _;
-    }
-
-    modifier whenReadable() {
         if (pauseMode == PauseMode.FullyPaused)
             revert ContractPaused();
         _;
