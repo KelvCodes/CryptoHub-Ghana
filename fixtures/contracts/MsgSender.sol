@@ -1,5 +1,4 @@
 
- * - msg.sender usage
  * - Ownership & RBAC
  * - Pausing (read/write)
  * - State versioning
