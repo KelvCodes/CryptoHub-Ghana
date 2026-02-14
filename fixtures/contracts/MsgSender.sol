@@ -1,5 +1,4 @@
 
- * - Ownership & RBAC
  * - Pausing (read/write)
  * - State versioning
  * - History tracking
