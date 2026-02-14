@@ -1,5 +1,4 @@
 
-    mapping(address => bool) public editors;
 
     // History storage
     UpdateSnapshot[] private snapshots;
