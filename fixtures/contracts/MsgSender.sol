@@ -1,9 +1,4 @@
 
-ue;
-        address updater;
-        bytes32 valueHash;
-    }
-
     struct EditorStats {
         uint256 updatesMade;
         uint256 lastUpdateAt;
