@@ -1,7 +1,6 @@
 ;
     error InvalidAddress();
-    error ContractPaused();
-    error WritePaused();
+    error Con
     error RateLimited(uint256 retryAfter);
     error NoHistory();
     error EmergencyOnly();
