@@ -1,5 +1,4 @@
-
-    event PauseModeChanged(PauseMode mode);
+\
     event EmergencyModeActivated(address indexed recovery);
     event EmergencyRecovered(string restoredValue);
     event HistoryCleared(uint256 atVersion);
