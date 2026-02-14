@@ -1,6 +1,4 @@
-nt256) 
-    bool public emergencyMode;
-    address public recoveryAddress;
+nt256) Address;
 
     /*//////////////////////////////////////////////////////////////
                                 ERRORS
