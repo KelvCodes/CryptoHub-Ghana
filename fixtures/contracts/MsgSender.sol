@@ -1,9 +1,5 @@
 ;
-    error InvalidAddress();
-    error Con
-    error RateLimite
-    error EmergencyOnly();
-    error AlreadyEditor(address editor);
+or(address editor);
 
     /*//////////////////////////////////////////////////////////////
                                 EVENTS
