@@ -1,6 +1,4 @@
 
-    //////////////////////////////////////////////////////////////*/
-
     string private _currentString;
     address public owner;
 
