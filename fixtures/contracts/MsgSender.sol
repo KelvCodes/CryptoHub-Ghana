@@ -1,5 +1,4 @@
 
- * @notice Demonstrates advanced Solidity patterns:
  * - msg.sender usage
  * - Ownership & RBAC
  * - Pausing (read/write)
