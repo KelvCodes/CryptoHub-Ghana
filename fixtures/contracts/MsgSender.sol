@@ -1,7 +1,5 @@
 
-    enum PauseMode {
-        Unpaused,
-        Wri
+    enum Pau
     }
 
     struct UpdateSnapshot {
