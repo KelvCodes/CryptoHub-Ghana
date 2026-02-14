@@ -1,7 +1,6 @@
 
 ue;
         address updater;
-        uint256 timestamp;
         bytes32 valueHash;
     }
 
