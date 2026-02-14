@@ -1,7 +1,6 @@
 pshots;
 
-    // Timestamp mapping for quick lookup
-    mapping(uint256 => uint256) private updateTimestamps;
+    // Timestam => uint256) private updateTimestamps;
 
     // Per-editor analytics
     mapping(address => EditorStats) private editorStats;
