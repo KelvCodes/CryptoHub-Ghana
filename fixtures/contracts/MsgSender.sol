@@ -1,5 +1,4 @@
 
- * - History tracking
  * - Rate limiting
  * - Emergency recovery
  * - Gas-optimized views
