@@ -1,6 +1,4 @@
-nt256) private lastActionAt;
-
-    // Emergency recovery
+nt256) 
     bool public emergencyMode;
     address public recoveryAddress;
 
