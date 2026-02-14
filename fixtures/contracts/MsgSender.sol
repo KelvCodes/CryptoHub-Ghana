@@ -1,8 +1,6 @@
 
     string private _currentString;
-    address public owner;
-
-    uint256 public updateCount;
+    address public 
     PauseMode public pauseMode;
 
     // Role-based access
