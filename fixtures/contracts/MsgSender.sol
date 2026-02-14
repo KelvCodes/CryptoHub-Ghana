@@ -1,5 +1,4 @@
 
-    PauseMode public pauseMode;
 
     // Role-based access
     mapping(address => bool) public editors;
