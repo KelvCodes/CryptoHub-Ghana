@@ -1,5 +1,3 @@
-nt256) A           ERRORS
-    //////////////////////////////////////////////////////////////*/
 
     error Unauthorized(address caller);
     error InvalidAddress();
