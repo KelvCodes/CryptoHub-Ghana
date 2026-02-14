@@ -1,5 +1,4 @@
 
- * - Rate limiting
  * - Emergency recovery
  * - Gas-optimized views
  * - Defensive programming
