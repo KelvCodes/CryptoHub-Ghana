@@ -1,8 +1,4 @@
 
-    struct EditorStats {
-        uint256 updatesMade;
-        uint256 lastUpdateAt;
-    }
 
     /*//////////////////////////////////////////////////////////////
                             STATE VARIABLES
