@@ -1,6 +1,4 @@
 
-    string private _currentString;
-    address public 
     PauseMode public pauseMode;
 
     // Role-based access
