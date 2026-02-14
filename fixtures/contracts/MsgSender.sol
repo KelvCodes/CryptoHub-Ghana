@@ -1,5 +1,4 @@
 
-    event EditorAdded(address indexed editor);
     event EditorRemoved(address indexed editor);
     event PauseModeChanged(PauseMode mode);
     event EmergencyModeActivated(address indexed recovery);
