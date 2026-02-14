@@ -1,7 +1,4 @@
-ue,
-        uint256 indexed version,
-        uint256 timestamp
-    );
+
 
     event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
     event EditorAdded(address indexed editor);
