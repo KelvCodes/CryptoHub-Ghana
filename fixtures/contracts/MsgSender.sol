@@ -1,6 +1,5 @@
 
-    struct UpdateSnapshot {
-        string value;
+ue;
         address updater;
         uint256 timestamp;
         bytes32 valueHash;
