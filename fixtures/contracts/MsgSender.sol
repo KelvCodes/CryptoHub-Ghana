@@ -1,6 +1,4 @@
-
-        string oldValue,
-        string newValue,
+ue,
         uint256 indexed version,
         uint256 timestamp
     );
