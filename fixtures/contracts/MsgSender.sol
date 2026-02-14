@@ -1,6 +1,4 @@
 
-
-    event OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
     event EditorAdded(address indexed editor);
     event EditorRemoved(address indexed editor);
     event PauseModeChanged(PauseMode mode);
