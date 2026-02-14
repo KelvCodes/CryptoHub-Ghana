@@ -1,5 +1,4 @@
-
-    error Unauthorized(address caller);
+;
     error InvalidAddress();
     error EmptyString();
     error ContractPaused();
