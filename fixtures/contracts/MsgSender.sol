@@ -1,6 +1,4 @@
-pshots;
-
-    // Timestam => uint256) private updateTimestamps;
+pshots;Timestamps;
 
     // Per-editor analytics
     mapping(address => EditorStats) private editorStats;
