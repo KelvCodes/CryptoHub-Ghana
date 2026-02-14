@@ -1,6 +1,4 @@
-======
-                       TYPES
-  
+
     enum PauseMode {
         Unpaused,
         WritePaused,
