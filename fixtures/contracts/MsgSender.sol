@@ -1,6 +1,5 @@
 ;
     error InvalidAddress();
-    error EmptyString();
     error ContractPaused();
     error WritePaused();
     error RateLimited(uint256 retryAfter);
