@@ -1,4 +1,4 @@
-tion-gradfety, indexed events, and emergency controls.
+indexed events, and emergency controls.
  */
 contract AdvancedNegativeNumbersV2 {
     // =============================================================
