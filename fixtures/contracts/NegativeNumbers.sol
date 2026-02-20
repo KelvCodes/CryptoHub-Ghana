@@ -1,8 +1,7 @@
 r,
         Op
     );
-
-    event OwnershipTransferred(
+hipTransferred(
         address indexed previousOwner,
         address indexed newOwner
     );
