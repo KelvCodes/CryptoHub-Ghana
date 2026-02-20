@@ -1,6 +1,4 @@
-
-
-    address public owner;
+ublic owner;
     uint256 public updateCount;
     bool public paused;
 
