@@ -1,7 +1,4 @@
-
-    );
-
-        address indexed executor,
+r,
         Operation operation,
         int256 input,
         int256 result
