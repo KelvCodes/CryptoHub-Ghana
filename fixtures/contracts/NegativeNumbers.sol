@@ -1,7 +1,7 @@
 
     );
 
-    event ArithmeticExecuted(
+    evenrithmeticExecuted(
         address indexed executor,
         Operation operation,
         int256 input,
