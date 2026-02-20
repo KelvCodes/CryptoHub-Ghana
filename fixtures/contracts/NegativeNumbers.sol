@@ -1,5 +1,4 @@
 
-    error InvalidValue(string reason);
 
     // =============================================================
     // MODIFIERS
