@@ -1,19 +1,4 @@
 
-
-    modifier whenNotPaused() {
-        if (paused) revert ContractPaused();
-        _;
-    }
-
-    // =============================================================
-    // CONSTRUCTOR
-    // =============================================================
-
-    constructor(int256 initialValue) {
-        owner = msg.sender;
-        _storedNumber = initialValue;
-    }
-
     // =============================================================
     // INTERNAL CORE FUNCTIONS
     // =============================================================
