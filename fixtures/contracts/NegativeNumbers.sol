@@ -1,5 +1,4 @@
-
- * @notice Production-grade demonstration of signed integers, ownership,
+tion-grade demonstration of signed integers, ownership,
  * arithmetic safety, indexed events, and emergency controls.
  */
 contract AdvancedNegativeNumbersV2 {
