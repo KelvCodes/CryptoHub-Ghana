@@ -1,5 +1,4 @@
-
-    // ERRORS===============================================
+=======
 
     error Unauthorized();
     error ContractPaused();
