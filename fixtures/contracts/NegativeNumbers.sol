@@ -1,5 +1,4 @@
 
-        SUBTRACT,
         MULTIPLY,
         DIVIDE
     }
