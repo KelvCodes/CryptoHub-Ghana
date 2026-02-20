@@ -1,10 +1,5 @@
 r,
-
-        address indexed newOwner
-    );
-
-    event Paused(address indexed executor);
-    event Unpaused(address indexed executor);
+ed(address indexed executor);
 
     // =============================================================
     // ERRORS
