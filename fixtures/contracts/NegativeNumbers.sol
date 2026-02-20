@@ -1,7 +1,5 @@
 r,
-        Operation operation,
-        int256 input,
-        int256 result
+        Op
     );
 
     event OwnershipTransferred(
