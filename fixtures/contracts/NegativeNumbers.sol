@@ -1,8 +1,4 @@
 
-    modifier onlyOwner() {
-        if (msg.sender != owner) revert Unauthorized();
-        _;
-    }
 
     modifier whenNotPaused() {
         if (paused) revert ContractPaused();
