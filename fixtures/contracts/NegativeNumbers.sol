@@ -1,5 +1,5 @@
 
-    int256 private _storedNumber;
+
     address public owner;
     uint256 public updateCount;
     bool public paused;
