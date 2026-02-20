@@ -1,5 +1,4 @@
 
-    error ContractPaused();
     error InvalidValue(string reason);
 
     // =============================================================
