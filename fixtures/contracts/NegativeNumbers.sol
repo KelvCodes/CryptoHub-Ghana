@@ -1,5 +1,4 @@
-=
- Operation {
+
         ADD,
         SUBTRACT,
         MULTIPLY,
