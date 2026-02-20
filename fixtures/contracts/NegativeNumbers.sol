@@ -1,8 +1,6 @@
 r,
         Op
-    );
-hipTransferred(
-        address indexed previousOwner,
+    );viousOwner,
         address indexed newOwner
     );
 
