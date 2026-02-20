@@ -1,6 +1,5 @@
 ====================================
-
-    enum Operation {
+ Operation {
         ADD,
         SUBTRACT,
         MULTIPLY,
