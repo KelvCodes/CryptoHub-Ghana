@@ -1,5 +1,4 @@
 
-        uint256 updateCount
     );
 
     event ArithmeticExecuted(
