@@ -1,5 +1,4 @@
 
-        MULTIPLY,
         DIVIDE
     }
 
