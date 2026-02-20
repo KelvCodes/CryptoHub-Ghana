@@ -1,5 +1,4 @@
-
-    uint256 public updateCount;
+updateCount;
     bool public paused;
 
     // =============================================================
