@@ -1,10 +1,7 @@
 
 
 const resolveainnet" || CONFIG.NETWORK === "live"
-    ? "mainnet"
-    : "rinkeby";
-
-const rpcUrl = process.env.INFURA_KEY
+    ? "mainnet"_KEY
   ? `https://${resolvedNetwork}.infura.io/v3/${CONFIG.NODE_API_KEY}`
   : `https://eth-${resolvedNetwork}.alchemyapi.io/v2/${CONFIG.NODE_API_KEY}`;
 
