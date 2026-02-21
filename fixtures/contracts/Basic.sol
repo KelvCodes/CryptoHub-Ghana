@@ -1,7 +1,5 @@
 
 der Setup
-// -------------------------------------------------------------
-
 const BASE_DERIVATION_PATH = "44'/60'/0'/0";
 
 const walletSubprovider = new MnemonicWalletSubprovider({
