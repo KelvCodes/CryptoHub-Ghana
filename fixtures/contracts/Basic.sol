@@ -1,6 +1,5 @@
 
-
-REQUIRED_ENV_VARS.forEach((key) => {
+((key) => {
   if (!CONFIG[key]) {
     console.error(`Missing required environment variable: ${key}`);
     process.exit(1);
