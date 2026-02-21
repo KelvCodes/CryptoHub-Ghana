@@ -1,7 +1,4 @@
 
-    "Warning: OpenSea API key not provided. Rate limits may apply."
-  );
-}
 
 // -------------------------------------------------------------
 // Logging Utilities
