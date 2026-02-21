@@ -1,15 +1,4 @@
-ep(delay);
-    }
-  }
-}
-
-// -------------------------------------------------------------
-// Listing Strategies
-// -------------------------------------------------------------
-
-async function createFixedPriceListing(tokenId, price) {
-  return withRetries(async () => {
-    log(`Creating fixed-price listing for token ${tokenId}`);
+listing for token ${tokenId}`);
 
     await validateMetadata(tokenId);
 
