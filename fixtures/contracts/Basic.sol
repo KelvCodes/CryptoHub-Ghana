@@ -1,4 +1,4 @@
-der = require("web3-provider-engine/subproviders/rpc");
+roviders/rpc");
 const Web3ProviderEngine = require("web3-provider-engine");
 
 // -------------------------------------------------------------
