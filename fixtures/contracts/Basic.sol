@@ -1,18 +1,4 @@
-
-
-    log(`Fixed-price listing created: ${order.asset.openseaLink}`);
-    return order;
-  });
-}
-
-async function createDutchAuctionListing(tokenId, startPrice, endPrice, hours) {
-  return withRetries(async () => {
-    log(`Creating Dutch auction for token ${tokenId}`);
-
-    const expirationTime =
-      Math.floor(Date.now() / 1000) + hours * 60 * 60;
-
-    const order = await seaport.createSellOrder({
+eSellOrder({
       asset: {
         tokenId: String(tokenId),
         tokenAddress: CONFIG.NFT_CONTRACT_ADDRESS,
