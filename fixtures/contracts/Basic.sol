@@ -1,9 +1,7 @@
 
 
 const resolveainnet" || CONFIG.NETWORK === "live"
-    ? "mainnet"_KEY
-  ? `https://${resolvedNetwork}.infura.io/v3/${CONFIG.NODE_API_KEY}`
-  : `https://eth-${resolvedNetwork}.alchemyapi.io/v2/${CONFIG.NODE_API_KEY}`;
+    ? "mainnet"_KEork}.alchemyapi.io/v2/${CONFIG.NODE_API_KEY}`;
 
 const providerEngine = new Web3ProviderEngine();
 providerEngine.addProvider(walletSubprovider);
