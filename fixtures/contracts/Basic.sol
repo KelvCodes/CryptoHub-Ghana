@@ -1,7 +1,4 @@
- } = require("opensea-js/lib/types");
-
-const { MnemonicWalletSubprovider } = require("@0x/subproviders");
-const RPCSubprovider = require("web3-provider-engine/subproviders/rpc");
+der = require("web3-provider-engine/subproviders/rpc");
 const Web3ProviderEngine = require("web3-provider-engine");
 
 // -------------------------------------------------------------
