@@ -1,7 +1,4 @@
-();
-    } catch (error) {
-      logError(error);
-      if (attempt === retries) {
+== retries) {
         throw new Error("Maximum retry attempts reached.");
       }
       const delay = attempt * 2000;
