@@ -1,5 +1,4 @@
 KEY,
-  NETWORK: process.env.NETWORK || "rinkeby",
   OWNER_ADDRESS: process.env.OWNER_ADDRESS,
   NFT_CONTRACT_ADDRESS: process.env.NFT_CONTRACT_ADDRESS,
   OPENSEA_API_KEY: process.env.API_KEY || "",
