@@ -1,17 +1,4 @@
-listing for token ${tokenId}`);
 
-    await validateMetadata(tokenId);
-
-    const order = await seaport.createSellOrder({
-      asset: {
-        tokenId: String(tokenId),
-        tokenAddress: CONFIG.NFT_CONTRACT_ADDRESS,
-        schemaName: WyvernSchemaName.ERC721,
-      },
-      startAmount: price,
-      expirationTime: 0,
-      accountAddress: CONFIG.OWNER_ADDRESS,
-    });
 
     log(`Fixed-price listing created: ${order.asset.openseaLink}`);
     return order;
