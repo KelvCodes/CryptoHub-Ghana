@@ -1,9 +1,4 @@
-== retries) {
-        throw new Error("Maximum retry attempts reached.");
-      }
-      const delay = attempt * 2000;
-      log(`Retrying in ${delay / 1000} seconds (${attempt}/${retries})`);
-      await sleep(delay);
+ep(delay);
     }
   }
 }
