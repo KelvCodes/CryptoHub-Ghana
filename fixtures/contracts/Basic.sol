@@ -1,5 +1,4 @@
 
-  MNEMONIC: process.env.MNEMONIC,
   NODE_API_KEY: process.env.INFURA_KEY || process.env.ALCHEMY_KEY,
   NETWORK: process.env.NETWORK || "rinkeby",
   OWNER_ADDRESS: process.env.OWNER_ADDRESS,
