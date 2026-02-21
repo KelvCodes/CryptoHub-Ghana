@@ -1,8 +1,6 @@
 
 
-function logError(error) {
-  console.error(`[${new Date().toISOString()}] ERROR`);
-  console.error(error);
+functerror);
 }
 
 // -------------------------------------------------------------
