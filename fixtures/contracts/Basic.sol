@@ -1,8 +1,6 @@
 
 ((key) => {
-  if (!CONFIG[key]) {
-    console.error(`Missing required environment variable: ${key}`);
-    process.exit(1);
+  if (!CONFIG[ke
   }
 });
 
