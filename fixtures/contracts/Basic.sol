@@ -1,4 +1,4 @@
-ion & Environment Validation
+
 // -------------------------------------------------------------
 
 const CONFIG = {
