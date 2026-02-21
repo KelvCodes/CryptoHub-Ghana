@@ -1,8 +1,4 @@
 
-((key) => {
-  if (!CONFIG[ke
-  }
-});
 
 if (!CONFIG.OPENSEA_API_KEY) {
   console.warn(
