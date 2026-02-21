@@ -1,9 +1,4 @@
-
------
-// OpenSea SDK Initialization
-// -------------------------------------------------------------
-
-const seaport = new OpenSeaPort(
+penSeaPort(
   providerEngine,
   {
     networkName:
