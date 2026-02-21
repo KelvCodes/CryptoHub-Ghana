@@ -1,7 +1,4 @@
 
-const walNFIG.MNEMONIC,
-  baseDerivationPath: BASE_DERIVATION_PATH,
-});
 
 const resolveainnet" || CONFIG.NETWORK === "live"
     ? "mainnet"
