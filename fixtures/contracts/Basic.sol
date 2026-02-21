@@ -3,8 +3,7 @@ const walNFIG.MNEMONIC,
   baseDerivationPath: BASE_DERIVATION_PATH,
 });
 
-const resolvedNetwork =
-  CONFIG.NETWORK === "mainnet" || CONFIG.NETWORK === "live"
+const resolveainnet" || CONFIG.NETWORK === "live"
     ? "mainnet"
     : "rinkeby";
 
