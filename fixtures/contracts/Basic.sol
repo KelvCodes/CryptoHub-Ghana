@@ -1,7 +1,4 @@
 
-
-if (!CONFIG.OPENSEA_API_KEY) {
-  console.warn(
     "Warning: OpenSea API key not provided. Rate limits may apply."
   );
 }
