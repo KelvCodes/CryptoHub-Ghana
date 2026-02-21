@@ -1,6 +1,4 @@
-,
-  "NFT_CONTRACT_ADDRESS",
-];
+
 
 REQUIRED_ENV_VARS.forEach((key) => {
   if (!CONFIG[key]) {
