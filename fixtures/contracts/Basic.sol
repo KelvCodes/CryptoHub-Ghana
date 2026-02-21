@@ -1,7 +1,4 @@
--------
-require("dotenv").config();
-
-const { OpenSeaPort, Network } = require("opensea-js");
+------- require("opensea-js");
 const { WyvernSchemaName } = require("opensea-js/lib/types");
 
 const { MnemonicWalletSubprovider } = require("@0x/subproviders");
