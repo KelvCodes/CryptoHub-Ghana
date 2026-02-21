@@ -1,5 +1,5 @@
 
-  OPENSEA_API_KEY: process.env.API_KEY || "",
+ process.env.API_KEY || "",
   SAFE_MODE: process.env.SAFE_MODE !== "false",
 };
 
