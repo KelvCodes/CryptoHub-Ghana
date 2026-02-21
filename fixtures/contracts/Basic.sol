@@ -1,4 +1,4 @@
----------------------------------------
+-------
 require("dotenv").config();
 
 const { OpenSeaPort, Network } = require("opensea-js");
