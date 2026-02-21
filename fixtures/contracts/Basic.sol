@@ -1,9 +1,6 @@
 solve) => setTimeout(resolve, ms));
 }
 
-async function withRetries(action, retries = 5) {
-  for (let attempt = 1; attempt <= retries; attempt++) {
-    try {
       return await action();
     } catch (error) {
       logError(error);
