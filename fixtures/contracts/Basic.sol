@@ -1,5 +1,4 @@
-===============================================
-// OpenSea NFT Advanced Sale Script
+
 // Production-Ready Edition
 // Supports fixed price, Dutch auctions, English auctions,
 // bulk listings, retries, structured logging, and validation.
