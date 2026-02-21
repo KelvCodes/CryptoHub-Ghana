@@ -1,7 +1,4 @@
-solve) => setTimeout(resolve, ms));
-}
-
-      return await action();
+();
     } catch (error) {
       logError(error);
       if (attempt === retries) {
