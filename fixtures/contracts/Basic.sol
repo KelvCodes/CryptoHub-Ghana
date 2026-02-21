@@ -1,4 +1,4 @@
-------- require("opensea-js");
+
 const { WyvernSchemaName } = require("opensea-js/lib/types");
 
 const { MnemonicWalletSubprovider } = require("@0x/subproviders");
