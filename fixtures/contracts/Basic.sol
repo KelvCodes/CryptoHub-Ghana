@@ -1,11 +1,4 @@
-penSeaPort(-------------------------------------
-/ion validateMetadata(tokenId) {
-  log(`Validating metadata for token ${tokenId}`);
-  return true;
-}
-
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+solve) => setTimeout(resolve, ms));
 }
 
 async function withRetries(action, retries = 5) {
