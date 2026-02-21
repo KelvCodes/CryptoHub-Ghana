@@ -1,8 +1,6 @@
 penSeaPort(
   providerEngine,
-  },
-  (event) => log(`SDK Event: ${event}`)
-);
+
 
 // -------------------------------------------------------------
 // Utility Helpers
