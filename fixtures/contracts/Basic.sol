@@ -1,5 +1,4 @@
-S = [
-  "MNEMONIC",
+
   "NETWORK",
   "OWNER_ADDRESS",
   "NFT_CONTRACT_ADDRESS",
