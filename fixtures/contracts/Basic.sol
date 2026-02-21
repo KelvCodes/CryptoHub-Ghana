@@ -1,5 +1,4 @@
-roviders/rpc");
-const Web3ProviderEngine = require("web3-provider-engine");
+equire("web3-provider-engine");
 
 // -------------------------------------------------------------
 // Configuration & Environment Validation
