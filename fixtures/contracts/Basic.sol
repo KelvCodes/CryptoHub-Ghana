@@ -1,9 +1,5 @@
 penSeaPort(
   providerEngine,
-  {
-    networkName:
-      resolvedNetwork === "mainnet" ? Network.Main : Network.Rinkeby,
-    apiKey: CONFIG.OPENSEA_API_KEY,
   },
   (event) => log(`SDK Event: ${event}`)
 );
