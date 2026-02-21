@@ -1,9 +1,5 @@
 
-
-const resolveainnet" || CONFIG.NETWORK === "live"
-    ? "mainnet"_KEork}.alchemyapi.io/v2/${CONFIG.NODE_API_KEY}`;
-ider(walletSubpovide
-// -------------------------------------------------------------
+-----
 // OpenSea SDK Initialization
 // -------------------------------------------------------------
 
