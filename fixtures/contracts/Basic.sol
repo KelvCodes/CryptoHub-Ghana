@@ -1,7 +1,4 @@
-
-
-
-const REQUIRED_ENV_VARS = [
+S = [
   "MNEMONIC",
   "NODE_API_KEY",
   "NETWORK",
