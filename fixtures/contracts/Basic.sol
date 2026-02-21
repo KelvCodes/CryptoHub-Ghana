@@ -1,6 +1,5 @@
 
-  SAFE_MODE: process.env.SAFE_MODE !== "false",
-};
+
 
 const REQUIRED_ENV_VARS = [
   "MNEMONIC",
