@@ -1,6 +1,5 @@
 
-const walletSubprovider = new MnemonicWalletSubprovider({
-  mnemonic: CONFIG.MNEMONIC,
+const walNFIG.MNEMONIC,
   baseDerivationPath: BASE_DERIVATION_PATH,
 });
 
