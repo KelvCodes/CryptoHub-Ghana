@@ -1,8 +1,5 @@
 penSeaPort(-------------------------------------
-// Utility Helpers
-// -------------------------------------------------------------
-
-async function validateMetadata(tokenId) {
+/ion validateMetadata(tokenId) {
   log(`Validating metadata for token ${tokenId}`);
   return true;
 }
