@@ -1,4 +1,4 @@
-equire("web3-provider-engine");
+);
 
 // -------------------------------------------------------------
 // Configuration & Environment Validation
