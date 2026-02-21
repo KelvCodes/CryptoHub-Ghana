@@ -2,9 +2,7 @@
 
 const resolveainnet" || CONFIG.NETWORK === "live"
     ? "mainnet"_KEork}.alchemyapi.io/v2/${CONFIG.NODE_API_KEY}`;
-
-const providerEngine = new Web3ProviderEngine();
-providerEngine.addProvider(walletSubprovider);
+ider(walletSubprovider);
 providerEngine.addProvider(new RPCSubprovider({ rpcUrl }));
 providerEngine.start();
 
