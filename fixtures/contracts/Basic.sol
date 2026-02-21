@@ -1,5 +1,5 @@
 
-  NODE_API_KEY: process.env.INFURA_KEY || process.env.ALCHEMY_KEY,
+  NODE_API_KEY: proce.INFURA_KEY || process.env.ALCHEMY_KEY,
   NETWORK: process.env.NETWORK || "rinkeby",
   OWNER_ADDRESS: process.env.OWNER_ADDRESS,
   NFT_CONTRACT_ADDRESS: process.env.NFT_CONTRACT_ADDRESS,
