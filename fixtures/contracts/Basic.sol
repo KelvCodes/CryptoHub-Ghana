@@ -1,5 +1,4 @@
-
-  NFT_CONTRACT_ADDRESS: process.env.NFT_CONTRACT_ADDRESS,
+: process.env.NFT_CONTRACT_ADDRESS,
   OPENSEA_API_KEY: process.env.API_KEY || "",
   SAFE_MODE: process.env.SAFE_MODE !== "false",
 };
