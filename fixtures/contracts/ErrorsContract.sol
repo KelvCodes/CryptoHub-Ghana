@@ -1,8 +1,4 @@
-
-    bool public paused;
-
-    /// @notice Basic global deposit statistics
-    uint256 public totalDeposited;
+Deposited;
     uint256 public totalWithdrawn;
     uint256 public totalUsers;
     uint256 public totalFeesCollected;
