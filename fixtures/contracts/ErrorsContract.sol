@@ -1,6 +1,4 @@
 e (e.g., 100 = 1%)
-    uint256 pach user's deposits
-    mapping(address => uint256) public deposits;
 
     /// @notice Tracks each user's withdrawal totals
     mapping(address => uint256) public withdrawals;
