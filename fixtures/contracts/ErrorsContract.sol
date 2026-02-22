@@ -1,5 +1,4 @@
-wposits
- ct for learning secure, production-grade contract architecture.
+arning secure, production-grade contract architecture.
  */
 contract UltraAdvancedErrorsContract {
 
