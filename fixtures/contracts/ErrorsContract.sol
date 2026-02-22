@@ -1,5 +1,4 @@
-
-contract UltraAdvancedErrorsContract {
+AdvancedErrorsContract {
 
     // ============================================================
     // ======================= STATE ==============================
