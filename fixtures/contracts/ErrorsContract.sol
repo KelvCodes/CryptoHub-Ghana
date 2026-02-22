@@ -1,6 +1,4 @@
 
-    string public constant CO0";
-
     address payable public owner;
 
     /// @notice Multiple admin mapping
