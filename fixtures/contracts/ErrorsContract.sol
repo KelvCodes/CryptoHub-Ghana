@@ -1,5 +1,4 @@
-public to
-   ice Fee percentage (e.g., 100 = 1%)
+e (e.g., 100 = 1%)
     uint256 public feeBasisPoints = 50; // 0.5% default
 
     /// @notice Tracks each user's deposits
