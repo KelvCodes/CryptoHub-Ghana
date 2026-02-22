@@ -1,5 +1,3 @@
-deta6) pub======== ERRORS =============================
-    // ============================================================
 
     error Unauthorized(address caller);
     error CustomError(string message);
