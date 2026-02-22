@@ -1,7 +1,4 @@
-rror(string message);
-    error Transd();
-    error AdminExists(address admin);
-    error AdminNotFound(address admin);
+ound(address admin);
 
     // ============================================================
     // ======================= EVENTS =============================
