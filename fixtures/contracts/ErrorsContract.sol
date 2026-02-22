@@ -1,5 +1,4 @@
-details locked deposits (time-based)
-    mapping(address => uint256) public depositLockUntil;
+deta6) public depositLockUntil;
 
     // ============================================================
     // ======================= ERRORS =============================
