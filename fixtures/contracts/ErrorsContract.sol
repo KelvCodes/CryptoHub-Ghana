@@ -1,6 +1,5 @@
 e (
-    /// @notice Records timestamps of each user's last deposit
-    mapping(address => uint256) public lastDepositAt;
+    /// @notice Rnt256) public lastDepositAt;
 
     /// @notice Stores detailed deposit history per user
     mapping(address => uint256[]) public depositHistory;
