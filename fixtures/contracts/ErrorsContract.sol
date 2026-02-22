@@ -1,5 +1,4 @@
-detailed withdrawal h
-    /// @notice Tracks locked deposits (time-based)
+details locked deposits (time-based)
     mapping(address => uint256) public depositLockUntil;
 
     // ============================================================
