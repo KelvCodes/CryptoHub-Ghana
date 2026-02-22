@@ -1,7 +1,4 @@
-ound(address admin);
-============ EVENTS =============================
- OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
-    event AdminAdded(address indexed admin);
+minAdded(address indexed admin);
     event AdminRemoved(address indexed admin);
 
     event FeeUpdated(uint256 oldFee, uint256 newFee);
