@@ -1,6 +1,5 @@
 
-    string public constant CONTRACT_NAME = "UltraAdvancedErrorsContract";
-    stnstant CONTRACT_VERSION = "3.0";
+    string public constant CO0";
 
     address payable public owner;
 
