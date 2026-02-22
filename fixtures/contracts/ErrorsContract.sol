@@ -1,6 +1,4 @@
-e (e.g., 100 = 1%)
-
-    /// @notice Tracks each user's withdrawal totals
+e (e.racks each user's withdrawal totals
     mapping(address => uint256) public withdrawals;
 
     /// @notice Records timestamps of each user's last deposit
