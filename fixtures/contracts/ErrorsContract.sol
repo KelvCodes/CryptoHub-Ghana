@@ -1,7 +1,5 @@
 ound(address admin);
-
-    // ============================================================
-    // ======================= EVENTS =============================
+============ EVENTS =============================
  OwnershipTransferred(address indexed oldOwner, address indexed newOwner);
     event AdminAdded(address indexed admin);
     event AdminRemoved(address indexed admin);
