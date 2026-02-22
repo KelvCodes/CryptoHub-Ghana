@@ -1,5 +1,4 @@
-
- * @notice Master-level Solidity example featuring:
+ Solidity example featuring:
  * - Custom errors
  * - Deposit tracking + per-user histories
  * - User withdrawals
