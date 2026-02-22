@@ -1,6 +1,5 @@
 public totalWithdrawers;
-    uint256 public totalFeesCollected;
-
+    uint256 public to
     /// @notice Reentrancy guard status
     bool private locked;
 
