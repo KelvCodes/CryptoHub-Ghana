@@ -1,6 +1,4 @@
-
-
- * - Manual reentrancy guard
+eentrancy guard
  * - Token recovery
  * - Fees
  * - Ownership control
