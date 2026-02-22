@@ -1,6 +1,4 @@
 
-(address => uint256[]) public depositHistory;
-
     /// @notice Stores detailed withdrawal history per user
     mapping(address => uint256[]) public withdrawalHistory;
 
