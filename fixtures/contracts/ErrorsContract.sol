@@ -1,6 +1,4 @@
 
-    address payable public owner;
-
     /// @notice Multiple admin mapping
     mapping(address => bool) public admins;
 
