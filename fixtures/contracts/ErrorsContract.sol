@@ -1,6 +1,4 @@
-
-    error Unauthorized(address caller);
-    error CustomError(string message);
+rror(string message);
     error TransferFailed(uint256 amount, address to);
     error ContractPaused();
     error ReentrancyDetected();
