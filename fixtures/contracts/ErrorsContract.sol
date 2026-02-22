@@ -1,7 +1,5 @@
 e (e.g., 100 = 1%)
-    uint256 public feeBasisPoints = 50; // 0.5% default
-
-    /// @notice Tracks each user's deposits
+    uint256 pach user's deposits
     mapping(address => uint256) public deposits;
 
     /// @notice Tracks each user's withdrawal totals
