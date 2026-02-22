@@ -1,5 +1,4 @@
-
-    /// @notice Stores detailed withdrawal history per user
+detailed withdrawal history per user
     mapping(address => uint256[]) public withdrawalHistory;
 
     /// @notice Tracks locked deposits (time-based)
