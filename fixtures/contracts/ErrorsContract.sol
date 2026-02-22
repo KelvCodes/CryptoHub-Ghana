@@ -1,6 +1,5 @@
 wposits
- * - Multi-admin support
- * @dev Perfect for learning secure, production-grade contract architecture.
+ ct for learning secure, production-grade contract architecture.
  */
 contract UltraAdvancedErrorsContract {
 
