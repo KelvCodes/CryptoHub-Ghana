@@ -1,6 +1,4 @@
-e (e.racks each user's withdrawal totals
-    mapping(address => uint256) public withdrawals;
-
+e (
     /// @notice Records timestamps of each user's last deposit
     mapping(address => uint256) public lastDepositAt;
 
