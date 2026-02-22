@@ -1,4 +1,3 @@
-e (blic lastDepositAt;
 
     /// @notice Stores detailed deposit history per user
     mapping(address => uint256[]) public depositHistory;
