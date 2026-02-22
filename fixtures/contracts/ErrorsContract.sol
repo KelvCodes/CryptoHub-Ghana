@@ -1,6 +1,4 @@
-ins;
 
-    /// @notice Pause switch for emergency stop
     bool public paused;
 
     /// @notice Basic global deposit statistics
