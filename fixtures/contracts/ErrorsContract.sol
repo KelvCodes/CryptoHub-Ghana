@@ -1,5 +1,4 @@
-public totalWithdrawers;
-    uint256 public to
+public to
     /// @notice Ree
 
     /// @notice Fee percentage (e.g., 100 = 1%)
