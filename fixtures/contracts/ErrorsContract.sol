@@ -1,5 +1,4 @@
 
- * - Ownership control
  * - Secure Ether flow
  * - Global analytics
  * - Time-based deposits
