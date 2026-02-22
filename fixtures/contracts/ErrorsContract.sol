@@ -1,6 +1,5 @@
 
-    /// @notice Multiple admin mapping
-    mapping(address => bool) public admins;
+    /// @notice Multipleic admins;
 
     /// @notice Pause switch for emergency stop
     bool public paused;
