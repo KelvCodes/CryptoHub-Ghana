@@ -1,5 +1,4 @@
-e (
-    /// @notice Rnt256) public lastDepositAt;
+e (blic lastDepositAt;
 
     /// @notice Stores detailed deposit history per user
     mapping(address => uint256[]) public depositHistory;
