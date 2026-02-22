@@ -1,4 +1,4 @@
-aAdvancedErrorsContract
+
  * @notice Master-level Solidity example featuring:
  * - Custom errors
  * - Deposit tracking + per-user histories
