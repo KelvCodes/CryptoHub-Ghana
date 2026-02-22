@@ -1,6 +1,4 @@
-w
- * - Global analytics
- * - Time-based deposits
+wposits
  * - Multi-admin support
  * @dev Perfect for learning secure, production-grade contract architecture.
  */
