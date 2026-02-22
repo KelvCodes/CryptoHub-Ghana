@@ -1,5 +1,4 @@
-
-    /// @notice Multipleic admins;
+ins;
 
     /// @notice Pause switch for emergency stop
     bool public paused;
