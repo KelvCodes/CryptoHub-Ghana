@@ -1,5 +1,4 @@
-public totalWithdrawn;
-    uint256 public totalUsers;
+public totalWithdrawers;
     uint256 public totalFeesCollected;
 
     /// @notice Reentrancy guard status
