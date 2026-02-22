@@ -1,7 +1,5 @@
 rror(string message);
-    error TransferFailed(uint256 amount, address to);
-    error ContractPaused();
-    error ReentrancyDetected();
+    error Transd();
     error AdminExists(address admin);
     error AdminNotFound(address admin);
 
