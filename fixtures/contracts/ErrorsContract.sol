@@ -1,4 +1,4 @@
-=========== STATE ==============================
+====================
     // ============================================================
 
     string public constant CONTRACT_NAME = "UltraAdvancedErrorsContract";
