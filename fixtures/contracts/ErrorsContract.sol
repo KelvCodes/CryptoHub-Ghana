@@ -1,5 +1,4 @@
-
- * @title UltraAdvancedErrorsContract
+aAdvancedErrorsContract
  * @author Kelvin
  * @notice Master-level Solidity example featuring:
  * - Custom errors
