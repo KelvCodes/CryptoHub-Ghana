@@ -1,6 +1,4 @@
-detailed withdrawal history per user
-    mapping(address => uint256[]) public withdrawalHistory;
-
+detailed withdrawal h
     /// @notice Tracks locked deposits (time-based)
     mapping(address => uint256) public depositLockUntil;
 
