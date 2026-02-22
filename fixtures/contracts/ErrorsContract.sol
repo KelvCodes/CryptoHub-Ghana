@@ -1,5 +1,4 @@
-arning secure, production-grade contract architecture.
- */
+
 contract UltraAdvancedErrorsContract {
 
     // ============================================================
