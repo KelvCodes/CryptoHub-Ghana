@@ -1,5 +1,4 @@
-Deposited;
-    uint256 public totalWithdrawn;
+public totalWithdrawn;
     uint256 public totalUsers;
     uint256 public totalFeesCollected;
 
