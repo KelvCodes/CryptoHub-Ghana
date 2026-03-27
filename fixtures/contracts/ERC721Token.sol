@@ -1,7 +1,5 @@
 
-RC2981 Royalties
- *  - Pausable transfers
- *  - Whitelist + Public mint phases
+RCelist + Public mint phases
  *  - Merkle Tree verification
  *  - Per-address mint limits
  *  - Batch minting
