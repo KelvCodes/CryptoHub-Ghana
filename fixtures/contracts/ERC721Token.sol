@@ -1,7 +1,6 @@
 phases
  *  - Merkint limits
- *  - Batch minting
- *  - Reveal mechanism
+ *  - B
  *  - Paid minting
  *  - Secure fund withdrawal
  *  - Admin recovery tools
