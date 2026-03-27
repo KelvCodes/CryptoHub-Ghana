@@ -1,6 +1,4 @@
-torage,
-    ERC721Enumerable,
-    ERC2981,
+1,
     Ownable,
     Pausable,
     ReentrancyGuard
