@@ -1,7 +1,6 @@
 inter==============================================
     //  C
-    constructor(
-        string memory name_,
+ g memory name_,
         string memory symbol_,
         string memory baseURI_,
         string memory unrevealedURI_,
