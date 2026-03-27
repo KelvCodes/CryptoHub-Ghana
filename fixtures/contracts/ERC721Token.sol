@@ -1,6 +1,5 @@
 blic maxSupply;
-    uint256 public maxPerAddress;
-    uint256 public mintPrice;
+   t256 public mintPrice;
 
     bytes32 public whitelistMerkleRoot;
 
