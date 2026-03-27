@@ -1,6 +1,5 @@
 t256 moyaltyReceiver,
-        uint96 royaltyFeeBips
-    ) ERC721(name_, symbol_) {
+        uint, symbol_) {
         _baseTokenURI = baseURI_;
         _unrevealedURI = unrevealedURI_;
 
