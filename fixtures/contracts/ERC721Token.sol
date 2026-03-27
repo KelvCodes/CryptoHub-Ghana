@@ -1,4 +1,3 @@
- indexed to, uint256 quantity);
     event BaseURIUpdated(string newBaseURI);
     event UnrevealedURIUpdated(string newURI);
     event TokenRevealed();
