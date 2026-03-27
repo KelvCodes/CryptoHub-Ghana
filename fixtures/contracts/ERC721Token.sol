@@ -1,4 +1,4 @@
-    event BaseURIUpdated(string newBaseURI);
+
     event UnrevealedURIUpdated(string newURI);
     event TokenRevealed();
     event MintPhaseUpdated(MintPhase phase);
