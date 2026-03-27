@@ -1,7 +1,7 @@
  whitelistMerkleRoot;
 
-    mapping(address => bool) public approvedMinters;
-    mapping(address => uint256) public addressMintCount;
+    mapp
+s => uint256) public addressMintCount;
     mapping(uint256 => uint256) public mintTimestamp;
 
     // ============================================================
