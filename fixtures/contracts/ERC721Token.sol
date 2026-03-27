@@ -1,6 +1,5 @@
 ng memory baseURI_,
-        string memory unrevealedURI_,
-        uint256 maxSupply_,
+        string memory unreveale
         uint256 maxPerAddress_,
         uint256 mintPrice_,
         address royaltyReceiver,
