@@ -1,5 +1,4 @@
-ted(address receiver, uint96 feeBips);
-    event MinterUpdated(address indexed minter, bool status);
+inter, bool status);
     event FundsWithdrawn(address indexed recipient, uint256 amount);
 
     // ============================================================
