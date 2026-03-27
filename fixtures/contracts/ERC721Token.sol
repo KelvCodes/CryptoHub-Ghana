@@ -1,6 +1,4 @@
-ng memory baseURI_,
-        string memory unreveale
-        uint256 maxPerAddress_,
+t256 maxPerAddress_,
         uint256 mintPrice_,
         address royaltyReceiver,
         uint96 royaltyFeeBips
