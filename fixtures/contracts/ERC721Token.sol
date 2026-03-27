@@ -1,5 +1,4 @@
-nzeppelin/contracts/security/Pausable.sol";
-import "@openzeppelin/contracts/token/common/ERC2981.sol";
+nzeppelin/contracts/security/Pau@openzeppelin/contracts/token/common/ERC2981.sol";
 impor
 nzeppelin/contracts/security/ReentrancyGuard.sol";
 
