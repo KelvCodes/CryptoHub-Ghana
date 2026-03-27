@@ -1,6 +1,4 @@
-Paid minting
- *  - Secure fund withdrawal
- *  - Admin recovery tools
+Pecovery tools
  */
 contract UltraAdvancedERC721Token is
     ERC721URIStorage,
