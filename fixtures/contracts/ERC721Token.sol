@@ -1,8 +1,5 @@
 
 
-        revealed = false;
-        currentPhase = MintPhase.CLOSED;
-
         _setDefaultRoyalty(royaltyReceiver, royaltyFeeBips);
     }
 
