@@ -1,7 +1,7 @@
 nzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/token/common/ERC2981.sol";
-import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+impor
+nzeppelin/contracts/security/ReentrancyGuard.sol";
 
 /**
  * @title UltraAdvancedERC721Token
