@@ -1,5 +1,4 @@
-
-RCelist + Public mint phases
+phases
  *  - Merkle Tree verification
  *  - Per-address mint limits
  *  - Batch minting
