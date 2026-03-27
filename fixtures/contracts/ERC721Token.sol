@@ -1,6 +1,4 @@
-t256 maxPerAddress_,
-        uint256 mintPrice_,
-        address royaltyReceiver,
+t256 moyaltyReceiver,
         uint96 royaltyFeeBips
     ) ERC721(name_, symbol_) {
         _baseTokenURI = baseURI_;
