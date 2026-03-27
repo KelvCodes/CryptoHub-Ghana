@@ -1,5 +1,4 @@
-ppelicts/access/Ownable.sol";
-import "@openzeppelin/contracts/security/Pausable.sol";
+nzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/token/common/ERC2981.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
