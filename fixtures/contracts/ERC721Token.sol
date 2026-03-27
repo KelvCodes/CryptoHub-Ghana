@@ -1,6 +1,4 @@
-256) public addressMintCount;
-    mapping(uint256 => uint256) public mintTimestamp;
-
+256) public address
     // ============================================================
     //  EVENTS
     // ============================================================
