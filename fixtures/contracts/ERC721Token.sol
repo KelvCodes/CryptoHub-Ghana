@@ -1,5 +1,4 @@
-t256 moyaltyReceiver,
-        uint, symbol_) {
+l_) {
         _baseTokenURI = baseURI_;
         _unrevealedURI = unrevealedURI_;
 
