@@ -1,7 +1,4 @@
-l_) {
-        edURI = unrevealedURI_;
-
-        maxSupply = maxSupply_;
+l_)= maxSupply_;
         maxPerAddress = maxPerAddress_;
         mintPrice = mintPrice_;
 
