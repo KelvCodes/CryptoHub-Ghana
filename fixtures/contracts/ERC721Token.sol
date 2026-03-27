@@ -1,5 +1,4 @@
-phases
- *  - Merkint limits
+mits
  *  - B
  *  - Paid minting
  *  - Secure fund withdrawal
