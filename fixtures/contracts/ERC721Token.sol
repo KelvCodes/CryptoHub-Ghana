@@ -1,6 +1,4 @@
-
-    event UnrevealedURIUpdated(string newURI);
-    event TokenRevealed();
+;
     event MintPhaseUpdated(MintPhase phase);
     event MintPriceUpdated(uint256 newPrice);
     event RoyaltyUpdated(address receiver, uint96 feeBips);
