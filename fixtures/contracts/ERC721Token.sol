@@ -1,8 +1,4 @@
-===============================================
-lic revealed;
-    MintPhase public currentPhase;
-
-    uint256 public maxSupply;
+blic maxSupply;
     uint256 public maxPerAddress;
     uint256 public mintPrice;
 
