@@ -1,7 +1,5 @@
 Pecovery tools
- */
-contract UltraAdvancedERC721Token is
-    ERC721URIStorage,
+ ERC721URIStorage,
     ERC721Enumerable,
     ERC2981,
     Ownable,
