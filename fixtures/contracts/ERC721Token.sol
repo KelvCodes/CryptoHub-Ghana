@@ -1,6 +1,5 @@
 phases
- *  - Merkle Tree verification
- *  - Per-address mint limits
+ *  - Merkint limits
  *  - Batch minting
  *  - Reveal mechanism
  *  - Paid minting
