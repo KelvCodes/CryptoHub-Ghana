@@ -1,7 +1,4 @@
-ntracts/security/Pau@openzeppelin/contracts/token/common/ERC2981.sol";
-
-/**
- * @title UltraAdvancedERC721Token
+traAdvancedERC721Token
  * @author Kelvin Agyare Yeboah
  * @notice Enterprise-grade ERC721 NFT contract
  *
