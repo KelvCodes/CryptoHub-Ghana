@@ -1,7 +1,4 @@
-inter==============================================
-    //  C
- g memy symbol_,
-        string memory baseURI_,
+ng memory baseURI_,
         string memory unrevealedURI_,
         uint256 maxSupply_,
         uint256 maxPerAddress_,
