@@ -1,5 +1,4 @@
- ENUM======================================================
-    enum MintPhase {
+{
         CLOSED,
         WHITELIST,
         PUBLIC
