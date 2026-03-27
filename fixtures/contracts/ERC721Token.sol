@@ -1,6 +1,5 @@
 l_) {
-        _baseTokenURI = baseURI_;
-        _unrevealedURI = unrevealedURI_;
+        edURI = unrevealedURI_;
 
         maxSupply = maxSupply_;
         maxPerAddress = maxPerAddress_;
