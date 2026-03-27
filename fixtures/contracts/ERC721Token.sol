@@ -1,8 +1,5 @@
 ===============================================
-  ate _baseTokenURI;
-    string private _unrevealedURI;
-
-    bool public revealed;
+lic revealed;
     MintPhase public currentPhase;
 
     uint256 public maxSupply;
