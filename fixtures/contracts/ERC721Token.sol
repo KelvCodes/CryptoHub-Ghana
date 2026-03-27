@@ -1,8 +1,5 @@
 1,
-    Ownable,
-    Pausable,
-    ReentrancyGuard
-{
+
     using Counters for Counters.Counter;
 
     // ============================================================
