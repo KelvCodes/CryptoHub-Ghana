@@ -1,7 +1,4 @@
- whitelistMerkleRoot;
-
-    mapp
-s => uint256) public addressMintCount;
+256) public addressMintCount;
     mapping(uint256 => uint256) public mintTimestamp;
 
     // ============================================================
