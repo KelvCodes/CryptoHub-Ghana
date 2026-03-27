@@ -1,6 +1,5 @@
 traAdvancedERC721Token
- * @author Kelvin Agyare Yeboah
- * @notice Enterprise-grade ERC721 NFT contract
+ Enterprise-grade ERC721 NFT contract
  *
  * Features:
  *  - ERC721 + Enumerable + URI Storage
