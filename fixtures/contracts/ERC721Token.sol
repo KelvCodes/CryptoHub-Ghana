@@ -1,7 +1,4 @@
-blic maxSupply;
-   t256 public mintPrice;
-
-    bytes32 public whitelistMerkleRoot;
+ whitelistMerkleRoot;
 
     mapping(address => bool) public approvedMinters;
     mapping(address => uint256) public addressMintCount;
