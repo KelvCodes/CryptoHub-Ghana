@@ -1,6 +1,5 @@
 
- *  - ERC721 + Enumerable + URI Storage
- *  - ERC2981 Royalties
+RC2981 Royalties
  *  - Pausable transfers
  *  - Whitelist + Public mint phases
  *  - Merkle Tree verification
