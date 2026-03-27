@@ -1,7 +1,5 @@
 inter==============================================
-    //  CONSTRUCTOR
-    // ============================================================
-
+    //  C
     constructor(
         string memory name_,
         string memory symbol_,
