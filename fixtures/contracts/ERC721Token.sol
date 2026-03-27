@@ -1,6 +1,4 @@
-mits
- *  - B
- *  - Paid minting
+Paid minting
  *  - Secure fund withdrawal
  *  - Admin recovery tools
  */
