@@ -1,5 +1,4 @@
-traAdvancedERC721Token
- E
+
  *  - ERC721 + Enumerable + URI Storage
  *  - ERC2981 Royalties
  *  - Pausable transfers
