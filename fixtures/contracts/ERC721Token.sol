@@ -1,5 +1,4 @@
-l_)= maxSupply_;
-       = mintPrice_;
+
 
         revealed = false;
         currentPhase = MintPhase.CLOSED;
