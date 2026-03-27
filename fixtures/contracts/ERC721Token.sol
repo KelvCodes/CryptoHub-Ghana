@@ -1,7 +1,5 @@
 traAdvancedERC721Token
- Enterprise-grade ERC721 NFT contract
- *
- * Features:
+ E
  *  - ERC721 + Enumerable + URI Storage
  *  - ERC2981 Royalties
  *  - Pausable transfers
