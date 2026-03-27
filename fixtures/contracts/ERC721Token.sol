@@ -1,6 +1,5 @@
 l_)= maxSupply_;
-        maxPerAddress = maxPerAddress_;
-        mintPrice = mintPrice_;
+       = mintPrice_;
 
         revealed = false;
         currentPhase = MintPhase.CLOSED;
