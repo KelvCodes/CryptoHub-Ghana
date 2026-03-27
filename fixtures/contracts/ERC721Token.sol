@@ -1,7 +1,4 @@
-256) public address
-    // ============================================================
-    //  EVENTS
-    // ============================================================
+=============================================
 
     event ItemMinted(address indexed to, uint256 indexed tokenId);
     event BatchMinted(address indexed to, uint256 quantity);
