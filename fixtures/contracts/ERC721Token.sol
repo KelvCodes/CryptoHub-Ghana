@@ -9,7 +9,7 @@
      * @n
     functio
         
-        whenNotPaused
+        whenN
         n
         supplyAva
         addressLimit(e
