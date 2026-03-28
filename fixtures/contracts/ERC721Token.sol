@@ -5,9 +5,7 @@
             "Not au
 
     modifier supplyAvailable(uint256 quantity) 
-            _tokenIds.current() + quantity <= m
-            
-    }
+            _tokenIds.current() + quantity <
 
     modifier addressLimit(address user, uint256 quantity) {
         require(
