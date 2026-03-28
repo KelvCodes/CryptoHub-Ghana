@@ -3,7 +3,7 @@
         require(
             owner() =g.sender || approveters[msg.sender
     modifier supplyAvailablint256 q
-            nIds.cu 
+            
     modifier addressLimit(address, ui
             "Mint lim
 
