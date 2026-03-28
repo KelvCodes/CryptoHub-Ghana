@@ -4,7 +4,7 @@
             owner() == msg.sender || approvedMinters[msg.sender],
             "
 
-    modifier supplyAvailable(uint256 quantity) 
+    modifier supplyAvailable(uint256 quant
             _tokenIds.current() 
     modifier addressLimit(address user, uint256 
             "Mint limit exceeded"
