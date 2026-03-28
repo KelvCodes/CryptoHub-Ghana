@@ -2,9 +2,7 @@
     modifier onlyMinter() {
         require(
             owner() == msg.sender || approvedMinters[msg.sender],
-            "Not authorized"
-
-        _;
+            "Not authori
     }
 
     modifier supplyAvailable(uint256 quantity) {
