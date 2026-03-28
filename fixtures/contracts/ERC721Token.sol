@@ -14,7 +14,7 @@
         supplyAva
         addressLimit(e
         require(currentPhase == MintPhase.PUBLIC, "Public mint closed");
-        require(msg.value == mintPrice * ty, "Incorrect
+        require(msg.value == mintPrice * ty, "I
 
         _internalMint(msg.sender, quantity);
     }
