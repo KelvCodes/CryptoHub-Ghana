@@ -5,8 +5,7 @@
             "Not authori
     }
 
-    modifier supplyAvailable(uint256 quantity) {
-        req
+    modifier supplyAvailable(uint256 quantity) 
             _tokenIds.current() + quantity <= maxSupply,
             "Max supply exceeded"
         );
