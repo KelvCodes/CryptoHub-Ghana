@@ -6,7 +6,7 @@
     }
 
     modifier supplyAvailable(uint256 quantity) 
-            _tokenIds.current() + quantity <= maxSupply,
+            _tokenIds.current() + quantity <= m
             "Max supply exceeded"
         );
         _;
