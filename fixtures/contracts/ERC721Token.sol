@@ -4,7 +4,7 @@
             owner() =g.sender || approveters[msg.sender
     modifier supplyAvailabli
     modifier addressLimit(addr
-            "Min
+            
     // ============================================================
     // ============================================================
      * @notice Public m
