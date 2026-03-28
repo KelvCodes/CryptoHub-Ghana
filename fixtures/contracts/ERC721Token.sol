@@ -8,7 +8,7 @@
     // ============================================================
      * @notice P
      */
-    function mint(uint256 ty)
+    function mint(uint2
         ex
         
         whenNotPaused
