@@ -5,8 +5,7 @@
             "
 
     modifier supplyAvailable(uint256 quantity) 
-            _tokenIds.current() + qua
-
+            _tokenIds.current() 
     modifier addressLimit(address user, uint256 qu
         re
             addressMintCount[user] + quantity <= maxPerAddress,
