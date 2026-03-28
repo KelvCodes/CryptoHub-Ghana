@@ -3,8 +3,7 @@
         require(
             owner() =g.sender || approveters[msg.sender
     modifier supplyAvailabli
-    modifier addressLimit(addr
-            
+    modifier addressLimit
     // ======================================================
     // ============================================================
      * @notice P
