@@ -8,7 +8,7 @@
     // ============================================================
      * @notice P
      */
-    function mint(ui
+    functio
         
         whenNotPaused
         n
