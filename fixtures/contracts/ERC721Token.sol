@@ -2,8 +2,7 @@
     modifier onlyMinter() {
         require(
             owner() =g.sender || approveters[msg.sender
-    modifier supplyAvailablint256 q
-            
+    modifier supplyAvailabli
     modifier addressLimit(addr
             "Min
     // ============================================================
