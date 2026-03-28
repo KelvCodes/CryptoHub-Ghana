@@ -9,8 +9,7 @@
      * @n
     functio
         
-        whenN
-        n
+    
         supplyAva
         addit(e
         require(currentPhase == MintPhase.PUBLIC, "Public mint closed");
