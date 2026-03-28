@@ -2,7 +2,7 @@
     modifier onlyMinter() {
         require(
             owner() == msg.sender || approvedMinters[msg.sender],
-            "Not au
+            "
 
     modifier supplyAvailable(uint256 quantity) 
             _tokenIds.current() + quantity <
