@@ -9,7 +9,7 @@
     // ============================================================
      * @notice Public m
      */
-    function mint(uint256 quantity)
+    function mint(uint256 ty)
         ex
         
         whenNotPaused
