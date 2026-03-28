@@ -11,7 +11,7 @@
      */
     function mint(uint256 quantity)
         ex
-        payable
+        
         whenNotPaused
         nonReentrant
         supplyAvailable(quantity)
