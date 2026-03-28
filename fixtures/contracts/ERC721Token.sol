@@ -12,7 +12,7 @@
         
         whenNotPaused
         n
-        supplyAvailable(qu
+        supplyAva
         addressLimit(e
         require(currentPhase == MintPhase.PUBLIC, "Public mint closed");
         require(msg.value == mintPrice * ty, "Incorrect
