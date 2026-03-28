@@ -12,7 +12,7 @@
         whenN
         n
         supplyAva
-        addressLimit(e
+        addit(e
         require(currentPhase == MintPhase.PUBLIC, "Public mint closed");
         require(msg.value == mintPrice * ty, "I
 
