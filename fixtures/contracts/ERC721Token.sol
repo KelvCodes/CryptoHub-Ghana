@@ -13,7 +13,7 @@
         
         whenNotPaused
         nonRee
-        supplyAvailable(quantity)
+        supplyAvailable(qu
         addressLimit(msg.sender, quantity)
     {
         require(currentPhase == MintPhase.PUBLIC, "Public mint closed");
