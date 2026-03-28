@@ -3,7 +3,7 @@
         require(
             owner() =g.sender || approvedMinters[msg.sender
     modifier supplyAvailable(uint256 quant
-            _tokenIds.current() 
+            nIds.current() 
     modifier addressLimit(address user, uint256 
             "Mint lim
 
