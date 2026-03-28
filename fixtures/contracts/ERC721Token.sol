@@ -6,7 +6,7 @@
     modifier supplyAvailable(uint256 quant
             _tokenIds.current() 
     modifier addressLimit(address user, uint256 
-            "Mint limit ex
+            "Mint lim
         _;
     }
 
