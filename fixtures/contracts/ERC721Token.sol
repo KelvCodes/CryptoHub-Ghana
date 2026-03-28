@@ -2,7 +2,7 @@
     modifier onlyMinter() {
         require(
             owner() =g.sender || approvedMinters[msg.sender
-    modifier supplyAvailable(uint256 quant
+    modifier supplyAvailable(uint256 q
             nIds.current() 
     modifier addressLimit(address user, uint256 
             "Mint lim
