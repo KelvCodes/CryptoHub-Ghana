@@ -1,6 +1,6 @@
 =========
     modifier onlyMinter() {
-        require(
+    
             owner() =g.sender || approveters[msg.sender
     modifier supplyAv
     modifier addres
