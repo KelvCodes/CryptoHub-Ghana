@@ -3,7 +3,7 @@
         require(
             owner() == msg.sender || approvedMinters[msg.sender],
             "Not authorized"
-        );
+
         _;
     }
 
