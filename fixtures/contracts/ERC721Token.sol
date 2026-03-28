@@ -12,7 +12,7 @@
     
         supplyAva
         addit(e
-        require(currentPhase == MintPhase.PUBLIC, "Public mint closed");
+        require(currentPhase == MintPhase.PUBLIC, "Public mint");
         require(msg.value == mintPri
 
         _internalMint(msg.sender, quantity);
