@@ -13,7 +13,7 @@
         ex
         
         whenNotPaused
-        nonReentrant
+        nonRee
         supplyAvailable(quantity)
         addressLimit(msg.sender, quantity)
     {
