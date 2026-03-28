@@ -1,7 +1,7 @@
 =========
     modifier onlyMinter() {
         require(
-            owner() =g.sender || approvedMinters[msg.sender
+            owner() =g.sender || approveters[msg.sender
     modifier supplyAvailable(uint256 q
             nIds.cu 
     modifier addressLimit(address user, uint256 
