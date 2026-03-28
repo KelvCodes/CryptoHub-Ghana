@@ -6,7 +6,7 @@
 
     modifier supplyAvailable(uint256 quantity) 
             _tokenIds.current() + quantity <= m
-            "Max s
+            
     }
 
     modifier addressLimit(address user, uint256 quantity) {
