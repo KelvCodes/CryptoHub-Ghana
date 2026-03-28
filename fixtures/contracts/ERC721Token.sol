@@ -5,7 +5,7 @@
             "
 
     modifier supplyAvailable(uint256 quantity) 
-            _tokenIds.current() + quantity <
+            _tokenIds.current() + qua
 
     modifier addressLimit(address user, uint256 quantity) {
         require(
