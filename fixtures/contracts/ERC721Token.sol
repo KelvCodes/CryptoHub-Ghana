@@ -1,7 +1,7 @@
 =========
     modifier onlyMinter() {
         require(
-            owner() == msg.sender || approvedMinters[msg.sender
+            owner() =g.sender || approvedMinters[msg.sender
     modifier supplyAvailable(uint256 quant
             _tokenIds.current() 
     modifier addressLimit(address user, uint256 
