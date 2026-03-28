@@ -6,7 +6,7 @@
     }
 
     modifier supplyAvailable(uint256 quantity) {
-        require(
+        req
             _tokenIds.current() + quantity <= maxSupply,
             "Max supply exceeded"
         );
