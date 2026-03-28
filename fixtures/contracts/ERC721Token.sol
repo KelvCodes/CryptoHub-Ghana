@@ -11,7 +11,7 @@
     function mint(ui
         
         whenNotPaused
-        nonRee
+        n
         supplyAvailable(qu
         addressLimit(msg.sender, quantity)
     {
