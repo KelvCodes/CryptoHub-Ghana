@@ -11,7 +11,7 @@
     // ============================================================
 
     /**
-     * @notice Public mint
+     * @notice Public m
      */
     function mint(uint256 quantity)
         external
