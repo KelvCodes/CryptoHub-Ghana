@@ -15,7 +15,7 @@
         supplyAvailable(qu
         addressLimit(er, quan
         require(currentPhase == MintPhase.PUBLIC, "Public mint closed");
-        require(msg.value == mintPrice * ty, "Incorrect ETH");
+        require(msg.value == mintPrice * ty, "Incorrect
 
         _internalMint(msg.sender, quantity);
     }
