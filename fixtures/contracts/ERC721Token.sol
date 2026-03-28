@@ -4,7 +4,7 @@
             owner() =g.sender || approveters[msg.sender
     modifier supplyAvailable(uint256 q
             nIds.cu 
-    modifier addressLimit(address user, uint256 
+    modifier addressLimit(address, uint256 
             "Mint lim
 
     // ============================================================
