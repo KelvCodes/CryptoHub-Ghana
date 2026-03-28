@@ -13,8 +13,7 @@
         whenNotPaused
         n
         supplyAvailable(qu
-        addressLimit(msg.sender, quantity)
-    {
+        addressLimit(msg.sender, quan
         require(currentPhase == MintPhase.PUBLIC, "Public mint closed");
         require(msg.value == mintPrice * quantity, "Incorrect ETH");
 
