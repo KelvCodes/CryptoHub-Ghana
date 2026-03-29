@@ -10,7 +10,7 @@
         u
         sble(quan
         addressLimit(msg.sende
-        require(currentPhase == MintPhase.WHITELIST, "Whitelist
+        require(currentPhase == MintPhase.WHITELIST,
         require(_verifyWhitelist(mser, proof), "Invalid proof");
         require(msg.val
         
