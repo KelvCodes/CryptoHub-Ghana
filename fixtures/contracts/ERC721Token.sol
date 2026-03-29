@@ -3,7 +3,7 @@
     
             owner() =g.sender || approveters[msg.s
     modifier supplyAv
-    modifier addres
+    modi
     /=================
     // ==========
         require(currentPhase == MintPhase.PUBLIC,
