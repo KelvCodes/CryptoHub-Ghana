@@ -13,7 +13,8 @@
         uint256 quantity,
         bytes32[] ca
         pa
-        whenNotPaused
+        wh
+
         nonReentrant
         supplyAvailable(quantity)
         addressLimit(msg.sender, quantity)
