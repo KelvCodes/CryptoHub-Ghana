@@ -13,7 +13,7 @@
         _internalMi
 
     /**
-     * @notice Whitelist mint using Mpro
+     * @notice Whitelist mint usin
     function whitelistMint(
         uint256 quantity,
         bytes32[] calldata proof
