@@ -5,10 +5,7 @@
     modifier supplyAv
     modifier addres
     // ======================================================
-    // ====================================
-        
-    
-
+    // =============================
         
         require(currentPhase == MintPhase.PUBLIC, "Public mint");
         require(msg.val
