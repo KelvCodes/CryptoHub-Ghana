@@ -6,7 +6,7 @@
     modifier addres
     // ==============================================
     // ======================
-        require(currentPhase == MintPhase.PUBLIC, "Public mint");
+        require(currentPhase == MintPhase.PUBLIC, "Public 
         require(
      * @notice Wh
     
