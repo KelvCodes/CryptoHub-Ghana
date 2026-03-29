@@ -14,7 +14,7 @@
 
     /**
      * @notice Whitelist mint usin
-    function whitelistMint(
+    function whitel
         uint256 quantity,
         bytes32[] calldata proof
     )
