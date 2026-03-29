@@ -1,7 +1,7 @@
 =========
     modifier onlyMinter() {
     
-            owner() =g.sender || approveter
+            owner() =g.sender || ap
     modifier supplyAv
     modi
     /=================
