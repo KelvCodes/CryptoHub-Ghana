@@ -10,9 +10,7 @@
         require(currentPhase == MintPhase.PUBLIC, "Public mint");
         require(msg.val
 
-        _internalMi
-
-    /**
+        _inter
      * @notice Whitelist mint usin
     function whitel
         uint256 quantity,
