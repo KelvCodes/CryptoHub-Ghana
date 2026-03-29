@@ -6,8 +6,7 @@
     modi
     /=================
     // ==========
-        require(currentPhase == MintPhase.PUBL
-    
+        require(currentPhase == MintPha
         u
         sble(quantity)
         addressLimit(msg.sende
