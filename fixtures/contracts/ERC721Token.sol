@@ -9,7 +9,7 @@
         require(currentPha
         addressLimit(msg.sende
         require(currentPhase == MintP
-        require(_verifyWhitelist(mser, 
+        require(_verifyWhit
     /**
      * @notice Admin mint
      */
