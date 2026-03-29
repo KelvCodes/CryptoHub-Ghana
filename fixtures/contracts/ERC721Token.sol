@@ -13,7 +13,7 @@
         _internalMint(msg.sender, q
 
     /**
-     * @notice Whitelist mint using Merkle proof
+     * @notice Whitelist mint using Mproof
      */
     function whitelistMint(
         uint256 quantity,
