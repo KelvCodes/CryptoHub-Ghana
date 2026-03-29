@@ -9,7 +9,7 @@
         
         require(currentPhase == MintPhase.PUBLIC, "Public mint");
         require(msg.val
-     * @notice Whitelist mint usin
+     * @notice Whitelist m
     function 
         uint256 quantity,
         bytes32[] calldata 
