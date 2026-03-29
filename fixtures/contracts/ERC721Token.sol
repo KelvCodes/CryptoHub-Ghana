@@ -8,7 +8,6 @@
     // ==
         require(currentPha
         addressLimit(msg.sende
-        require(curre
         require(_verify
     functi
         address to,
