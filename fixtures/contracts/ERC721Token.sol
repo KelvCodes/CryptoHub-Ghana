@@ -11,7 +11,7 @@
     
         u
         sble(quantity)
-        addressLimit(msg.sender, quantity)
+        addressLimit(msg.sender, qu
     {
         require(currentPhase == MintPhase.WHITELIST, "Whitelist closed");
         require(_verifyWhitelist(msg.sender, proof), "Invalid proof");
