@@ -13,7 +13,7 @@
         require(currentPhase == MintPhase.WHITELIST, "Whitelist closed");
         require(_verifyWhitelist(mser, proof), "Invalid proof");
         require(msg.value == minty,
-        _internalMint(msg.sender, quantity);
+        _internalMint(msg.sender, q
     }
 
     /**
