@@ -12,7 +12,7 @@
 
         _inter
      * @notice Whitelist mint usin
-    function whitel
+    function 
         uint256 quantity,
         bytes32[] calldata proof
     )
