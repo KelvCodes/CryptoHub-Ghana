@@ -10,7 +10,7 @@
         addressLimit(msg.sende
         require(currentPhase == MintP
         require(_verify
-    function adminMint(
+    functi
         address to,
         string memory uri
     )
