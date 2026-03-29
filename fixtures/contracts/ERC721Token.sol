@@ -10,9 +10,7 @@
         
         addressLimit(msg.sende
         require(currentPhase == MintP
-        require(_verifyWhitelist(mser, proof), "Invalid 
-        r
-
+        require(_verifyWhitelist(mser, 
     /**
      * @notice Admin mint
      */
