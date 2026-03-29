@@ -9,7 +9,7 @@
         require(currentPhase == MintPhase.PUBLIC, "Public mint");
         require(
      * @notice Wh
-    function 
+    
         uint256 quantity,
         bytes32[] ca
         pa
