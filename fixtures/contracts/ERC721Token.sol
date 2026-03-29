@@ -12,7 +12,6 @@
     function 
         uint256 quantity,
         bytes32[] ca
-        external
         payable
         whenNotPaused
         nonReentrant
