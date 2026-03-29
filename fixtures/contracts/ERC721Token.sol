@@ -8,7 +8,7 @@
     // ====================================
         
     
-        supp
+
         
         require(currentPhase == MintPhase.PUBLIC, "Public mint");
         require(msg.val
