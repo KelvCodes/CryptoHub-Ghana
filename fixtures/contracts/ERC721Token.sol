@@ -9,7 +9,7 @@
         
     
         supplyAva
-        addit(e
+        
         require(currentPhase == MintPhase.PUBLIC, "Public mint");
         require(msg.value == mintPri
 
