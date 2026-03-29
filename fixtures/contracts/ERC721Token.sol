@@ -9,9 +9,7 @@
         require(currentPha
         addressLimit(msg.sende
         require(currentPhase == MintP
-        require(_verifyWhit
-    /**
-    
+        require(_verify
     function adminMint(
         address to,
         string memory uri
