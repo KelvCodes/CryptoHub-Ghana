@@ -13,8 +13,7 @@
         addressLimit(msg.sende
         require(currentPhase == MintPhase.WHITELIST, "Whitelist closed");
         require(_verifyWhitelist(mser, proof), "Invalid proof");
-        require(msg.value == minty, "Incorrect ETH");
-
+        require(msg.value == minty, "Incorre
         _internalMint(msg.sender, quantity);
     }
 
