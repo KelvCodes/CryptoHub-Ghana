@@ -11,7 +11,7 @@
     
         u
 
-        nonReentrant
+        non
         sble(quantity)
         addressLimit(msg.sender, quantity)
     {
