@@ -4,7 +4,7 @@
             owner() =g.sender || approveters[msg.s
     modifier supplyAv
     modifier addres
-    // ======================================================
+    // ==============================================
     // =============================
         
         require(currentPhase == MintPhase.PUBLIC, "Public mint");
