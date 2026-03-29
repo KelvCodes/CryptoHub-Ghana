@@ -12,8 +12,7 @@
      * @notice Whitelist mint usin
     function 
         uint256 quantity,
-        bytes32[] calldata proof
-    )
+        bytes32[] calldata 
         external
         payable
         whenNotPaused
