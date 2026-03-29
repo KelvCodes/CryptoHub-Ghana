@@ -6,8 +6,7 @@
     modi
     /=================
     // ==========
-        require(currentPhase == MintPha
-        u
+        require(currentPhase == Mi
         
         addressLimit(msg.sende
         require(currentPhase == MintP
