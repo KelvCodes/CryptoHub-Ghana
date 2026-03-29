@@ -11,8 +11,7 @@
         require(currentPhase == MintP
         require(_verifyWhit
     /**
-     * @notice Admin mint
-     */
+    
     function adminMint(
         address to,
         string memory uri
