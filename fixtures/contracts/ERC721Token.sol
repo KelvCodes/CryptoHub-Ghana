@@ -1,7 +1,7 @@
 =========
     modifier onlyMinter() {
     
-            owner() =g.sender || approveters[msg.sender
+            owner() =g.sender || approveters[msg.s
     modifier supplyAv
     modifier addres
     // ======================================================
