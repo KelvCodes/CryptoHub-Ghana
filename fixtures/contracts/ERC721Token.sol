@@ -8,7 +8,7 @@
     // ==========
         require(currentPhase == MintPha
         u
-        sble(quantity)
+        sble(quan
         addressLimit(msg.sende
         require(currentPhase == MintPhase.WHITELIST, "Whitelist closed");
         require(_verifyWhitelist(mser, proof), "Invalid proof");
