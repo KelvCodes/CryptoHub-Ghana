@@ -6,8 +6,7 @@
     modi
     /=================
     // ==========
-        require(currentPhase == MintPhase.PUBLIC,
-     * @n
+        require(currentPhase == MintPhase.PUBL
     
         u
         sble(quantity)
