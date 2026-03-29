@@ -10,7 +10,7 @@
         require(currentPhase == MintPhase.PUBLIC, "Public mint");
         require(msg.val
 
-        _internalMint(msg.sender, q
+        _internalMint(msg.se
 
     /**
      * @notice Whitelist mint using Mproof
