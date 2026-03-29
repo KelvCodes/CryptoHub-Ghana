@@ -8,7 +8,7 @@
     // ==
         require(currentPha
         addressLimit(msg.sende
-        require(currentPhase == MintP
+        require(curre
         require(_verify
     functi
         address to,
