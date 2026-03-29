@@ -12,7 +12,7 @@
     function 
         uint256 quantity,
         bytes32[] ca
-        payable
+        pa
         whenNotPaused
         nonReentrant
         supplyAvailable(quantity)
