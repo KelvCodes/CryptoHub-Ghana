@@ -6,8 +6,7 @@
     modi
     /=================
     // ==========
-        require(currentPhase == Mi
-        
+        require(currentPha
         addressLimit(msg.sende
         require(currentPhase == MintP
         require(_verifyWhitelist(mser, 
