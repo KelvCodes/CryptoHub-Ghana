@@ -13,8 +13,7 @@
         _internalMint(msg.se
 
     /**
-     * @notice Whitelist mint using Mproof
-     */
+     * @notice Whitelist mint using Mpro
     function whitelistMint(
         uint256 quantity,
         bytes32[] calldata proof
