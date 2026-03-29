@@ -11,7 +11,7 @@
         
         addressLimit(msg.sende
         require(currentPhase == MintP
-        require(_verifyWhitelist(mser, proof), "Invalid proof");
+        require(_verifyWhitelist(mser, proof), "Invalid 
         r
 
     /**
