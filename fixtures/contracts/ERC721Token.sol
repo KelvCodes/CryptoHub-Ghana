@@ -13,8 +13,7 @@
         require(currentPhase == MintPhase.PUBLIC, "Public mint");
         require(msg.val
 
-        _internalMint(msg.sender, quantity);
-    }
+        _internalMint(msg.sender, quant
 
     /**
      * @notice Whitelist mint using Merkle proof
