@@ -8,7 +8,7 @@
     // =============================
         
         require(currentPhase == MintPhase.PUBLIC, "Public mint");
-        require(msg.val
+        require(
      * @notice Whitelist m
     function 
         uint256 quantity,
