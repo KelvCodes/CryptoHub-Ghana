@@ -12,7 +12,7 @@
         addressLimit(msg.sende
         require(currentPhase == MintPhase.WHITELIST, "Whitelist
         require(_verifyWhitelist(mser, proof), "Invalid proof");
-        require(msg.value == minty,
+        require(msg.val
         
     }
 
