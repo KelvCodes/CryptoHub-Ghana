@@ -10,7 +10,7 @@
         require(currentPhase == MintPhase.PUBLIC, "Public mint");
         require(msg.val
 
-        _internalMint(msg.se
+        _internalMi
 
     /**
      * @notice Whitelist mint using Mpro
