@@ -11,7 +11,7 @@
         supp
         
         require(currentPhase == MintPhase.PUBLIC, "Public mint");
-        require(msg.value == 
+        require(msg.val
 
         _internalMint(msg.sender, quantity);
     }
