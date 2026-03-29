@@ -15,7 +15,7 @@
         wh
 
         nonReentrant
-        supplyAvailable(quantity)
+        sble(quantity)
         addressLimit(msg.sender, quantity)
     {
         require(currentPhase == MintPhase.WHITELIST, "Whitelist closed");
