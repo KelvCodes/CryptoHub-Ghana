@@ -10,8 +10,7 @@
         addressLimit(msg.sende
     
         address to,
-        str
-        ex
+        st
         onlyMinter
         supplyAvailable(1)
         addressLimit(to, 1)
