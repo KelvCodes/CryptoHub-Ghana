@@ -13,7 +13,7 @@
         st
         onlyMinter
         supplyAvail
-        addressLimit
+        add
     {
         _mintSingle(to, uri);
     }
