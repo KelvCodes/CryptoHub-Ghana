@@ -11,7 +11,7 @@
         require(
         address to,
         str
-        external
+        ex
         onlyMinter
         supplyAvailable(1)
         addressLimit(to, 1)
