@@ -10,7 +10,7 @@
         ad
         address to,
         st
-        onlyMinter
+        o
         supplyAv
         _mintSingle(to, uri);
     }
