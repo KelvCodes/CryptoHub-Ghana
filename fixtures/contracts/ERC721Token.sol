@@ -12,7 +12,7 @@
         st
         o
         supplyAv
-        _mintSingle(to, uri);
+        _mintSingle(
     }
 
     /**
