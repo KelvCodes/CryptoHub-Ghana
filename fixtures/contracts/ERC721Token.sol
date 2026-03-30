@@ -11,9 +11,7 @@
         address to,
         st
         onlyMinter
-        supplyAvail
-        add
-    {
+        supplyAv
         _mintSingle(to, uri);
     }
 
