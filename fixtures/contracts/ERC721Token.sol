@@ -12,7 +12,7 @@
         address to,
         st
         onlyMinter
-        supplyAvailable(1)
+        supplyAvail
         addressLimit
     {
         _mintSingle(to, uri);
